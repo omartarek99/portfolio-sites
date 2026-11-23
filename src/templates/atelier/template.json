@@ -1,0 +1,1736 @@
+{
+  "id": "atelier",
+  "name": {
+    "en": "Atelier",
+    "ar": "أتيليه"
+  },
+  "description": {
+    "en": "A warm gallery-wall portfolio for artists and calligraphers, on textured paper.",
+    "ar": "معرض أعمال دافئ على هيئة جدار معرض للفنانين والخطّاطين، على ورق محبّب الملمس."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Artists",
+      "ar": "الفنانون"
+    },
+    {
+      "en": "Illustrators",
+      "ar": "الرسّامون"
+    },
+    {
+      "en": "Calligraphers",
+      "ar": "الخطّاطون"
+    },
+    {
+      "en": "Craft makers",
+      "ar": "الحِرفيون"
+    }
+  ],
+  "professions": [
+    "artist"
+  ],
+  "styles": [
+    "elegant"
+  ],
+  "signature": {
+    "en": "A paper-texture background with artworks hung on a framed gallery wall; each opens to its title, medium, size and an Enquire button.",
+    "ar": "خلفية بملمس الورق وأعمال معلّقة على جدار معرض بإطارات؛ يفتح كل عمل على اسمه وخامته ومقاسه وزر للاستفسار."
+  },
+  "defaultLocale": "en",
+  "order": 7,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "atelier",
+      "palette": {
+        "background": "#F3EDE4",
+        "surface": "#FBF8F3",
+        "text": "#2B2420",
+        "mutedText": "#7A6E64",
+        "primary": "#8C4A2F",
+        "secondary": "#3F5B4C",
+        "accent": "#D9A441",
+        "border": "#E0D5C6"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Fraunces"
+        },
+        "body": {
+          "family": "Lora"
+        },
+        "arabicHeading": {
+          "family": "Aref Ruqaa"
+        },
+        "arabicBody": {
+          "family": "Noto Naskh Arabic"
+        }
+      },
+      "radius": "none",
+      "spacing": "airy",
+      "motion": "subtle",
+      "backgroundStyle": {
+        "type": "pattern",
+        "value": "paper"
+      },
+      "buttonStyle": "outline"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-works",
+          "label": {
+            "en": "Works",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "works"
+          }
+        },
+        {
+          "id": "nav-exhibitions",
+          "label": {
+            "en": "Exhibitions",
+            "ar": "المعارض"
+          },
+          "link": {
+            "type": "page",
+            "value": "exhibitions"
+          }
+        },
+        {
+          "id": "nav-commissions",
+          "label": {
+            "en": "Commissions",
+            "ar": "أعمال بالطلب"
+          },
+          "link": {
+            "type": "page",
+            "value": "commissions"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "fnav-works",
+          "label": {
+            "en": "Works",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "works"
+          }
+        },
+        {
+          "id": "fnav-commissions",
+          "label": {
+            "en": "Commissions",
+            "ar": "أعمال بالطلب"
+          },
+          "link": {
+            "type": "page",
+            "value": "commissions"
+          }
+        },
+        {
+          "id": "fnav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "atelier-hero",
+            "blockType": "hero",
+            "variant": "centered",
+            "content": {
+              "eyebrow": {
+                "en": "Studio of calligraphy and ink · Jeddah",
+                "ar": "مرسم للخط العربي والحبر · جدة"
+              },
+              "name": {
+                "en": "Rania Youssef",
+                "ar": "رانيا يوسف"
+              },
+              "heading": {
+                "en": "Contemporary Arabic calligraphy and ink paintings.",
+                "ar": "خط عربي معاصر ولوحات بالحبر."
+              },
+              "tagline": {
+                "en": "Reed pen, handmade ink and gold leaf on paper — written slowly, one breath at a time.",
+                "ar": "قلم قصب وحبر مصنوع يدويًا ورقائق ذهب على الورق، تُكتب ببطء، نَفَسًا بعد نَفَس."
+              },
+              "textStyle": "signature",
+              "primaryCta": {
+                "label": {
+                  "en": "View the works",
+                  "ar": "شاهد الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "works"
+                },
+                "style": "primary"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Commission a piece",
+                  "ar": "اطلب عملًا خاصًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "commissions"
+                },
+                "style": "ghost"
+              },
+              "badge": {
+                "en": "New works on show at Riyadh Art Week",
+                "ar": "أعمال جديدة معروضة في أسبوع الرياض للفنون"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-gallery",
+            "blockType": "gallery",
+            "variant": "justified",
+            "content": {
+              "eyebrow": {
+                "en": "Selected works",
+                "ar": "أعمال مختارة"
+              },
+              "heading": {
+                "en": "On the wall",
+                "ar": "على الجدار"
+              },
+              "intro": {
+                "en": "Ink, reed pen and gold leaf on paper, made in the studio between 2023 and 2026. Select a work to see its details.",
+                "ar": "حبر وقلم قصب ورقائق ذهب على الورق، أُنجزت في المرسم بين 2023 و2026. اختر عملًا لترى تفاصيله."
+              },
+              "categories": [
+                {
+                  "id": "calligraphy",
+                  "label": {
+                    "en": "Calligraphy",
+                    "ar": "خط عربي"
+                  }
+                },
+                {
+                  "id": "ink",
+                  "label": {
+                    "en": "Ink paintings",
+                    "ar": "لوحات بالحبر"
+                  }
+                }
+              ],
+              "showFilter": false,
+              "items": [
+                {
+                  "id": "w-lines",
+                  "image": {
+                    "url": "/stock/art-sand.svg",
+                    "alt": {
+                      "en": "Square calligraphic composition in layered sand tones",
+                      "ar": "تكوين خطّي مربّع بطبقات رملية"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "Lines of Light I",
+                    "ar": "خطوط من نور ١"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Ink and gold leaf on paper",
+                    "ar": "حبر ورقائق ذهب على ورق"
+                  },
+                  "size": {
+                    "en": "50 × 50 cm",
+                    "ar": "50 × 50 سم"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "w-night",
+                  "image": {
+                    "url": "/stock/art-ink.svg",
+                    "alt": {
+                      "en": "Tall ink composition in deep blue strokes",
+                      "ar": "تكوين عمودي بضربات حبر زرقاء داكنة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Night Script",
+                    "ar": "كتابة الليل"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Ink on paper",
+                    "ar": "حبر على ورق"
+                  },
+                  "size": {
+                    "en": "50 × 70 cm",
+                    "ar": "50 × 70 سم"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "w-breath",
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "alt": {
+                      "en": "Rose-coloured arcs on a square sheet",
+                      "ar": "أقواس وردية على ورقة مربعة"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "Breath, study I",
+                    "ar": "نَفَس، دراسة أولى"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Gouache and ink",
+                    "ar": "غواش وحبر"
+                  },
+                  "size": {
+                    "en": "40 × 40 cm",
+                    "ar": "40 × 40 سم"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "w-tide",
+                  "image": {
+                    "url": "/stock/art-sea.svg",
+                    "alt": {
+                      "en": "Teal abstract with flowing horizontal lines",
+                      "ar": "تجريد بالأزرق المخضرّ بخطوط أفقية منسابة"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "caption": {
+                    "en": "Red Sea Tide",
+                    "ar": "مدّ البحر الأحمر"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Ink and watercolour",
+                    "ar": "حبر وألوان مائية"
+                  },
+                  "size": {
+                    "en": "90 × 60 cm",
+                    "ar": "90 × 60 سم"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "w-door",
+                  "image": {
+                    "url": "/stock/interior-clay.svg",
+                    "alt": {
+                      "en": "Warm clay forms in a tall frame",
+                      "ar": "أشكال طينية دافئة في إطار عمودي"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "The Old Door",
+                    "ar": "الباب القديم"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Ink on handmade paper",
+                    "ar": "حبر على ورق مصنوع يدويًا"
+                  },
+                  "size": {
+                    "en": "60 × 80 cm",
+                    "ar": "60 × 80 سم"
+                  },
+                  "year": "2023"
+                },
+                {
+                  "id": "w-dunes",
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "alt": {
+                      "en": "Wide desert dunes under a pale sky",
+                      "ar": "كثبان صحراوية واسعة تحت سماء شاحبة"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Nafud at Dusk",
+                    "ar": "النفود عند الغروب"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Sumi ink and wash",
+                    "ar": "حبر سومي ومائي"
+                  },
+                  "size": {
+                    "en": "120 × 70 cm",
+                    "ar": "120 × 70 سم"
+                  },
+                  "year": "2024"
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "Enquire about a work",
+                  "ar": "استفسر عن عمل"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "works",
+            "example": true
+          },
+          {
+            "id": "atelier-about",
+            "blockType": "about",
+            "variant": "big-quote",
+            "content": {
+              "heading": {
+                "en": "About the artist",
+                "ar": "عن الفنانة"
+              },
+              "quote": {
+                "en": "A letter is a breath made visible. I write slowly so the line has time to listen.",
+                "ar": "الحرف نَفَسٌ صار مرئيًا. أكتب ببطء كي يجد الخطّ وقتًا ليُصغي."
+              },
+              "attribution": {
+                "en": "Rania Youssef",
+                "ar": "رانيا يوسف"
+              },
+              "attributionRole": {
+                "en": "Calligrapher and painter, trained in Thuluth and Diwani in Cairo and Istanbul",
+                "ar": "خطّاطة ورسّامة، درست الثلث والديواني في القاهرة وإسطنبول"
+              },
+              "image": {
+                "url": "/stock/portrait-clay.svg",
+                "alt": {
+                  "en": "Portrait of Rania Youssef",
+                  "ar": "صورة رانيا يوسف"
+                },
+                "width": 1200,
+                "height": 1600
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "atelier-exhibitions",
+            "blockType": "richText",
+            "variant": "single",
+            "content": {
+              "eyebrow": {
+                "en": "Exhibitions",
+                "ar": "المعارض"
+              },
+              "heading": {
+                "en": "Recent shows",
+                "ar": "أحدث المعارض"
+              },
+              "body": {
+                "en": "<ul><li><strong>Lines of Light</strong> — group show, Riyadh Art Week, 2025</li><li><strong>Breath</strong> — solo show, Hayy Gallery, Jeddah, 2024</li><li><strong>New Arabic Script</strong> — group show, Al-Balad Art House, Jeddah, 2023</li></ul>",
+                "ar": "<ul><li><strong>خطوط من نور</strong> — معرض جماعي، أسبوع الرياض للفنون، 2025</li><li><strong>نَفَس</strong> — معرض فردي، غاليري حيّ، جدة، 2024</li><li><strong>الحرف العربي الجديد</strong> — معرض جماعي، بيت البلد للفنون، جدة، 2023</li></ul>"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "exhibitions",
+            "example": true
+          },
+          {
+            "id": "atelier-commissions",
+            "blockType": "services",
+            "variant": "list-icons",
+            "content": {
+              "eyebrow": {
+                "en": "Commissions",
+                "ar": "أعمال بالطلب"
+              },
+              "heading": {
+                "en": "A piece made for you",
+                "ar": "عمل يُصنع لأجلك"
+              },
+              "intro": {
+                "en": "Each commission begins with a conversation and a sketch you approve before ink touches the final sheet.",
+                "ar": "يبدأ كل عمل بالطلب بحديث ورسم أولي توافق عليه قبل أن يلمس الحبر الورقة النهائية."
+              },
+              "items": [
+                {
+                  "id": "c-name",
+                  "name": {
+                    "en": "Name and verse pieces",
+                    "ar": "لوحات الأسماء والآيات"
+                  },
+                  "icon": "feather",
+                  "description": {
+                    "en": "A name, a verse or a line of poetry, written by hand in Thuluth or Diwani and framed for your home.",
+                    "ar": "اسم أو آية أو بيت شعر، يُكتب باليد بخط الثلث أو الديواني ويُؤطَّر لبيتك."
+                  },
+                  "price": {
+                    "amount": 1800,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "3–4 weeks",
+                    "ar": "3 إلى 4 أسابيع"
+                  }
+                },
+                {
+                  "id": "c-wedding",
+                  "name": {
+                    "en": "Wedding and occasion gifts",
+                    "ar": "هدايا الأعراس والمناسبات"
+                  },
+                  "icon": "gift",
+                  "description": {
+                    "en": "The couple’s names and date in ink and gold leaf, with a matching card for the invitation.",
+                    "ar": "اسما العروسين وتاريخ الزفاف بالحبر ورقائق الذهب، مع بطاقة مطابقة للدعوة."
+                  },
+                  "price": {
+                    "amount": 2600,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "4–6 weeks",
+                    "ar": "4 إلى 6 أسابيع"
+                  }
+                },
+                {
+                  "id": "c-large",
+                  "name": {
+                    "en": "Large works for spaces",
+                    "ar": "أعمال كبيرة للمساحات"
+                  },
+                  "icon": "ruler",
+                  "description": {
+                    "en": "Paintings and murals for lobbies, offices and majlis walls, from first sketch to installation.",
+                    "ar": "لوحات وجداريات للردهات والمكاتب وجدران المجالس، من الرسم الأول حتى التركيب."
+                  },
+                  "price": {
+                    "amount": 9000,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "8–12 weeks",
+                    "ar": "8 إلى 12 أسبوعًا"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "commissions",
+            "example": true
+          },
+          {
+            "id": "atelier-newsletter",
+            "blockType": "newsletter",
+            "variant": "card",
+            "content": {
+              "eyebrow": {
+                "en": "Newsletter",
+                "ar": "النشرة البريدية"
+              },
+              "heading": {
+                "en": "Studio notes, once a month",
+                "ar": "ملاحظات من المرسم، مرة كل شهر"
+              },
+              "intro": {
+                "en": "New works before they go on show, exhibition dates and the occasional story from the desk.",
+                "ar": "أعمال جديدة قبل عرضها، ومواعيد المعارض، وحكاية من طاولة العمل بين حين وآخر."
+              },
+              "buttonLabel": {
+                "en": "Subscribe",
+                "ar": "اشترك"
+              },
+              "note": {
+                "en": "One email a month. Unsubscribe anytime.",
+                "ar": "رسالة واحدة في الشهر. يمكنك إلغاء الاشتراك متى شئت."
+              },
+              "incentive": {
+                "title": {
+                  "en": "A free printable alphabet sheet",
+                  "ar": "لوحة حروف مجانية للطباعة"
+                },
+                "description": {
+                  "en": "The 28 letters in Diwani, ready to trace with any pen.",
+                  "ar": "الحروف الثمانية والعشرون بالخط الديواني، جاهزة للتدرّب عليها بأي قلم."
+                },
+                "image": {
+                  "url": "/stock/art-sand.svg",
+                  "alt": {
+                    "en": "Calligraphy practice sheet",
+                    "ar": "لوحة تدريب على الخط"
+                  },
+                  "width": 1400,
+                  "height": 1400,
+                  "filter": "warm"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Enquire about a work",
+                "ar": "استفسر عن عمل"
+              },
+              "intro": {
+                "en": "Ask about an available artwork, a commission or a studio visit.",
+                "ar": "اسأل عن عمل متاح أو عمل بالطلب أو زيارة للمرسم."
+              },
+              "form": {
+                "name": "Artwork enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "enquiry",
+                    "type": "select",
+                    "label": {
+                      "en": "I am enquiring about",
+                      "ar": "أستفسر عن"
+                    },
+                    "required": true,
+                    "options": [
+                      {
+                        "value": "artwork",
+                        "label": {
+                          "en": "An available artwork",
+                          "ar": "عمل فني متاح"
+                        }
+                      },
+                      {
+                        "value": "commission",
+                        "label": {
+                          "en": "A commission",
+                          "ar": "عمل بالطلب"
+                        }
+                      },
+                      {
+                        "value": "exhibition",
+                        "label": {
+                          "en": "An exhibition or collaboration",
+                          "ar": "معرض أو تعاون"
+                        }
+                      },
+                      {
+                        "value": "workshop",
+                        "label": {
+                          "en": "A calligraphy workshop",
+                          "ar": "ورشة خط عربي"
+                        }
+                      },
+                      {
+                        "value": "other",
+                        "label": {
+                          "en": "Something else",
+                          "ar": "أمر آخر"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "artwork",
+                    "type": "text",
+                    "label": {
+                      "en": "Artwork title (if any)",
+                      "ar": "اسم العمل (إن وُجد)"
+                    },
+                    "placeholder": {
+                      "en": "e.g. Night Script",
+                      "ar": "مثلًا: كتابة الليل"
+                    },
+                    "required": false
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "placeholder": {
+                      "en": "Tell me about the space, the occasion or the words you have in mind.",
+                      "ar": "حدّثيني عن المكان أو المناسبة أو الكلمات التي تفكّر فيها."
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "إرسال الاستفسار"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you. I read every enquiry myself and reply within three days.",
+                      "ar": "شكرًا لك. أقرأ كل استفسار بنفسي وأرد خلال ثلاثة أيام."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "note": {
+                "en": "Studio visits by appointment, Sunday to Thursday.",
+                "ar": "زيارة المرسم بموعد مسبق، من الأحد إلى الخميس."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "works",
+        "slug": "works",
+        "title": {
+          "en": "Works",
+          "ar": "الأعمال"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "atelier-works-gallery",
+            "blockType": "gallery",
+            "variant": "justified",
+            "content": {
+              "eyebrow": {
+                "en": "Works",
+                "ar": "الأعمال"
+              },
+              "heading": {
+                "en": "The collection",
+                "ar": "المجموعة"
+              },
+              "intro": {
+                "en": "Original works on paper. Most are framed in oak; prices on request.",
+                "ar": "أعمال أصلية على الورق، أغلبها بإطارات من خشب البلوط؛ الأسعار عند الطلب."
+              },
+              "categories": [
+                {
+                  "id": "calligraphy",
+                  "label": {
+                    "en": "Calligraphy",
+                    "ar": "خط عربي"
+                  }
+                },
+                {
+                  "id": "ink",
+                  "label": {
+                    "en": "Ink paintings",
+                    "ar": "لوحات بالحبر"
+                  }
+                }
+              ],
+              "showFilter": true,
+              "items": [
+                {
+                  "id": "w-lines-all",
+                  "image": {
+                    "url": "/stock/art-sand.svg",
+                    "alt": {
+                      "en": "Square calligraphic composition in layered sand tones",
+                      "ar": "تكوين خطّي مربّع بطبقات رملية"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "Lines of Light I",
+                    "ar": "خطوط من نور ١"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Ink and gold leaf on paper",
+                    "ar": "حبر ورقائق ذهب على ورق"
+                  },
+                  "size": {
+                    "en": "50 × 50 cm",
+                    "ar": "50 × 50 سم"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "w-night-all",
+                  "image": {
+                    "url": "/stock/art-ink.svg",
+                    "alt": {
+                      "en": "Tall ink composition in deep blue strokes",
+                      "ar": "تكوين عمودي بضربات حبر زرقاء داكنة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Night Script",
+                    "ar": "كتابة الليل"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Ink on paper",
+                    "ar": "حبر على ورق"
+                  },
+                  "size": {
+                    "en": "50 × 70 cm",
+                    "ar": "50 × 70 سم"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "w-breath-all",
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "alt": {
+                      "en": "Rose-coloured arcs on a square sheet",
+                      "ar": "أقواس وردية على ورقة مربعة"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "Breath, study I",
+                    "ar": "نَفَس، دراسة أولى"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Gouache and ink",
+                    "ar": "غواش وحبر"
+                  },
+                  "size": {
+                    "en": "40 × 40 cm",
+                    "ar": "40 × 40 سم"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "w-tide-all",
+                  "image": {
+                    "url": "/stock/art-sea.svg",
+                    "alt": {
+                      "en": "Teal abstract with flowing horizontal lines",
+                      "ar": "تجريد بالأزرق المخضرّ بخطوط أفقية منسابة"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "caption": {
+                    "en": "Red Sea Tide",
+                    "ar": "مدّ البحر الأحمر"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Ink and watercolour",
+                    "ar": "حبر وألوان مائية"
+                  },
+                  "size": {
+                    "en": "90 × 60 cm",
+                    "ar": "90 × 60 سم"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "w-door-all",
+                  "image": {
+                    "url": "/stock/interior-clay.svg",
+                    "alt": {
+                      "en": "Warm clay forms in a tall frame",
+                      "ar": "أشكال طينية دافئة في إطار عمودي"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "The Old Door",
+                    "ar": "الباب القديم"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Ink on handmade paper",
+                    "ar": "حبر على ورق مصنوع يدويًا"
+                  },
+                  "size": {
+                    "en": "60 × 80 cm",
+                    "ar": "60 × 80 سم"
+                  },
+                  "year": "2023"
+                },
+                {
+                  "id": "w-dunes-all",
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "alt": {
+                      "en": "Wide desert dunes under a pale sky",
+                      "ar": "كثبان صحراوية واسعة تحت سماء شاحبة"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Nafud at Dusk",
+                    "ar": "النفود عند الغروب"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Sumi ink and wash",
+                    "ar": "حبر سومي ومائي"
+                  },
+                  "size": {
+                    "en": "120 × 70 cm",
+                    "ar": "120 × 70 سم"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "w-lines2-all",
+                  "image": {
+                    "url": "/stock/art-sand.svg",
+                    "alt": {
+                      "en": "Calligraphic strokes in muted greys",
+                      "ar": "ضربات خطّية بدرجات رمادية هادئة"
+                    },
+                    "width": 1400,
+                    "height": 1400,
+                    "filter": "grayscale"
+                  },
+                  "caption": {
+                    "en": "Lines of Light II",
+                    "ar": "خطوط من نور ٢"
+                  },
+                  "category": "calligraphy",
+                  "medium": {
+                    "en": "Ink on paper",
+                    "ar": "حبر على ورق"
+                  },
+                  "size": {
+                    "en": "50 × 50 cm",
+                    "ar": "50 × 50 سم"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "w-ink2-all",
+                  "image": {
+                    "url": "/stock/art-ink.svg",
+                    "alt": {
+                      "en": "Ink composition washed in warm sepia",
+                      "ar": "تكوين بالحبر مغسول بلون بنّي دافئ"
+                    },
+                    "width": 1200,
+                    "height": 1600,
+                    "filter": "warm"
+                  },
+                  "caption": {
+                    "en": "Alif, Standing",
+                    "ar": "ألف، قائمة"
+                  },
+                  "category": "ink",
+                  "medium": {
+                    "en": "Walnut ink on cotton paper",
+                    "ar": "حبر الجوز على ورق قطني"
+                  },
+                  "size": {
+                    "en": "35 × 50 cm",
+                    "ar": "35 × 50 سم"
+                  },
+                  "year": "2026"
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "Enquire about a work",
+                  "ar": "استفسر عن عمل"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "exhibitions",
+        "slug": "exhibitions",
+        "title": {
+          "en": "Exhibitions",
+          "ar": "المعارض"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "atelier-exhibitions-list",
+            "blockType": "richText",
+            "variant": "single",
+            "content": {
+              "eyebrow": {
+                "en": "Exhibitions",
+                "ar": "المعارض"
+              },
+              "heading": {
+                "en": "Where the work has hung",
+                "ar": "أين عُلّقت الأعمال"
+              },
+              "intro": {
+                "en": "Solo and group shows since 2021.",
+                "ar": "معارض فردية وجماعية منذ 2021."
+              },
+              "body": {
+                "en": "<h3>Solo exhibitions</h3><ul><li><strong>Breath</strong> — Hayy Gallery, Jeddah, 2024</li><li><strong>The Patient Line</strong> — Dar Al-Qalam, Amman, 2022</li></ul><h3>Group exhibitions</h3><ul><li><strong>Lines of Light</strong> — Riyadh Art Week, 2025</li><li><strong>New Arabic Script</strong> — Al-Balad Art House, Jeddah, 2023</li><li><strong>Paper Cities</strong> — Mina Cultural Centre, Beirut, 2021</li></ul>",
+                "ar": "<h3>معارض فردية</h3><ul><li><strong>نَفَس</strong> — غاليري حيّ، جدة، 2024</li><li><strong>الخط الصبور</strong> — دار القلم، عمّان، 2022</li></ul><h3>معارض جماعية</h3><ul><li><strong>خطوط من نور</strong> — أسبوع الرياض للفنون، 2025</li><li><strong>الحرف العربي الجديد</strong> — بيت البلد للفنون، جدة، 2023</li><li><strong>مدن من ورق</strong> — مركز مينا الثقافي، بيروت، 2021</li></ul>"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-exhibitions-timeline",
+            "blockType": "about",
+            "variant": "timeline-intro",
+            "content": {
+              "eyebrow": {
+                "en": "Path",
+                "ar": "المسيرة"
+              },
+              "heading": {
+                "en": "Training and residencies",
+                "ar": "التدريب والإقامات الفنية"
+              },
+              "milestones": [
+                {
+                  "id": "m-1",
+                  "year": "2014",
+                  "title": {
+                    "en": "Ijaza in Thuluth",
+                    "ar": "إجازة في خط الثلث"
+                  },
+                  "text": {
+                    "en": "Six years of study with a master calligrapher in Cairo.",
+                    "ar": "ست سنوات من الدراسة على يد خطّاط متمرّس في القاهرة."
+                  }
+                },
+                {
+                  "id": "m-2",
+                  "year": "2017",
+                  "title": {
+                    "en": "Diwani studies, Istanbul",
+                    "ar": "دراسة الديواني في إسطنبول"
+                  },
+                  "text": {
+                    "en": "A year in a traditional atelier learning paper and ink making.",
+                    "ar": "عام في مرسم تقليدي لتعلّم صناعة الورق والحبر."
+                  }
+                },
+                {
+                  "id": "m-3",
+                  "year": "2021",
+                  "title": {
+                    "en": "First group show, Beirut",
+                    "ar": "أول معرض جماعي في بيروت"
+                  },
+                  "text": {
+                    "en": "Three works in “Paper Cities”.",
+                    "ar": "ثلاثة أعمال في معرض «مدن من ورق»."
+                  }
+                },
+                {
+                  "id": "m-4",
+                  "year": "2024",
+                  "title": {
+                    "en": "Solo show “Breath”",
+                    "ar": "المعرض الفردي «نَفَس»"
+                  },
+                  "text": {
+                    "en": "Twenty-two works on breath, rhythm and the alif.",
+                    "ar": "اثنان وعشرون عملًا عن النَّفَس والإيقاع وحرف الألف."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "commissions",
+        "slug": "commissions",
+        "title": {
+          "en": "Commissions",
+          "ar": "أعمال بالطلب"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "atelier-commissions-list",
+            "blockType": "services",
+            "variant": "list-icons",
+            "content": {
+              "eyebrow": {
+                "en": "Commissions",
+                "ar": "أعمال بالطلب"
+              },
+              "heading": {
+                "en": "Work made for you",
+                "ar": "أعمال تُصنع لأجلك"
+              },
+              "intro": {
+                "en": "Prices include paper, gold leaf and framing. Delivery within Saudi Arabia is free.",
+                "ar": "تشمل الأسعار الورق ورقائق الذهب والتأطير. التوصيل داخل المملكة مجاني."
+              },
+              "items": [
+                {
+                  "id": "c-name-p",
+                  "name": {
+                    "en": "Name and verse pieces",
+                    "ar": "لوحات الأسماء والآيات"
+                  },
+                  "icon": "feather",
+                  "description": {
+                    "en": "A name, a verse or a line of poetry, written by hand in Thuluth or Diwani and framed for your home.",
+                    "ar": "اسم أو آية أو بيت شعر، يُكتب باليد بخط الثلث أو الديواني ويُؤطَّر لبيتك."
+                  },
+                  "price": {
+                    "amount": 1800,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "3–4 weeks",
+                    "ar": "3 إلى 4 أسابيع"
+                  }
+                },
+                {
+                  "id": "c-wedding-p",
+                  "name": {
+                    "en": "Wedding and occasion gifts",
+                    "ar": "هدايا الأعراس والمناسبات"
+                  },
+                  "icon": "gift",
+                  "description": {
+                    "en": "The couple’s names and date in ink and gold leaf, with a matching card for the invitation.",
+                    "ar": "اسما العروسين وتاريخ الزفاف بالحبر ورقائق الذهب، مع بطاقة مطابقة للدعوة."
+                  },
+                  "price": {
+                    "amount": 2600,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "4–6 weeks",
+                    "ar": "4 إلى 6 أسابيع"
+                  }
+                },
+                {
+                  "id": "c-large-p",
+                  "name": {
+                    "en": "Large works for spaces",
+                    "ar": "أعمال كبيرة للمساحات"
+                  },
+                  "icon": "ruler",
+                  "description": {
+                    "en": "Paintings and murals for lobbies, offices and majlis walls, from first sketch to installation.",
+                    "ar": "لوحات وجداريات للردهات والمكاتب وجدران المجالس، من الرسم الأول حتى التركيب."
+                  },
+                  "price": {
+                    "amount": 9000,
+                    "currency": "SAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "8–12 weeks",
+                    "ar": "8 إلى 12 أسبوعًا"
+                  }
+                },
+                {
+                  "id": "c-workshop-p",
+                  "name": {
+                    "en": "Private workshops",
+                    "ar": "ورش خاصة"
+                  },
+                  "icon": "pen-tool",
+                  "description": {
+                    "en": "A morning with reed pens and ink for teams or small groups, materials included.",
+                    "ar": "صباح مع أقلام القصب والحبر للفرق والمجموعات الصغيرة، مع جميع الأدوات."
+                  },
+                  "price": {
+                    "amount": 450,
+                    "currency": "SAR"
+                  },
+                  "duration": {
+                    "en": "3 hours, per person",
+                    "ar": "3 ساعات، للشخص"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-process",
+            "blockType": "process",
+            "variant": "numbered",
+            "content": {
+              "heading": {
+                "en": "How a commission works",
+                "ar": "كيف يتم العمل بالطلب"
+              },
+              "steps": [
+                {
+                  "id": "p-1",
+                  "title": {
+                    "en": "Conversation",
+                    "ar": "الحديث"
+                  },
+                  "body": {
+                    "en": "We talk about the words, the space and the feeling you want.",
+                    "ar": "نتحدث عن الكلمات والمكان والإحساس الذي تريده."
+                  },
+                  "icon": "message-circle"
+                },
+                {
+                  "id": "p-2",
+                  "title": {
+                    "en": "Sketch",
+                    "ar": "الرسم الأولي"
+                  },
+                  "body": {
+                    "en": "You receive two pencil studies and choose one. A 30% deposit starts the work.",
+                    "ar": "تصلك دراستان بالقلم الرصاص لتختار إحداهما، ويبدأ العمل بدفعة مقدمة قدرها 30%."
+                  },
+                  "icon": "pencil"
+                },
+                {
+                  "id": "p-3",
+                  "title": {
+                    "en": "Ink",
+                    "ar": "الحبر"
+                  },
+                  "body": {
+                    "en": "I write the final piece by hand and share photos as it dries.",
+                    "ar": "أكتب العمل النهائي باليد وأشاركك صوره أثناء جفافه."
+                  },
+                  "icon": "feather"
+                },
+                {
+                  "id": "p-4",
+                  "title": {
+                    "en": "Frame and deliver",
+                    "ar": "التأطير والتسليم"
+                  },
+                  "body": {
+                    "en": "Framed in oak, wrapped by hand and delivered to your door.",
+                    "ar": "يُؤطّر بخشب البلوط ويُغلّف يدويًا ويصل إلى بابك."
+                  },
+                  "icon": "gift"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-faq",
+            "blockType": "faq",
+            "variant": "accordion",
+            "content": {
+              "heading": {
+                "en": "Questions",
+                "ar": "أسئلة شائعة"
+              },
+              "items": [
+                {
+                  "id": "f-1",
+                  "question": {
+                    "en": "Can I choose the script?",
+                    "ar": "هل يمكنني اختيار نوع الخط؟"
+                  },
+                  "answer": {
+                    "en": "Yes — Thuluth, Diwani, Naskh or Kufi. I will suggest the one that suits the words.",
+                    "ar": "نعم، الثلث أو الديواني أو النسخ أو الكوفي، وسأقترح الأنسب للكلمات."
+                  }
+                },
+                {
+                  "id": "f-2",
+                  "question": {
+                    "en": "Do you ship abroad?",
+                    "ar": "هل ترسلين الأعمال إلى خارج المملكة؟"
+                  },
+                  "answer": {
+                    "en": "Yes, to the GCC, Europe and North America, insured and tracked.",
+                    "ar": "نعم، إلى دول الخليج وأوروبا وأمريكا الشمالية، مع التأمين والتتبّع."
+                  }
+                },
+                {
+                  "id": "f-3",
+                  "question": {
+                    "en": "Can I see work in person?",
+                    "ar": "هل يمكنني رؤية الأعمال شخصيًا؟"
+                  },
+                  "answer": {
+                    "en": "The studio in Al-Balad is open by appointment from Sunday to Thursday.",
+                    "ar": "المرسم في البلد مفتوح بموعد مسبق من الأحد إلى الخميس."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "atelier-commissions-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Have words in mind?",
+                "ar": "هل في ذهنك كلمات؟"
+              },
+              "intro": {
+                "en": "Tell me what you would like to see on your wall.",
+                "ar": "أخبرني بما تحب أن تراه على جدارك."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Start a commission",
+                  "ar": "ابدأ طلبك"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "atelier-contact-page",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Write to the studio",
+                "ar": "راسل المرسم"
+              },
+              "intro": {
+                "en": "For artworks, commissions, exhibitions and workshops. I reply to every message within three days.",
+                "ar": "للأعمال الفنية والأعمال بالطلب والمعارض والورش. أرد على كل رسالة خلال ثلاثة أيام."
+              },
+              "form": {
+                "name": "Artwork enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "enquiry",
+                    "type": "select",
+                    "label": {
+                      "en": "I am enquiring about",
+                      "ar": "أستفسر عن"
+                    },
+                    "required": true,
+                    "options": [
+                      {
+                        "value": "artwork",
+                        "label": {
+                          "en": "An available artwork",
+                          "ar": "عمل فني متاح"
+                        }
+                      },
+                      {
+                        "value": "commission",
+                        "label": {
+                          "en": "A commission",
+                          "ar": "عمل بالطلب"
+                        }
+                      },
+                      {
+                        "value": "exhibition",
+                        "label": {
+                          "en": "An exhibition or collaboration",
+                          "ar": "معرض أو تعاون"
+                        }
+                      },
+                      {
+                        "value": "workshop",
+                        "label": {
+                          "en": "A calligraphy workshop",
+                          "ar": "ورشة خط عربي"
+                        }
+                      },
+                      {
+                        "value": "other",
+                        "label": {
+                          "en": "Something else",
+                          "ar": "أمر آخر"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "artwork",
+                    "type": "text",
+                    "label": {
+                      "en": "Artwork title (if any)",
+                      "ar": "اسم العمل (إن وُجد)"
+                    },
+                    "placeholder": {
+                      "en": "e.g. Night Script",
+                      "ar": "مثلًا: كتابة الليل"
+                    },
+                    "required": false
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "placeholder": {
+                      "en": "Tell me about the space, the occasion or the words you have in mind.",
+                      "ar": "حدّثيني عن المكان أو المناسبة أو الكلمات التي تفكّر فيها."
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "إرسال الاستفسار"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you. I read every enquiry myself and reply within three days.",
+                      "ar": "شكرًا لك. أقرأ كل استفسار بنفسي وأرد خلال ثلاثة أيام."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "note": {
+                "en": "Studio: Al-Balad, Jeddah — visits by appointment.",
+                "ar": "المرسم: البلد، جدة — الزيارة بموعد مسبق."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "atelier-header",
+        "blockType": "header",
+        "variant": "centered",
+        "content": {
+          "heading": {
+            "en": "Rania Youssef",
+            "ar": "رانيا يوسف"
+          },
+          "text": {
+            "en": "Calligraphy & ink",
+            "ar": "خط عربي وحبر"
+          },
+          "sticky": false,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "atelier-footer",
+        "blockType": "footer",
+        "variant": "simple",
+        "content": {
+          "heading": {
+            "en": "Rania Youssef",
+            "ar": "رانيا يوسف"
+          },
+          "text": {
+            "en": "Studio visits by appointment · Al-Balad, Jeddah",
+            "ar": "زيارة المرسم بموعد مسبق · البلد، جدة"
+          },
+          "copyright": {
+            "en": "© 2026 Rania Youssef. All artworks © the artist.",
+            "ar": "© 2026 رانيا يوسف. جميع الأعمال محفوظة للفنانة."
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Rania Youssef",
+        "defaultDescription": {
+          "en": "Rania Youssef is a calligrapher and painter in Jeddah making contemporary Arabic calligraphy and ink paintings.",
+          "ar": "رانيا يوسف خطّاطة ورسّامة في جدة تصنع خطًّا عربيًا معاصرًا ولوحات بالحبر."
+        }
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://example.com/instagram/raniayoussef"
+        },
+        {
+          "platform": "pinterest",
+          "url": "https://example.com/pinterest/raniayoussef"
+        },
+        {
+          "platform": "behance",
+          "url": "https://example.com/behance/raniayoussef"
+        }
+      ],
+      "contact": {
+        "email": "studio@example.com",
+        "phone": "+966 55 555 0134",
+        "whatsapp": "+966555550134",
+        "address": {
+          "en": "Al-Balad, Jeddah, Saudi Arabia",
+          "ar": "البلد، جدة، المملكة العربية السعودية"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Rania Youssef",
+        "ar": "رانيا يوسف"
+      },
+      "ownerTitle": {
+        "en": "Calligrapher and ink painter",
+        "ar": "خطّاطة ورسّامة بالحبر"
+      }
+    }
+  }
+}

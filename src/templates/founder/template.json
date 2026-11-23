@@ -1,0 +1,1327 @@
+{
+  "id": "founder",
+  "name": {
+    "en": "Founder",
+    "ar": "المؤسس"
+  },
+  "description": {
+    "en": "A one-page pitch for startups and small businesses: problem, solution, traction, team and a contact form that sorts investors from customers.",
+    "ar": "عرض تقديمي في صفحة واحدة للشركات الناشئة والمشاريع الصغيرة: المشكلة والحل والنمو والفريق ونموذج تواصل يميّز المستثمرين من العملاء."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Startup founders",
+      "ar": "مؤسسو الشركات الناشئة"
+    },
+    {
+      "en": "Small business owners",
+      "ar": "أصحاب المشاريع الصغيرة"
+    },
+    {
+      "en": "NGO and project leads",
+      "ar": "قادة المبادرات والمشاريع"
+    }
+  ],
+  "professions": [
+    "business",
+    "freelancer"
+  ],
+  "styles": [
+    "bold",
+    "minimal"
+  ],
+  "signature": {
+    "en": "Reads like a pitch deck turned into a website — problem, solution, traction, team, contact — with big animated numbers and a progress bar at the top that tracks your way through the pitch.",
+    "ar": "يُقرأ كعرض مستثمرين تحوّل إلى موقع: المشكلة ثم الحل ثم النمو ثم الفريق ثم التواصل، مع أرقام كبيرة متحركة وشريط تقدّم في الأعلى يتابع موضعك في العرض."
+  },
+  "defaultLocale": "en",
+  "order": 15,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "founder",
+      "palette": {
+        "background": "#FFFFFF",
+        "surface": "#F6F5FF",
+        "text": "#0F0D1A",
+        "mutedText": "#5E5A73",
+        "primary": "#5B21B6",
+        "secondary": "#0EA5E9",
+        "accent": "#22C55E",
+        "border": "#E7E4F5"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Outfit"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "Tajawal"
+        },
+        "arabicBody": {
+          "family": "Tajawal"
+        }
+      },
+      "radius": "lg",
+      "spacing": "airy",
+      "motion": "expressive",
+      "buttonStyle": "pill"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-team",
+          "label": {
+            "en": "Team",
+            "ar": "الفريق"
+          },
+          "link": {
+            "type": "page",
+            "value": "team"
+          }
+        },
+        {
+          "id": "nav-news",
+          "label": {
+            "en": "News",
+            "ar": "الأخبار"
+          },
+          "link": {
+            "type": "page",
+            "value": "news"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-team",
+          "label": {
+            "en": "Team",
+            "ar": "الفريق"
+          },
+          "link": {
+            "type": "page",
+            "value": "team"
+          }
+        },
+        {
+          "id": "foot-news",
+          "label": {
+            "en": "News",
+            "ar": "الأخبار"
+          },
+          "link": {
+            "type": "page",
+            "value": "news"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact us",
+            "ar": "تواصل معنا"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "founder-hero",
+            "blockType": "hero",
+            "variant": "centered",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Tutorly · Seed round open",
+                "ar": "توتورلي · جولة التمويل التأسيسية مفتوحة"
+              },
+              "heading": {
+                "en": "One place to run your tutoring center.",
+                "ar": "مكان واحد لإدارة مركزك التعليمي."
+              },
+              "tagline": {
+                "en": "Helping tutoring centers in the Gulf run classes, payments and parent updates in one place.",
+                "ar": "نساعد مراكز الدروس الخصوصية في الخليج على إدارة الحصص والمدفوعات وتواصل أولياء الأمور في مكان واحد."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Book a demo",
+                  "ar": "احجز عرضًا تجريبيًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary",
+                "icon": "arrow-right"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Meet the team",
+                  "ar": "تعرّف على الفريق"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "team"
+                },
+                "style": "outline"
+              },
+              "textStyle": "gradient",
+              "progressBar": true,
+              "scrollCue": true
+            },
+            "style": {
+              "background": {
+                "type": "gradient",
+                "value": "brand-soft"
+              },
+              "paddingY": "xl"
+            },
+            "animation": {
+              "entrance": "blur"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-problem",
+            "blockType": "richText",
+            "variant": "two-column",
+            "anchor": "problem",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "01 · The problem",
+                "ar": "01 · المشكلة"
+              },
+              "heading": {
+                "en": "Most centers still run on WhatsApp groups and spreadsheets.",
+                "ar": "ما زالت معظم المراكز تُدار عبر مجموعات واتساب وجداول البيانات."
+              },
+              "body": {
+                "en": "<p>We spoke to 60 tutoring centers across Dubai, Doha and Riyadh before writing a line of code. Almost all of them keep the timetable in one spreadsheet, payments in another, and talk to parents in a dozen WhatsApp groups that nobody can search.</p><h3>What it costs them</h3><ul><li>Around nine hours a week spent chasing late fees by hand.</li><li>Classes double-booked when two coordinators edit the same sheet.</li><li>Parents who only hear about a missed session a week later.</li></ul><p>The tools that exist were built for schools with an IT department, priced in dollars and available only in English. A center with three rooms and twelve teachers needs something it can set up in an afternoon.</p><blockquote>“I run a business, but most days it feels like I run a group chat.” — Owner of a center in Sharjah</blockquote>",
+                "ar": "<p>قبل أن نكتب سطرًا واحدًا من الشيفرة، تحدثنا مع 60 مركزًا للدروس الخصوصية في دبي والدوحة والرياض. يحتفظ معظمها بجدول الحصص في ملف، وبالمدفوعات في ملف آخر، ويتواصل مع أولياء الأمور عبر عشرات مجموعات واتساب التي يصعب البحث فيها.</p><h3>ماذا يكلّفهم ذلك؟</h3><ul><li>نحو تسع ساعات أسبوعيًا تضيع في ملاحقة الرسوم المتأخرة يدويًا.</li><li>حصص تُحجز مرتين حين يعدّل منسّقان الملف نفسه.</li><li>أولياء أمور لا يعلمون بغياب أبنائهم إلا بعد أسبوع.</li></ul><p>الأدوات المتاحة صُممت لمدارس لديها قسم تقنية معلومات، وتُسعَّر بالدولار ولا تتوفر إلا بالإنجليزية. أما مركز بثلاث قاعات واثني عشر معلمًا فيحتاج إلى أداة يجهّزها في ساعات.</p><blockquote>«أنا أدير مشروعًا تجاريًا، لكنني في أغلب الأيام أشعر أنني أدير مجموعة محادثة.» — صاحبة مركز في الشارقة</blockquote>"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-solution",
+            "blockType": "services",
+            "variant": "cards",
+            "anchor": "solution",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "02 · Our solution",
+                "ar": "02 · الحل"
+              },
+              "heading": {
+                "en": "Everything a center needs, in Arabic and English",
+                "ar": "كل ما يحتاجه المركز، بالعربية والإنجليزية"
+              },
+              "intro": {
+                "en": "Tutorly replaces the spreadsheet, the payment notebook and the parent group chat. Set it up in an afternoon.",
+                "ar": "يحلّ توتورلي محلّ جدول البيانات ودفتر المدفوعات ومجموعة أولياء الأمور. جهّزه في ساعات قليلة."
+              },
+              "items": [
+                {
+                  "id": "founder-solution-timetable",
+                  "name": {
+                    "en": "Timetable and rooms",
+                    "ar": "الجدول والقاعات"
+                  },
+                  "description": {
+                    "en": "Drag classes onto a shared calendar. Clashes between teachers and rooms are flagged before they happen.",
+                    "ar": "اسحب الحصص إلى تقويم مشترك، ويُنبّهك النظام إلى أي تعارض بين المعلمين والقاعات قبل وقوعه."
+                  },
+                  "icon": "calendar-check"
+                },
+                {
+                  "id": "founder-solution-payments",
+                  "name": {
+                    "en": "Fees and payments",
+                    "ar": "الرسوم والمدفوعات"
+                  },
+                  "description": {
+                    "en": "Monthly invoices, card and bank-transfer payments, and polite automatic reminders for late fees.",
+                    "ar": "فواتير شهرية، ودفع بالبطاقة أو التحويل البنكي، وتذكيرات تلقائية لطيفة بالرسوم المتأخرة."
+                  },
+                  "icon": "shield"
+                },
+                {
+                  "id": "founder-solution-parents",
+                  "name": {
+                    "en": "Parent updates",
+                    "ar": "تواصل أولياء الأمور"
+                  },
+                  "description": {
+                    "en": "Attendance, homework and progress notes reach parents the same day, in their language.",
+                    "ar": "يصل الحضور والواجبات وملاحظات التقدّم إلى أولياء الأمور في اليوم نفسه، وبلغتهم."
+                  },
+                  "icon": "message-circle"
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-traction",
+            "blockType": "stats",
+            "variant": "counters",
+            "anchor": "traction",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "03 · Traction",
+                "ar": "03 · النمو"
+              },
+              "heading": {
+                "en": "Eighteen months in",
+                "ar": "بعد ثمانية عشر شهرًا"
+              },
+              "intro": {
+                "en": "Grown by word of mouth between center owners, with no paid marketing.",
+                "ar": "نمونا بتوصيات أصحاب المراكز بعضهم لبعض، من دون أي إعلانات مدفوعة."
+              },
+              "items": [
+                {
+                  "id": "founder-stat-centers",
+                  "value": "40",
+                  "label": {
+                    "en": "Centers",
+                    "ar": "مركزًا"
+                  },
+                  "description": {
+                    "en": "In the UAE, Qatar and Saudi Arabia",
+                    "ar": "في الإمارات وقطر والسعودية"
+                  }
+                },
+                {
+                  "id": "founder-stat-students",
+                  "value": "2,300",
+                  "label": {
+                    "en": "Students",
+                    "ar": "طالب وطالبة"
+                  },
+                  "description": {
+                    "en": "Attending classes every week",
+                    "ar": "يحضرون الحصص كل أسبوع"
+                  }
+                },
+                {
+                  "id": "founder-stat-retention",
+                  "value": "96%",
+                  "label": {
+                    "en": "Monthly retention",
+                    "ar": "نسبة الاستمرار الشهري"
+                  },
+                  "description": {
+                    "en": "Centers that stay month to month",
+                    "ar": "مراكز تجدّد اشتراكها كل شهر"
+                  }
+                },
+                {
+                  "id": "founder-stat-hours",
+                  "value": "9h",
+                  "label": {
+                    "en": "Saved each week",
+                    "ar": "ساعات توفَّر أسبوعيًا"
+                  },
+                  "description": {
+                    "en": "Per center, on fees and scheduling",
+                    "ar": "لكل مركز في الرسوم والجدولة"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-team",
+            "blockType": "projects",
+            "variant": "grid",
+            "anchor": "team",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "04 · Team",
+                "ar": "04 · الفريق"
+              },
+              "heading": {
+                "en": "Built by people who ran a center",
+                "ar": "بناه أشخاص أداروا مركزًا بأنفسهم"
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "founder-team-ali",
+                  "title": {
+                    "en": "Ali Mahmoud",
+                    "ar": "علي محمود"
+                  },
+                  "client": {
+                    "en": "CEO & co-founder",
+                    "ar": "الرئيس التنفيذي والشريك المؤسس"
+                  },
+                  "description": {
+                    "en": "Ran a tutoring center in Dubai for six years before starting Tutorly.",
+                    "ar": "أدار مركزًا للدروس الخصوصية في دبي ست سنوات قبل تأسيس توتورلي."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-slate.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Ali Mahmoud",
+                      "ar": "صورة علي محمود"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-team-noura",
+                  "title": {
+                    "en": "Noura Saeed",
+                    "ar": "نورة سعيد"
+                  },
+                  "client": {
+                    "en": "CTO & co-founder",
+                    "ar": "المديرة التقنية والشريكة المؤسسة"
+                  },
+                  "description": {
+                    "en": "Built payment systems for a regional bank. Leads a product team of seven.",
+                    "ar": "بنت أنظمة الدفع لمصرف إقليمي، وتقود فريق منتج من سبعة أشخاص."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-blush.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Noura Saeed",
+                      "ar": "صورة نورة سعيد"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-team-hamad",
+                  "title": {
+                    "en": "Hamad Jaber",
+                    "ar": "حمد جابر"
+                  },
+                  "client": {
+                    "en": "Head of growth",
+                    "ar": "رئيس النمو"
+                  },
+                  "description": {
+                    "en": "Signed our first 40 centers one coffee at a time across three countries.",
+                    "ar": "وقّع مع أول 40 مركزًا لدينا، فنجان قهوة تلو الآخر، في ثلاث دول."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Hamad Jaber",
+                      "ar": "صورة حمد جابر"
+                    }
+                  }
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "The whole team",
+                  "ar": "الفريق كاملًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "team"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-partners",
+            "blockType": "clients",
+            "variant": "grid",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Partners",
+                "ar": "الشركاء"
+              },
+              "heading": {
+                "en": "Backed and trusted by",
+                "ar": "يدعمنا ويثق بنا"
+              },
+              "greyscale": true,
+              "items": [
+                {
+                  "id": "founder-partner-nakhla",
+                  "name": {
+                    "en": "Nakhla Ventures",
+                    "ar": "نخلة فنتشرز"
+                  }
+                },
+                {
+                  "id": "founder-partner-sadeem",
+                  "name": {
+                    "en": "Sadeem Accelerator",
+                    "ar": "مسرّعة سديم"
+                  }
+                },
+                {
+                  "id": "founder-partner-bayan",
+                  "name": {
+                    "en": "Bayan Learning",
+                    "ar": "بيان للتعليم"
+                  }
+                },
+                {
+                  "id": "founder-partner-wasl",
+                  "name": {
+                    "en": "Wasl Pay",
+                    "ar": "وصل للدفع"
+                  }
+                },
+                {
+                  "id": "founder-partner-manara",
+                  "name": {
+                    "en": "Manara Centers",
+                    "ar": "مراكز منارة"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-news",
+            "blockType": "blogList",
+            "variant": "grid",
+            "anchor": "news",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "News",
+                "ar": "الأخبار"
+              },
+              "heading": {
+                "en": "What’s new at Tutorly",
+                "ar": "جديد توتورلي"
+              },
+              "intro": {
+                "en": "Product updates, funding news and lessons from the centers we work with.",
+                "ar": "تحديثات المنتج وأخبار التمويل ودروس من المراكز التي نعمل معها."
+              },
+              "count": 3,
+              "showAll": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "anchor": "contact",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "05 · Contact",
+                "ar": "05 · تواصل"
+              },
+              "heading": {
+                "en": "Let’s talk",
+                "ar": "لنتحدث"
+              },
+              "intro": {
+                "en": "Investor, partner, center owner or journalist — tell us who you are and we will route you to the right person.",
+                "ar": "مستثمرًا كنت أو شريكًا أو صاحب مركز أو صحفيًا، أخبرنا من أنت وسنوصلك بالشخص المناسب."
+              },
+              "form": {
+                "name": "Pitch contact",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "role",
+                    "type": "select",
+                    "label": {
+                      "en": "I am a…",
+                      "ar": "أنا…"
+                    },
+                    "required": true,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "investor",
+                        "label": {
+                          "en": "Investor",
+                          "ar": "مستثمر"
+                        }
+                      },
+                      {
+                        "value": "partner",
+                        "label": {
+                          "en": "Partner",
+                          "ar": "شريك"
+                        }
+                      },
+                      {
+                        "value": "customer",
+                        "label": {
+                          "en": "Customer (center owner)",
+                          "ar": "عميل (صاحب مركز)"
+                        }
+                      },
+                      {
+                        "value": "press",
+                        "label": {
+                          "en": "Press",
+                          "ar": "صحافة"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "company",
+                    "type": "text",
+                    "label": {
+                      "en": "Company or center",
+                      "ar": "الشركة أو المركز"
+                    },
+                    "placeholder": {
+                      "en": "Optional",
+                      "ar": "اختياري"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "placeholder": {
+                      "en": "What would you like to talk about?",
+                      "ar": "عمّ تودّ أن نتحدث؟"
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send message",
+                    "ar": "إرسال الرسالة"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you — we reply within one working day.",
+                      "ar": "شكرًا لك، نردّ خلال يوم عمل واحد."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "note": {
+                "en": "Investors: our deck is available on request.",
+                "ar": "للمستثمرين: عرضنا التقديمي متاح عند الطلب."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "team",
+        "slug": "team",
+        "title": {
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "founder-team-full",
+            "blockType": "projects",
+            "variant": "grid",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Team",
+                "ar": "الفريق"
+              },
+              "heading": {
+                "en": "Twelve people, three countries, one product",
+                "ar": "اثنا عشر شخصًا وثلاث دول ومنتج واحد"
+              },
+              "intro": {
+                "en": "We are former teachers, center owners and engineers who got tired of running classes from a group chat.",
+                "ar": "نحن معلمون وأصحاب مراكز ومهندسون سابقون سئمنا إدارة الحصص من مجموعة محادثة."
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "founder-full-ali",
+                  "title": {
+                    "en": "Ali Mahmoud",
+                    "ar": "علي محمود"
+                  },
+                  "client": {
+                    "en": "CEO & co-founder · Dubai",
+                    "ar": "الرئيس التنفيذي والشريك المؤسس · دبي"
+                  },
+                  "description": {
+                    "en": "Ran a tutoring center for six years. Talks to every new customer in their first month.",
+                    "ar": "أدار مركزًا للدروس الخصوصية ست سنوات، ويتحدث مع كل عميل جديد في شهره الأول."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-slate.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Ali Mahmoud",
+                      "ar": "صورة علي محمود"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-full-noura",
+                  "title": {
+                    "en": "Noura Saeed",
+                    "ar": "نورة سعيد"
+                  },
+                  "client": {
+                    "en": "CTO & co-founder · Doha",
+                    "ar": "المديرة التقنية والشريكة المؤسسة · الدوحة"
+                  },
+                  "description": {
+                    "en": "Ten years building payment systems. Owns security, data and the product roadmap.",
+                    "ar": "عشر سنوات في بناء أنظمة الدفع، وتتولى الأمن والبيانات وخريطة طريق المنتج."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-blush.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Noura Saeed",
+                      "ar": "صورة نورة سعيد"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-full-hamad",
+                  "title": {
+                    "en": "Hamad Jaber",
+                    "ar": "حمد جابر"
+                  },
+                  "client": {
+                    "en": "Head of growth · Riyadh",
+                    "ar": "رئيس النمو · الرياض"
+                  },
+                  "description": {
+                    "en": "Former sales lead at an education publisher. Opened our Saudi market in 2026.",
+                    "ar": "قائد مبيعات سابق في دار نشر تعليمية، وافتتح سوقنا السعودية عام 2026."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Hamad Jaber",
+                      "ar": "صورة حمد جابر"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-full-reem",
+                  "title": {
+                    "en": "Reem Al-Khatib",
+                    "ar": "ريم الخطيب"
+                  },
+                  "client": {
+                    "en": "Head of customer success",
+                    "ar": "رئيسة نجاح العملاء"
+                  },
+                  "description": {
+                    "en": "A maths teacher for eight years. Onboards every center in under a week.",
+                    "ar": "معلمة رياضيات ثماني سنوات، وتُجهّز كل مركز جديد في أقل من أسبوع."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-olive.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Reem Al-Khatib",
+                      "ar": "صورة ريم الخطيب"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-full-yousef",
+                  "title": {
+                    "en": "Yousef Haddad",
+                    "ar": "يوسف حداد"
+                  },
+                  "client": {
+                    "en": "Lead engineer",
+                    "ar": "كبير المهندسين"
+                  },
+                  "description": {
+                    "en": "Keeps the timetable fast and the parent app working offline.",
+                    "ar": "يحافظ على سرعة الجدول وعلى عمل تطبيق أولياء الأمور من دون اتصال."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-ink.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Yousef Haddad",
+                      "ar": "صورة يوسف حداد"
+                    }
+                  }
+                },
+                {
+                  "id": "founder-full-lina",
+                  "title": {
+                    "en": "Lina Farouk",
+                    "ar": "لينا فاروق"
+                  },
+                  "client": {
+                    "en": "Product designer",
+                    "ar": "مصممة المنتج"
+                  },
+                  "description": {
+                    "en": "Designs every screen in Arabic first, then in English.",
+                    "ar": "تصمم كل شاشة بالعربية أولًا ثم بالإنجليزية."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-dusk.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Lina Farouk",
+                      "ar": "صورة لينا فاروق"
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-hiring",
+            "blockType": "cta",
+            "variant": "gradient",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "We’re hiring",
+                "ar": "نحن نوظّف"
+              },
+              "heading": {
+                "en": "Help us take centers off the group chat",
+                "ar": "ساعدنا على إخراج المراكز من مجموعات المحادثة"
+              },
+              "intro": {
+                "en": "Open roles in engineering, sales and customer success in Dubai, Doha and Riyadh.",
+                "ar": "وظائف شاغرة في الهندسة والمبيعات ونجاح العملاء في دبي والدوحة والرياض."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Get in touch",
+                  "ar": "تواصل معنا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "news",
+        "slug": "news",
+        "title": {
+          "en": "News",
+          "ar": "الأخبار"
+        },
+        "type": "blogIndex",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "founder-news-list",
+            "blockType": "blogList",
+            "variant": "grid",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "News",
+                "ar": "الأخبار"
+              },
+              "heading": {
+                "en": "News and updates",
+                "ar": "الأخبار والتحديثات"
+              },
+              "intro": {
+                "en": "Funding announcements, new features and stories from tutoring centers across the Gulf.",
+                "ar": "إعلانات التمويل والميزات الجديدة وقصص من مراكز الدروس الخصوصية في أنحاء الخليج."
+              },
+              "count": 12
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "founder-contact-page",
+            "blockType": "contact",
+            "variant": "form-details",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Contact us",
+                "ar": "تواصل معنا"
+              },
+              "heading": {
+                "en": "Talk to the Tutorly team",
+                "ar": "تحدّث مع فريق توتورلي"
+              },
+              "intro": {
+                "en": "Book a demo for your center, ask about partnerships or request our investor deck.",
+                "ar": "احجز عرضًا تجريبيًا لمركزك، أو اسأل عن الشراكات، أو اطلب عرضنا التقديمي للمستثمرين."
+              },
+              "form": {
+                "name": "Contact",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "role",
+                    "type": "select",
+                    "label": {
+                      "en": "I am a…",
+                      "ar": "أنا…"
+                    },
+                    "required": true,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "investor",
+                        "label": {
+                          "en": "Investor",
+                          "ar": "مستثمر"
+                        }
+                      },
+                      {
+                        "value": "partner",
+                        "label": {
+                          "en": "Partner",
+                          "ar": "شريك"
+                        }
+                      },
+                      {
+                        "value": "customer",
+                        "label": {
+                          "en": "Customer (center owner)",
+                          "ar": "عميل (صاحب مركز)"
+                        }
+                      },
+                      {
+                        "value": "press",
+                        "label": {
+                          "en": "Press",
+                          "ar": "صحافة"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "phone",
+                    "type": "phone",
+                    "label": {
+                      "en": "Phone",
+                      "ar": "الهاتف"
+                    },
+                    "placeholder": {
+                      "en": "5550 0000",
+                      "ar": "5550 0000"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "placeholder": {
+                      "en": "Tell us a little about your center or fund.",
+                      "ar": "أخبرنا قليلًا عن مركزك أو صندوقك."
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send message",
+                    "ar": "إرسال الرسالة"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you — we reply within one working day.",
+                      "ar": "شكرًا لك، نردّ خلال يوم عمل واحد."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "note": {
+                "en": "Office hours: Sunday to Thursday, 9:00–18:00 Gulf time.",
+                "ar": "ساعات العمل: من الأحد إلى الخميس، 9:00–18:00 بتوقيت الخليج."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "founder-faq",
+            "blockType": "faq",
+            "variant": "accordion",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "FAQ",
+                "ar": "أسئلة شائعة"
+              },
+              "heading": {
+                "en": "Before you write",
+                "ar": "قبل أن تراسلنا"
+              },
+              "items": [
+                {
+                  "id": "founder-faq-setup",
+                  "question": {
+                    "en": "How long does it take to set up a center?",
+                    "ar": "كم يستغرق تجهيز المركز؟"
+                  },
+                  "answer": {
+                    "en": "Most centers are running within a week. We import your spreadsheet and train your coordinators for free.",
+                    "ar": "تبدأ معظم المراكز العمل خلال أسبوع. نستورد ملفاتك وندرّب منسّقيك مجانًا."
+                  }
+                },
+                {
+                  "id": "founder-faq-price",
+                  "question": {
+                    "en": "How much does Tutorly cost?",
+                    "ar": "كم تبلغ تكلفة توتورلي؟"
+                  },
+                  "answer": {
+                    "en": "A monthly fee per active student, in local currency, with no setup fee and no contract.",
+                    "ar": "رسوم شهرية عن كل طالب نشط، بالعملة المحلية، من دون رسوم تجهيز ولا عقود ملزمة."
+                  }
+                },
+                {
+                  "id": "founder-faq-invest",
+                  "question": {
+                    "en": "Are you raising?",
+                    "ar": "هل تجمعون تمويلًا حاليًا؟"
+                  },
+                  "answer": {
+                    "en": "Yes — our seed round is open until the end of the quarter. Choose “Investor” in the form and we will send the deck.",
+                    "ar": "نعم، جولتنا التأسيسية مفتوحة حتى نهاية الربع الحالي. اختر «مستثمر» في النموذج وسنرسل إليك العرض التقديمي."
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {}
+          }
+        ]
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "founder-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": {
+            "en": "Tutorly",
+            "ar": "توتورلي"
+          },
+          "cta": {
+            "label": {
+              "en": "Contact us",
+              "ar": "تواصل معنا"
+            },
+            "link": {
+              "type": "page",
+              "value": "contact"
+            },
+            "style": "primary"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "founder-footer",
+        "blockType": "footer",
+        "variant": "columns",
+        "content": {
+          "heading": {
+            "en": "Tutorly",
+            "ar": "توتورلي"
+          },
+          "text": {
+            "en": "Classes, payments and parent updates for tutoring centers in the Gulf.",
+            "ar": "الحصص والمدفوعات وتواصل أولياء الأمور لمراكز الدروس الخصوصية في الخليج."
+          },
+          "copyright": {
+            "en": "© 2026 Tutorly. All rights reserved.",
+            "ar": "© 2026 توتورلي. جميع الحقوق محفوظة."
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Tutorly",
+        "defaultDescription": {
+          "en": "Tutorly helps tutoring centers in the Gulf run classes, payments and parent updates in one place.",
+          "ar": "يساعد توتورلي مراكز الدروس الخصوصية في الخليج على إدارة الحصص والمدفوعات وتواصل أولياء الأمور في مكان واحد."
+        }
+      },
+      "ownerName": {
+        "en": "Tutorly",
+        "ar": "توتورلي"
+      },
+      "ownerTitle": {
+        "en": "Software for tutoring centers",
+        "ar": "برنامج لإدارة مراكز الدروس الخصوصية"
+      },
+      "social": [
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/company/example-tutorly"
+        },
+        {
+          "platform": "x",
+          "url": "https://x.com/example_tutorly"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/example.tutorly"
+        }
+      ],
+      "contact": {
+        "email": "hello@example.com",
+        "phone": "+971 4 555 0187",
+        "whatsapp": "+971555550187",
+        "address": {
+          "en": "Dubai, United Arab Emirates",
+          "ar": "دبي، الإمارات العربية المتحدة"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

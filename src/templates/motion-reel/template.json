@@ -1,0 +1,1333 @@
+{
+  "id": "motion-reel",
+  "name": {
+    "en": "Motion Reel",
+    "ar": "موشن ريل"
+  },
+  "description": {
+    "en": "A dark, cinematic, video-first site for videographers, motion designers and editors.",
+    "ar": "موقع داكن وسينمائي يضع الفيديو أولًا، لصنّاع الفيديو ومصممي الموشن والمونتيرين."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Videographers",
+      "ar": "صنّاع الفيديو"
+    },
+    {
+      "en": "Motion designers",
+      "ar": "مصممو الموشن"
+    },
+    {
+      "en": "Editors",
+      "ar": "المونتيرون"
+    },
+    {
+      "en": "Filmmakers",
+      "ar": "صنّاع الأفلام"
+    }
+  ],
+  "professions": [
+    "videographer",
+    "creator",
+    "freelancer"
+  ],
+  "styles": [
+    "dark",
+    "bold"
+  ],
+  "signature": {
+    "en": "A muted showreel playing behind the headline with a \"Play with sound\" button, and project tiles that lead with the film.",
+    "ar": "عرض أعمال صامت يتحرك خلف العنوان مع زر «تشغيل بالصوت»، وبطاقات مشاريع يتصدرها الفيلم."
+  },
+  "defaultLocale": "en",
+  "order": 13,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "motion-reel",
+      "palette": {
+        "background": "#050505",
+        "surface": "#111111",
+        "text": "#FFFFFF",
+        "mutedText": "#A3A3A3",
+        "primary": "#FF3B3B",
+        "secondary": "#FFFFFF",
+        "accent": "#FFC53D",
+        "border": "#262626"
+      },
+      "mode": "dark",
+      "fonts": {
+        "heading": {
+          "family": "Bebas Neue"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "Lalezar"
+        },
+        "arabicBody": {
+          "family": "Noto Kufi Arabic"
+        }
+      },
+      "radius": "none",
+      "spacing": "comfortable",
+      "motion": "cinematic",
+      "buttonStyle": "solid"
+    },
+    "navigation": {
+      "style": "minimal",
+      "header": [
+        {
+          "id": "nav-work",
+          "label": {
+            "en": "Work",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "work"
+          }
+        },
+        {
+          "id": "nav-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "foot-work",
+          "label": {
+            "en": "Work",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "work"
+          }
+        },
+        {
+          "id": "foot-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "motion-reel-hero",
+            "blockType": "hero",
+            "variant": "video-bg",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Showreel 2026",
+                "ar": "عرض الأعمال 2026"
+              },
+              "name": {
+                "en": "Tariq Films — Tariq Hamdan",
+                "ar": "طارق فيلمز — طارق حمدان"
+              },
+              "heading": {
+                "en": "Commercials and event films with a cinematic eye.",
+                "ar": "إعلانات وأفلام مناسبات بعين سينمائية."
+              },
+              "tagline": {
+                "en": "Director and editor in Dubai. From the first storyboard to the final colour grade.",
+                "ar": "مخرج ومونتير في دبي. من أول لوحة قصة حتى تصحيح الألوان الأخير."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Watch the work",
+                  "ar": "شاهد الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "work"
+                },
+                "style": "primary",
+                "icon": "play"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Book a shoot",
+                  "ar": "احجز تصويرًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "outline"
+              },
+              "image": {
+                "url": "/stock/city-dusk.svg",
+                "width": 1920,
+                "height": 1080,
+                "alt": {
+                  "en": "A city skyline at dusk, frame from the showreel",
+                  "ar": "أفق مدينة عند الغروب، لقطة من عرض الأعمال"
+                }
+              },
+              "scrollCue": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "blur"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-projects",
+            "blockType": "projects",
+            "variant": "grid",
+            "anchor": "work",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Selected work",
+                "ar": "أعمال مختارة"
+              },
+              "heading": {
+                "en": "Recent films",
+                "ar": "أحدث الأفلام"
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "p-corniche",
+                  "title": {
+                    "en": "Corniche Run",
+                    "ar": "جري الكورنيش"
+                  },
+                  "description": {
+                    "en": "A 60-second spot for a sports brand, shot at sunrise along the waterfront.",
+                    "ar": "إعلان مدته 60 ثانية لعلامة رياضية، صُوّر عند الشروق على الواجهة البحرية."
+                  },
+                  "image": {
+                    "url": "/stock/city-dusk.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Waterfront skyline at dawn",
+                      "ar": "أفق الواجهة البحرية عند الفجر"
+                    }
+                  },
+                  "client": {
+                    "en": "Sports brand spot",
+                    "ar": "إعلان علامة رياضية"
+                  },
+                  "year": "2026",
+                  "tags": [
+                    "Direction",
+                    "Edit",
+                    "Grade"
+                  ],
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "case-corniche"
+                  }
+                },
+                {
+                  "id": "p-gala",
+                  "title": {
+                    "en": "Gala Night Highlights",
+                    "ar": "أبرز لحظات ليلة الحفل"
+                  },
+                  "description": {
+                    "en": "Three cameras, one night, a two-minute film delivered by the next morning.",
+                    "ar": "ثلاث كاميرات وليلة واحدة، وفيلم من دقيقتين سُلّم في صباح اليوم التالي."
+                  },
+                  "image": {
+                    "url": "/stock/event-dusk.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Evening celebration lights",
+                      "ar": "أضواء احتفال مسائي"
+                    }
+                  },
+                  "client": {
+                    "en": "Event film",
+                    "ar": "فيلم مناسبة"
+                  },
+                  "year": "2025",
+                  "tags": [
+                    "Multi-cam",
+                    "Same-day edit"
+                  ]
+                },
+                {
+                  "id": "p-smartgrid",
+                  "title": {
+                    "en": "Explainer: SmartGrid",
+                    "ar": "فيلم تعريفي: سمارت جريد"
+                  },
+                  "description": {
+                    "en": "A 90-second motion graphics explainer for an energy start-up.",
+                    "ar": "فيلم موشن جرافيك تعريفي مدته 90 ثانية لشركة طاقة ناشئة."
+                  },
+                  "image": {
+                    "url": "/stock/app-dusk.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Dark interface panels",
+                      "ar": "واجهات رقمية داكنة"
+                    }
+                  },
+                  "client": {
+                    "en": "Motion graphics",
+                    "ar": "موشن جرافيك"
+                  },
+                  "year": "2025",
+                  "tags": [
+                    "2D animation",
+                    "Sound design"
+                  ]
+                },
+                {
+                  "id": "p-studio",
+                  "title": {
+                    "en": "Studio Sessions",
+                    "ar": "جلسات الاستوديو"
+                  },
+                  "description": {
+                    "en": "A twelve-episode interview series lit and shot in one studio day.",
+                    "ar": "سلسلة مقابلات من اثنتي عشرة حلقة، أُضيئت وصُوّرت في يوم استوديو واحد."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-dusk.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "A dark studio desk lit by a screen",
+                      "ar": "مكتب استوديو داكن يضيئه وهج الشاشة"
+                    }
+                  },
+                  "client": {
+                    "en": "Interview series",
+                    "ar": "سلسلة مقابلات"
+                  },
+                  "year": "2024",
+                  "tags": [
+                    "Lighting",
+                    "Multi-cam"
+                  ]
+                },
+                {
+                  "id": "p-souq",
+                  "title": {
+                    "en": "Faces of the Souq",
+                    "ar": "وجوه السوق"
+                  },
+                  "description": {
+                    "en": "A short documentary portrait of four traders in the old market.",
+                    "ar": "فيلم وثائقي قصير يرسم صورة أربعة تجّار في السوق القديم."
+                  },
+                  "image": {
+                    "url": "/stock/portrait-dusk.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait at dusk",
+                      "ar": "صورة شخصية عند الغروب"
+                    }
+                  },
+                  "client": {
+                    "en": "Documentary short",
+                    "ar": "وثائقي قصير"
+                  },
+                  "year": "2024",
+                  "tags": [
+                    "Documentary",
+                    "Sound"
+                  ]
+                },
+                {
+                  "id": "p-towers",
+                  "title": {
+                    "en": "Glass Towers",
+                    "ar": "أبراج الزجاج"
+                  },
+                  "description": {
+                    "en": "A brand film for a property developer, built on time-lapse and slow aerials.",
+                    "ar": "فيلم هوية لمطوّر عقاري، مبني على التصوير المتسارع واللقطات الجوية البطيئة."
+                  },
+                  "image": {
+                    "url": "/stock/city-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Desert city towers in daylight",
+                      "ar": "أبراج مدينة صحراوية في النهار"
+                    }
+                  },
+                  "client": {
+                    "en": "Brand film",
+                    "ar": "فيلم هوية"
+                  },
+                  "year": "2023",
+                  "tags": [
+                    "Time-lapse",
+                    "Aerial"
+                  ]
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "All work",
+                  "ar": "كل الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "work"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-clients",
+            "blockType": "clients",
+            "variant": "marquee",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Trusted by",
+                "ar": "عملاء وثقوا بنا"
+              },
+              "greyscale": true,
+              "items": [
+                {
+                  "id": "c-1",
+                  "name": {
+                    "en": "Stride Athletics",
+                    "ar": "سترايد أثليتكس"
+                  }
+                },
+                {
+                  "id": "c-2",
+                  "name": {
+                    "en": "Marina Events",
+                    "ar": "مارينا للفعاليات"
+                  }
+                },
+                {
+                  "id": "c-3",
+                  "name": {
+                    "en": "SmartGrid Energy",
+                    "ar": "سمارت جريد للطاقة"
+                  }
+                },
+                {
+                  "id": "c-4",
+                  "name": {
+                    "en": "Dune Camp",
+                    "ar": "مخيم الكثبان"
+                  }
+                },
+                {
+                  "id": "c-5",
+                  "name": {
+                    "en": "Saffron House",
+                    "ar": "بيت الزعفران"
+                  }
+                },
+                {
+                  "id": "c-6",
+                  "name": {
+                    "en": "Horizon Properties",
+                    "ar": "هورايزن العقارية"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-services",
+            "blockType": "services",
+            "variant": "list-icons",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "What I make",
+                "ar": "ما أصنعه"
+              },
+              "heading": {
+                "en": "Services",
+                "ar": "الخدمات"
+              },
+              "items": [
+                {
+                  "id": "s-commercials",
+                  "name": {
+                    "en": "Commercials",
+                    "ar": "الإعلانات"
+                  },
+                  "description": {
+                    "en": "Concept, shoot and edit for TV, cinema and social spots, from 15 seconds to two minutes.",
+                    "ar": "فكرة وتصوير ومونتاج لإعلانات التلفزيون والسينما ومواقع التواصل، من 15 ثانية حتى دقيقتين."
+                  },
+                  "icon": "clapperboard"
+                },
+                {
+                  "id": "s-events",
+                  "name": {
+                    "en": "Event films",
+                    "ar": "أفلام المناسبات"
+                  },
+                  "description": {
+                    "en": "Launches, galas and conferences captured with a small, quiet crew, with same-day edits on request.",
+                    "ar": "إطلاقات وحفلات ومؤتمرات بفريق صغير وهادئ، مع مونتاج في اليوم نفسه عند الطلب."
+                  },
+                  "icon": "video"
+                },
+                {
+                  "id": "s-motion",
+                  "name": {
+                    "en": "Motion graphics",
+                    "ar": "الموشن جرافيك"
+                  },
+                  "description": {
+                    "en": "Explainers, titles and animated logos that make complex ideas simple.",
+                    "ar": "أفلام تعريفية وعناوين وشعارات متحركة تبسّط الأفكار المعقدة."
+                  },
+                  "icon": "sparkles"
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "anchor": "about",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Behind the camera",
+                "ar": "خلف الكاميرا"
+              },
+              "heading": {
+                "en": "Hi, I'm Tariq",
+                "ar": "مرحبًا، أنا طارق"
+              },
+              "body": {
+                "en": "<p>I picked up my first camera at fourteen and have not put it down since. After eight years as an editor at a production house, I started Tariq Films to work closer to the brands and people I film for.</p><p>I direct, shoot and edit, and bring in a trusted crew of sound, light and colour specialists when the project needs them.</p>",
+                "ar": "<p>حملت أول كاميرا في الرابعة عشرة ولم أتركها منذ ذلك الحين. بعد ثماني سنوات مونتيرًا في شركة إنتاج، أسست طارق فيلمز لأعمل عن قرب مع العلامات والأشخاص الذين أصوّر لهم.</p><p>أُخرج وأصوّر وأقوم بالمونتاج، وأستعين بفريق موثوق من مختصي الصوت والإضاءة والألوان حين يحتاج المشروع إليهم.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-ink.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Tariq Hamdan",
+                  "ar": "صورة طارق حمدان"
+                }
+              },
+              "imageSide": "start",
+              "cta": {
+                "label": {
+                  "en": "More about me",
+                  "ar": "المزيد عني"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "about"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "reveal-mask"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-cta",
+            "blockType": "cta",
+            "variant": "with-image",
+            "example": true,
+            "content": {
+              "heading": {
+                "en": "Let's make your next film",
+                "ar": "لنصنع فيلمك القادم"
+              },
+              "intro": {
+                "en": "Tell me about your idea, your date and your audience. I'll come back with a plan within 48 hours.",
+                "ar": "أخبرني بفكرتك وموعدك وجمهورك، وسأعود إليك بخطة خلال 48 ساعة."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Start a project",
+                  "ar": "ابدأ مشروعًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "WhatsApp me",
+                  "ar": "راسلني على واتساب"
+                },
+                "link": {
+                  "type": "whatsapp",
+                  "value": "+971555012345"
+                },
+                "style": "outline"
+              },
+              "image": {
+                "url": "/stock/art-ink.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Abstract frame in ink tones",
+                  "ar": "لقطة تجريدية بدرجات الحبر"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-contact",
+            "blockType": "contact",
+            "variant": "minimal",
+            "anchor": "contact",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Say hello",
+                "ar": "قل مرحبًا"
+              },
+              "note": {
+                "en": "Based in Dubai, shooting across the Gulf.",
+                "ar": "مقيم في دبي، وأصوّر في أنحاء الخليج."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "slug": "work",
+        "title": {
+          "en": "Work",
+          "ar": "الأعمال"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "motion-reel-work-reel",
+            "blockType": "video",
+            "variant": "grid",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Work",
+                "ar": "الأعمال"
+              },
+              "heading": {
+                "en": "Every frame on purpose",
+                "ar": "كل لقطة لها هدف"
+              },
+              "intro": {
+                "en": "Commercials, event films and motion graphics from the last three years.",
+                "ar": "إعلانات وأفلام مناسبات وموشن جرافيك من السنوات الثلاث الأخيرة."
+              },
+              "columns": "2",
+              "showFilter": true,
+              "categories": [
+                {
+                  "id": "commercial",
+                  "label": {
+                    "en": "Commercials",
+                    "ar": "إعلانات"
+                  }
+                },
+                {
+                  "id": "event",
+                  "label": {
+                    "en": "Event films",
+                    "ar": "أفلام مناسبات"
+                  }
+                },
+                {
+                  "id": "motion",
+                  "label": {
+                    "en": "Motion graphics",
+                    "ar": "موشن جرافيك"
+                  }
+                }
+              ],
+              "items": [
+                {
+                  "id": "v-corniche",
+                  "video": {
+                    "url": "https://vimeo.com/76979871",
+                    "provider": "vimeo",
+                    "poster": {
+                      "url": "/stock/city-dusk.svg",
+                      "width": 1920,
+                      "height": 1080,
+                      "alt": {
+                        "en": "Waterfront skyline at dawn",
+                        "ar": "أفق الواجهة البحرية عند الفجر"
+                      }
+                    },
+                    "title": {
+                      "en": "Corniche Run",
+                      "ar": "جري الكورنيش"
+                    }
+                  },
+                  "title": {
+                    "en": "Corniche Run",
+                    "ar": "جري الكورنيش"
+                  },
+                  "description": {
+                    "en": "Sports brand spot",
+                    "ar": "إعلان علامة رياضية"
+                  },
+                  "duration": "1:00",
+                  "category": "commercial"
+                },
+                {
+                  "id": "v-gala",
+                  "video": {
+                    "url": "https://vimeo.com/76979871",
+                    "provider": "vimeo",
+                    "poster": {
+                      "url": "/stock/event-dusk.svg",
+                      "width": 1920,
+                      "height": 1080,
+                      "alt": {
+                        "en": "Evening celebration lights",
+                        "ar": "أضواء احتفال مسائي"
+                      }
+                    },
+                    "title": {
+                      "en": "Gala Night Highlights",
+                      "ar": "أبرز لحظات ليلة الحفل"
+                    }
+                  },
+                  "title": {
+                    "en": "Gala Night Highlights",
+                    "ar": "أبرز لحظات ليلة الحفل"
+                  },
+                  "description": {
+                    "en": "Event film",
+                    "ar": "فيلم مناسبة"
+                  },
+                  "duration": "2:10",
+                  "category": "event"
+                },
+                {
+                  "id": "v-smartgrid",
+                  "video": {
+                    "url": "https://vimeo.com/76979871",
+                    "provider": "vimeo",
+                    "poster": {
+                      "url": "/stock/app-dusk.svg",
+                      "width": 1600,
+                      "height": 1067,
+                      "alt": {
+                        "en": "Dark interface panels",
+                        "ar": "واجهات رقمية داكنة"
+                      }
+                    },
+                    "title": {
+                      "en": "Explainer: SmartGrid",
+                      "ar": "فيلم تعريفي: سمارت جريد"
+                    }
+                  },
+                  "title": {
+                    "en": "Explainer: SmartGrid",
+                    "ar": "فيلم تعريفي: سمارت جريد"
+                  },
+                  "description": {
+                    "en": "Motion graphics",
+                    "ar": "موشن جرافيك"
+                  },
+                  "duration": "1:30",
+                  "category": "motion"
+                },
+                {
+                  "id": "v-towers",
+                  "video": {
+                    "url": "https://vimeo.com/76979871",
+                    "provider": "vimeo",
+                    "poster": {
+                      "url": "/stock/city-slate.svg",
+                      "width": 1600,
+                      "height": 1067,
+                      "alt": {
+                        "en": "Desert city towers",
+                        "ar": "أبراج مدينة صحراوية"
+                      }
+                    },
+                    "title": {
+                      "en": "Glass Towers",
+                      "ar": "أبراج الزجاج"
+                    }
+                  },
+                  "title": {
+                    "en": "Glass Towers",
+                    "ar": "أبراج الزجاج"
+                  },
+                  "description": {
+                    "en": "Brand film",
+                    "ar": "فيلم هوية"
+                  },
+                  "duration": "1:45",
+                  "category": "commercial"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-work-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "example": true,
+            "content": {
+              "heading": {
+                "en": "Have a brief?",
+                "ar": "لديك فكرة مشروع؟"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Send it over",
+                  "ar": "أرسلها إليّ"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "case-corniche",
+        "slug": "work/corniche-run",
+        "title": {
+          "en": "Corniche Run",
+          "ar": "جري الكورنيش"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "motion-reel-case",
+            "blockType": "caseStudy",
+            "variant": "image-story",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Commercial · 2026",
+                "ar": "إعلان · 2026"
+              },
+              "title": {
+                "en": "Corniche Run",
+                "ar": "جري الكورنيش"
+              },
+              "subtitle": {
+                "en": "A sunrise spot for a sports brand, shot in one morning along the waterfront.",
+                "ar": "إعلان عند الشروق لعلامة رياضية، صُوّر في صباح واحد على الواجهة البحرية."
+              },
+              "cover": {
+                "url": "/stock/city-dusk.svg",
+                "width": 1920,
+                "height": 1080,
+                "alt": {
+                  "en": "Waterfront skyline at dawn",
+                  "ar": "أفق الواجهة البحرية عند الفجر"
+                }
+              },
+              "meta": [
+                {
+                  "id": "m-client",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Stride Athletics",
+                    "ar": "سترايد أثليتكس"
+                  }
+                },
+                {
+                  "id": "m-role",
+                  "label": {
+                    "en": "Role",
+                    "ar": "الدور"
+                  },
+                  "value": {
+                    "en": "Director, editor",
+                    "ar": "مخرج ومونتير"
+                  }
+                },
+                {
+                  "id": "m-length",
+                  "label": {
+                    "en": "Length",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "60 s + 3 cut-downs",
+                    "ar": "60 ثانية + 3 نسخ قصيرة"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "cs-brief",
+                  "label": {
+                    "en": "Brief",
+                    "ar": "المهمة"
+                  },
+                  "heading": {
+                    "en": "Make running feel like the city waking up",
+                    "ar": "اجعل الجري يبدو كأن المدينة تستيقظ"
+                  },
+                  "body": {
+                    "en": "<p>The brand was launching a new running shoe and wanted a spot that felt local, honest and full of energy, without a studio.</p>",
+                    "ar": "<p>كانت العلامة تطلق حذاء جري جديدًا، وأرادت إعلانًا محليًا وصادقًا ومليئًا بالطاقة، بعيدًا عن الاستوديو.</p>"
+                  }
+                },
+                {
+                  "id": "cs-shoot",
+                  "label": {
+                    "en": "Shoot",
+                    "ar": "التصوير"
+                  },
+                  "heading": {
+                    "en": "One morning, golden light, real runners",
+                    "ar": "صباح واحد وضوء ذهبي وعدّاؤون حقيقيون"
+                  },
+                  "body": {
+                    "en": "<p>We cast twelve runners from local clubs and shot between 5:30 and 7:30 am, using a gimbal on an e-bike to stay with them at pace.</p>",
+                    "ar": "<p>اخترنا اثني عشر عدّاءً من أندية محلية، وصوّرنا بين 5:30 و7:30 صباحًا، مستخدمين مثبّت كاميرا على دراجة كهربائية لمجاراة سرعتهم.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "cs-shoot-1",
+                      "image": {
+                        "url": "/stock/event-dusk.svg",
+                        "width": 1920,
+                        "height": 1080,
+                        "alt": {
+                          "en": "Runners passing under evening lights",
+                          "ar": "عدّاؤون يمرّون تحت أضواء المساء"
+                        }
+                      },
+                      "caption": {
+                        "en": "First light, 5:42 am",
+                        "ar": "أول ضوء، 5:42 صباحًا"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "cs-edit",
+                  "label": {
+                    "en": "Edit",
+                    "ar": "المونتاج"
+                  },
+                  "heading": {
+                    "en": "Cut to the beat of footsteps",
+                    "ar": "مونتاج على إيقاع الخطوات"
+                  },
+                  "body": {
+                    "en": "<p>The edit follows the rhythm of the runners' steps, with a warm grade that keeps the sunrise colours true.</p>",
+                    "ar": "<p>يتبع المونتاج إيقاع خطوات العدّائين، مع تصحيح ألوان دافئ يحافظ على ألوان الشروق كما هي.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "Results",
+                "ar": "النتائج"
+              },
+              "results": [
+                {
+                  "id": "r-views",
+                  "value": {
+                    "en": "1.2M",
+                    "ar": "1.2 مليون"
+                  },
+                  "label": {
+                    "en": "views in two weeks",
+                    "ar": "مشاهدة في أسبوعين"
+                  }
+                },
+                {
+                  "id": "r-watch",
+                  "value": {
+                    "en": "71%",
+                    "ar": "71%"
+                  },
+                  "label": {
+                    "en": "watched to the end",
+                    "ar": "شاهدوه حتى النهاية"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Next project",
+                  "ar": "المشروع التالي"
+                },
+                "title": {
+                  "en": "See all work",
+                  "ar": "شاهد كل الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "work"
+                },
+                "image": {
+                  "url": "/stock/app-dusk.svg",
+                  "width": 1600,
+                  "height": 1067,
+                  "alt": {
+                    "en": "Dark interface panels",
+                    "ar": "واجهات رقمية داكنة"
+                  }
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "slug": "about",
+        "title": {
+          "en": "About",
+          "ar": "نبذة"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "motion-reel-about-page",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Director, shooter, editor",
+                "ar": "مخرج ومصوّر ومونتير"
+              },
+              "body": {
+                "en": "<p>I'm Tariq Hamdan, the person behind Tariq Films. For twelve years I have made commercials, event films and motion graphics for brands across the Gulf.</p><p>I keep my crew small so every project stays personal, fast and honest. You talk to the person who will shoot and cut your film.</p>",
+                "ar": "<p>أنا طارق حمدان، صاحب طارق فيلمز. أصنع منذ اثني عشر عامًا إعلانات وأفلام مناسبات وموشن جرافيك لعلامات في أنحاء الخليج.</p><p>أحافظ على فريق صغير ليبقى كل مشروع شخصيًا وسريعًا وصادقًا، فأنت تتحدث مباشرة مع من سيصوّر فيلمك ويقوم بمونتاجه.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-ink.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Tariq Hamdan",
+                  "ar": "صورة طارق حمدان"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "reveal-mask"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "motion-reel-about-stats",
+            "blockType": "stats",
+            "variant": "big-numbers",
+            "example": true,
+            "content": {
+              "items": [
+                {
+                  "id": "st-years",
+                  "value": "12",
+                  "label": {
+                    "en": "years behind the camera",
+                    "ar": "عامًا خلف الكاميرا"
+                  }
+                },
+                {
+                  "id": "st-films",
+                  "value": "180+",
+                  "label": {
+                    "en": "films delivered",
+                    "ar": "فيلمًا مُنجزًا"
+                  }
+                },
+                {
+                  "id": "st-brands",
+                  "value": "60",
+                  "label": {
+                    "en": "brands and events",
+                    "ar": "علامة وفعالية"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "motion-reel-contact-page",
+            "blockType": "contact",
+            "variant": "form-details",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Let's make your next film",
+                "ar": "لنصنع فيلمك القادم"
+              },
+              "intro": {
+                "en": "Share your idea, your date and your budget range. I'll reply within 48 hours.",
+                "ar": "شاركني فكرتك وموعدك ونطاق ميزانيتك، وسأردّ خلال 48 ساعة."
+              },
+              "note": {
+                "en": "Available for shoots across the UAE, Oman and Qatar.",
+                "ar": "متاح للتصوير في الإمارات وعُمان وقطر."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {}
+          }
+        ]
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "motion-reel-header",
+        "blockType": "header",
+        "variant": "minimal",
+        "content": {
+          "heading": {
+            "en": "TARIQ FILMS",
+            "ar": "طارق فيلمز"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "motion-reel-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": {
+            "en": "TARIQ FILMS",
+            "ar": "طارق فيلمز"
+          },
+          "text": {
+            "en": "Commercials, event films and motion graphics. Dubai.",
+            "ar": "إعلانات وأفلام مناسبات وموشن جرافيك. دبي."
+          }
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Tariq Films",
+        "defaultDescription": {
+          "en": "Tariq Hamdan, director and editor in Dubai: commercials, event films and motion graphics.",
+          "ar": "طارق حمدان، مخرج ومونتير في دبي: إعلانات وأفلام مناسبات وموشن جرافيك."
+        }
+      },
+      "ownerName": {
+        "en": "Tariq Hamdan",
+        "ar": "طارق حمدان"
+      },
+      "ownerTitle": {
+        "en": "Director and editor, Tariq Films",
+        "ar": "مخرج ومونتير، طارق فيلمز"
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example.tariqfilms"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@example-tariqfilms"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/in/example-tariq-hamdan"
+        }
+      ],
+      "contact": {
+        "email": "hello@tariqfilms.example.com",
+        "phone": "+971 55 501 2345",
+        "whatsapp": "+971555012345",
+        "address": {
+          "en": "Dubai, United Arab Emirates",
+          "ar": "دبي، الإمارات العربية المتحدة"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

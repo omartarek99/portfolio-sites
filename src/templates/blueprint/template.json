@@ -1,0 +1,1810 @@
+{
+  "id": "blueprint",
+  "name": {
+    "en": "Blueprint",
+    "ar": "المخطط"
+  },
+  "description": {
+    "en": "A spacious, monochrome portfolio for architects and interior designers.",
+    "ar": "معرض أعمال رحب بالأبيض والأسود للمعماريين والمصممين الداخليين."
+  },
+  "signature": {
+    "en": "Thin grid lines and coordinate labels like a technical drawing, mask-wipe image reveals and before/after sliders.",
+    "ar": "خطوط شبكية رفيعة وإحداثيات كأنها رسم هندسي، وصور تنكشف بمسح تدريجي، ومنزلقات قبل وبعد."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Architects",
+      "ar": "المعماريون"
+    },
+    {
+      "en": "Interior designers",
+      "ar": "المصممون الداخليون"
+    },
+    {
+      "en": "Landscape designers",
+      "ar": "مصممو تنسيق المواقع"
+    }
+  ],
+  "professions": [
+    "architect",
+    "designer"
+  ],
+  "styles": [
+    "minimal",
+    "elegant"
+  ],
+  "defaultLocale": "en",
+  "order": 11,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "blueprint",
+      "palette": {
+        "background": "#F4F4F2",
+        "surface": "#FFFFFF",
+        "text": "#151515",
+        "mutedText": "#707070",
+        "primary": "#151515",
+        "secondary": "#3A6EA5",
+        "accent": "#D94F30",
+        "border": "#D6D6D2"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Manrope"
+        },
+        "body": {
+          "family": "Manrope"
+        },
+        "arabicHeading": {
+          "family": "Readex Pro"
+        },
+        "arabicBody": {
+          "family": "Readex Pro"
+        }
+      },
+      "radius": "none",
+      "spacing": "airy",
+      "motion": "subtle",
+      "buttonStyle": "outline",
+      "backgroundStyle": {
+        "type": "pattern",
+        "value": "blueprint"
+      }
+    },
+    "navigation": {
+      "style": "side",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-projects",
+          "label": {
+            "en": "Projects",
+            "ar": "المشاريع"
+          },
+          "link": {
+            "type": "page",
+            "value": "projects"
+          }
+        },
+        {
+          "id": "nav-studio",
+          "label": {
+            "en": "Studio",
+            "ar": "الاستوديو"
+          },
+          "link": {
+            "type": "page",
+            "value": "studio"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "nav-projects",
+          "label": {
+            "en": "Projects",
+            "ar": "المشاريع"
+          },
+          "link": {
+            "type": "page",
+            "value": "projects"
+          }
+        },
+        {
+          "id": "nav-studio",
+          "label": {
+            "en": "Studio",
+            "ar": "الاستوديو"
+          },
+          "link": {
+            "type": "page",
+            "value": "studio"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "globalSections": {
+      "header": {
+        "id": "blueprint-header",
+        "blockType": "header",
+        "variant": "side",
+        "content": {
+          "heading": {
+            "en": "Studio Faris",
+            "ar": "استوديو فارس"
+          },
+          "text": {
+            "en": "Architecture & interiors · Doha",
+            "ar": "عمارة وتصميم داخلي · الدوحة"
+          },
+          "cta": {
+            "label": {
+              "en": "Start a project",
+              "ar": "ابدأ مشروعًا"
+            },
+            "link": {
+              "type": "page",
+              "value": "contact"
+            },
+            "style": "outline"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "blueprint-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": {
+            "en": "Studio Faris",
+            "ar": "استوديو فارس"
+          },
+          "text": {
+            "en": "Architecture and interiors shaped by light, climate and culture.",
+            "ar": "عمارة وتصميم داخلي يشكّلهما الضوء والمناخ والثقافة."
+          },
+          "copyright": {
+            "en": "© 2026 Studio Faris",
+            "ar": "© 2026 استوديو فارس"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "blueprint-hero",
+            "blockType": "hero",
+            "variant": "full-bleed",
+            "content": {
+              "eyebrow": {
+                "en": "Studio Faris · Architecture & interiors",
+                "ar": "استوديو فارس · عمارة وتصميم داخلي"
+              },
+              "name": {
+                "en": "Faris Nasser",
+                "ar": "فارس ناصر"
+              },
+              "heading": {
+                "en": "Architecture and interiors shaped by light, climate and culture.",
+                "ar": "عمارة وتصميم داخلي يشكّلهما الضوء والمناخ والثقافة."
+              },
+              "tagline": {
+                "en": "Homes, workplaces and retreats across Qatar, designed to stay cool, calm and rooted in place.",
+                "ar": "بيوت ومساحات عمل واستراحات في أنحاء قطر، مصمَّمة لتبقى باردة وهادئة ومتجذّرة في مكانها."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "View projects",
+                  "ar": "تصفّح المشاريع"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "projects"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Start a project",
+                  "ar": "ابدأ مشروعًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "outline"
+              },
+              "image": {
+                "url": "/stock/city-sand.svg",
+                "width": 1600,
+                "height": 1067,
+                "alt": {
+                  "en": "Low courtyard buildings in desert light",
+                  "ar": "مبانٍ منخفضة بأفنية في ضوء الصحراء"
+                }
+              },
+              "overlayLabel": {
+                "en": "25.1659° N, 51.6038° E — Al Wakra",
+                "ar": "25.1659° شمالًا، 51.6038° شرقًا — الوكرة"
+              },
+              "scrollCue": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-projects",
+            "blockType": "projects",
+            "variant": "alternating",
+            "content": {
+              "eyebrow": {
+                "en": "01 — Selected projects",
+                "ar": "01 — مشاريع مختارة"
+              },
+              "heading": {
+                "en": "Built work",
+                "ar": "أعمال منفّذة"
+              },
+              "intro": {
+                "en": "Three recent projects, from a family house to a desert pavilion.",
+                "ar": "ثلاثة مشاريع حديثة، من بيت عائلي إلى جناح في الصحراء."
+              },
+              "items": [
+                {
+                  "id": "courtyard-house",
+                  "title": {
+                    "en": "Courtyard House, Al Wakra",
+                    "ar": "بيت الفناء، الوكرة"
+                  },
+                  "description": {
+                    "en": "A family home organised around a shaded courtyard, with deep walls and a wind-catcher that cools the rooms without machines for half the year.",
+                    "ar": "بيت عائلي يلتفّ حول فناء مظلَّل، بجدران سميكة وملقف هواء يبرّد الغرف دون أجهزة لنصف العام."
+                  },
+                  "image": {
+                    "url": "/stock/interior-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Courtyard seen through a tall timber screen",
+                      "ar": "الفناء من خلف مشربية خشبية عالية"
+                    }
+                  },
+                  "tags": [
+                    "Residential",
+                    "640 m²"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "Private client",
+                    "ar": "عميل خاص"
+                  },
+                  "category": "residential",
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "courtyard-house"
+                  }
+                },
+                {
+                  "id": "lusail-cowork",
+                  "title": {
+                    "en": "Lusail co-working floor",
+                    "ar": "طابق العمل المشترك، لوسيل"
+                  },
+                  "description": {
+                    "en": "An open office floor for 180 people, divided by planted screens and pale oak, with quiet rooms along the façade.",
+                    "ar": "طابق مكتبي مفتوح يتسع لـ180 شخصًا، تقسمه حواجز نباتية وخشب بلوط فاتح، مع غرف هادئة بمحاذاة الواجهة."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Long oak desks under a slatted ceiling",
+                      "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
+                    }
+                  },
+                  "tags": [
+                    "Workplace",
+                    "2,400 m²"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Marina Works",
+                    "ar": "مارينا ووركس"
+                  },
+                  "category": "workplace"
+                },
+                {
+                  "id": "desert-pavilion",
+                  "title": {
+                    "en": "Desert retreat pavilion",
+                    "ar": "جناح الاستراحة الصحراوي"
+                  },
+                  "description": {
+                    "en": "A rammed-earth pavilion near the dunes, lifted off the sand, framing the sunset through one long opening.",
+                    "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
+                  },
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Low pavilion against the dunes at dusk",
+                      "ar": "جناح منخفض أمام الكثبان عند الغروب"
+                    }
+                  },
+                  "tags": [
+                    "Hospitality",
+                    "320 m²"
+                  ],
+                  "year": "2023",
+                  "client": {
+                    "en": "Sealine Retreats",
+                    "ar": "منتجعات سيلين"
+                  },
+                  "category": "hospitality"
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "All projects",
+                  "ar": "كل المشاريع"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "projects"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "reveal-mask"
+            },
+            "responsive": {},
+            "example": true,
+            "anchor": "projects"
+          },
+          {
+            "id": "blueprint-before-after",
+            "blockType": "gallery",
+            "variant": "before-after",
+            "content": {
+              "eyebrow": {
+                "en": "Before / after",
+                "ar": "قبل وبعد"
+              },
+              "heading": {
+                "en": "From drawing to built",
+                "ar": "من الرسم إلى البناء"
+              },
+              "intro": {
+                "en": "Drag the line to compare the design drawing with the finished space.",
+                "ar": "اسحب الخط للمقارنة بين الرسم التصميمي والمساحة بعد التنفيذ."
+              },
+              "items": [
+                {
+                  "id": "ba-courtyard",
+                  "image": {
+                    "url": "/stock/art-sea.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Plan drawing of the courtyard house",
+                      "ar": "مخطط بيت الفناء"
+                    }
+                  },
+                  "after": {
+                    "url": "/stock/interior-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "The finished courtyard with timber screen",
+                      "ar": "الفناء بعد التنفيذ مع المشربية الخشبية"
+                    }
+                  },
+                  "caption": {
+                    "en": "Courtyard House — ground-floor plan and courtyard",
+                    "ar": "بيت الفناء: مخطط الطابق الأرضي والفناء"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "ba-cowork",
+                  "image": {
+                    "url": "/stock/workspace-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Sketch study of the co-working floor",
+                      "ar": "دراسة مبدئية لطابق العمل المشترك"
+                    }
+                  },
+                  "after": {
+                    "url": "/stock/workspace-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "The finished co-working floor",
+                      "ar": "طابق العمل المشترك بعد التنفيذ"
+                    }
+                  },
+                  "caption": {
+                    "en": "Lusail co-working floor — sketch and finished space",
+                    "ar": "طابق العمل المشترك في لوسيل: الرسم والمساحة المنفّذة"
+                  },
+                  "year": "2024"
+                }
+              ],
+              "ratio": "3/2"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-process",
+            "blockType": "process",
+            "variant": "numbered",
+            "content": {
+              "eyebrow": {
+                "en": "02 — Process",
+                "ar": "02 — المنهجية"
+              },
+              "heading": {
+                "en": "How a project takes shape",
+                "ar": "كيف يتشكّل المشروع"
+              },
+              "intro": {
+                "en": "Four stages, each ending with drawings you can hold and question.",
+                "ar": "أربع مراحل، تنتهي كلٌّ منها برسومات يمكنك تأمّلها ومناقشتها."
+              },
+              "steps": [
+                {
+                  "id": "st-site",
+                  "icon": "compass",
+                  "title": {
+                    "en": "Site and brief",
+                    "ar": "الموقع والموجز"
+                  },
+                  "body": {
+                    "en": "We walk the site at different hours, track sun and wind, and write the brief with you.",
+                    "ar": "نزور الموقع في ساعات مختلفة، ونرصد الشمس والرياح، ونكتب الموجز معك."
+                  }
+                },
+                {
+                  "id": "st-concept",
+                  "icon": "pencil",
+                  "title": {
+                    "en": "Concept",
+                    "ar": "الفكرة"
+                  },
+                  "body": {
+                    "en": "Hand sketches and massing models test how the building meets light and shade.",
+                    "ar": "رسومات يدوية ونماذج كتلية تختبر علاقة المبنى بالضوء والظل."
+                  }
+                },
+                {
+                  "id": "st-design",
+                  "icon": "ruler",
+                  "title": {
+                    "en": "Design development",
+                    "ar": "تطوير التصميم"
+                  },
+                  "body": {
+                    "en": "Plans, sections and a material board, coordinated with engineers and costed early.",
+                    "ar": "مخططات ومقاطع ولوحة مواد، بالتنسيق مع المهندسين وتقدير مبكر للتكلفة."
+                  }
+                },
+                {
+                  "id": "st-build",
+                  "icon": "building",
+                  "title": {
+                    "en": "On site",
+                    "ar": "في الموقع"
+                  },
+                  "body": {
+                    "en": "Weekly site visits until handover, so the details are built the way they were drawn.",
+                    "ar": "زيارات أسبوعية للموقع حتى التسليم، لتُنفَّذ التفاصيل كما رُسمت."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-about",
+            "blockType": "about",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "03 — Studio",
+                "ar": "03 — الاستوديو"
+              },
+              "heading": {
+                "en": "A small studio that draws by hand first",
+                "ar": "استوديو صغير يبدأ بالرسم اليدوي"
+              },
+              "intro": {
+                "en": "Studio Faris is a team of six architects and interior designers based in Doha.",
+                "ar": "استوديو فارس فريق من ستة معماريين ومصممين داخليين مقرّه الدوحة."
+              },
+              "body": {
+                "en": "<p>Faris Nasser founded the studio in 2014 after a decade designing towers abroad. He came home wanting to build lower, slower and cooler.</p><p>Every project starts with the climate: where the sun falls, where the wind comes from, and what the families who lived here before already knew.</p>",
+                "ar": "<p>أسّس فارس ناصر الاستوديو عام 2014 بعد عقد من تصميم الأبراج في الخارج. عاد إلى وطنه راغبًا في بناء أقل ارتفاعًا وأهدأ إيقاعًا وأكثر برودة.</p><p>يبدأ كل مشروع من المناخ: أين تسقط الشمس، ومن أين تهب الرياح، وما الذي عرفته العائلات التي سكنت هنا من قبل.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-slate.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Faris Nasser in the studio",
+                  "ar": "فارس ناصر في الاستوديو"
+                }
+              },
+              "cta": {
+                "label": {
+                  "en": "About the studio",
+                  "ar": "عن الاستوديو"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "studio"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-clients",
+            "blockType": "clients",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "04 — Clients",
+                "ar": "04 — العملاء"
+              },
+              "heading": {
+                "en": "Built with",
+                "ar": "شركاء البناء"
+              },
+              "greyscale": true,
+              "items": [
+                {
+                  "id": "c-1",
+                  "name": {
+                    "en": "Marina Works",
+                    "ar": "مارينا ووركس"
+                  }
+                },
+                {
+                  "id": "c-2",
+                  "name": {
+                    "en": "Sealine Retreats",
+                    "ar": "منتجعات سيلين"
+                  }
+                },
+                {
+                  "id": "c-3",
+                  "name": {
+                    "en": "Dar Al Bayan",
+                    "ar": "دار البيان"
+                  }
+                },
+                {
+                  "id": "c-4",
+                  "name": {
+                    "en": "Wakra Heritage Trust",
+                    "ar": "صندوق تراث الوكرة"
+                  }
+                },
+                {
+                  "id": "c-5",
+                  "name": {
+                    "en": "Nakheel Clinics",
+                    "ar": "عيادات نخيل"
+                  }
+                },
+                {
+                  "id": "c-6",
+                  "name": {
+                    "en": "Qasr Developments",
+                    "ar": "قصر للتطوير"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-contact",
+            "blockType": "contact",
+            "variant": "split-map",
+            "content": {
+              "eyebrow": {
+                "en": "05 — Contact",
+                "ar": "05 — تواصل"
+              },
+              "heading": {
+                "en": "Tell us about your site",
+                "ar": "حدّثنا عن موقعك"
+              },
+              "intro": {
+                "en": "Share a location, a rough size and a timeline. We reply within three working days.",
+                "ar": "شاركنا الموقع والمساحة التقريبية والجدول الزمني، ونردّ خلال ثلاثة أيام عمل."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "map": {
+                "enabled": false,
+                "query": "Al Wakra, Qatar"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true,
+            "anchor": "contact"
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "projects",
+        "slug": "projects",
+        "title": {
+          "en": "Projects",
+          "ar": "المشاريع"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "blueprint-all-projects",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Projects",
+                "ar": "المشاريع"
+              },
+              "heading": {
+                "en": "Work, 2019 – 2025",
+                "ar": "أعمال 2019 – 2025"
+              },
+              "intro": {
+                "en": "Houses, workplaces, cultural spaces and gardens. Filter by type.",
+                "ar": "بيوت ومساحات عمل وأماكن ثقافية وحدائق. صنّفها حسب النوع."
+              },
+              "categories": [
+                {
+                  "id": "residential",
+                  "label": {
+                    "en": "Residential",
+                    "ar": "سكني"
+                  }
+                },
+                {
+                  "id": "workplace",
+                  "label": {
+                    "en": "Workplace",
+                    "ar": "مساحات عمل"
+                  }
+                },
+                {
+                  "id": "hospitality",
+                  "label": {
+                    "en": "Hospitality & culture",
+                    "ar": "ضيافة وثقافة"
+                  }
+                }
+              ],
+              "columns": "3",
+              "items": [
+                {
+                  "id": "courtyard-house",
+                  "title": {
+                    "en": "Courtyard House, Al Wakra",
+                    "ar": "بيت الفناء، الوكرة"
+                  },
+                  "description": {
+                    "en": "A family home organised around a shaded courtyard, with deep walls and a wind-catcher that cools the rooms without machines for half the year.",
+                    "ar": "بيت عائلي يلتفّ حول فناء مظلَّل، بجدران سميكة وملقف هواء يبرّد الغرف دون أجهزة لنصف العام."
+                  },
+                  "image": {
+                    "url": "/stock/interior-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Courtyard seen through a tall timber screen",
+                      "ar": "الفناء من خلف مشربية خشبية عالية"
+                    }
+                  },
+                  "tags": [
+                    "Residential",
+                    "640 m²"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "Private client",
+                    "ar": "عميل خاص"
+                  },
+                  "category": "residential",
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "courtyard-house"
+                  }
+                },
+                {
+                  "id": "lusail-cowork",
+                  "title": {
+                    "en": "Lusail co-working floor",
+                    "ar": "طابق العمل المشترك، لوسيل"
+                  },
+                  "description": {
+                    "en": "An open office floor for 180 people, divided by planted screens and pale oak, with quiet rooms along the façade.",
+                    "ar": "طابق مكتبي مفتوح يتسع لـ180 شخصًا، تقسمه حواجز نباتية وخشب بلوط فاتح، مع غرف هادئة بمحاذاة الواجهة."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Long oak desks under a slatted ceiling",
+                      "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
+                    }
+                  },
+                  "tags": [
+                    "Workplace",
+                    "2,400 m²"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Marina Works",
+                    "ar": "مارينا ووركس"
+                  },
+                  "category": "workplace"
+                },
+                {
+                  "id": "desert-pavilion",
+                  "title": {
+                    "en": "Desert retreat pavilion",
+                    "ar": "جناح الاستراحة الصحراوي"
+                  },
+                  "description": {
+                    "en": "A rammed-earth pavilion near the dunes, lifted off the sand, framing the sunset through one long opening.",
+                    "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
+                  },
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Low pavilion against the dunes at dusk",
+                      "ar": "جناح منخفض أمام الكثبان عند الغروب"
+                    }
+                  },
+                  "tags": [
+                    "Hospitality",
+                    "320 m²"
+                  ],
+                  "year": "2023",
+                  "client": {
+                    "en": "Sealine Retreats",
+                    "ar": "منتجعات سيلين"
+                  },
+                  "category": "hospitality"
+                },
+                {
+                  "id": "msheireb-loft",
+                  "title": {
+                    "en": "Msheireb apartment loft",
+                    "ar": "شقة علوية، مشيرب"
+                  },
+                  "description": {
+                    "en": "Two flats joined into one bright home, with a stair that doubles as a library.",
+                    "ar": "شقتان دُمجتا في بيت واحد مضيء، بدرج يتحول إلى مكتبة."
+                  },
+                  "image": {
+                    "url": "/stock/city-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Façade of a mid-rise block in Msheireb",
+                      "ar": "واجهة مبنى متوسط الارتفاع في مشيرب"
+                    }
+                  },
+                  "tags": [
+                    "Residential",
+                    "Interiors"
+                  ],
+                  "year": "2024",
+                  "category": "residential"
+                },
+                {
+                  "id": "souq-gallery",
+                  "title": {
+                    "en": "Souq gallery refit",
+                    "ar": "تجديد معرض في السوق"
+                  },
+                  "description": {
+                    "en": "A small gallery in an old souq building, restored with lime plaster and new daylight from above.",
+                    "ar": "معرض صغير في مبنى قديم بالسوق، رُمّم بجص الجير وضوء نهار جديد من الأعلى."
+                  },
+                  "image": {
+                    "url": "/stock/city-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Old souq street in warm light",
+                      "ar": "شارع سوق قديم في ضوء دافئ"
+                    }
+                  },
+                  "tags": [
+                    "Culture",
+                    "Restoration"
+                  ],
+                  "year": "2022",
+                  "category": "hospitality"
+                },
+                {
+                  "id": "oasis-garden",
+                  "title": {
+                    "en": "Oasis garden courtyard",
+                    "ar": "حديقة الواحة"
+                  },
+                  "description": {
+                    "en": "A shaded garden for a clinic, with native planting and a narrow water channel.",
+                    "ar": "حديقة مظلّلة لعيادة، بنباتات محلية وقناة ماء ضيقة."
+                  },
+                  "image": {
+                    "url": "/stock/nature-olive.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Green planting on low hills",
+                      "ar": "نباتات خضراء على تلال منخفضة"
+                    }
+                  },
+                  "tags": [
+                    "Landscape"
+                  ],
+                  "year": "2022",
+                  "category": "workplace"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "reveal-mask"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-projects-cta",
+            "blockType": "cta",
+            "variant": "banner",
+            "content": {
+              "heading": {
+                "en": "Have a site in mind?",
+                "ar": "لديك موقع في ذهنك؟"
+              },
+              "intro": {
+                "en": "We take on four new projects a year.",
+                "ar": "نستقبل أربعة مشاريع جديدة كل عام."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Start a project",
+                  "ar": "ابدأ مشروعًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "Houses, workplaces, cultural spaces and gardens by Studio Faris.",
+            "ar": "بيوت ومساحات عمل وأماكن ثقافية وحدائق من استوديو فارس."
+          }
+        }
+      },
+      {
+        "id": "courtyard-house",
+        "slug": "courtyard-house",
+        "title": {
+          "en": "Courtyard House",
+          "ar": "بيت الفناء"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "blueprint-case",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Residential · 2025",
+                "ar": "سكني · 2025"
+              },
+              "title": {
+                "en": "Courtyard House, Al Wakra",
+                "ar": "بيت الفناء، الوكرة"
+              },
+              "subtitle": {
+                "en": "A family home that stays cool by design, around a courtyard the whole family shares.",
+                "ar": "بيت عائلي يبقى باردًا بالتصميم، حول فناء تتشاركه العائلة كلها."
+              },
+              "cover": {
+                "url": "/stock/interior-clay.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Courtyard seen through a tall timber screen",
+                  "ar": "الفناء من خلف مشربية خشبية عالية"
+                }
+              },
+              "meta": [
+                {
+                  "id": "client",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Private family",
+                    "ar": "عائلة خاصة"
+                  }
+                },
+                {
+                  "id": "location",
+                  "label": {
+                    "en": "Location",
+                    "ar": "الموقع"
+                  },
+                  "value": {
+                    "en": "Al Wakra, Qatar",
+                    "ar": "الوكرة، قطر"
+                  }
+                },
+                {
+                  "id": "area",
+                  "label": {
+                    "en": "Area",
+                    "ar": "المساحة"
+                  },
+                  "value": {
+                    "en": "640 m²",
+                    "ar": "640 م²"
+                  }
+                },
+                {
+                  "id": "year",
+                  "label": {
+                    "en": "Completed",
+                    "ar": "الإنجاز"
+                  },
+                  "value": {
+                    "en": "2025",
+                    "ar": "2025"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "problem",
+                  "label": {
+                    "en": "Brief",
+                    "ar": "الموجز"
+                  },
+                  "heading": {
+                    "en": "Three generations, one plot, very hot summers",
+                    "ar": "ثلاثة أجيال وقطعة أرض واحدة وصيف شديد الحرارة"
+                  },
+                  "body": {
+                    "en": "<p>The family wanted grandparents, parents and children under one roof, each with privacy, and a home that did not depend on air-conditioning all year.</p>",
+                    "ar": "<p>أرادت العائلة أن يعيش الأجداد والآباء والأبناء تحت سقف واحد، مع خصوصية لكل منهم، وبيتًا لا يعتمد على التكييف طوال العام.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "plot",
+                      "image": {
+                        "url": "/stock/city-sand.svg",
+                        "width": 1600,
+                        "height": 1067,
+                        "alt": {
+                          "en": "The empty plot and neighbouring houses",
+                          "ar": "قطعة الأرض الفارغة والبيوت المجاورة"
+                        }
+                      },
+                      "caption": {
+                        "en": "The site before work began",
+                        "ar": "الموقع قبل بدء العمل"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "process",
+                  "label": {
+                    "en": "Plans + photos",
+                    "ar": "المخططات والصور"
+                  },
+                  "heading": {
+                    "en": "Rooms around a shaded void",
+                    "ar": "غرف حول فراغ مظلَّل"
+                  },
+                  "body": {
+                    "en": "<p>We placed every room around a central courtyard, shaded by a timber screen and cooled by a wind-catcher. Plans and built photos sit side by side below.</p>",
+                    "ar": "<p>وزّعنا الغرف حول فناء مركزي تظلله مشربية خشبية ويبرّده ملقف هواء. تجد المخططات وصور التنفيذ جنبًا إلى جنب أدناه.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "plan",
+                      "image": {
+                        "url": "/stock/art-sea.svg",
+                        "width": 1600,
+                        "height": 1067,
+                        "alt": {
+                          "en": "Ground-floor plan drawing",
+                          "ar": "مخطط الطابق الأرضي"
+                        }
+                      },
+                      "caption": {
+                        "en": "Ground-floor plan",
+                        "ar": "مخطط الطابق الأرضي"
+                      }
+                    },
+                    {
+                      "id": "built",
+                      "image": {
+                        "url": "/stock/interior-clay.svg",
+                        "width": 1200,
+                        "height": 1600,
+                        "alt": {
+                          "en": "The built courtyard",
+                          "ar": "الفناء بعد البناء"
+                        }
+                      },
+                      "caption": {
+                        "en": "The courtyard, as built",
+                        "ar": "الفناء بعد التنفيذ"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "Cooler rooms, a shared heart",
+                    "ar": "غرف أبرد وقلب مشترك"
+                  },
+                  "body": {
+                    "en": "<p>Indoor temperatures stay up to six degrees below the street in spring and autumn, and the courtyard has become where the family eats every evening.</p>",
+                    "ar": "<p>تبقى درجات الحرارة في الداخل أقل من الشارع بما يصل إلى ست درجات في الربيع والخريف، وصار الفناء المكان الذي تتناول فيه العائلة عشاءها كل مساء.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "After one year",
+                "ar": "بعد عام واحد"
+              },
+              "results": [
+                {
+                  "id": "temp",
+                  "value": {
+                    "en": "−6 °C",
+                    "ar": "−6 °م"
+                  },
+                  "label": {
+                    "en": "indoor vs. street in spring",
+                    "ar": "في الداخل مقارنة بالشارع ربيعًا"
+                  }
+                },
+                {
+                  "id": "energy",
+                  "value": {
+                    "en": "41%",
+                    "ar": "41%"
+                  },
+                  "label": {
+                    "en": "less cooling energy",
+                    "ar": "انخفاض في طاقة التبريد"
+                  }
+                },
+                {
+                  "id": "rooms",
+                  "value": {
+                    "en": "9",
+                    "ar": "9"
+                  },
+                  "label": {
+                    "en": "rooms facing the courtyard",
+                    "ar": "غرف تطل على الفناء"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Next project",
+                  "ar": "المشروع التالي"
+                },
+                "title": {
+                  "en": "Lusail co-working floor",
+                  "ar": "طابق العمل المشترك، لوسيل"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "projects"
+                },
+                "image": {
+                  "url": "/stock/workspace-slate.svg",
+                  "width": 1600,
+                  "height": 1067,
+                  "alt": {
+                    "en": "Long oak desks under a slatted ceiling",
+                    "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
+                  }
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-case-before-after",
+            "blockType": "gallery",
+            "variant": "before-after",
+            "content": {
+              "eyebrow": {
+                "en": "Before / after",
+                "ar": "قبل وبعد"
+              },
+              "heading": {
+                "en": "From drawing to built",
+                "ar": "من الرسم إلى البناء"
+              },
+              "intro": {
+                "en": "Drag the line to compare the design drawing with the finished space.",
+                "ar": "اسحب الخط للمقارنة بين الرسم التصميمي والمساحة بعد التنفيذ."
+              },
+              "items": [
+                {
+                  "id": "ba-courtyard",
+                  "image": {
+                    "url": "/stock/art-sea.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Plan drawing of the courtyard house",
+                      "ar": "مخطط بيت الفناء"
+                    }
+                  },
+                  "after": {
+                    "url": "/stock/interior-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "The finished courtyard with timber screen",
+                      "ar": "الفناء بعد التنفيذ مع المشربية الخشبية"
+                    }
+                  },
+                  "caption": {
+                    "en": "Courtyard House — ground-floor plan and courtyard",
+                    "ar": "بيت الفناء: مخطط الطابق الأرضي والفناء"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "ba-cowork",
+                  "image": {
+                    "url": "/stock/workspace-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Sketch study of the co-working floor",
+                      "ar": "دراسة مبدئية لطابق العمل المشترك"
+                    }
+                  },
+                  "after": {
+                    "url": "/stock/workspace-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "The finished co-working floor",
+                      "ar": "طابق العمل المشترك بعد التنفيذ"
+                    }
+                  },
+                  "caption": {
+                    "en": "Lusail co-working floor — sketch and finished space",
+                    "ar": "طابق العمل المشترك في لوسيل: الرسم والمساحة المنفّذة"
+                  },
+                  "year": "2024"
+                }
+              ],
+              "ratio": "3/2"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "A climate-led family home in Al Wakra, built around a shaded courtyard.",
+            "ar": "بيت عائلي مستجيب للمناخ في الوكرة، مبني حول فناء مظلَّل."
+          }
+        }
+      },
+      {
+        "id": "studio",
+        "slug": "studio",
+        "title": {
+          "en": "Studio",
+          "ar": "الاستوديو"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "blueprint-studio-about",
+            "blockType": "about",
+            "variant": "timeline-intro",
+            "content": {
+              "eyebrow": {
+                "en": "Studio",
+                "ar": "الاستوديو"
+              },
+              "heading": {
+                "en": "Studio Faris",
+                "ar": "استوديو فارس"
+              },
+              "intro": {
+                "en": "Six people, one long table and a wall of models in a converted warehouse in Msheireb.",
+                "ar": "ستة أشخاص وطاولة طويلة وجدار من النماذج في مستودع مُعاد تأهيله في مشيرب."
+              },
+              "body": {
+                "en": "<p>We design fewer projects so we can stay close to each one, from the first site walk to the last handle on the last door.</p>",
+                "ar": "<p>نصمّم عددًا أقل من المشاريع لنبقى قريبين من كل منها، من أول زيارة للموقع حتى آخر مقبض على آخر باب.</p>"
+              },
+              "image": {
+                "url": "/stock/workspace-sand.svg",
+                "width": 1600,
+                "height": 1067,
+                "alt": {
+                  "en": "Models and drawings on the studio table",
+                  "ar": "نماذج ورسومات على طاولة الاستوديو"
+                }
+              },
+              "milestones": [
+                {
+                  "id": "m-2014",
+                  "year": "2014",
+                  "title": {
+                    "en": "Studio founded",
+                    "ar": "تأسيس الاستوديو"
+                  },
+                  "text": {
+                    "en": "Faris returns to Doha and opens a two-person office.",
+                    "ar": "يعود فارس إلى الدوحة ويفتتح مكتبًا من شخصين."
+                  }
+                },
+                {
+                  "id": "m-2018",
+                  "year": "2018",
+                  "title": {
+                    "en": "First public building",
+                    "ar": "أول مبنى عام"
+                  },
+                  "text": {
+                    "en": "A neighbourhood library in Al Khor.",
+                    "ar": "مكتبة حيّ في الخور."
+                  }
+                },
+                {
+                  "id": "m-2022",
+                  "year": "2022",
+                  "title": {
+                    "en": "Interiors studio",
+                    "ar": "قسم التصميم الداخلي"
+                  },
+                  "text": {
+                    "en": "Two interior designers join the team.",
+                    "ar": "انضمام مصممتين داخليتين إلى الفريق."
+                  }
+                },
+                {
+                  "id": "m-2025",
+                  "year": "2025",
+                  "title": {
+                    "en": "Regional award",
+                    "ar": "جائزة إقليمية"
+                  },
+                  "text": {
+                    "en": "Courtyard House wins a regional prize for climate-led housing.",
+                    "ar": "فوز بيت الفناء بجائزة إقليمية للإسكان المستجيب للمناخ."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-studio-stats",
+            "blockType": "stats",
+            "variant": "row",
+            "content": {
+              "items": [
+                {
+                  "id": "s-years",
+                  "value": "11",
+                  "label": {
+                    "en": "Years in practice",
+                    "ar": "عامًا من الممارسة"
+                  }
+                },
+                {
+                  "id": "s-built",
+                  "value": "38",
+                  "label": {
+                    "en": "Projects built",
+                    "ar": "مشروعًا منفّذًا"
+                  }
+                },
+                {
+                  "id": "s-team",
+                  "value": "6",
+                  "label": {
+                    "en": "Architects & designers",
+                    "ar": "معماريين ومصممين"
+                  }
+                },
+                {
+                  "id": "s-awards",
+                  "value": "4",
+                  "label": {
+                    "en": "Design awards",
+                    "ar": "جوائز تصميم"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "blueprint-studio-services",
+            "blockType": "services",
+            "variant": "list-icons",
+            "content": {
+              "eyebrow": {
+                "en": "What we do",
+                "ar": "ما نقدّمه"
+              },
+              "heading": {
+                "en": "Services",
+                "ar": "الخدمات"
+              },
+              "items": [
+                {
+                  "id": "svc-arch",
+                  "name": {
+                    "en": "Architecture",
+                    "ar": "العمارة"
+                  },
+                  "description": {
+                    "en": "New homes, small public buildings and extensions, from brief to handover.",
+                    "ar": "بيوت جديدة ومبانٍ عامة صغيرة وتوسعات، من الموجز حتى التسليم."
+                  },
+                  "icon": "building"
+                },
+                {
+                  "id": "svc-int",
+                  "name": {
+                    "en": "Interiors",
+                    "ar": "التصميم الداخلي"
+                  },
+                  "description": {
+                    "en": "Layouts, joinery, lighting and material palettes for homes and workplaces.",
+                    "ar": "التوزيع والنجارة والإضاءة ولوحات المواد للبيوت ومساحات العمل."
+                  },
+                  "icon": "layers"
+                },
+                {
+                  "id": "svc-land",
+                  "name": {
+                    "en": "Landscape",
+                    "ar": "تنسيق المواقع"
+                  },
+                  "description": {
+                    "en": "Courtyards and gardens with native planting and careful water use.",
+                    "ar": "أفنية وحدائق بنباتات محلية واستخدام مدروس للمياه."
+                  },
+                  "icon": "leaf"
+                },
+                {
+                  "id": "svc-rest",
+                  "name": {
+                    "en": "Restoration",
+                    "ar": "الترميم"
+                  },
+                  "description": {
+                    "en": "Sensitive repair of older buildings using lime, stone and timber.",
+                    "ar": "ترميم دقيق للمباني القديمة بالجير والحجر والخشب."
+                  },
+                  "icon": "wrench"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "blueprint-contact-form",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Start a project",
+                "ar": "ابدأ مشروعًا"
+              },
+              "intro": {
+                "en": "Tell us where the site is, what you want to build and when. A short description is enough to begin.",
+                "ar": "أخبرنا أين يقع الموقع وما الذي تريد بناءه ومتى. يكفي وصف قصير للبداية."
+              },
+              "form": {
+                "name": "Project enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "phone",
+                    "type": "phone",
+                    "label": {
+                      "en": "Phone",
+                      "ar": "الهاتف"
+                    },
+                    "placeholder": {
+                      "en": "5550 0000",
+                      "ar": "5550 0000"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "service",
+                    "type": "select",
+                    "label": {
+                      "en": "Project type",
+                      "ar": "نوع المشروع"
+                    },
+                    "required": false,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "house",
+                        "label": {
+                          "en": "New house",
+                          "ar": "بيت جديد"
+                        }
+                      },
+                      {
+                        "value": "interior",
+                        "label": {
+                          "en": "Interior",
+                          "ar": "تصميم داخلي"
+                        }
+                      },
+                      {
+                        "value": "workplace",
+                        "label": {
+                          "en": "Workplace",
+                          "ar": "مساحة عمل"
+                        }
+                      },
+                      {
+                        "value": "other",
+                        "label": {
+                          "en": "Something else",
+                          "ar": "أمر آخر"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "budget",
+                    "type": "budget",
+                    "label": {
+                      "en": "Construction budget",
+                      "ar": "ميزانية البناء"
+                    },
+                    "required": false,
+                    "options": [
+                      {
+                        "value": "lt-1m",
+                        "label": {
+                          "en": "Under QAR 1M",
+                          "ar": "أقل من مليون ريال"
+                        }
+                      },
+                      {
+                        "value": "1-3m",
+                        "label": {
+                          "en": "QAR 1–3M",
+                          "ar": "1–3 ملايين ريال"
+                        }
+                      },
+                      {
+                        "value": "3-6m",
+                        "label": {
+                          "en": "QAR 3–6M",
+                          "ar": "3–6 ملايين ريال"
+                        }
+                      },
+                      {
+                        "value": "gt-6m",
+                        "label": {
+                          "en": "QAR 6M+",
+                          "ar": "أكثر من 6 ملايين ريال"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "About the project",
+                      "ar": "عن المشروع"
+                    },
+                    "placeholder": {
+                      "en": "Site, size and timeline",
+                      "ar": "الموقع والمساحة والجدول الزمني"
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "أرسل الاستفسار"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you — we will reply within three working days.",
+                      "ar": "شكرًا لك، سنردّ خلال ثلاثة أيام عمل."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "note": {
+                "en": "Studio visits by appointment, Sunday to Thursday.",
+                "ar": "زيارة الاستوديو بموعد مسبق، من الأحد إلى الخميس."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Studio Faris",
+        "defaultDescription": {
+          "en": "Architecture and interiors shaped by light, climate and culture.",
+          "ar": "عمارة وتصميم داخلي يشكّلهما الضوء والمناخ والثقافة."
+        }
+      },
+      "ownerName": {
+        "en": "Faris Nasser",
+        "ar": "فارس ناصر"
+      },
+      "ownerTitle": {
+        "en": "Architect, Studio Faris",
+        "ar": "معماري، استوديو فارس"
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/company/example"
+        },
+        {
+          "platform": "pinterest",
+          "url": "https://pinterest.com/example"
+        }
+      ],
+      "contact": {
+        "email": "studio@example.com",
+        "phone": "+974 5550 7788",
+        "whatsapp": "+97455507788",
+        "address": {
+          "en": "Warehouse 4, Msheireb, Doha, Qatar",
+          "ar": "المستودع 4، مشيرب، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

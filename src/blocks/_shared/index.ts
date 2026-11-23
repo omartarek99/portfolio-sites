@@ -1,0 +1,30 @@
+/**
+ * The block kit: everything a block needs. Import from '@/blocks/_shared'.
+ */
+export { T, hasText, type TProps } from './Text'
+export { Img, hasImage, type ImgProps } from './Img'
+export { Btn, A, hasButton, type BtnProps, type AProps } from './Btn'
+export { Icon, hasIcon, type IconProps } from './Icon'
+export { ICONS, ICON_NAMES } from './icons'
+export { Container, SectionHeader, headerShape, type HeaderContent, type SectionHeaderProps } from './layout'
+export { itemAttrs } from './slots'
+export { st, createStrings, formatDate, formatNumber, type StringTable } from './strings'
+export { PlaceholderBlock } from './PlaceholderBlock'
+
+/* ── Interactive primitives ──────────────────────────────────────────────── */
+export { BrandIcon, hasBrandIcon, BRAND_PATHS, type BrandIconProps } from './BrandIcon'
+export { SocialLinks, type SocialLinksProps, type SocialLinksVariant } from './SocialLinks'
+export { Carousel, type CarouselProps } from './Carousel'
+export { Accordion, AccordionItem, type AccordionProps, type AccordionItemProps } from './Accordion'
+export { Lightbox, type LightboxImage, type LightboxProps } from './Lightbox'
+export { CountUp, parseCountUp, type CountUpProps, type ParsedCount } from './CountUp'
+export { Marquee, type MarqueeProps } from './Marquee'
+export { Tilt, type TiltProps } from './Tilt'
+export { Typewriter, type TypewriterProps } from './Typewriter'
+export { WordRotate, type WordRotateProps } from './WordRotate'
+export { VideoPlayer, type VideoPlayerProps } from './VideoPlayer'
+export { BeforeAfter, type BeforeAfterImage, type BeforeAfterProps } from './BeforeAfter'
+export { Stars, type StarsProps } from './Stars'
+export { Avatar, type AvatarProps } from './Avatar'
+export { placeholderArt, type PlaceholderKind } from './placeholder-art'
+export { FilterTabs, type FilterCategory, type FilterTabsProps } from './FilterTabs'

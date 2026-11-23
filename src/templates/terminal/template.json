@@ -1,0 +1,1274 @@
+{
+  "id": "terminal",
+  "name": {
+    "en": "Terminal",
+    "ar": "تيرمينال"
+  },
+  "description": {
+    "en": "A dark, monospace portfolio for developers, opening on a terminal that types its own answers.",
+    "ar": "معرض أعمال داكن بخط برمجي للمطورين، يفتتح بطرفية تكتب إجاباتها بنفسها."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Developers",
+      "ar": "المطورون"
+    },
+    {
+      "en": "Data scientists",
+      "ar": "علماء البيانات"
+    },
+    {
+      "en": "Security engineers",
+      "ar": "مهندسو الأمن السيبراني"
+    }
+  ],
+  "professions": [
+    "developer"
+  ],
+  "styles": [
+    "dark",
+    "minimal"
+  ],
+  "signature": {
+    "en": "The hero is a terminal that types whoami, ls projects and cat skills.txt — and visitors can type help, projects or contact themselves.",
+    "ar": "الواجهة طرفية تكتب whoami وls projects وcat skills.txt، ويستطيع الزائر أن يكتب help أو projects أو contact بنفسه."
+  },
+  "defaultLocale": "en",
+  "order": 6,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "terminal",
+      "palette": {
+        "background": "#0D1117",
+        "surface": "#161B22",
+        "text": "#E6EDF3",
+        "mutedText": "#8B949E",
+        "primary": "#3FB950",
+        "secondary": "#58A6FF",
+        "accent": "#F778BA",
+        "border": "#30363D"
+      },
+      "mode": "dark",
+      "fonts": {
+        "heading": {
+          "family": "JetBrains Mono"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "IBM Plex Sans Arabic"
+        },
+        "arabicBody": {
+          "family": "IBM Plex Sans Arabic"
+        }
+      },
+      "radius": "sm",
+      "spacing": "comfortable",
+      "motion": "subtle",
+      "buttonStyle": "outline"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "home.tsx",
+            "ar": "‎home.tsx‎"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-projects",
+          "label": {
+            "en": "projects.md",
+            "ar": "‎projects.md‎"
+          },
+          "link": {
+            "type": "page",
+            "value": "projects"
+          }
+        },
+        {
+          "id": "nav-blog",
+          "label": {
+            "en": "blog/",
+            "ar": "‎blog/‎"
+          },
+          "link": {
+            "type": "page",
+            "value": "blog"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "contact.sh",
+            "ar": "‎contact.sh‎"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "fnav-projects",
+          "label": {
+            "en": "Projects",
+            "ar": "المشاريع"
+          },
+          "link": {
+            "type": "page",
+            "value": "projects"
+          }
+        },
+        {
+          "id": "fnav-blog",
+          "label": {
+            "en": "Blog",
+            "ar": "المدونة"
+          },
+          "link": {
+            "type": "page",
+            "value": "blog"
+          }
+        },
+        {
+          "id": "fnav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "terminal-hero",
+            "blockType": "hero",
+            "variant": "animated-text",
+            "content": {
+              "eyebrow": {
+                "en": "// hello, world",
+                "ar": "// مرحبًا بالعالم"
+              },
+              "name": {
+                "en": "Omar Farouk",
+                "ar": "عمر فاروق"
+              },
+              "heading": {
+                "en": "Omar Farouk",
+                "ar": "عمر فاروق"
+              },
+              "tagline": {
+                "en": "Full-stack developer · React, Node, MongoDB · building tools for education",
+                "ar": "مطور ويب متكامل · React وNode وMongoDB · أبني أدوات للتعليم"
+              },
+              "animation": "terminal",
+              "commands": [
+                {
+                  "id": "c-whoami",
+                  "command": "whoami",
+                  "output": {
+                    "en": "Omar Farouk — full-stack developer in Amman. 6 years shipping web apps for schools and edtech startups.",
+                    "ar": "عمر فاروق — مطور ويب متكامل في عمّان. ست سنوات في بناء تطبيقات ويب للمدارس وشركات تقنيات التعليم الناشئة."
+                  },
+                  "typed": true
+                },
+                {
+                  "id": "c-ls",
+                  "command": "ls projects",
+                  "output": {
+                    "en": "reellearn/  quizforge/  arabic-text-utils/",
+                    "ar": "reellearn/  quizforge/  arabic-text-utils/"
+                  },
+                  "typed": true
+                },
+                {
+                  "id": "c-skills",
+                  "command": "cat skills.txt",
+                  "output": {
+                    "en": "TypeScript · React · Node.js · MongoDB · Docker · AWS",
+                    "ar": "TypeScript · React · Node.js · MongoDB · Docker · AWS"
+                  },
+                  "typed": true
+                },
+                {
+                  "id": "c-projects",
+                  "command": "projects",
+                  "output": {
+                    "en": "ReelLearn (short-video learning) · QuizForge (exam API) · arabic-text-utils (open source). Scroll down for details.",
+                    "ar": "ReelLearn (تعلّم بالفيديو القصير) · QuizForge (واجهة اختبارات) · arabic-text-utils (مفتوحة المصدر). مرّر للأسفل لمزيد من التفاصيل."
+                  },
+                  "typed": false
+                },
+                {
+                  "id": "c-contact",
+                  "command": "contact",
+                  "output": {
+                    "en": "omar@example.com · github.com/omarfarouk · replies within 24h",
+                    "ar": "omar@example.com · github.com/omarfarouk · أرد خلال 24 ساعة"
+                  },
+                  "typed": false
+                },
+                {
+                  "id": "c-hire",
+                  "command": "hire",
+                  "output": {
+                    "en": "Open to freelance work from February 2027. Type \"contact\" or use the button below.",
+                    "ar": "متاح للعمل الحر بدءًا من فبراير 2027. اكتب \"contact\" أو استخدم الزر أدناه."
+                  },
+                  "typed": false
+                }
+              ],
+              "badge": {
+                "en": "Open to freelance · Feb 2027",
+                "ar": "متاح للعمل الحر · فبراير 2027"
+              },
+              "location": {
+                "en": "Amman, Jordan",
+                "ar": "عمّان، الأردن"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "ls projects",
+                  "ar": "ls projects"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "projects"
+                },
+                "style": "primary",
+                "icon": "terminal"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "GitHub",
+                  "ar": "GitHub"
+                },
+                "link": {
+                  "type": "url",
+                  "value": "https://example.com/github/omarfarouk",
+                  "newTab": true
+                },
+                "style": "outline",
+                "icon": "external-link"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "terminal-projects",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "~/projects",
+                "ar": "‎~/projects‎"
+              },
+              "heading": {
+                "en": "Things I have shipped",
+                "ar": "ما أطلقته من مشاريع"
+              },
+              "intro": {
+                "en": "Open-source tools and products for learners and teachers. Stars are from GitHub.",
+                "ar": "أدوات مفتوحة المصدر ومنتجات للمتعلّمين والمعلّمين. النجوم من GitHub."
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "reellearn",
+                  "title": {
+                    "en": "ReelLearn — short-video learning platform",
+                    "ar": "ReelLearn — منصة تعلّم بالفيديو القصير"
+                  },
+                  "description": {
+                    "en": "Bite-sized lessons in a vertical feed, with quizzes between clips and progress that syncs across devices. 12k learners in the pilot. ★ 1.2k",
+                    "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
+                  },
+                  "image": {
+                    "url": "/stock/app-dusk.svg",
+                    "alt": {
+                      "en": "ReelLearn feed on a phone screen",
+                      "ar": "شريط ReelLearn على شاشة هاتف"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "TypeScript",
+                    "React Native",
+                    "Node.js",
+                    "MongoDB"
+                  ],
+                  "year": "2025",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/reellearn",
+                    "newTab": true
+                  },
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "projects"
+                  }
+                },
+                {
+                  "id": "quizforge",
+                  "title": {
+                    "en": "QuizForge — exam generator API",
+                    "ar": "QuizForge — واجهة برمجية لتوليد الاختبارات"
+                  },
+                  "description": {
+                    "en": "A REST API that turns a syllabus into balanced exams with answer keys, difficulty tags and printable PDFs. ★ 840",
+                    "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "alt": {
+                      "en": "QuizForge API dashboard",
+                      "ar": "لوحة تحكم QuizForge"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "tags": [
+                    "Node.js",
+                    "Express",
+                    "PostgreSQL",
+                    "Docker"
+                  ],
+                  "year": "2024",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/quizforge",
+                    "newTab": true
+                  }
+                },
+                {
+                  "id": "arabic-utils",
+                  "title": {
+                    "en": "arabic-text-utils (open source)",
+                    "ar": "arabic-text-utils (مفتوحة المصدر)"
+                  },
+                  "description": {
+                    "en": "Normalise, search and slugify Arabic text: diacritics, tatweel, alef variants and Arabic-Indic digits. Used by 300+ repos. ★ 2.4k",
+                    "ar": "توحيد النص العربي والبحث فيه وتحويله إلى روابط: التشكيل والتطويل وأشكال الألف والأرقام الهندية. تستخدمها أكثر من 300 مستودع. ★ 2.4k"
+                  },
+                  "image": {
+                    "url": "/stock/workspace-dusk.svg",
+                    "alt": {
+                      "en": "Code editor at night",
+                      "ar": "محرر الشيفرة ليلًا"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "TypeScript",
+                    "npm",
+                    "Open source"
+                  ],
+                  "year": "2023",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/arabic-text-utils",
+                    "newTab": true
+                  }
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "cd projects/",
+                  "ar": "‎cd projects/‎"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "projects"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "projects",
+            "example": true
+          },
+          {
+            "id": "terminal-skills",
+            "blockType": "skills",
+            "variant": "bars",
+            "content": {
+              "eyebrow": {
+                "en": "cat skills.txt",
+                "ar": "cat skills.txt"
+              },
+              "heading": {
+                "en": "Stack",
+                "ar": "التقنيات"
+              },
+              "intro": {
+                "en": "What I reach for first, and how well I know it.",
+                "ar": "ما ألجأ إليه أولًا، ومدى إتقاني له."
+              },
+              "items": [
+                {
+                  "id": "ts",
+                  "name": {
+                    "en": "TypeScript",
+                    "ar": "TypeScript"
+                  },
+                  "level": 5,
+                  "icon": "code",
+                  "group": {
+                    "en": "Languages",
+                    "ar": "اللغات"
+                  }
+                },
+                {
+                  "id": "js",
+                  "name": {
+                    "en": "JavaScript",
+                    "ar": "JavaScript"
+                  },
+                  "level": 5,
+                  "icon": "code",
+                  "group": {
+                    "en": "Languages",
+                    "ar": "اللغات"
+                  }
+                },
+                {
+                  "id": "py",
+                  "name": {
+                    "en": "Python",
+                    "ar": "Python"
+                  },
+                  "level": 3,
+                  "icon": "code",
+                  "group": {
+                    "en": "Languages",
+                    "ar": "اللغات"
+                  }
+                },
+                {
+                  "id": "react",
+                  "name": {
+                    "en": "React",
+                    "ar": "React"
+                  },
+                  "level": 5,
+                  "icon": "layers",
+                  "group": {
+                    "en": "Stack & infrastructure",
+                    "ar": "التقنيات والبنية التحتية"
+                  }
+                },
+                {
+                  "id": "node",
+                  "name": {
+                    "en": "Node.js",
+                    "ar": "Node.js"
+                  },
+                  "level": 5,
+                  "icon": "cpu",
+                  "group": {
+                    "en": "Stack & infrastructure",
+                    "ar": "التقنيات والبنية التحتية"
+                  }
+                },
+                {
+                  "id": "mongo",
+                  "name": {
+                    "en": "MongoDB",
+                    "ar": "MongoDB"
+                  },
+                  "level": 4,
+                  "icon": "database",
+                  "group": {
+                    "en": "Stack & infrastructure",
+                    "ar": "التقنيات والبنية التحتية"
+                  }
+                },
+                {
+                  "id": "docker",
+                  "name": {
+                    "en": "Docker",
+                    "ar": "Docker"
+                  },
+                  "level": 4,
+                  "icon": "settings",
+                  "group": {
+                    "en": "Stack & infrastructure",
+                    "ar": "التقنيات والبنية التحتية"
+                  }
+                },
+                {
+                  "id": "aws",
+                  "name": {
+                    "en": "AWS",
+                    "ar": "AWS"
+                  },
+                  "level": 3,
+                  "icon": "globe",
+                  "group": {
+                    "en": "Stack & infrastructure",
+                    "ar": "التقنيات والبنية التحتية"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "skills",
+            "example": true
+          },
+          {
+            "id": "terminal-experience",
+            "blockType": "experience",
+            "variant": "compact",
+            "content": {
+              "eyebrow": {
+                "en": "git log --author=omar",
+                "ar": "git log --author=omar"
+              },
+              "heading": {
+                "en": "Experience",
+                "ar": "الخبرة"
+              },
+              "items": [
+                {
+                  "id": "x-madrasa",
+                  "role": {
+                    "en": "Senior full-stack developer",
+                    "ar": "مطور ويب متكامل أول"
+                  },
+                  "organisation": {
+                    "en": "Madrasa Cloud",
+                    "ar": "مدرسة كلاود"
+                  },
+                  "start": "2023",
+                  "current": true,
+                  "location": {
+                    "en": "Amman · remote",
+                    "ar": "عمّان · عن بُعد"
+                  },
+                  "description": {
+                    "en": "<p>Lead the web team behind a learning platform used by 140 schools. Moved the API to Node 20 and cut page load by 45%.</p>",
+                    "ar": "<p>أقود فريق الويب لمنصة تعليمية تستخدمها 140 مدرسة. نقلت الواجهة البرمجية إلى Node 20 وخفّضت زمن تحميل الصفحات بنسبة 45%.</p>"
+                  },
+                  "tags": [
+                    "React",
+                    "Node.js",
+                    "MongoDB"
+                  ]
+                },
+                {
+                  "id": "x-qalam",
+                  "role": {
+                    "en": "Full-stack developer",
+                    "ar": "مطور ويب متكامل"
+                  },
+                  "organisation": {
+                    "en": "Qalam Labs",
+                    "ar": "مختبرات قلم"
+                  },
+                  "start": "2021",
+                  "end": "2023",
+                  "location": {
+                    "en": "Amman",
+                    "ar": "عمّان"
+                  },
+                  "description": {
+                    "en": "<p>Built the exam builder and grading service; introduced Docker and CI for every service.</p>",
+                    "ar": "<p>بنيت أداة إنشاء الاختبارات وخدمة التصحيح، وأدخلت Docker والتكامل المستمر في كل الخدمات.</p>"
+                  },
+                  "tags": [
+                    "TypeScript",
+                    "Docker",
+                    "AWS"
+                  ]
+                },
+                {
+                  "id": "x-freelance",
+                  "role": {
+                    "en": "Freelance web developer",
+                    "ar": "مطور ويب مستقل"
+                  },
+                  "organisation": {
+                    "en": "Self-employed",
+                    "ar": "عمل حر"
+                  },
+                  "start": "2019",
+                  "end": "2021",
+                  "location": {
+                    "en": "Remote",
+                    "ar": "عن بُعد"
+                  },
+                  "description": {
+                    "en": "<p>Websites and dashboards for twelve small businesses and two training centres.</p>",
+                    "ar": "<p>مواقع ولوحات تحكم لاثني عشر مشروعًا صغيرًا ومركزَي تدريب.</p>"
+                  },
+                  "tags": [
+                    "JavaScript",
+                    "Express"
+                  ]
+                },
+                {
+                  "id": "x-uni",
+                  "role": {
+                    "en": "BSc Computer Science",
+                    "ar": "بكالوريوس علوم الحاسوب"
+                  },
+                  "organisation": {
+                    "en": "University of Jordan",
+                    "ar": "الجامعة الأردنية"
+                  },
+                  "start": "2015",
+                  "end": "2019",
+                  "location": {
+                    "en": "Amman",
+                    "ar": "عمّان"
+                  }
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "Full history on LinkedIn",
+                  "ar": "السجل الكامل على LinkedIn"
+                },
+                "link": {
+                  "type": "url",
+                  "value": "https://example.com/linkedin/omarfarouk",
+                  "newTab": true
+                },
+                "style": "outline",
+                "icon": "external-link"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "experience",
+            "example": true
+          },
+          {
+            "id": "terminal-notes",
+            "blockType": "blogList",
+            "variant": "list",
+            "content": {
+              "eyebrow": {
+                "en": "ls blog/",
+                "ar": "‎ls blog/‎"
+              },
+              "heading": {
+                "en": "Notes",
+                "ar": "ملاحظات"
+              },
+              "intro": {
+                "en": "Short write-ups on Node, MongoDB and building software for classrooms.",
+                "ar": "كتابات قصيرة عن Node وMongoDB وبناء البرمجيات للفصول الدراسية."
+              },
+              "count": 4,
+              "showAll": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "notes",
+            "example": true
+          },
+          {
+            "id": "terminal-contact",
+            "blockType": "contact",
+            "variant": "minimal",
+            "content": {
+              "eyebrow": {
+                "en": "./contact.sh",
+                "ar": "‎./contact.sh‎"
+              },
+              "heading": {
+                "en": "Say hello",
+                "ar": "لنتحدث"
+              },
+              "intro": {
+                "en": "Have a project, a bug or a job? Email is fastest; I reply within a day.",
+                "ar": "لديك مشروع أو خلل برمجي أو فرصة عمل؟ البريد الإلكتروني أسرع وسيلة، وأرد خلال يوم."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "note": {
+                "en": "Usually online 9:00–18:00 (GMT+3).",
+                "ar": "متصل عادةً من 9:00 إلى 18:00 (بتوقيت غرينتش +3)."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "projects",
+        "slug": "projects",
+        "title": {
+          "en": "Projects",
+          "ar": "المشاريع"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "terminal-reellearn",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Case study · 2025",
+                "ar": "دراسة حالة · 2025"
+              },
+              "title": {
+                "en": "ReelLearn",
+                "ar": "ReelLearn"
+              },
+              "subtitle": {
+                "en": "Turning 40-minute lectures into 60-second lessons students actually finish.",
+                "ar": "تحويل المحاضرات ذات الأربعين دقيقة إلى دروس من ستين ثانية يُكملها الطلاب فعلًا."
+              },
+              "cover": {
+                "url": "/stock/app-dusk.svg",
+                "alt": {
+                  "en": "ReelLearn app screens",
+                  "ar": "شاشات تطبيق ReelLearn"
+                },
+                "width": 1600,
+                "height": 1067
+              },
+              "meta": [
+                {
+                  "id": "m-role",
+                  "label": {
+                    "en": "Role",
+                    "ar": "الدور"
+                  },
+                  "value": {
+                    "en": "Lead developer",
+                    "ar": "المطور الرئيسي"
+                  }
+                },
+                {
+                  "id": "m-stack",
+                  "label": {
+                    "en": "Stack",
+                    "ar": "التقنيات"
+                  },
+                  "value": {
+                    "en": "React Native, Node.js, MongoDB",
+                    "ar": "React Native وNode.js وMongoDB"
+                  }
+                },
+                {
+                  "id": "m-time",
+                  "label": {
+                    "en": "Timeline",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "7 months",
+                    "ar": "سبعة أشهر"
+                  }
+                },
+                {
+                  "id": "m-team",
+                  "label": {
+                    "en": "Team",
+                    "ar": "الفريق"
+                  },
+                  "value": {
+                    "en": "3 developers, 1 designer",
+                    "ar": "ثلاثة مطورين ومصممة واحدة"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "s-problem",
+                  "label": {
+                    "en": "Problem",
+                    "ar": "المشكلة"
+                  },
+                  "heading": {
+                    "en": "Long videos, short attention",
+                    "ar": "فيديوهات طويلة وانتباه قصير"
+                  },
+                  "body": {
+                    "en": "<p>Recorded lectures had a 12% completion rate. Students watched on phones, on buses, in five-minute gaps — and the platform was built for desktops.</p>",
+                    "ar": "<p>كانت نسبة إكمال المحاضرات المسجّلة 12% فقط. يشاهد الطلاب على هواتفهم وفي الحافلات وفي فترات قصيرة من خمس دقائق، بينما صُمّمت المنصة لأجهزة الكمبيوتر.</p>"
+                  }
+                },
+                {
+                  "id": "s-process",
+                  "label": {
+                    "en": "Process",
+                    "ar": "العمل"
+                  },
+                  "heading": {
+                    "en": "A feed, a quiz, a streak",
+                    "ar": "شريط واختبار وسلسلة أيام"
+                  },
+                  "body": {
+                    "en": "<p>We cut lectures into one-idea clips with a teacher-facing editor, added a one-question quiz after every third clip, and cached the next ten clips offline. The API streams HLS from S3 and records progress in MongoDB with idempotent writes so flaky connections never lose a streak.</p>",
+                    "ar": "<p>قسّمنا المحاضرات إلى مقاطع تحمل كل منها فكرة واحدة عبر محرر خاص بالمعلّمين، وأضفنا سؤالًا واحدًا بعد كل ثلاثة مقاطع، وخزّنا المقاطع العشرة التالية للعرض دون اتصال. تبثّ الواجهة البرمجية الفيديو بصيغة HLS من S3 وتسجّل التقدّم في MongoDB بعمليات كتابة آمنة من التكرار، فلا يضيع تقدّم الطالب مع ضعف الاتصال.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "i-1",
+                      "image": {
+                        "url": "/stock/app-slate.svg",
+                        "alt": {
+                          "en": "Teacher clip editor",
+                          "ar": "محرر المقاطع للمعلّمين"
+                        },
+                        "width": 1600,
+                        "height": 1067
+                      },
+                      "caption": {
+                        "en": "The clip editor teachers use to split a lecture.",
+                        "ar": "محرر المقاطع الذي يستخدمه المعلّمون لتقسيم المحاضرة."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "s-result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "From 12% to 71% completion",
+                    "ar": "من 12% إلى 71% نسبة إكمال"
+                  },
+                  "body": {
+                    "en": "<p>In a one-term pilot with four schools, students finished most of what they started and teachers reused clips across classes.</p>",
+                    "ar": "<p>في تجربة لفصل دراسي واحد مع أربع مدارس، أكمل الطلاب معظم ما بدؤوه، وأعاد المعلّمون استخدام المقاطع في صفوف مختلفة.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "After one term",
+                "ar": "بعد فصل دراسي واحد"
+              },
+              "results": [
+                {
+                  "id": "r-1",
+                  "value": {
+                    "en": "71%",
+                    "ar": "71%"
+                  },
+                  "label": {
+                    "en": "lesson completion",
+                    "ar": "نسبة إكمال الدروس"
+                  }
+                },
+                {
+                  "id": "r-2",
+                  "value": {
+                    "en": "12k",
+                    "ar": "12 ألف"
+                  },
+                  "label": {
+                    "en": "active learners",
+                    "ar": "متعلّم نشط"
+                  }
+                },
+                {
+                  "id": "r-3",
+                  "value": {
+                    "en": "180 ms",
+                    "ar": "180 م.ث"
+                  },
+                  "label": {
+                    "en": "median API response",
+                    "ar": "متوسط استجابة الواجهة"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Next project",
+                  "ar": "المشروع التالي"
+                },
+                "title": {
+                  "en": "QuizForge",
+                  "ar": "QuizForge"
+                },
+                "link": {
+                  "type": "url",
+                  "value": "https://example.com/github/omarfarouk/quizforge",
+                  "newTab": true
+                },
+                "image": {
+                  "url": "/stock/app-sea.svg",
+                  "alt": {
+                    "en": "QuizForge dashboard",
+                    "ar": "لوحة QuizForge"
+                  },
+                  "width": 1920,
+                  "height": 1080
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "terminal-projects-all",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "ls -la projects/",
+                "ar": "‎ls -la projects/‎"
+              },
+              "heading": {
+                "en": "All projects",
+                "ar": "كل المشاريع"
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "reellearn-all",
+                  "title": {
+                    "en": "ReelLearn — short-video learning platform",
+                    "ar": "ReelLearn — منصة تعلّم بالفيديو القصير"
+                  },
+                  "description": {
+                    "en": "Bite-sized lessons in a vertical feed, with quizzes between clips and progress that syncs across devices. 12k learners in the pilot. ★ 1.2k",
+                    "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
+                  },
+                  "image": {
+                    "url": "/stock/app-dusk.svg",
+                    "alt": {
+                      "en": "ReelLearn feed on a phone screen",
+                      "ar": "شريط ReelLearn على شاشة هاتف"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "TypeScript",
+                    "React Native",
+                    "Node.js",
+                    "MongoDB"
+                  ],
+                  "year": "2025",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/reellearn",
+                    "newTab": true
+                  }
+                },
+                {
+                  "id": "quizforge-all",
+                  "title": {
+                    "en": "QuizForge — exam generator API",
+                    "ar": "QuizForge — واجهة برمجية لتوليد الاختبارات"
+                  },
+                  "description": {
+                    "en": "A REST API that turns a syllabus into balanced exams with answer keys, difficulty tags and printable PDFs. ★ 840",
+                    "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "alt": {
+                      "en": "QuizForge API dashboard",
+                      "ar": "لوحة تحكم QuizForge"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "tags": [
+                    "Node.js",
+                    "Express",
+                    "PostgreSQL",
+                    "Docker"
+                  ],
+                  "year": "2024",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/quizforge",
+                    "newTab": true
+                  }
+                },
+                {
+                  "id": "arabic-utils-all",
+                  "title": {
+                    "en": "arabic-text-utils (open source)",
+                    "ar": "arabic-text-utils (مفتوحة المصدر)"
+                  },
+                  "description": {
+                    "en": "Normalise, search and slugify Arabic text: diacritics, tatweel, alef variants and Arabic-Indic digits. Used by 300+ repos. ★ 2.4k",
+                    "ar": "توحيد النص العربي والبحث فيه وتحويله إلى روابط: التشكيل والتطويل وأشكال الألف والأرقام الهندية. تستخدمها أكثر من 300 مستودع. ★ 2.4k"
+                  },
+                  "image": {
+                    "url": "/stock/workspace-dusk.svg",
+                    "alt": {
+                      "en": "Code editor at night",
+                      "ar": "محرر الشيفرة ليلًا"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "TypeScript",
+                    "npm",
+                    "Open source"
+                  ],
+                  "year": "2023",
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/github/omarfarouk/arabic-text-utils",
+                    "newTab": true
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "blog",
+        "slug": "blog",
+        "title": {
+          "en": "Blog",
+          "ar": "المدونة"
+        },
+        "type": "blogIndex",
+        "sections": [
+          {
+            "id": "terminal-blog-list",
+            "blockType": "blogList",
+            "variant": "list",
+            "content": {
+              "eyebrow": {
+                "en": "cd blog/",
+                "ar": "‎cd blog/‎"
+              },
+              "heading": {
+                "en": "Notes",
+                "ar": "ملاحظات"
+              },
+              "intro": {
+                "en": "Things I learned the hard way so you do not have to: Node performance, MongoDB indexes, Arabic text on the web.",
+                "ar": "دروس تعلّمتها بالطريقة الصعبة لتوفّرها على نفسك: أداء Node وفهارس MongoDB والنص العربي على الويب."
+              },
+              "count": 12
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "terminal-contact-form",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "./contact.sh --verbose",
+                "ar": "‎./contact.sh --verbose‎"
+              },
+              "heading": {
+                "en": "Let’s build something useful",
+                "ar": "لنبنِ شيئًا مفيدًا"
+              },
+              "intro": {
+                "en": "Tell me about the project: what it does, who uses it and when you need it. I take two freelance projects at a time.",
+                "ar": "حدّثني عن المشروع: ماذا يفعل، ومن يستخدمه، ومتى تحتاجه. أعمل على مشروعين مستقلين فقط في الوقت نفسه."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "note": {
+                "en": "Replies within 24 hours, Sunday to Thursday.",
+                "ar": "أرد خلال 24 ساعة، من الأحد إلى الخميس."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "terminal-header",
+        "blockType": "header",
+        "variant": "tabs",
+        "content": {
+          "heading": {
+            "en": "omar@farouk",
+            "ar": "omar@farouk"
+          },
+          "cta": {
+            "label": {
+              "en": "./hire-me",
+              "ar": "وظّفني"
+            },
+            "link": {
+              "type": "page",
+              "value": "contact"
+            },
+            "style": "outline"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "terminal-footer",
+        "blockType": "footer",
+        "variant": "simple",
+        "content": {
+          "heading": {
+            "en": "Omar Farouk",
+            "ar": "عمر فاروق"
+          },
+          "text": {
+            "en": "// built with TypeScript, coffee and too many terminal tabs",
+            "ar": "// صُنع بـ TypeScript والقهوة وكثير من نوافذ الطرفية"
+          },
+          "copyright": {
+            "en": "© 2026 Omar Farouk · MIT licensed side projects",
+            "ar": "© 2026 عمر فاروق · المشاريع الجانبية برخصة MIT"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Omar Farouk",
+        "defaultDescription": {
+          "en": "Omar Farouk is a full-stack developer in Amman building React, Node and MongoDB tools for education.",
+          "ar": "عمر فاروق مطور ويب متكامل في عمّان يبني أدوات تعليمية باستخدام React وNode وMongoDB."
+        }
+      },
+      "social": [
+        {
+          "platform": "github",
+          "url": "https://example.com/github/omarfarouk"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://example.com/linkedin/omarfarouk"
+        },
+        {
+          "platform": "x",
+          "url": "https://example.com/x/omarfarouk"
+        }
+      ],
+      "contact": {
+        "email": "omar@example.com",
+        "phone": "+962 7 5555 0182",
+        "whatsapp": "+962755550182",
+        "address": {
+          "en": "Amman, Jordan",
+          "ar": "عمّان، الأردن"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Omar Farouk",
+        "ar": "عمر فاروق"
+      },
+      "ownerTitle": {
+        "en": "Full-stack developer",
+        "ar": "مطور ويب متكامل"
+      }
+    }
+  }
+}

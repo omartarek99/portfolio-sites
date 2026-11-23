@@ -1,0 +1,420 @@
+@import 'tailwindcss';
+@import '../styles/site.css';
+
+/*
+ * Two design systems share this stylesheet:
+ *
+ * 1. PLATFORM — marketing site, dashboard, editor chrome, team and admin.
+ *    Visual language from the Positivus reference design: lime / ink / fog,
+ *    Space Grotesk, 45px cards with a 1px ink border and a hard 5px shadow,
+ *    14px buttons, highlighted heading labels.
+ *    Utilities: bg-lime, text-ink, bg-fog, rounded-card, rounded-btn,
+ *    rounded-label, shadow-hard, text-display … text-body.
+ *
+ * 2. SITE — everything users build. Driven by per-site theme tokens set on
+ *    `.site-root` (see src/themes/css-vars.ts and src/styles/site.css).
+ *    Utilities: bg-site-bg, text-site-text, bg-site-primary, font-site-heading,
+ *    rounded-site …
+ *
+ * Never mix them: platform chrome must not use site-* tokens and blocks must
+ * not use platform colors.
+ */
+
+@theme {
+  /* Platform palette (Positivus) */
+  --color-lime: #b9ff66;
+  --color-lime-deep: #9fe84a;
+  --color-lime-soft: #ecffd6;
+  --color-ink: #191a23;
+  --color-ink-soft: #292a32;
+  --color-ink-muted: #595a66;
+  --color-fog: #f3f3f3;
+  --color-fog-deep: #e2e2e2;
+  --color-danger: #c4321c;
+  --color-danger-soft: #fde9e5;
+  --color-warning: #9a5b00;
+  --color-warning-soft: #fff2d6;
+  --color-success: #1a7f37;
+  --color-success-soft: #e0f7e5;
+  --color-info: #1d4ed8;
+  --color-info-soft: #e3ebff;
+
+  /* Platform radii */
+  --radius-label: 7px;
+  --radius-btn: 14px;
+  --radius-panel: 24px;
+  --radius-card: 45px;
+
+  /* Platform shadows */
+  --shadow-hard: 0 5px 0 0 #191a23;
+  --shadow-hard-sm: 0 3px 0 0 #191a23;
+  --shadow-hard-lime: 0 5px 0 0 #b9ff66;
+  --shadow-pop: 0 18px 44px -18px rgb(25 26 35 / 0.35);
+
+  /* Platform type scale (desktop sizes from the reference; use the *-m sizes below md) */
+  --text-display: 3.75rem;
+  --text-display--line-height: 1.08;
+  --text-display-m: 2.6875rem;
+  --text-display-m--line-height: 1.1;
+  --text-h2: 2.5rem;
+  --text-h2--line-height: 1.15;
+  --text-h2-m: 2.25rem;
+  --text-h2-m--line-height: 1.15;
+  --text-h3: 1.875rem;
+  --text-h3--line-height: 1.25;
+  --text-h3-m: 1.625rem;
+  --text-h3-m--line-height: 1.25;
+  --text-h4: 1.25rem;
+  --text-h4--line-height: 1.35;
+  --text-lead: 1.25rem;
+  --text-lead--line-height: 1.75rem;
+  --text-body: 1.125rem;
+  --text-body--line-height: 1.55;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-marquee: platform-marquee 36s linear infinite;
+  --animate-marquee-rtl: platform-marquee-rtl 36s linear infinite;
+  --animate-float: platform-float 7s ease-in-out infinite;
+  --animate-spin-slow: spin 22s linear infinite;
+  --animate-pop-in: platform-pop-in 220ms var(--ease-out-expo) both;
+  --animate-fade-in: platform-fade-in 200ms ease-out both;
+  --animate-slide-up: platform-slide-up 500ms var(--ease-out-expo) both;
+
+  @keyframes platform-marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes platform-marquee-rtl {
+    to {
+      transform: translateX(50%);
+    }
+  }
+  @keyframes platform-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes platform-pop-in {
+    from {
+      opacity: 0;
+      transform: translateY(6px) scale(0.97);
+    }
+  }
+  @keyframes platform-fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes platform-slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+  }
+}
+
+@theme inline {
+  /* Platform fonts: Space Grotesk, with Readex Pro covering Arabic glyphs. */
+  --font-sans: var(--platform-font-stack);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+
+  /* Site tokens (resolved at the nearest .site-root / section override) */
+  --color-site-bg: var(--site-bg);
+  --color-site-surface: var(--site-surface);
+  --color-site-text: var(--site-text);
+  --color-site-muted: var(--site-muted);
+  --color-site-primary: var(--site-primary);
+  --color-site-secondary: var(--site-secondary);
+  --color-site-accent: var(--site-accent);
+  --color-site-border: var(--site-border);
+  --color-site-on-primary: var(--site-on-primary);
+  --color-site-on-secondary: var(--site-on-secondary);
+  --color-site-on-accent: var(--site-on-accent);
+  --font-site-heading: var(--site-font-heading);
+  --font-site-body: var(--site-font-body);
+  --radius-site: var(--site-radius);
+  --radius-site-sm: var(--site-radius-sm);
+  --radius-site-lg: var(--site-radius-lg);
+  --radius-site-btn: var(--site-radius-btn);
+  --spacing-site-section: var(--site-section-y);
+  --spacing-site-gap: var(--site-gap);
+}
+
+@layer base {
+  /*
+   * Platform font stack. Latin interface: Space Grotesk. Arabic interface:
+   * Readex Pro FIRST — Space Grotesk's metric-matched fallback face (added by
+   * next/font) claims every codepoint, so with Space Grotesk in front Arabic
+   * text would stop at local Arial and never reach Readex Pro. Readex Pro's own
+   * Latin (designed with its Arabic) then covers English words in Arabic text.
+   */
+  :root {
+    --platform-font-stack:
+      var(--font-platform), var(--font-platform-ar), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+      Arial, sans-serif;
+  }
+  html[lang='ar'] {
+    --platform-font-stack:
+      var(--font-platform-ar), var(--font-platform), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Tahoma,
+      Arial, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  /* Platform defaults. Site roots restyle everything inside them. */
+  body {
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html[dir='rtl'] body {
+    line-height: 1.8;
+  }
+
+  :where(body:not(:has(.site-root))) ::selection,
+  .platform ::selection {
+    background-color: var(--color-lime);
+    color: var(--color-ink);
+  }
+
+  /* Visible, consistent keyboard focus across the platform. */
+  .platform :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+  .platform .on-dark :focus-visible,
+  .platform .on-dark:focus-visible {
+    outline-color: var(--color-lime);
+  }
+
+  /* Tailwind v4 defaults buttons to cursor: default. */
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']),
+  summary {
+    cursor: pointer;
+  }
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Thin, unobtrusive scrollbars for editor panels. */
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-fog-deep) transparent;
+}
+
+/* The platform's signature highlighted label behind heading text. */
+@utility label-lime {
+  background-color: var(--color-lime);
+  color: var(--color-ink);
+  border-radius: var(--radius-label);
+  padding-inline: 7px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+@utility label-white {
+  background-color: #ffffff;
+  color: var(--color-ink);
+  border-radius: var(--radius-label);
+  padding-inline: 7px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+@utility label-fog {
+  background-color: var(--color-fog);
+  color: var(--color-ink);
+  border-radius: var(--radius-label);
+  padding-inline: 7px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* ---------------------------------------------------------------------------
+ * UI-kit animations (src/components/ui/*). Radix sets the data-state attribute
+ * and the --radix-* size variables these read.
+ * ------------------------------------------------------------------------ */
+
+@keyframes platform-overlay-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes platform-overlay-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes platform-sheet-in-end {
+  from {
+    opacity: 0;
+    translate: 100% 0;
+  }
+}
+@keyframes platform-sheet-in-start {
+  from {
+    opacity: 0;
+    translate: -100% 0;
+  }
+}
+@keyframes platform-sheet-in-bottom {
+  from {
+    opacity: 0;
+    translate: 0 100%;
+  }
+}
+/*
+ * Collapsible panels reveal with opacity and a small slide rather than an
+ * animated height: the panel keeps its natural height, so its content is
+ * readable even if the animation never runs (throttled tab, no JS).
+ */
+@keyframes platform-reveal-down {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+@utility anim-overlay {
+  animation: platform-overlay-in 180ms ease-out both;
+  &[data-state='closed'] {
+    animation: platform-overlay-out 150ms ease-in both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    &[data-state='closed'] {
+      animation: none;
+    }
+  }
+}
+
+/* Side drawer entering from the inline-end edge (mirrors in RTL). */
+@utility anim-sheet-end {
+  animation: platform-sheet-in-end 260ms var(--ease-out-expo) both;
+  [dir='rtl'] & {
+    animation-name: platform-sheet-in-start;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    animation: platform-overlay-in 150ms ease-out both;
+  }
+}
+
+/* Side drawer entering from the inline-start edge (mirrors in RTL). */
+@utility anim-sheet-start {
+  animation: platform-sheet-in-start 260ms var(--ease-out-expo) both;
+  [dir='rtl'] & {
+    animation-name: platform-sheet-in-end;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    animation: platform-overlay-in 150ms ease-out both;
+  }
+}
+
+@utility anim-sheet-bottom {
+  animation: platform-sheet-in-bottom 260ms var(--ease-out-expo) both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: platform-overlay-in 150ms ease-out both;
+  }
+}
+
+/* Accordion / collapsible reveal. */
+@utility anim-collapse {
+  overflow: hidden;
+  &[data-state='open'] {
+    animation: platform-reveal-down 200ms var(--ease-out-expo);
+  }
+  &[data-state='closed'] {
+    animation: platform-overlay-out 120ms ease-in both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    &[data-state='open'],
+    &[data-state='closed'] {
+      animation: none;
+    }
+  }
+}
+
+/* Popovers, menus and tooltips. */
+@utility anim-pop {
+  animation: platform-pop-in 160ms var(--ease-out-expo) both;
+  &[data-state='closed'] {
+    animation: platform-overlay-out 120ms ease-in both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    &[data-state='closed'] {
+      animation: none;
+    }
+  }
+}
+
+/* ── Vizo public site: Launch UI inspired, light and dark ─────────────────
+ * The theme follows the device unless the visitor picks one with the switch
+ * (stored in localStorage, applied as <html data-theme> before first paint). */
+@theme inline {
+  --color-vz-bg: var(--vz-bg);
+  --color-fg: var(--vz-fg);
+  --color-vz-accent: var(--vz-accent);
+}
+@theme {
+  --color-vz-blue: #2e5bff;
+  --color-vz-yellow: #ffcf3f;
+}
+:root {
+  --vz-bg: #f7f8fb;
+  --vz-fg: #0b0d14;
+  --vz-accent: #2e5bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --vz-bg: #08090d;
+    --vz-fg: #ffffff;
+    --vz-accent: #ffcf3f;
+  }
+}
+:root[data-theme='dark'] {
+  --vz-bg: #08090d;
+  --vz-fg: #ffffff;
+  --vz-accent: #ffcf3f;
+}
+@layer base {
+  .vz {
+    font-family: var(--font-vz), var(--font-platform-ar), ui-sans-serif, system-ui, sans-serif;
+  }
+  /* Arabic first, so the Latin font's metric fallback face never swallows Arabic glyphs. */
+  html[lang='ar'] .vz {
+    font-family: var(--font-platform-ar), var(--font-vz), ui-sans-serif, system-ui, sans-serif;
+  }
+  body:has(.vz) {
+    background-color: var(--vz-bg);
+  }
+  .vz ::selection {
+    background: #2e5bff;
+    color: #fff;
+  }
+  .vz :focus-visible {
+    outline: 2px solid var(--vz-accent);
+    outline-offset: 2px;
+  }
+}

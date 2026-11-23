@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "{app} — websites and AI videos",
+    "description": "{app} designs clean, fast websites and creates AI videos for businesses and creators. Message on WhatsApp to start."
+  },
+  "whatsappMessage": "Hi {app}! I'd like to talk about a project.",
+  "hero": {
+    "badge": "Websites · AI videos",
+    "title": "Your brand, built beautifully",
+    "subtitle": "{app} designs clean, fast websites and creates AI videos that get noticed — in English or Arabic.",
+    "primary": "Chat on WhatsApp",
+    "secondary": "See the work",
+    "mockupAlt": "A website designed by {app}"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What {app} makes",
+    "subtitle": "Two things, done well.",
+    "websites": {
+      "title": "Websites",
+      "body": "Clean, fast websites that look custom-designed — and work beautifully on every screen.",
+      "points": [
+        "Landing pages and portfolios",
+        "Business websites",
+        "Bilingual, mobile-first design"
+      ]
+    },
+    "videos": {
+      "title": "AI videos",
+      "body": "Explainers, promos and short reels that stop the scroll — made with AI, finished by hand.",
+      "points": [
+        "Explainer and promo videos",
+        "Reels for TikTok, Instagram and YouTube Shorts",
+        "Captions in English or Arabic"
+      ]
+    }
+  },
+  "work": {
+    "eyebrow": "Showcase",
+    "title": "Recent work",
+    "subtitle": "A taste of what {app} makes. The full collection is on the showcase page.",
+    "videoTag": "AI video",
+    "videoTitle": "Explainer video",
+    "siteTag": "Website",
+    "cta": "View the showcase"
+  },
+  "steps": {
+    "eyebrow": "How it works",
+    "title": "From a message to finished work",
+    "items": [
+      {
+        "title": "Tell me what you need",
+        "body": "Send a WhatsApp message with your idea, your goal and any examples you like."
+      },
+      {
+        "title": "I create it",
+        "body": "I design and build a first version for you, quickly."
+      },
+      {
+        "title": "Refine and receive",
+        "body": "We adjust it together, then you get your live website or the final video."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "initial": "O",
+    "title": "Hi, I'm Omar",
+    "body1": "I'm the maker behind {app}, based in Qatar. I design and build websites — from business landing pages to an interactive game site — and I create AI videos: animated explainers and short reels for social media.",
+    "body2": "I care about clean design, quick turnaround and work that looks right on every screen, in English and Arabic. Tell me what you need, and I'll show you what's possible.",
+    "points": [
+      "Based in Qatar",
+      "English and Arabic",
+      "Replies on WhatsApp"
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered",
+    "items": [
+      {
+        "q": "How do I start?",
+        "a": "Send a message on WhatsApp or an email with a short description of what you need. I'll reply with questions, ideas and a quote."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Every project is quoted individually after a quick chat — there are no fixed packages."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "It depends on the size of the project. You'll get a clear timeline before any work starts."
+      },
+      {
+        "q": "Can you work in Arabic?",
+        "a": "Yes. Websites and videos can be made in English, Arabic, or both."
+      },
+      {
+        "q": "Can I ask for changes?",
+        "a": "Of course. We refine the work together until you're happy with it."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have a project in mind?",
+    "subtitle": "Send a message on WhatsApp or by email — you'll get ideas and a quote.",
+    "button": "Message on WhatsApp",
+    "email": "Email me"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "subtitle": "Websites and AI videos made by {app}.",
+    "videos": {
+      "eyebrow": "AI videos",
+      "title": "Videos made with AI",
+      "subtitle": "Explainers and reels, made with AI and finished by hand.",
+      "caption": "Script, visuals and edit made with AI",
+      "more": "More videos are on the way."
+    },
+    "sites": {
+      "eyebrow": "Websites",
+      "title": "Websites designed by {app}",
+      "subtitle": "Every one of these is live. Open any of them and look around.",
+      "open": "Open"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy",
+      "body": [
+        "{app} only collects what you choose to share — usually your name, phone number and project details when you message on WhatsApp.",
+        "We use this information to reply to you and deliver your project, and for nothing else. We do not sell personal data, and this website does not use third-party tracking.",
+        "To have your information deleted, send a message on WhatsApp."
+      ]
+    },
+    "terms": {
+      "title": "Terms",
+      "body": [
+        "Work is delivered as agreed in our chat, including the price and the timeline.",
+        "You own the final websites and videos once the project is paid for. You are responsible for the content and materials you send us.",
+        "{app} may show finished work in its showcase unless you ask us not to. Questions? Message on WhatsApp."
+      ]
+    }
+  }
+}

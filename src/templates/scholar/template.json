@@ -1,0 +1,738 @@
+{
+  "id": "scholar",
+  "name": { "en": "Scholar", "ar": "الباحث" },
+  "description": {
+    "en": "A calm, structured site for teachers, lecturers and researchers: courses, publications, talks and a blog.",
+    "ar": "موقع هادئ ومنظّم للمعلمين والمحاضرين والباحثين: دورات ومنشورات ومحاضرات ومدونة."
+  },
+  "tier": "free",
+  "bestFor": [
+    { "en": "Teachers", "ar": "المعلمون" },
+    { "en": "Lecturers", "ar": "المحاضرون" },
+    { "en": "Researchers", "ar": "الباحثون" },
+    { "en": "Trainers", "ar": "المدربون" }
+  ],
+  "professions": ["academic", "coach", "writer"],
+  "styles": ["minimal", "elegant"],
+  "signature": {
+    "en": "Publications you can filter by year and type, and a Teaching section of course cards with downloadable resources.",
+    "ar": "منشورات يمكن تصفيتها حسب السنة والنوع، وقسم للتدريس ببطاقات دورات وموارد قابلة للتنزيل."
+  },
+  "defaultLocale": "en",
+  "order": 12,
+  "content": {
+    "version": 1,
+    "locales": ["en", "ar"],
+    "theme": {
+      "templateId": "scholar",
+      "palette": {
+        "background": "#FFFFFF",
+        "surface": "#F4F7FB",
+        "text": "#14213D",
+        "mutedText": "#5C6B84",
+        "primary": "#1D4ED8",
+        "secondary": "#0E7490",
+        "accent": "#F59E0B",
+        "border": "#DCE3EE"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": { "family": "Merriweather" },
+        "body": { "family": "Source Sans 3" },
+        "arabicHeading": { "family": "Noto Naskh Arabic" },
+        "arabicBody": { "family": "Noto Sans Arabic" }
+      },
+      "radius": "md",
+      "spacing": "comfortable",
+      "motion": "subtle",
+      "buttonStyle": "solid"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        { "id": "nav-home", "label": { "en": "Home", "ar": "الرئيسية" }, "link": { "type": "page", "value": "home" } },
+        { "id": "nav-teaching", "label": { "en": "Teaching", "ar": "التدريس" }, "link": { "type": "page", "value": "teaching" } },
+        { "id": "nav-publications", "label": { "en": "Publications", "ar": "المنشورات" }, "link": { "type": "page", "value": "publications" } },
+        { "id": "nav-talks", "label": { "en": "Talks", "ar": "المحاضرات" }, "link": { "type": "page", "value": "talks" } },
+        { "id": "nav-blog", "label": { "en": "Blog", "ar": "المدونة" }, "link": { "type": "page", "value": "blog" } },
+        { "id": "nav-contact", "label": { "en": "Contact", "ar": "تواصل" }, "link": { "type": "page", "value": "contact" } }
+      ],
+      "footer": [
+        { "id": "foot-teaching", "label": { "en": "Teaching", "ar": "التدريس" }, "link": { "type": "page", "value": "teaching" } },
+        { "id": "foot-publications", "label": { "en": "Publications", "ar": "المنشورات" }, "link": { "type": "page", "value": "publications" } },
+        { "id": "foot-blog", "label": { "en": "Blog", "ar": "المدونة" }, "link": { "type": "page", "value": "blog" } },
+        { "id": "foot-contact", "label": { "en": "Contact", "ar": "تواصل" }, "link": { "type": "page", "value": "contact" } }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": { "en": "Home", "ar": "الرئيسية" },
+        "type": "standard",
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "Fatima Al-Hajri, English teacher and teacher trainer: workshops, courses, articles and lesson plans.",
+            "ar": "فاطمة الهاجري، معلمة لغة إنجليزية ومدربة معلمين: ورش عمل ودورات ومقالات وخطط دروس."
+          }
+        },
+        "sections": [
+          {
+            "id": "scholar-hero",
+            "blockType": "hero",
+            "variant": "split-image",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "English teacher · Teacher trainer", "ar": "معلمة لغة إنجليزية · مدربة معلمين" },
+              "name": { "en": "Ms. Fatima Al-Hajri", "ar": "أ. فاطمة الهاجري" },
+              "heading": { "en": "Making learning active and joyful.", "ar": "أجعل التعلم نشطًا وممتعًا." },
+              "tagline": {
+                "en": "Fifteen years in secondary classrooms, and now I help new teachers build lessons students remember.",
+                "ar": "خمسة عشر عامًا في فصول المرحلة الثانوية، وأساعد اليوم المعلمين الجدد على بناء دروس يتذكرها طلابهم."
+              },
+              "primaryCta": { "label": { "en": "See my workshops", "ar": "تعرّف على ورشي" }, "link": { "type": "page", "value": "teaching" }, "style": "primary" },
+              "secondaryCta": { "label": { "en": "Read my articles", "ar": "اقرأ مقالاتي" }, "link": { "type": "page", "value": "publications" }, "style": "outline" },
+              "image": {
+                "url": "/stock/portrait-sea.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": { "en": "Portrait of Fatima Al-Hajri", "ar": "صورة فاطمة الهاجري" }
+              },
+              "imageSide": "end",
+              "blob": false,
+              "location": { "en": "Muscat, Oman", "ar": "مسقط، عُمان" }
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "anchor": "about",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "About", "ar": "نبذة" },
+              "heading": { "en": "A teacher who still learns every day", "ar": "معلمة ما زالت تتعلم كل يوم" },
+              "body": {
+                "en": "<p>I started teaching English in 2010 at a girls' secondary school in Muscat. My first year taught me that a quiet classroom is not always a learning classroom, so I began to experiment with pair work, short games and student-led discussions.</p><p>Today I combine teaching with training: I run workshops for new teachers, mentor student teachers and write about practical classroom strategies. I hold an MA in TESOL and the CELTA certificate.</p>",
+                "ar": "<p>بدأت تدريس اللغة الإنجليزية عام 2010 في مدرسة ثانوية للبنات في مسقط. علّمتني سنتي الأولى أن الفصل الهادئ ليس دائمًا فصلًا يتعلم فيه الطلاب، فبدأت أجرّب العمل الثنائي والألعاب القصيرة والنقاشات التي يقودها الطلاب.</p><p>أجمع اليوم بين التدريس والتدريب: أقدّم ورش عمل للمعلمين الجدد، وأرشد الطلاب المعلمين، وأكتب عن استراتيجيات عملية داخل الفصل. أحمل درجة الماجستير في تدريس الإنجليزية لغير الناطقين بها وشهادة CELTA.</p>"
+              },
+              "image": {
+                "url": "/stock/workspace-sand.svg",
+                "width": 1600,
+                "height": 1067,
+                "alt": { "en": "A desk with lesson notes and a cup of tea", "ar": "مكتب عليه ملاحظات الدروس وكوب شاي" }
+              },
+              "imageSide": "start",
+              "cta": { "label": { "en": "Download my CV", "ar": "حمّل سيرتي الذاتية" }, "link": { "type": "file", "value": "https://example.com/files/fatima-al-hajri-cv.pdf" }, "style": "outline" }
+            },
+            "style": { "background": { "type": "surface" } },
+            "animation": { "entrance": "slide-up" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-courses",
+            "blockType": "services",
+            "variant": "cards",
+            "anchor": "courses",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Teaching", "ar": "التدريس" },
+              "heading": { "en": "Courses & workshops", "ar": "الدورات وورش العمل" },
+              "intro": {
+                "en": "Practical sessions for schools and teacher groups, in person or online. Every workshop comes with a resource pack you can use the next morning.",
+                "ar": "جلسات عملية للمدارس ومجموعات المعلمين، حضوريًا أو عن بُعد. تأتي كل ورشة مع حقيبة موارد يمكنك استخدامها في صباح اليوم التالي."
+              },
+              "items": [
+                {
+                  "id": "course-active",
+                  "name": { "en": "Active learning strategies", "ar": "استراتيجيات التعلم النشط" },
+                  "description": {
+                    "en": "A hands-on workshop with twenty ready-to-use activities that get every student talking, moving and thinking.",
+                    "ar": "ورشة تطبيقية تضم عشرين نشاطًا جاهزًا تجعل كل طالب يتحدث ويتحرك ويفكر."
+                  },
+                  "icon": "lightbulb",
+                  "duration": { "en": "Workshop · 3 hours", "ar": "ورشة · 3 ساعات" },
+                  "features": [
+                    { "id": "f-active-1", "text": { "en": "20 classroom activities", "ar": "20 نشاطًا صفيًا" } },
+                    { "id": "f-active-2", "text": { "en": "Printable resource pack", "ar": "حقيبة موارد قابلة للطباعة" } }
+                  ],
+                  "cta": { "label": { "en": "Download the outline", "ar": "حمّل المخطط" }, "link": { "type": "file", "value": "https://example.com/files/active-learning-outline.pdf" }, "style": "link", "icon": "download" }
+                },
+                {
+                  "id": "course-management",
+                  "name": { "en": "Classroom management for new teachers", "ar": "إدارة الفصل للمعلمين الجدد" },
+                  "description": {
+                    "en": "Routines, clear expectations and calm responses: a four-week course for your first year in front of a class.",
+                    "ar": "روتين واضح وتوقعات محددة واستجابات هادئة: دورة من أربعة أسابيع لسنتك الأولى أمام الفصل."
+                  },
+                  "icon": "users",
+                  "duration": { "en": "Course · 4 weeks", "ar": "دورة · 4 أسابيع" },
+                  "features": [
+                    { "id": "f-manage-1", "text": { "en": "Weekly live session", "ar": "جلسة مباشرة أسبوعية" } },
+                    { "id": "f-manage-2", "text": { "en": "Personal mentoring call", "ar": "مكالمة إرشاد فردية" } }
+                  ],
+                  "cta": { "label": { "en": "Download the outline", "ar": "حمّل المخطط" }, "link": { "type": "file", "value": "https://example.com/files/classroom-management-outline.pdf" }, "style": "link", "icon": "download" }
+                },
+                {
+                  "id": "course-marketing",
+                  "name": { "en": "Self-marketing for educators", "ar": "التسويق الذاتي للمعلمين" },
+                  "description": {
+                    "en": "Show your work with confidence: a portfolio, a clear profile and a simple plan for sharing what you do.",
+                    "ar": "اعرض عملك بثقة: ملف أعمال وتعريف واضح بنفسك وخطة بسيطة لمشاركة ما تقدّمه."
+                  },
+                  "icon": "megaphone",
+                  "duration": { "en": "Workshop · 2 hours", "ar": "ورشة · ساعتان" },
+                  "features": [
+                    { "id": "f-market-1", "text": { "en": "Portfolio checklist", "ar": "قائمة مراجعة لملف الأعمال" } },
+                    { "id": "f-market-2", "text": { "en": "Profile writing templates", "ar": "نماذج لكتابة التعريف" } }
+                  ],
+                  "cta": { "label": { "en": "Download the outline", "ar": "حمّل المخطط" }, "link": { "type": "file", "value": "https://example.com/files/self-marketing-outline.pdf" }, "style": "link", "icon": "download" }
+                }
+              ]
+            },
+            "style": {},
+            "animation": { "entrance": "stagger" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-publications",
+            "blockType": "publications",
+            "variant": "citations",
+            "anchor": "publications",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Writing & resources", "ar": "الكتابة والموارد" },
+              "heading": { "en": "Publications", "ar": "المنشورات" },
+              "intro": {
+                "en": "Articles on classroom practice, and lesson plans you are welcome to download and adapt.",
+                "ar": "مقالات عن الممارسة الصفية، وخطط دروس يمكنك تنزيلها وتكييفها بحرية."
+              },
+              "items": [
+                {
+                  "id": "pub-pair-work",
+                  "title": { "en": "Pair work that works: structuring speaking tasks in mixed-ability classes", "ar": "عمل ثنائي ناجح: تنظيم مهام المحادثة في الفصول متفاوتة المستوى" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Gulf Journal of English Language Teaching, 12(2)", "ar": "مجلة الخليج لتدريس اللغة الإنجليزية، 12(2)" },
+                  "year": 2025,
+                  "type": "article",
+                  "links": [{ "id": "pub-pair-work-pdf", "label": { "en": "PDF", "ar": "PDF" }, "link": { "type": "url", "value": "https://example.com/papers/pair-work.pdf", "newTab": true } }]
+                },
+                {
+                  "id": "pub-feedback",
+                  "title": { "en": "Two-minute feedback: quick formative checks for busy teachers", "ar": "تغذية راجعة في دقيقتين: تقييم تكويني سريع للمعلم المشغول" },
+                  "authors": { "en": "Al-Hajri, F. & Mansour, S.", "ar": "الهاجري، ف. ومنصور، س." },
+                  "venue": { "en": "Teaching Today Magazine", "ar": "مجلة التعليم اليوم" },
+                  "year": 2024,
+                  "type": "article",
+                  "links": [{ "id": "pub-feedback-read", "label": { "en": "Read", "ar": "اقرأ" }, "link": { "type": "url", "value": "https://example.com/articles/two-minute-feedback", "newTab": true } }]
+                },
+                {
+                  "id": "pub-new-teachers",
+                  "title": { "en": "What new teachers wish they had known: a survey of 120 first-year teachers", "ar": "ما تمنى المعلمون الجدد لو عرفوه: استطلاع لـ120 معلمًا في سنتهم الأولى" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Proceedings of the Oman ELT Conference", "ar": "وقائع مؤتمر عُمان لتدريس اللغة الإنجليزية" },
+                  "year": 2023,
+                  "type": "article",
+                  "links": [{ "id": "pub-new-teachers-doi", "label": { "en": "DOI", "ar": "DOI" }, "link": { "type": "url", "value": "https://example.com/doi/10.0000/oelt.2023.014", "newTab": true } }]
+                },
+                {
+                  "id": "pub-plan-debate",
+                  "title": { "en": "Lesson plan: a structured class debate (grades 10–12)", "ar": "خطة درس: مناظرة صفية منظّمة (الصفوف 10–12)" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Free classroom resource", "ar": "مورد صفي مجاني" },
+                  "year": 2025,
+                  "type": "report",
+                  "links": [{ "id": "pub-plan-debate-pdf", "label": { "en": "Download PDF", "ar": "تنزيل PDF" }, "link": { "type": "file", "value": "https://example.com/files/lesson-plan-class-debate.pdf" } }]
+                },
+                {
+                  "id": "pub-plan-story",
+                  "title": { "en": "Lesson plan: story circles for reading fluency (grades 7–9)", "ar": "خطة درس: حلقات القصة لتحسين طلاقة القراءة (الصفوف 7–9)" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Free classroom resource", "ar": "مورد صفي مجاني" },
+                  "year": 2024,
+                  "type": "report",
+                  "links": [{ "id": "pub-plan-story-pdf", "label": { "en": "Download PDF", "ar": "تنزيل PDF" }, "link": { "type": "file", "value": "https://example.com/files/lesson-plan-story-circles.pdf" } }]
+                }
+              ]
+            },
+            "style": { "background": { "type": "surface" } },
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-talk",
+            "blockType": "video",
+            "variant": "embed",
+            "anchor": "talk",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Recent talk", "ar": "أحدث محاضرة" },
+              "heading": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+              "intro": {
+                "en": "My keynote at the Muscat Teachers' Forum: why students learn more when lessons feel like play, and how to plan for it.",
+                "ar": "كلمتي الرئيسية في ملتقى معلمي مسقط: لماذا يتعلم الطلاب أكثر حين يشعرون أن الدرس لعب، وكيف نخطط لذلك."
+              },
+              "items": [
+                {
+                  "id": "talk-joy",
+                  "video": {
+                    "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+                    "provider": "youtube",
+                    "poster": {
+                      "url": "/stock/event-dusk.svg",
+                      "width": 1920,
+                      "height": 1080,
+                      "alt": { "en": "Stage lights at the teachers' forum", "ar": "أضواء المسرح في ملتقى المعلمين" }
+                    },
+                    "title": { "en": "Joy is a teaching strategy — Muscat Teachers' Forum", "ar": "المتعة استراتيجية تدريس — ملتقى معلمي مسقط" }
+                  },
+                  "title": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+                  "description": { "en": "Muscat Teachers' Forum, 2025", "ar": "ملتقى معلمي مسقط، 2025" },
+                  "duration": "18:40"
+                }
+              ],
+              "cta": { "label": { "en": "All talks", "ar": "كل المحاضرات" }, "link": { "type": "page", "value": "talks" }, "style": "outline" }
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-testimonials",
+            "blockType": "testimonials",
+            "variant": "wall",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Feedback", "ar": "آراء" },
+              "heading": { "en": "What students say", "ar": "ماذا يقول المتدربون" },
+              "items": [
+                {
+                  "id": "t-new-teacher",
+                  "quote": { "en": "Her workshop changed how I run my classroom. I used three of the activities the very next day.", "ar": "غيّرت ورشتها طريقة إدارتي لفصلي. استخدمت ثلاثة من الأنشطة في اليوم التالي مباشرة." },
+                  "name": { "en": "Reem Al-Balushi", "ar": "ريم البلوشية" },
+                  "role": { "en": "New teacher, grade 8", "ar": "معلمة جديدة، الصف الثامن" },
+                  "photo": { "url": "/stock/portrait-blush.svg", "width": 1200, "height": 1600, "alt": { "en": "Reem Al-Balushi", "ar": "ريم البلوشية" } }
+                },
+                {
+                  "id": "t-coordinator",
+                  "quote": { "en": "Practical, warm and very well organised. Our whole English department asked for a second session.", "ar": "عملية ودافئة ومنظّمة جدًا. طلب قسم اللغة الإنجليزية كله جلسة ثانية." },
+                  "name": { "en": "Khalid Al-Rawahi", "ar": "خالد الرواحي" },
+                  "role": { "en": "Subject coordinator", "ar": "منسق مادة" },
+                  "photo": { "url": "/stock/portrait-slate.svg", "width": 1200, "height": 1600, "alt": { "en": "Khalid Al-Rawahi", "ar": "خالد الرواحي" } }
+                },
+                {
+                  "id": "t-student-teacher",
+                  "quote": { "en": "I finally understand how to give instructions that students actually follow.", "ar": "فهمت أخيرًا كيف أعطي تعليمات يتّبعها الطلاب فعلًا." },
+                  "name": { "en": "Maryam Said", "ar": "مريم سعيد" },
+                  "role": { "en": "Student teacher", "ar": "طالبة معلمة" }
+                },
+                {
+                  "id": "t-principal",
+                  "quote": { "en": "Fatima brings energy into the room and leaves our teachers with tools they keep using all year.", "ar": "تُدخل فاطمة الحيوية إلى القاعة وتترك لمعلمينا أدوات يستخدمونها طوال العام." },
+                  "name": { "en": "Huda Al-Kindi", "ar": "هدى الكندية" },
+                  "role": { "en": "School principal", "ar": "مديرة مدرسة" }
+                },
+                {
+                  "id": "t-online",
+                  "quote": { "en": "The online course was the best part of my first year. The mentoring call alone was worth it.", "ar": "كانت الدورة عن بُعد أفضل ما في سنتي الأولى. مكالمة الإرشاد وحدها كانت تستحق." },
+                  "name": { "en": "Salim Al-Harthy", "ar": "سالم الحارثي" },
+                  "role": { "en": "English teacher, first year", "ar": "معلم لغة إنجليزية، السنة الأولى" }
+                },
+                {
+                  "id": "t-trainee",
+                  "quote": { "en": "Clear, kind and full of ideas. I left with a notebook full of plans.", "ar": "واضحة ولطيفة ومليئة بالأفكار. خرجت بدفتر مليء بالخطط." },
+                  "name": { "en": "Aisha Nasser", "ar": "عائشة ناصر" },
+                  "role": { "en": "Workshop participant", "ar": "مشاركة في ورشة" }
+                }
+              ]
+            },
+            "style": { "background": { "type": "surface" } },
+            "animation": { "entrance": "stagger" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "anchor": "contact",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Contact", "ar": "تواصل" },
+              "heading": { "en": "Invite me to your school", "ar": "ادعني إلى مدرستك" },
+              "intro": {
+                "en": "Workshops, mentoring or a talk for your conference: tell me about your teachers and what they need.",
+                "ar": "ورش عمل أو إرشاد أو محاضرة في مؤتمرك: أخبرني عن معلميك وما يحتاجون إليه."
+              },
+              "note": { "en": "I reply within two working days.", "ar": "أردّ خلال يومي عمل." },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "teaching",
+        "slug": "teaching",
+        "title": { "en": "Teaching", "ar": "التدريس" },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "scholar-teaching-intro",
+            "blockType": "richText",
+            "variant": "single",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Teaching", "ar": "التدريس" },
+              "heading": { "en": "How I teach", "ar": "كيف أدرّس" },
+              "body": {
+                "en": "<p>Every session I run follows the same simple rule: teachers learn a strategy by doing it first, as students, and then plan how to use it in their own class.</p><ul><li>Short input, long practice</li><li>Real lessons, real classes, real examples</li><li>A resource pack you can use the next morning</li></ul>",
+                "ar": "<p>تتبع كل جلسة أقدّمها قاعدة بسيطة: يتعلم المعلمون الاستراتيجية بتجربتها أولًا كطلاب، ثم يخططون لاستخدامها في فصولهم.</p><ul><li>شرح قصير وتطبيق طويل</li><li>دروس حقيقية وفصول حقيقية وأمثلة حقيقية</li><li>حقيبة موارد تستخدمها في صباح اليوم التالي</li></ul>"
+              }
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-teaching-courses",
+            "blockType": "services",
+            "variant": "cards",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Open for bookings", "ar": "متاحة للحجز" },
+              "heading": { "en": "Courses & workshops", "ar": "الدورات وورش العمل" },
+              "items": [
+                {
+                  "id": "tc-active",
+                  "name": { "en": "Active learning strategies", "ar": "استراتيجيات التعلم النشط" },
+                  "description": { "en": "Twenty activities that get every student talking, moving and thinking.", "ar": "عشرون نشاطًا تجعل كل طالب يتحدث ويتحرك ويفكر." },
+                  "image": { "url": "/stock/workspace-slate.svg", "width": 1600, "height": 1067, "alt": { "en": "Workshop materials on a table", "ar": "مواد الورشة على طاولة" } },
+                  "duration": { "en": "3 hours", "ar": "3 ساعات" },
+                  "cta": { "label": { "en": "Download resources", "ar": "تنزيل الموارد" }, "link": { "type": "file", "value": "https://example.com/files/active-learning-pack.pdf" }, "style": "outline", "icon": "download" }
+                },
+                {
+                  "id": "tc-management",
+                  "name": { "en": "Classroom management for new teachers", "ar": "إدارة الفصل للمعلمين الجدد" },
+                  "description": { "en": "Routines, expectations and calm responses for your first year.", "ar": "روتين وتوقعات واستجابات هادئة لسنتك الأولى." },
+                  "image": { "url": "/stock/city-slate.svg", "width": 1600, "height": 1067, "alt": { "en": "School buildings in grey tones", "ar": "مبانٍ مدرسية بدرجات رمادية" } },
+                  "duration": { "en": "4 weeks", "ar": "4 أسابيع" },
+                  "cta": { "label": { "en": "Download resources", "ar": "تنزيل الموارد" }, "link": { "type": "file", "value": "https://example.com/files/classroom-management-pack.pdf" }, "style": "outline", "icon": "download" }
+                },
+                {
+                  "id": "tc-marketing",
+                  "name": { "en": "Self-marketing for educators", "ar": "التسويق الذاتي للمعلمين" },
+                  "description": { "en": "A portfolio, a clear profile and a plan for sharing your work.", "ar": "ملف أعمال وتعريف واضح وخطة لمشاركة عملك." },
+                  "image": { "url": "/stock/app-slate.svg", "width": 1600, "height": 1067, "alt": { "en": "A portfolio page on screen", "ar": "صفحة ملف أعمال على الشاشة" } },
+                  "duration": { "en": "2 hours", "ar": "ساعتان" },
+                  "cta": { "label": { "en": "Download resources", "ar": "تنزيل الموارد" }, "link": { "type": "file", "value": "https://example.com/files/self-marketing-pack.pdf" }, "style": "outline", "icon": "download" }
+                },
+                {
+                  "id": "tc-mentoring",
+                  "name": { "en": "One-to-one mentoring", "ar": "إرشاد فردي" },
+                  "description": { "en": "Lesson observation, honest feedback and a plan for your next term.", "ar": "حضور درس وتغذية راجعة صادقة وخطة لفصلك الدراسي القادم." },
+                  "image": { "url": "/stock/nature-sea.svg", "width": 1600, "height": 1067, "alt": { "en": "Calm coast and water", "ar": "ساحل هادئ ومياه" } },
+                  "duration": { "en": "3 sessions", "ar": "3 جلسات" },
+                  "cta": { "label": { "en": "Ask about mentoring", "ar": "استفسر عن الإرشاد" }, "link": { "type": "page", "value": "contact" }, "style": "outline" }
+                }
+              ]
+            },
+            "style": { "background": { "type": "surface" } },
+            "animation": { "entrance": "stagger" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-teaching-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "example": true,
+            "content": {
+              "heading": { "en": "Planning a training day?", "ar": "تخطط ليوم تدريبي؟" },
+              "intro": { "en": "I tailor every workshop to your school's level and goals.", "ar": "أصمّم كل ورشة بما يناسب مستوى مدرستك وأهدافها." },
+              "primaryCta": { "label": { "en": "Get in touch", "ar": "تواصل معي" }, "link": { "type": "page", "value": "contact" }, "style": "primary" }
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "publications",
+        "slug": "publications",
+        "title": { "en": "Publications", "ar": "المنشورات" },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "scholar-pubs-all",
+            "blockType": "publications",
+            "variant": "by-year",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Publications", "ar": "المنشورات" },
+              "heading": { "en": "Articles, chapters and resources", "ar": "مقالات وفصول وموارد" },
+              "intro": { "en": "Filter by year or type. Lesson plans are free to download and adapt.", "ar": "صفِّ حسب السنة أو النوع. خطط الدروس مجانية للتنزيل والتكييف." },
+              "items": [
+                {
+                  "id": "pa-pair-work",
+                  "title": { "en": "Pair work that works: structuring speaking tasks in mixed-ability classes", "ar": "عمل ثنائي ناجح: تنظيم مهام المحادثة في الفصول متفاوتة المستوى" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Gulf Journal of English Language Teaching, 12(2)", "ar": "مجلة الخليج لتدريس اللغة الإنجليزية، 12(2)" },
+                  "year": 2025,
+                  "type": "article",
+                  "abstract": { "en": "A classroom study of three structures for pair speaking tasks and their effect on participation.", "ar": "دراسة صفية لثلاثة أشكال من مهام المحادثة الثنائية وأثرها في المشاركة." },
+                  "links": [{ "id": "pa-pair-work-pdf", "label": { "en": "PDF", "ar": "PDF" }, "link": { "type": "url", "value": "https://example.com/papers/pair-work.pdf", "newTab": true } }]
+                },
+                {
+                  "id": "pa-plan-debate",
+                  "title": { "en": "Lesson plan: a structured class debate (grades 10–12)", "ar": "خطة درس: مناظرة صفية منظّمة (الصفوف 10–12)" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Free classroom resource", "ar": "مورد صفي مجاني" },
+                  "year": 2025,
+                  "type": "report",
+                  "links": [{ "id": "pa-plan-debate-pdf", "label": { "en": "Download PDF", "ar": "تنزيل PDF" }, "link": { "type": "file", "value": "https://example.com/files/lesson-plan-class-debate.pdf" } }]
+                },
+                {
+                  "id": "pa-keynote",
+                  "title": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Muscat Teachers' Forum (keynote)", "ar": "ملتقى معلمي مسقط (كلمة رئيسية)" },
+                  "year": 2025,
+                  "type": "talk",
+                  "links": [{ "id": "pa-keynote-slides", "label": { "en": "Slides", "ar": "الشرائح" }, "link": { "type": "url", "value": "https://example.com/slides/joy-is-a-strategy", "newTab": true } }]
+                },
+                {
+                  "id": "pa-feedback",
+                  "title": { "en": "Two-minute feedback: quick formative checks for busy teachers", "ar": "تغذية راجعة في دقيقتين: تقييم تكويني سريع للمعلم المشغول" },
+                  "authors": { "en": "Al-Hajri, F. & Mansour, S.", "ar": "الهاجري، ف. ومنصور، س." },
+                  "venue": { "en": "Teaching Today Magazine", "ar": "مجلة التعليم اليوم" },
+                  "year": 2024,
+                  "type": "article",
+                  "links": [{ "id": "pa-feedback-read", "label": { "en": "Read", "ar": "اقرأ" }, "link": { "type": "url", "value": "https://example.com/articles/two-minute-feedback", "newTab": true } }]
+                },
+                {
+                  "id": "pa-plan-story",
+                  "title": { "en": "Lesson plan: story circles for reading fluency (grades 7–9)", "ar": "خطة درس: حلقات القصة لتحسين طلاقة القراءة (الصفوف 7–9)" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Free classroom resource", "ar": "مورد صفي مجاني" },
+                  "year": 2024,
+                  "type": "report",
+                  "links": [{ "id": "pa-plan-story-pdf", "label": { "en": "Download PDF", "ar": "تنزيل PDF" }, "link": { "type": "file", "value": "https://example.com/files/lesson-plan-story-circles.pdf" } }]
+                },
+                {
+                  "id": "pa-chapter",
+                  "title": { "en": "Mentoring the first year: a practical model for schools", "ar": "إرشاد السنة الأولى: نموذج عملي للمدارس" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "In: New Voices in Gulf Education, Coastline Academic Press", "ar": "ضمن كتاب: أصوات جديدة في التعليم الخليجي، دار الساحل الأكاديمية" },
+                  "year": 2024,
+                  "type": "chapter"
+                },
+                {
+                  "id": "pa-new-teachers",
+                  "title": { "en": "What new teachers wish they had known: a survey of 120 first-year teachers", "ar": "ما تمنى المعلمون الجدد لو عرفوه: استطلاع لـ120 معلمًا في سنتهم الأولى" },
+                  "authors": { "en": "Al-Hajri, F.", "ar": "الهاجري، ف." },
+                  "venue": { "en": "Proceedings of the Oman ELT Conference", "ar": "وقائع مؤتمر عُمان لتدريس اللغة الإنجليزية" },
+                  "year": 2023,
+                  "type": "article",
+                  "links": [{ "id": "pa-new-teachers-doi", "label": { "en": "DOI", "ar": "DOI" }, "link": { "type": "url", "value": "https://example.com/doi/10.0000/oelt.2023.014", "newTab": true } }]
+                },
+                {
+                  "id": "pa-panel",
+                  "title": { "en": "Panel: technology in the language classroom", "ar": "جلسة حوارية: التقنية في فصل اللغة" },
+                  "authors": { "en": "Al-Hajri, F., Mansour, S. & Al-Amri, N.", "ar": "الهاجري، ف. ومنصور، س. والعامري، ن." },
+                  "venue": { "en": "Oman ELT Conference", "ar": "مؤتمر عُمان لتدريس اللغة الإنجليزية" },
+                  "year": 2023,
+                  "type": "talk"
+                }
+              ]
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "talks",
+        "slug": "talks",
+        "title": { "en": "Talks", "ar": "المحاضرات" },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "scholar-talks-featured",
+            "blockType": "video",
+            "variant": "embed",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Talks", "ar": "المحاضرات" },
+              "heading": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+              "intro": { "en": "Keynote, Muscat Teachers' Forum 2025.", "ar": "كلمة رئيسية، ملتقى معلمي مسقط 2025." },
+              "items": [
+                {
+                  "id": "tk-joy",
+                  "video": {
+                    "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+                    "provider": "youtube",
+                    "poster": { "url": "/stock/event-dusk.svg", "width": 1920, "height": 1080, "alt": { "en": "Stage lights at the teachers' forum", "ar": "أضواء المسرح في ملتقى المعلمين" } },
+                    "title": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" }
+                  },
+                  "title": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+                  "duration": "18:40"
+                }
+              ]
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-talks-list",
+            "blockType": "publications",
+            "variant": "citations",
+            "example": true,
+            "content": {
+              "heading": { "en": "Talks and panels", "ar": "محاضرات وجلسات حوارية" },
+              "items": [
+                {
+                  "id": "tl-keynote",
+                  "title": { "en": "Joy is a teaching strategy", "ar": "المتعة استراتيجية تدريس" },
+                  "venue": { "en": "Muscat Teachers' Forum · Keynote", "ar": "ملتقى معلمي مسقط · كلمة رئيسية" },
+                  "year": 2025,
+                  "type": "talk",
+                  "links": [{ "id": "tl-keynote-slides", "label": { "en": "Slides", "ar": "الشرائح" }, "link": { "type": "url", "value": "https://example.com/slides/joy-is-a-strategy", "newTab": true } }]
+                },
+                {
+                  "id": "tl-webinar",
+                  "title": { "en": "Your first week: routines that save the year", "ar": "أسبوعك الأول: روتين ينقذ العام كله" },
+                  "venue": { "en": "New Teachers Network · Webinar", "ar": "شبكة المعلمين الجدد · ندوة عبر الإنترنت" },
+                  "year": 2024,
+                  "type": "talk"
+                },
+                {
+                  "id": "tl-panel",
+                  "title": { "en": "Technology in the language classroom", "ar": "التقنية في فصل اللغة" },
+                  "venue": { "en": "Oman ELT Conference · Panel", "ar": "مؤتمر عُمان لتدريس اللغة الإنجليزية · جلسة حوارية" },
+                  "year": 2023,
+                  "type": "talk"
+                }
+              ]
+            },
+            "style": { "background": { "type": "surface" } },
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "blog",
+        "slug": "blog",
+        "title": { "en": "Blog", "ar": "المدونة" },
+        "type": "blogIndex",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "scholar-blog-list",
+            "blockType": "blogList",
+            "variant": "list",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Blog", "ar": "المدونة" },
+              "heading": { "en": "Notes from the classroom", "ar": "ملاحظات من الفصل" },
+              "intro": { "en": "Short, practical posts about teaching, planning and the first years in the job.", "ar": "تدوينات قصيرة وعملية عن التدريس والتخطيط والسنوات الأولى في المهنة." },
+              "count": 10
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": { "en": "Contact", "ar": "تواصل" },
+        "type": "standard",
+        "visibility": "public",
+        "sections": [
+          {
+            "id": "scholar-contact-page",
+            "blockType": "contact",
+            "variant": "form-details",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Contact", "ar": "تواصل" },
+              "heading": { "en": "Let's plan something for your teachers", "ar": "لنخطط معًا لشيء يفيد معلميك" },
+              "intro": { "en": "Workshops, mentoring, conference talks or a question about an article: write to me.", "ar": "ورش عمل أو إرشاد أو محاضرات في المؤتمرات أو سؤال عن مقال: راسلني." },
+              "note": { "en": "Sunday to Thursday, 8 am – 3 pm (Muscat time).", "ar": "من الأحد إلى الخميس، 8 صباحًا – 3 مساءً (بتوقيت مسقط)." },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": {}
+          }
+        ]
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "scholar-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": { "en": "Fatima Al-Hajri", "ar": "فاطمة الهاجري" },
+          "cta": { "label": { "en": "Invite me", "ar": "ادعني" }, "link": { "type": "page", "value": "contact" }, "style": "primary" },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": { "entrance": "none" },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "scholar-footer",
+        "blockType": "footer",
+        "variant": "columns",
+        "content": {
+          "heading": { "en": "Fatima Al-Hajri", "ar": "فاطمة الهاجري" },
+          "text": { "en": "English teacher and teacher trainer, Muscat.", "ar": "معلمة لغة إنجليزية ومدربة معلمين، مسقط." }
+        },
+        "style": {},
+        "animation": { "entrance": "none" },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Fatima Al-Hajri",
+        "defaultDescription": {
+          "en": "English teacher and teacher trainer. Workshops, courses, articles and free lesson plans.",
+          "ar": "معلمة لغة إنجليزية ومدربة معلمين. ورش عمل ودورات ومقالات وخطط دروس مجانية."
+        }
+      },
+      "ownerName": { "en": "Fatima Al-Hajri", "ar": "فاطمة الهاجري" },
+      "ownerTitle": { "en": "English teacher and teacher trainer", "ar": "معلمة لغة إنجليزية ومدربة معلمين" },
+      "social": [
+        { "platform": "linkedin", "url": "https://www.linkedin.com/in/example-fatima-alhajri" },
+        { "platform": "x", "url": "https://x.com/example_fatima" },
+        { "platform": "youtube", "url": "https://www.youtube.com/@example-fatima" }
+      ],
+      "contact": {
+        "email": "fatima@example.com",
+        "phone": "+968 5550 1234",
+        "whatsapp": "+96855501234",
+        "address": { "en": "Muscat, Oman", "ar": "مسقط، عُمان" }
+      },
+      "cookieBanner": false
+    }
+  }
+}

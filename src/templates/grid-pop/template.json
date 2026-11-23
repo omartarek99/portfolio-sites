@@ -1,0 +1,1838 @@
+{
+  "id": "grid-pop",
+  "name": {
+    "en": "Grid Pop",
+    "ar": "جريد بوب"
+  },
+  "description": {
+    "en": "A loud, brutalist portfolio for designers: thick borders, hard shadows and bright colour blocks.",
+    "ar": "معرض أعمال جريء بطابع بروتالي للمصممين: حدود سميكة وظلال حادة وكتل ألوان زاهية."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Graphic designers",
+      "ar": "المصممون الجرافيكيون"
+    },
+    {
+      "en": "UI/UX designers",
+      "ar": "مصممو الواجهات وتجربة المستخدم"
+    },
+    {
+      "en": "Design students",
+      "ar": "طلاب التصميم"
+    }
+  ],
+  "professions": [
+    "designer"
+  ],
+  "styles": [
+    "bold",
+    "playful"
+  ],
+  "signature": {
+    "en": "Thick black borders, hard offset shadows and colour-block cards that tilt on hover, with a wobbling “Available!” sticker.",
+    "ar": "حدود سوداء سميكة وظلال حادة وبطاقات ملوّنة تميل عند المرور عليها، مع ملصق «متاح!» يتمايل."
+  },
+  "defaultLocale": "en",
+  "order": 5,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "grid-pop",
+      "palette": {
+        "background": "#FFF8E7",
+        "surface": "#FFFFFF",
+        "text": "#111111",
+        "mutedText": "#444444",
+        "primary": "#FF5C39",
+        "secondary": "#3D5AFE",
+        "accent": "#FFD600",
+        "border": "#111111"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Archivo Black"
+        },
+        "body": {
+          "family": "Space Grotesk"
+        },
+        "arabicHeading": {
+          "family": "Lalezar"
+        },
+        "arabicBody": {
+          "family": "Cairo"
+        }
+      },
+      "radius": "md",
+      "spacing": "comfortable",
+      "motion": "expressive",
+      "buttonStyle": "brutal"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-work",
+          "label": {
+            "en": "Case studies",
+            "ar": "دراسات الحالة"
+          },
+          "link": {
+            "type": "page",
+            "value": "qareeb"
+          },
+          "children": [
+            {
+              "id": "nav-qareeb",
+              "label": {
+                "en": "Qareeb delivery app",
+                "ar": "تطبيق «قريب»"
+              },
+              "link": {
+                "type": "page",
+                "value": "qareeb"
+              }
+            },
+            {
+              "id": "nav-souq",
+              "label": {
+                "en": "Souq dashboard",
+                "ar": "لوحة «سوق»"
+              },
+              "link": {
+                "type": "page",
+                "value": "souq"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nav-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "fnav-qareeb",
+          "label": {
+            "en": "Qareeb",
+            "ar": "قريب"
+          },
+          "link": {
+            "type": "page",
+            "value": "qareeb"
+          }
+        },
+        {
+          "id": "fnav-souq",
+          "label": {
+            "en": "Souq",
+            "ar": "سوق"
+          },
+          "link": {
+            "type": "page",
+            "value": "souq"
+          }
+        },
+        {
+          "id": "fnav-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "gridpop-hero",
+            "blockType": "hero",
+            "variant": "collage",
+            "content": {
+              "eyebrow": {
+                "en": "UI/UX designer · Dubai",
+                "ar": "مصمم واجهات وتجربة مستخدم · دبي"
+              },
+              "name": {
+                "en": "Khalid Rahman",
+                "ar": "خالد رحمن"
+              },
+              "heading": {
+                "en": "UI/UX designer who makes apps people actually enjoy using.",
+                "ar": "مصمم واجهات وتجربة مستخدم أصنع تطبيقات يستمتع بها الناس."
+              },
+              "tagline": {
+                "en": "Five years of turning messy flows into apps that feel obvious, for delivery, retail and fintech teams across the Gulf.",
+                "ar": "خمس سنوات أحوّل فيها المسارات المعقّدة إلى تطبيقات واضحة، لفرق التوصيل والتجزئة والتقنية المالية في الخليج."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "See my work",
+                  "ar": "شاهد أعمالي"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "work"
+                },
+                "icon": "arrow-right"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Read the Qareeb story",
+                  "ar": "اقرأ قصة «قريب»"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "qareeb"
+                }
+              },
+              "images": [
+                {
+                  "id": "c1",
+                  "image": {
+                    "url": "/stock/app-slate.svg",
+                    "alt": {
+                      "en": "Dashboard interface design",
+                      "ar": "تصميم واجهة لوحة تحكم"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  }
+                },
+                {
+                  "id": "c2",
+                  "image": {
+                    "url": "/stock/portrait-olive.svg",
+                    "alt": {
+                      "en": "Khalid Rahman",
+                      "ar": "خالد رحمن"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  }
+                },
+                {
+                  "id": "c3",
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "alt": {
+                      "en": "Colourful shape studies",
+                      "ar": "تجارب ملوّنة بالأشكال"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  }
+                },
+                {
+                  "id": "c4",
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "alt": {
+                      "en": "Data dashboard screens",
+                      "ar": "شاشات لوحة بيانات"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  }
+                }
+              ],
+              "stickers": [
+                {
+                  "id": "st1",
+                  "text": {
+                    "en": "Available!",
+                    "ar": "متاح!"
+                  }
+                },
+                {
+                  "id": "st2",
+                  "text": {
+                    "en": "Figma nerd",
+                    "ar": "مهووس فيغما"
+                  }
+                },
+                {
+                  "id": "st3",
+                  "text": {
+                    "en": "5 yrs",
+                    "ar": "5 سنوات"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-projects",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Selected work",
+                "ar": "أعمال مختارة"
+              },
+              "heading": {
+                "en": "Projects",
+                "ar": "المشاريع"
+              },
+              "intro": {
+                "en": "Apps and dashboards I have designed end to end.",
+                "ar": "تطبيقات ولوحات صمّمتها من الفكرة حتى الإطلاق."
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "qareeb",
+                  "title": {
+                    "en": "Qareeb delivery app",
+                    "ar": "تطبيق «قريب» للتوصيل"
+                  },
+                  "description": {
+                    "en": "Ordering from the corner shop in one minute flat.",
+                    "ar": "الطلب من بقالة الحيّ في دقيقة واحدة."
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "alt": {
+                      "en": "Qareeb app screens",
+                      "ar": "شاشات تطبيق قريب"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "tags": [
+                    "Mobile",
+                    "Research",
+                    "Design system"
+                  ],
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "qareeb"
+                  },
+                  "year": "2025"
+                },
+                {
+                  "id": "souq",
+                  "title": {
+                    "en": "Souq dashboard redesign",
+                    "ar": "إعادة تصميم لوحة «سوق»"
+                  },
+                  "description": {
+                    "en": "Forty charts became three clear answers for sellers.",
+                    "ar": "أربعون رسمًا بيانيًا صارت ثلاث إجابات واضحة للبائعين."
+                  },
+                  "image": {
+                    "url": "/stock/app-slate.svg",
+                    "alt": {
+                      "en": "Souq seller dashboard",
+                      "ar": "لوحة البائع في سوق"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "Web app",
+                    "Data",
+                    "RTL"
+                  ],
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "souq"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "plantly",
+                  "title": {
+                    "en": "Plantly — habit tracker",
+                    "ar": "Plantly — متتبّع العادات"
+                  },
+                  "description": {
+                    "en": "A habit app where your streak grows a tiny garden.",
+                    "ar": "تطبيق عادات تنمو فيه حديقة صغيرة مع كل يوم تلتزم فيه."
+                  },
+                  "image": {
+                    "url": "/stock/nature-olive.svg",
+                    "alt": {
+                      "en": "Green hills illustration for Plantly",
+                      "ar": "رسم تلال خضراء لتطبيق Plantly"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "Side project",
+                    "Motion"
+                  ],
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/plantly",
+                    "newTab": true
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "masar",
+                  "title": {
+                    "en": "Masar transit planner",
+                    "ar": "مخطّط رحلات «مسار»"
+                  },
+                  "description": {
+                    "en": "Metro, bus and taxi in one bilingual journey planner.",
+                    "ar": "المترو والحافلة وسيارة الأجرة في مخطّط رحلات واحد بلغتين."
+                  },
+                  "image": {
+                    "url": "/stock/city-slate.svg",
+                    "alt": {
+                      "en": "City skyline for Masar",
+                      "ar": "أفق المدينة لتطبيق مسار"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "Mobile",
+                    "Maps"
+                  ],
+                  "year": "2023"
+                },
+                {
+                  "id": "tala",
+                  "title": {
+                    "en": "Tala onboarding",
+                    "ar": "تسجيل الدخول في «تالا»"
+                  },
+                  "description": {
+                    "en": "Opening a bank account in under four minutes.",
+                    "ar": "فتح حساب مصرفي في أقل من أربع دقائق."
+                  },
+                  "image": {
+                    "url": "/stock/art-sea.svg",
+                    "alt": {
+                      "en": "Abstract shapes for Tala",
+                      "ar": "أشكال تجريدية لتالا"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "tags": [
+                    "Fintech",
+                    "Forms"
+                  ],
+                  "year": "2023"
+                },
+                {
+                  "id": "dukkan",
+                  "title": {
+                    "en": "Dukkan design system",
+                    "ar": "نظام تصميم «دكّان»"
+                  },
+                  "description": {
+                    "en": "120 components, documented in Arabic and English.",
+                    "ar": "120 مكوّنًا موثّقًا بالعربية والإنجليزية."
+                  },
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "alt": {
+                      "en": "Colourful component tiles",
+                      "ar": "مربعات مكوّنات ملوّنة"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "tags": [
+                    "Design system",
+                    "Docs"
+                  ],
+                  "year": "2022"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "work",
+            "example": true
+          },
+          {
+            "id": "gridpop-skills",
+            "blockType": "skills",
+            "variant": "icon-grid",
+            "content": {
+              "eyebrow": {
+                "en": "Toolbox",
+                "ar": "صندوق الأدوات"
+              },
+              "heading": {
+                "en": "What I bring to the team",
+                "ar": "ما أقدّمه للفريق"
+              },
+              "items": [
+                {
+                  "id": "figma",
+                  "name": {
+                    "en": "Figma",
+                    "ar": "فيغما"
+                  },
+                  "icon": "pen-tool"
+                },
+                {
+                  "id": "research",
+                  "name": {
+                    "en": "User research",
+                    "ar": "أبحاث المستخدمين"
+                  },
+                  "icon": "search"
+                },
+                {
+                  "id": "proto",
+                  "name": {
+                    "en": "Prototyping",
+                    "ar": "النماذج الأولية"
+                  },
+                  "icon": "layers"
+                },
+                {
+                  "id": "systems",
+                  "name": {
+                    "en": "Design systems",
+                    "ar": "أنظمة التصميم"
+                  },
+                  "icon": "layout-grid"
+                },
+                {
+                  "id": "motion",
+                  "name": {
+                    "en": "Motion",
+                    "ar": "الحركة"
+                  },
+                  "icon": "zap"
+                },
+                {
+                  "id": "a11y",
+                  "name": {
+                    "en": "Accessibility",
+                    "ar": "سهولة الوصول"
+                  },
+                  "icon": "eye"
+                },
+                {
+                  "id": "testing",
+                  "name": {
+                    "en": "Usability testing",
+                    "ar": "اختبار قابلية الاستخدام"
+                  },
+                  "icon": "users"
+                },
+                {
+                  "id": "rtl",
+                  "name": {
+                    "en": "Bilingual & RTL UI",
+                    "ar": "واجهات ثنائية اللغة"
+                  },
+                  "icon": "languages"
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "accent"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-clients",
+            "blockType": "clients",
+            "variant": "marquee",
+            "content": {
+              "eyebrow": {
+                "en": "Teams I have worked with",
+                "ar": "فرق عملت معها"
+              },
+              "items": [
+                {
+                  "id": "cl1",
+                  "name": {
+                    "en": "Qareeb",
+                    "ar": "قريب"
+                  }
+                },
+                {
+                  "id": "cl2",
+                  "name": {
+                    "en": "Souq Hub",
+                    "ar": "سوق هب"
+                  }
+                },
+                {
+                  "id": "cl3",
+                  "name": {
+                    "en": "Masar",
+                    "ar": "مسار"
+                  }
+                },
+                {
+                  "id": "cl4",
+                  "name": {
+                    "en": "Tala Bank",
+                    "ar": "بنك تالا"
+                  }
+                },
+                {
+                  "id": "cl5",
+                  "name": {
+                    "en": "Dukkan",
+                    "ar": "دكّان"
+                  }
+                },
+                {
+                  "id": "cl6",
+                  "name": {
+                    "en": "Wasl Studio",
+                    "ar": "استوديو وصل"
+                  }
+                },
+                {
+                  "id": "cl7",
+                  "name": {
+                    "en": "Nabta",
+                    "ar": "نبتة"
+                  }
+                },
+                {
+                  "id": "cl8",
+                  "name": {
+                    "en": "Rawi Books",
+                    "ar": "راوي للكتب"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Hi, I am Khalid",
+                "ar": "مرحبًا، أنا خالد"
+              },
+              "body": {
+                "en": "<p>I started as a graphic designer making posters for my university’s film club, then fell for interfaces when I redesigned the club’s ticket app over one long weekend.</p><p>Today I lead product design for teams that want their apps to feel friendly in both Arabic and English. I sketch on paper, prototype in Figma and test with real people as early as possible.</p>",
+                "ar": "<p>بدأت مصممًا جرافيكيًا أصنع ملصقات نادي السينما في جامعتي، ثم وقعت في حب الواجهات حين أعدت تصميم تطبيق تذاكر النادي في عطلة نهاية أسبوع طويلة.</p><p>أقود اليوم تصميم المنتجات لفرق تريد لتطبيقاتها أن تكون ودودة بالعربية والإنجليزية معًا. أرسم على الورق، وأبني النماذج في فيغما، وأختبرها مع أشخاص حقيقيين في أقرب وقت ممكن.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-olive.svg",
+                "alt": {
+                  "en": "Khalid Rahman smiling",
+                  "ar": "خالد رحمن مبتسمًا"
+                },
+                "width": 1200,
+                "height": 1600
+              },
+              "imageSide": "end",
+              "cta": {
+                "label": {
+                  "en": "More about me",
+                  "ar": "المزيد عني"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "about"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-start"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "gridpop-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Let’s make something loud",
+                "ar": "لنصنع شيئًا لافتًا"
+              },
+              "intro": {
+                "en": "Got an app that needs more joy and fewer taps? I have room for one new project this spring.",
+                "ar": "لديك تطبيق يحتاج إلى متعة أكثر ولمسات أقل؟ لديّ متّسع لمشروع جديد واحد هذا الربيع."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Say hello",
+                  "ar": "قل مرحبًا"
+                },
+                "link": {
+                  "type": "email",
+                  "value": "khalid@example.com"
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "See case studies",
+                  "ar": "دراسات الحالة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "qareeb"
+                }
+              }
+            },
+            "style": {
+              "background": {
+                "type": "secondary"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Tell me about your project",
+                "ar": "حدّثني عن مشروعك"
+              },
+              "intro": {
+                "en": "A few lines are enough. I reply within two working days.",
+                "ar": "تكفي بضعة أسطر، وأردّ خلال يومي عمل."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "form": {
+                "name": "Project enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "type",
+                    "type": "select",
+                    "label": {
+                      "en": "Project type",
+                      "ar": "نوع المشروع"
+                    },
+                    "required": true,
+                    "options": [
+                      {
+                        "value": "app",
+                        "label": {
+                          "en": "Mobile app",
+                          "ar": "تطبيق جوّال"
+                        }
+                      },
+                      {
+                        "value": "web",
+                        "label": {
+                          "en": "Web app or dashboard",
+                          "ar": "تطبيق ويب أو لوحة تحكم"
+                        }
+                      },
+                      {
+                        "value": "system",
+                        "label": {
+                          "en": "Design system",
+                          "ar": "نظام تصميم"
+                        }
+                      },
+                      {
+                        "value": "audit",
+                        "label": {
+                          "en": "UX audit",
+                          "ar": "تقييم تجربة المستخدم"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "required": true,
+                    "placeholder": {
+                      "en": "What are you building, and for whom?",
+                      "ar": "ماذا تبني، ولمن؟"
+                    }
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send it",
+                    "ar": "أرسل"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Got it! I will get back to you within two working days.",
+                      "ar": "وصلتني رسالتك! سأردّ عليك خلال يومي عمل."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "qareeb",
+        "slug": "qareeb",
+        "title": {
+          "en": "Qareeb delivery app",
+          "ar": "تطبيق «قريب» للتوصيل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "gridpop-qareeb",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Case study · Mobile app",
+                "ar": "دراسة حالة · تطبيق جوّال"
+              },
+              "title": {
+                "en": "Qareeb delivery app",
+                "ar": "تطبيق «قريب» للتوصيل"
+              },
+              "subtitle": {
+                "en": "Redesigning a neighbourhood grocery app so ordering takes one minute, not five.",
+                "ar": "إعادة تصميم تطبيق بقالة الحيّ ليستغرق الطلب دقيقة واحدة لا خمس دقائق."
+              },
+              "cover": {
+                "url": "/stock/app-sea.svg",
+                "alt": {
+                  "en": "Qareeb app screens on a dashboard",
+                  "ar": "شاشات تطبيق قريب على لوحة"
+                },
+                "width": 1920,
+                "height": 1080
+              },
+              "meta": [
+                {
+                  "id": "m1",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Qareeb",
+                    "ar": "قريب"
+                  }
+                },
+                {
+                  "id": "m2",
+                  "label": {
+                    "en": "Role",
+                    "ar": "الدور"
+                  },
+                  "value": {
+                    "en": "Lead product designer",
+                    "ar": "مصمم المنتج الرئيسي"
+                  }
+                },
+                {
+                  "id": "m3",
+                  "label": {
+                    "en": "Year",
+                    "ar": "السنة"
+                  },
+                  "value": {
+                    "en": "2025",
+                    "ar": "2025"
+                  }
+                },
+                {
+                  "id": "m4",
+                  "label": {
+                    "en": "Duration",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "14 weeks",
+                    "ar": "14 أسبوعًا"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "problem",
+                  "label": {
+                    "en": "Problem",
+                    "ar": "المشكلة"
+                  },
+                  "heading": {
+                    "en": "Customers loved the shops, not the app",
+                    "ar": "أحبّ الزبائن المتاجر لا التطبيق"
+                  },
+                  "body": {
+                    "en": "<p>Qareeb connects 300 corner shops with the families around them. Orders were growing, but 41% of carts were abandoned before checkout, and support received the same question every day: “where is my order?”</p><p>The app had been built feature by feature for four years. Search, offers and delivery slots each lived on a different screen.</p>",
+                    "ar": "<p>يربط «قريب» ثلاثمئة بقالة حيّ بالعائلات المحيطة بها. كانت الطلبات تزداد، لكن 41% من السلال كانت تُترك قبل الدفع، وكان فريق الدعم يتلقّى السؤال نفسه كل يوم: «أين طلبي؟»</p><p>بُني التطبيق ميزةً بعد أخرى على مدى أربع سنوات، فتوزّع البحث والعروض ومواعيد التوصيل على شاشات متفرّقة.</p>"
+                  }
+                },
+                {
+                  "id": "process",
+                  "label": {
+                    "en": "Process",
+                    "ar": "المنهجية"
+                  },
+                  "heading": {
+                    "en": "Twelve kitchens, three prototypes",
+                    "ar": "اثنا عشر مطبخًا وثلاثة نماذج أولية"
+                  },
+                  "body": {
+                    "en": "<p>I visited twelve households and watched them shop on their own phones, in their own kitchens.</p><ul><li>Mapped every step from “we are out of milk” to the doorbell</li><li>Merged search, offers and slots into one basket screen</li><li>Tested three clickable prototypes with 26 customers in Arabic and English</li><li>Built a small design system so the shops’ own team could keep it consistent</li></ul>",
+                    "ar": "<p>زرت اثني عشر بيتًا وراقبت أصحابها يتسوّقون من هواتفهم في مطابخهم.</p><ul><li>رسمت كل خطوة من «نفد الحليب» حتى رنين جرس الباب</li><li>دمجت البحث والعروض ومواعيد التوصيل في شاشة سلّة واحدة</li><li>اختبرت ثلاثة نماذج تفاعلية مع 26 زبونًا بالعربية والإنجليزية</li><li>بنيت نظام تصميم صغيرًا يساعد فريق المتاجر على الحفاظ على الاتساق</li></ul>"
+                  },
+                  "images": [
+                    {
+                      "id": "i1",
+                      "image": {
+                        "url": "/stock/app-slate.svg",
+                        "alt": {
+                          "en": "Early wireframes of the basket screen",
+                          "ar": "مخططات أولية لشاشة السلّة"
+                        },
+                        "width": 1600,
+                        "height": 1067
+                      },
+                      "caption": {
+                        "en": "Round two of the basket prototype",
+                        "ar": "الجولة الثانية من نموذج السلّة"
+                      }
+                    },
+                    {
+                      "id": "i2",
+                      "image": {
+                        "url": "/stock/workspace-slate.svg",
+                        "alt": {
+                          "en": "Usability test notes on a desk",
+                          "ar": "ملاحظات اختبار الاستخدام على مكتب"
+                        },
+                        "width": 1600,
+                        "height": 1067
+                      },
+                      "caption": {
+                        "en": "Notes from 26 test sessions",
+                        "ar": "ملاحظات من 26 جلسة اختبار"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "Faster orders, quieter support",
+                    "ar": "طلبات أسرع ودعم أهدأ"
+                  },
+                  "body": {
+                    "en": "<p>The new app shipped in two phases. A live order tracker replaced the “where is my order?” calls, and repeat customers can now reorder last week’s basket in two taps.</p>",
+                    "ar": "<p>أُطلق التطبيق الجديد على مرحلتين. حلّ متتبّع الطلب المباشر محلّ اتصالات «أين طلبي؟»، وصار بإمكان الزبائن الدائمين إعادة طلب سلّة الأسبوع الماضي بلمستين.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "Three months after launch",
+                "ar": "بعد ثلاثة أشهر من الإطلاق"
+              },
+              "results": [
+                {
+                  "id": "r1",
+                  "value": {
+                    "en": "−38%",
+                    "ar": "‎−38%"
+                  },
+                  "label": {
+                    "en": "abandoned carts",
+                    "ar": "في السلال المتروكة"
+                  }
+                },
+                {
+                  "id": "r2",
+                  "value": {
+                    "en": "62 s",
+                    "ar": "62 ث"
+                  },
+                  "label": {
+                    "en": "average time to order",
+                    "ar": "متوسط زمن الطلب"
+                  }
+                },
+                {
+                  "id": "r3",
+                  "value": {
+                    "en": "4.8★",
+                    "ar": "4.8★"
+                  },
+                  "label": {
+                    "en": "app store rating",
+                    "ar": "تقييم متجر التطبيقات"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Next case study",
+                  "ar": "دراسة الحالة التالية"
+                },
+                "title": {
+                  "en": "Souq dashboard redesign",
+                  "ar": "إعادة تصميم لوحة «سوق»"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "souq"
+                },
+                "image": {
+                  "url": "/stock/app-slate.svg",
+                  "alt": {
+                    "en": "Souq seller dashboard",
+                    "ar": "لوحة البائع في سوق"
+                  },
+                  "width": 1600,
+                  "height": 1067
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-qareeb-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Want results like these?",
+                "ar": "تريد نتائج كهذه؟"
+              },
+              "intro": {
+                "en": "Tell me about your app and where people get stuck.",
+                "ar": "حدّثني عن تطبيقك وأين يتعثّر الناس فيه."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Say hello",
+                  "ar": "قل مرحبًا"
+                },
+                "link": {
+                  "type": "email",
+                  "value": "khalid@example.com"
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Back to all work",
+                  "ar": "العودة إلى الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                }
+              }
+            },
+            "style": {
+              "background": {
+                "type": "accent"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "souq",
+        "slug": "souq-dashboard",
+        "title": {
+          "en": "Souq dashboard redesign",
+          "ar": "إعادة تصميم لوحة «سوق»"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "gridpop-souq",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Case study · Web app",
+                "ar": "دراسة حالة · تطبيق ويب"
+              },
+              "title": {
+                "en": "Souq dashboard redesign",
+                "ar": "إعادة تصميم لوحة «سوق»"
+              },
+              "subtitle": {
+                "en": "A seller dashboard that small shops can read at a glance, between customers.",
+                "ar": "لوحة للبائعين يقرؤها أصحاب المتاجر الصغيرة بنظرة واحدة بين زبون وآخر."
+              },
+              "cover": {
+                "url": "/stock/app-slate.svg",
+                "alt": {
+                  "en": "Souq seller dashboard on a laptop",
+                  "ar": "لوحة البائع في سوق على حاسوب محمول"
+                },
+                "width": 1600,
+                "height": 1067
+              },
+              "meta": [
+                {
+                  "id": "m1",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Souq Hub",
+                    "ar": "سوق هب"
+                  }
+                },
+                {
+                  "id": "m2",
+                  "label": {
+                    "en": "Role",
+                    "ar": "الدور"
+                  },
+                  "value": {
+                    "en": "UX lead",
+                    "ar": "قائد تجربة المستخدم"
+                  }
+                },
+                {
+                  "id": "m3",
+                  "label": {
+                    "en": "Year",
+                    "ar": "السنة"
+                  },
+                  "value": {
+                    "en": "2024",
+                    "ar": "2024"
+                  }
+                },
+                {
+                  "id": "m4",
+                  "label": {
+                    "en": "Duration",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "10 weeks",
+                    "ar": "10 أسابيع"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "problem",
+                  "label": {
+                    "en": "Problem",
+                    "ar": "المشكلة"
+                  },
+                  "heading": {
+                    "en": "Forty charts, zero answers",
+                    "ar": "أربعون رسمًا بيانيًا ولا إجابة واحدة"
+                  },
+                  "body": {
+                    "en": "<p>Souq Hub sellers opened the dashboard every morning and closed it again within ten seconds. It showed everything the database knew and nothing they actually needed: what sold, what is running out, and who is waiting.</p>",
+                    "ar": "<p>كان بائعو «سوق هب» يفتحون اللوحة كل صباح ويغلقونها خلال عشر ثوانٍ. كانت تعرض كل ما تعرفه قاعدة البيانات ولا شيء مما يحتاجونه فعلًا: ماذا بيع، وما الذي أوشك على النفاد، ومن ينتظر.</p>"
+                  }
+                },
+                {
+                  "id": "process",
+                  "label": {
+                    "en": "Process",
+                    "ar": "المنهجية"
+                  },
+                  "heading": {
+                    "en": "Three questions, one screen",
+                    "ar": "ثلاثة أسئلة وشاشة واحدة"
+                  },
+                  "body": {
+                    "en": "<p>Card sorting with 18 sellers cut forty widgets down to three questions. I designed a “today” view around them, then a weekly report that arrives on WhatsApp.</p><ul><li>18 seller interviews and a card-sorting workshop</li><li>Right-to-left first layout, mirrored for English</li><li>Accessible colour scale tested for colour blindness</li></ul>",
+                    "ar": "<p>قلّص فرز البطاقات مع 18 بائعًا أربعين عنصرًا إلى ثلاثة أسئلة. صمّمت حولها شاشة «اليوم»، ثم تقريرًا أسبوعيًا يصل عبر واتساب.</p><ul><li>18 مقابلة مع البائعين وورشة لفرز البطاقات</li><li>تخطيط يبدأ من اليمين إلى اليسار ويُعكس للإنجليزية</li><li>سلّم ألوان سهل الوصول مُختبر لعمى الألوان</li></ul>"
+                  },
+                  "images": [
+                    {
+                      "id": "i1",
+                      "image": {
+                        "url": "/stock/app-sea.svg",
+                        "alt": {
+                          "en": "The new today view",
+                          "ar": "شاشة «اليوم» الجديدة"
+                        },
+                        "width": 1920,
+                        "height": 1080
+                      },
+                      "caption": {
+                        "en": "The “today” view",
+                        "ar": "شاشة «اليوم»"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "Sellers stay, and restock sooner",
+                    "ar": "البائعون يبقون ويعيدون التخزين أسرع"
+                  },
+                  "body": {
+                    "en": "<p>Average time on the dashboard went from ten seconds to four minutes, and low-stock alerts now reach sellers two days before a product runs out.</p>",
+                    "ar": "<p>ارتفع متوسط الوقت على اللوحة من عشر ثوانٍ إلى أربع دقائق، وصارت تنبيهات انخفاض المخزون تصل إلى البائعين قبل نفاد المنتج بيومين.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "After the rollout",
+                "ar": "بعد الإطلاق"
+              },
+              "results": [
+                {
+                  "id": "r1",
+                  "value": {
+                    "en": "24×",
+                    "ar": "24×"
+                  },
+                  "label": {
+                    "en": "longer sessions",
+                    "ar": "مدة جلسات أطول"
+                  }
+                },
+                {
+                  "id": "r2",
+                  "value": {
+                    "en": "−51%",
+                    "ar": "‎−51%"
+                  },
+                  "label": {
+                    "en": "out-of-stock days",
+                    "ar": "في أيام نفاد المخزون"
+                  }
+                },
+                {
+                  "id": "r3",
+                  "value": {
+                    "en": "9 / 10",
+                    "ar": "9 / 10"
+                  },
+                  "label": {
+                    "en": "sellers prefer the new view",
+                    "ar": "بائعين يفضّلون الشاشة الجديدة"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Next",
+                  "ar": "التالي"
+                },
+                "title": {
+                  "en": "About Khalid",
+                  "ar": "عن خالد"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "about"
+                },
+                "image": {
+                  "url": "/stock/portrait-olive.svg",
+                  "alt": {
+                    "en": "Khalid Rahman",
+                    "ar": "خالد رحمن"
+                  },
+                  "width": 1200,
+                  "height": 1600
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-souq-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Want results like these?",
+                "ar": "تريد نتائج كهذه؟"
+              },
+              "intro": {
+                "en": "Tell me about your app and where people get stuck.",
+                "ar": "حدّثني عن تطبيقك وأين يتعثّر الناس فيه."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Say hello",
+                  "ar": "قل مرحبًا"
+                },
+                "link": {
+                  "type": "email",
+                  "value": "khalid@example.com"
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Back to all work",
+                  "ar": "العودة إلى الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                }
+              }
+            },
+            "style": {
+              "background": {
+                "type": "accent"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "about",
+        "slug": "about",
+        "title": {
+          "en": "About",
+          "ar": "نبذة"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "gridpop-about-page",
+            "blockType": "about",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Designer, researcher, sticker collector",
+                "ar": "مصمم وباحث وجامع ملصقات"
+              },
+              "body": {
+                "en": "<p>I am a UI/UX designer based in Dubai, born in Sharjah to a family of shopkeepers. Watching my uncle run his shop taught me the most useful lesson in design: people are busy, and good tools respect that.</p><p>I have spent five years designing for delivery, retail and fintech products used by more than two million people. I care about research that changes decisions, design systems that teams actually use, and small moments of delight.</p><p>Outside work I mentor design students at a local bootcamp and run a monthly crit night for junior designers.</p>",
+                "ar": "<p>أنا مصمم واجهات وتجربة مستخدم أقيم في دبي، وُلدت في الشارقة لعائلة من أصحاب المتاجر. علّمتني مراقبة خالي وهو يدير متجره أهم درس في التصميم: الناس مشغولون، والأداة الجيدة تحترم وقتهم.</p><p>أمضيت خمس سنوات أصمّم منتجات في التوصيل والتجزئة والتقنية المالية يستخدمها أكثر من مليوني شخص. يهمّني البحث الذي يغيّر القرارات، وأنظمة التصميم التي تستخدمها الفرق فعلًا، ولحظات البهجة الصغيرة.</p><p>خارج العمل أرشد طلاب التصميم في معسكر تدريبي محلي، وأنظّم أمسية شهرية لمراجعة أعمال المصممين المبتدئين.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-olive.svg",
+                "alt": {
+                  "en": "Khalid Rahman",
+                  "ar": "خالد رحمن"
+                },
+                "width": 1200,
+                "height": 1600
+              },
+              "cta": {
+                "label": {
+                  "en": "Say hello",
+                  "ar": "قل مرحبًا"
+                },
+                "link": {
+                  "type": "email",
+                  "value": "khalid@example.com"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-experience",
+            "blockType": "experience",
+            "variant": "timeline",
+            "content": {
+              "eyebrow": {
+                "en": "Experience",
+                "ar": "الخبرات"
+              },
+              "heading": {
+                "en": "Where I have worked",
+                "ar": "أين عملت"
+              },
+              "items": [
+                {
+                  "id": "e1",
+                  "role": {
+                    "en": "Lead product designer",
+                    "ar": "مصمم منتجات رئيسي"
+                  },
+                  "organisation": {
+                    "en": "Qareeb",
+                    "ar": "قريب"
+                  },
+                  "start": "2024",
+                  "current": true,
+                  "location": {
+                    "en": "Dubai",
+                    "ar": "دبي"
+                  },
+                  "description": {
+                    "en": "Leading a team of three designers across the customer and shop apps.",
+                    "ar": "أقود فريقًا من ثلاثة مصممين لتطبيقَي الزبائن والمتاجر."
+                  },
+                  "tags": [
+                    "Mobile",
+                    "Research"
+                  ]
+                },
+                {
+                  "id": "e2",
+                  "role": {
+                    "en": "Senior UX designer",
+                    "ar": "مصمم تجربة مستخدم أول"
+                  },
+                  "organisation": {
+                    "en": "Souq Hub",
+                    "ar": "سوق هب"
+                  },
+                  "start": "2022",
+                  "end": "2024",
+                  "location": {
+                    "en": "Dubai",
+                    "ar": "دبي"
+                  },
+                  "description": {
+                    "en": "Redesigned the seller dashboard and built the Dukkan design system.",
+                    "ar": "أعدت تصميم لوحة البائعين وبنيت نظام تصميم «دكّان»."
+                  },
+                  "tags": [
+                    "Web",
+                    "Design system"
+                  ]
+                },
+                {
+                  "id": "e3",
+                  "role": {
+                    "en": "UI designer",
+                    "ar": "مصمم واجهات"
+                  },
+                  "organisation": {
+                    "en": "Tala Bank",
+                    "ar": "بنك تالا"
+                  },
+                  "start": "2021",
+                  "end": "2022",
+                  "location": {
+                    "en": "Abu Dhabi",
+                    "ar": "أبوظبي"
+                  },
+                  "description": {
+                    "en": "Shipped the new onboarding and card management flows.",
+                    "ar": "أطلقت مسارات التسجيل الجديدة وإدارة البطاقات."
+                  },
+                  "tags": [
+                    "Fintech"
+                  ]
+                },
+                {
+                  "id": "e4",
+                  "role": {
+                    "en": "Graphic designer",
+                    "ar": "مصمم جرافيك"
+                  },
+                  "organisation": {
+                    "en": "Wasl Studio",
+                    "ar": "استوديو وصل"
+                  },
+                  "start": "2019",
+                  "end": "2021",
+                  "location": {
+                    "en": "Sharjah",
+                    "ar": "الشارقة"
+                  },
+                  "description": {
+                    "en": "Posters, packaging and my first app projects.",
+                    "ar": "ملصقات وعبوات وأول مشاريعي في التطبيقات."
+                  },
+                  "tags": [
+                    "Branding"
+                  ]
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-about-skills",
+            "blockType": "skills",
+            "variant": "tags",
+            "content": {
+              "eyebrow": {
+                "en": "Skills",
+                "ar": "المهارات"
+              },
+              "heading": {
+                "en": "Everyday tools",
+                "ar": "أدواتي اليومية"
+              },
+              "items": [
+                {
+                  "id": "figma",
+                  "name": {
+                    "en": "Figma",
+                    "ar": "فيغما"
+                  }
+                },
+                {
+                  "id": "research",
+                  "name": {
+                    "en": "User research",
+                    "ar": "أبحاث المستخدمين"
+                  }
+                },
+                {
+                  "id": "proto",
+                  "name": {
+                    "en": "Prototyping",
+                    "ar": "النماذج الأولية"
+                  }
+                },
+                {
+                  "id": "systems",
+                  "name": {
+                    "en": "Design systems",
+                    "ar": "أنظمة التصميم"
+                  }
+                },
+                {
+                  "id": "motion",
+                  "name": {
+                    "en": "Motion",
+                    "ar": "الحركة"
+                  }
+                },
+                {
+                  "id": "a11y",
+                  "name": {
+                    "en": "Accessibility",
+                    "ar": "سهولة الوصول"
+                  }
+                },
+                {
+                  "id": "testing",
+                  "name": {
+                    "en": "Usability testing",
+                    "ar": "اختبار قابلية الاستخدام"
+                  }
+                },
+                {
+                  "id": "rtl",
+                  "name": {
+                    "en": "Bilingual & RTL UI",
+                    "ar": "واجهات ثنائية اللغة"
+                  }
+                },
+                {
+                  "id": "protopie",
+                  "name": {
+                    "en": "ProtoPie",
+                    "ar": "ProtoPie"
+                  }
+                },
+                {
+                  "id": "html",
+                  "name": {
+                    "en": "HTML & CSS",
+                    "ar": "HTML وCSS"
+                  }
+                },
+                {
+                  "id": "workshops",
+                  "name": {
+                    "en": "Workshop facilitation",
+                    "ar": "إدارة ورش العمل"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "gridpop-about-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Let’s make something loud",
+                "ar": "لنصنع شيئًا لافتًا"
+              },
+              "intro": {
+                "en": "Coffee in Dubai or a call anywhere.",
+                "ar": "قهوة في دبي أو مكالمة من أي مكان."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Say hello",
+                  "ar": "قل مرحبًا"
+                },
+                "link": {
+                  "type": "email",
+                  "value": "khalid@example.com"
+                }
+              }
+            },
+            "style": {
+              "background": {
+                "type": "secondary"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "gridpop-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": {
+            "en": "Khalid Rahman",
+            "ar": "خالد رحمن"
+          },
+          "cta": {
+            "label": {
+              "en": "Say hello",
+              "ar": "قل مرحبًا"
+            },
+            "link": {
+              "type": "email",
+              "value": "khalid@example.com"
+            }
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "gridpop-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": {
+            "en": "Khalid Rahman",
+            "ar": "خالد رحمن"
+          },
+          "text": {
+            "en": "UI/UX designer in Dubai. Making apps people enjoy.",
+            "ar": "مصمم واجهات وتجربة مستخدم في دبي. أصنع تطبيقات يستمتع بها الناس."
+          },
+          "copyright": {
+            "en": "© 2026 Khalid Rahman",
+            "ar": "© 2026 خالد رحمن"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Khalid Rahman",
+        "defaultDescription": {
+          "en": "Khalid Rahman is a UI/UX designer in Dubai who makes apps people actually enjoy using.",
+          "ar": "خالد رحمن مصمم واجهات وتجربة مستخدم في دبي يصنع تطبيقات يستمتع بها الناس."
+        }
+      },
+      "social": [
+        {
+          "platform": "dribbble",
+          "url": "https://example.com/dribbble/khalid"
+        },
+        {
+          "platform": "behance",
+          "url": "https://example.com/behance/khalid"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://example.com/linkedin/khalid"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://example.com/instagram/khalid"
+        }
+      ],
+      "contact": {
+        "email": "khalid@example.com",
+        "phone": "+971 50 555 0147",
+        "whatsapp": "+971505550147",
+        "address": {
+          "en": "Dubai Design District, Dubai, UAE",
+          "ar": "حي دبي للتصميم، دبي، الإمارات"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Khalid Rahman",
+        "ar": "خالد رحمن"
+      },
+      "ownerTitle": {
+        "en": "UI/UX designer",
+        "ar": "مصمم واجهات وتجربة مستخدم"
+      }
+    }
+  }
+}

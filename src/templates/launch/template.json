@@ -1,0 +1,2070 @@
+{
+  "id": "launch",
+  "name": {
+    "en": "Launch",
+    "ar": "إطلاق"
+  },
+  "description": {
+    "en": "A product-launch landing page that sells your services: features, results, pricing and a call to book.",
+    "ar": "صفحة هبوط بأسلوب إطلاق المنتجات تبيع خدماتك: المزايا والنتائج والأسعار ودعوة للحجز."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Freelancers",
+      "ar": "المستقلون"
+    },
+    {
+      "en": "Consultants",
+      "ar": "المستشارون"
+    },
+    {
+      "en": "Agencies of one",
+      "ar": "وكالات الشخص الواحد"
+    }
+  ],
+  "professions": [
+    "freelancer",
+    "business",
+    "designer"
+  ],
+  "styles": [
+    "bold"
+  ],
+  "signature": {
+    "en": "You, presented like a product launch: a glowing 3D-tilt card of your photo, a features grid of services, a pricing table and a sticky “Book a call” bar.",
+    "ar": "تُقدَّم كأنك منتج يُطلق: بطاقة مضيئة ثلاثية الأبعاد لصورتك، وشبكة مزايا لخدماتك، وجدول أسعار، وشريط «احجز مكالمة» ثابت."
+  },
+  "defaultLocale": "en",
+  "order": 2,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "launch",
+      "palette": {
+        "background": "#FFFFFF",
+        "surface": "#F5F7FF",
+        "text": "#0E1222",
+        "mutedText": "#5B6280",
+        "primary": "#2F5BFF",
+        "secondary": "#00C2A8",
+        "accent": "#FFB020",
+        "border": "#E3E7F5"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Sora"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "Tajawal"
+        },
+        "arabicBody": {
+          "family": "IBM Plex Sans Arabic"
+        }
+      },
+      "radius": "lg",
+      "spacing": "comfortable",
+      "motion": "expressive",
+      "buttonStyle": "pill"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-cases",
+          "label": {
+            "en": "Case studies",
+            "ar": "دراسات الحالة"
+          },
+          "link": {
+            "type": "page",
+            "value": "case-studies"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "foot-cases",
+          "label": {
+            "en": "Case studies",
+            "ar": "دراسات الحالة"
+          },
+          "link": {
+            "type": "page",
+            "value": "case-studies"
+          }
+        },
+        {
+          "id": "foot-bayt",
+          "label": {
+            "en": "Bayt Bakery case study",
+            "ar": "دراسة حالة مخبز بيت"
+          },
+          "link": {
+            "type": "page",
+            "value": "case-bayt"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "launch-hero",
+            "blockType": "hero",
+            "variant": "tilt-card",
+            "content": {
+              "eyebrow": {
+                "en": "Web strategist & designer · Doha",
+                "ar": "استراتيجية وتصميم مواقع · الدوحة"
+              },
+              "name": {
+                "en": "Sara Mansour",
+                "ar": "سارة منصور"
+              },
+              "heading": {
+                "en": "I help small businesses launch websites that actually bring in customers.",
+                "ar": "أساعد الشركات الصغيرة على إطلاق مواقع تجلب العملاء فعلًا."
+              },
+              "tagline": {
+                "en": "Strategy, copy and design in Arabic and English — launched in weeks, measured in enquiries.",
+                "ar": "استراتيجية ومحتوى وتصميم بالعربية والإنجليزية، يُطلق خلال أسابيع ويُقاس بعدد الطلبات."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Book a call",
+                  "ar": "احجز مكالمة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                },
+                "icon": "calendar"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "See work",
+                  "ar": "شاهد أعمالي"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "results"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              },
+              "image": {
+                "url": "/stock/portrait-sea.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Sara Mansour",
+                  "ar": "صورة شخصية لسارة منصور"
+                }
+              },
+              "badge": {
+                "en": "2 launch slots left for April",
+                "ar": "بقي موعدان للإطلاق في أبريل"
+              },
+              "location": {
+                "en": "Doha, Qatar",
+                "ar": "الدوحة، قطر"
+              },
+              "overlayLabel": {
+                "en": "Launch No. 48",
+                "ar": "الإطلاق رقم 48"
+              },
+              "blob": true
+            },
+            "style": {
+              "background": {
+                "type": "gradient",
+                "value": "brand-soft"
+              },
+              "paddingY": "xl"
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-clients",
+            "blockType": "clients",
+            "variant": "marquee",
+            "content": {
+              "eyebrow": {
+                "en": "Clients",
+                "ar": "العملاء"
+              },
+              "heading": {
+                "en": "48 launches for brands like",
+                "ar": "ثمانية وأربعون إطلاقًا لعلامات مثل"
+              },
+              "greyscale": true,
+              "items": [
+                {
+                  "id": "c1",
+                  "name": {
+                    "en": "Bayt Bakery",
+                    "ar": "مخبز بيت"
+                  }
+                },
+                {
+                  "id": "c2",
+                  "name": {
+                    "en": "LinguaKids",
+                    "ar": "لينغوا كيدز"
+                  }
+                },
+                {
+                  "id": "c3",
+                  "name": {
+                    "en": "Falcon Fitness",
+                    "ar": "فالكون فتنس"
+                  }
+                },
+                {
+                  "id": "c4",
+                  "name": {
+                    "en": "Qahwa Corner",
+                    "ar": "ركن القهوة"
+                  }
+                },
+                {
+                  "id": "c5",
+                  "name": {
+                    "en": "Dar Al Tibb Clinic",
+                    "ar": "عيادة دار الطب"
+                  }
+                },
+                {
+                  "id": "c6",
+                  "name": {
+                    "en": "Marsa Boats",
+                    "ar": "مرسى للقوارب"
+                  }
+                },
+                {
+                  "id": "c7",
+                  "name": {
+                    "en": "Noor Florist",
+                    "ar": "زهور نور"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-services",
+            "blockType": "services",
+            "variant": "cards",
+            "content": {
+              "eyebrow": {
+                "en": "Services",
+                "ar": "الخدمات"
+              },
+              "heading": {
+                "en": "What I do",
+                "ar": "ما أقدّمه"
+              },
+              "intro": {
+                "en": "Three ways to get a website that brings in customers — pick one, or start with a strategy session.",
+                "ar": "ثلاث طرق للحصول على موقع يجلب العملاء، اختر ما يناسبك أو ابدأ بجلسة استراتيجية."
+              },
+              "items": [
+                {
+                  "id": "svc-strategy",
+                  "icon": "compass",
+                  "name": {
+                    "en": "Website strategy",
+                    "ar": "استراتيجية الموقع"
+                  },
+                  "description": {
+                    "en": "We map your customers, your offer and the pages you actually need before anything gets designed.",
+                    "ar": "نحدّد عملاءك وعرضك والصفحات التي تحتاجها فعلًا قبل البدء بأي تصميم."
+                  },
+                  "duration": {
+                    "en": "1 week",
+                    "ar": "أسبوع واحد"
+                  },
+                  "price": {
+                    "amount": 600,
+                    "currency": "USD",
+                    "from": true
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Two workshops with your team",
+                        "ar": "ورشتا عمل مع فريقك"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Site map and page outlines",
+                        "ar": "خريطة الموقع ومخطط لكل صفحة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Competitor teardown",
+                        "ar": "تحليل مواقع المنافسين"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "svc-landing",
+                  "icon": "layout-grid",
+                  "name": {
+                    "en": "Landing page design",
+                    "ar": "تصميم صفحات الهبوط"
+                  },
+                  "description": {
+                    "en": "A focused page for one product or campaign, written, designed and built in Arabic and English.",
+                    "ar": "صفحة مركّزة لمنتج أو حملة واحدة، أكتبها وأصمّمها وأبنيها بالعربية والإنجليزية."
+                  },
+                  "duration": {
+                    "en": "2–3 weeks",
+                    "ar": "من أسبوعين إلى ثلاثة"
+                  },
+                  "price": {
+                    "amount": 1400,
+                    "currency": "USD",
+                    "from": true
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Copy, design and build",
+                        "ar": "المحتوى والتصميم والتطوير"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Two rounds of revisions",
+                        "ar": "جولتان من التعديلات"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Forms and WhatsApp connected",
+                        "ar": "ربط النماذج وواتساب"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "svc-audit",
+                  "icon": "line-chart",
+                  "name": {
+                    "en": "Conversion audit",
+                    "ar": "تدقيق معدّل التحويل"
+                  },
+                  "description": {
+                    "en": "I review your current site and hand you a ranked list of fixes that will bring in more enquiries.",
+                    "ar": "أراجع موقعك الحالي وأسلّمك قائمة مرتّبة بالتحسينات التي تزيد طلبات التواصل."
+                  },
+                  "duration": {
+                    "en": "5 days",
+                    "ar": "5 أيام"
+                  },
+                  "price": {
+                    "amount": 450,
+                    "currency": "USD"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Recorded video walkthrough",
+                        "ar": "شرح مصوّر بالفيديو"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Follow-up call after 30 days",
+                        "ar": "مكالمة متابعة بعد 30 يومًا"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "services",
+            "example": true
+          },
+          {
+            "id": "launch-process",
+            "blockType": "process",
+            "variant": "numbered",
+            "content": {
+              "eyebrow": {
+                "en": "Process",
+                "ar": "طريقة العمل"
+              },
+              "heading": {
+                "en": "From first call to launch day",
+                "ar": "من أول مكالمة حتى يوم الإطلاق"
+              },
+              "intro": {
+                "en": "Four clear steps, with a check-in at the end of each, so you always know what happens next.",
+                "ar": "أربع خطوات واضحة، مع مراجعة في نهاية كل منها، لتعرف دائمًا ما الذي سيحدث بعدها."
+              },
+              "steps": [
+                {
+                  "id": "step-discover",
+                  "icon": "search",
+                  "title": {
+                    "en": "Discover",
+                    "ar": "الاكتشاف"
+                  },
+                  "body": {
+                    "en": "A 45-minute call and a short questionnaire about your customers and what the site must achieve.",
+                    "ar": "مكالمة مدتها 45 دقيقة واستبيان قصير عن عملائك وما يجب أن يحققه الموقع."
+                  }
+                },
+                {
+                  "id": "step-design",
+                  "icon": "pen-tool",
+                  "title": {
+                    "en": "Design",
+                    "ar": "التصميم"
+                  },
+                  "body": {
+                    "en": "I write the copy and design every page in both languages, then we refine it together.",
+                    "ar": "أكتب المحتوى وأصمّم كل صفحة باللغتين، ثم نحسّنها معًا."
+                  }
+                },
+                {
+                  "id": "step-launch",
+                  "icon": "rocket",
+                  "title": {
+                    "en": "Launch",
+                    "ar": "الإطلاق"
+                  },
+                  "body": {
+                    "en": "The site goes live on your domain with forms, analytics and booking tested.",
+                    "ar": "ينطلق الموقع على نطاقك بعد اختبار النماذج والتحليلات والحجز."
+                  }
+                },
+                {
+                  "id": "step-grow",
+                  "icon": "line-chart",
+                  "title": {
+                    "en": "Grow",
+                    "ar": "النمو"
+                  },
+                  "body": {
+                    "en": "After 30 days we read the numbers and I make the changes that bring in more customers.",
+                    "ar": "بعد 30 يومًا نقرأ الأرقام وأجري التعديلات التي تجلب مزيدًا من العملاء."
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-results",
+            "blockType": "projects",
+            "variant": "bento",
+            "content": {
+              "eyebrow": {
+                "en": "Case studies",
+                "ar": "دراسات حالة"
+              },
+              "heading": {
+                "en": "Results",
+                "ar": "النتائج"
+              },
+              "intro": {
+                "en": "Numbers my clients measured themselves, in the first months after launch.",
+                "ar": "أرقام قاسها عملائي بأنفسهم في الأشهر الأولى بعد الإطلاق."
+              },
+              "items": [
+                {
+                  "id": "bayt-bakery",
+                  "size": "lg",
+                  "title": {
+                    "en": "Bayt Bakery — online orders up 3×",
+                    "ar": "مخبز بيت: الطلبات الإلكترونية تضاعفت ثلاث مرات"
+                  },
+                  "description": {
+                    "en": "A bilingual ordering site with next-morning pickup slots, replacing a busy Instagram inbox.",
+                    "ar": "موقع طلبات باللغتين مع مواعيد استلام صباح اليوم التالي، بدلًا من صندوق رسائل مزدحم على إنستغرام."
+                  },
+                  "image": {
+                    "url": "/stock/food-clay.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Fresh bread on a clay plate",
+                      "ar": "خبز طازج على طبق فخاري"
+                    }
+                  },
+                  "tags": [
+                    "Strategy",
+                    "E-commerce"
+                  ],
+                  "year": "2026",
+                  "client": {
+                    "en": "Bayt Bakery",
+                    "ar": "مخبز بيت"
+                  },
+                  "link": {
+                    "type": "page",
+                    "value": "case-bayt"
+                  }
+                },
+                {
+                  "id": "linguakids",
+                  "size": "md",
+                  "title": {
+                    "en": "LinguaKids — 1,200 sign-ups in launch month",
+                    "ar": "لينغوا كيدز: 1,200 تسجيل في شهر الإطلاق"
+                  },
+                  "description": {
+                    "en": "A playful landing page and trial-class funnel for an Arabic–English language school for children.",
+                    "ar": "صفحة هبوط مرحة ومسار حجز حصة تجريبية لمدرسة لغات للأطفال بالعربية والإنجليزية."
+                  },
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Colourful abstract shapes",
+                      "ar": "أشكال تجريدية ملوّنة"
+                    }
+                  },
+                  "tags": [
+                    "Landing page"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "LinguaKids",
+                    "ar": "لينغوا كيدز"
+                  }
+                },
+                {
+                  "id": "falcon-fitness",
+                  "size": "md",
+                  "title": {
+                    "en": "Falcon Fitness — booking rate doubled",
+                    "ar": "فالكون فتنس: معدّل الحجز تضاعف"
+                  },
+                  "description": {
+                    "en": "A conversion audit and new class timetable that halved the steps to book a session.",
+                    "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Booking dashboard in teal",
+                      "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
+                    }
+                  },
+                  "tags": [
+                    "Audit",
+                    "UX"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "Falcon Fitness",
+                    "ar": "فالكون فتنس"
+                  }
+                },
+                {
+                  "id": "dar-al-tibb",
+                  "size": "sm",
+                  "title": {
+                    "en": "Dar Al Tibb — 2.5× online appointments",
+                    "ar": "دار الطب: المواعيد الإلكترونية زادت 2.5 مرة"
+                  },
+                  "description": {
+                    "en": "A calm, trustworthy clinic site with doctors’ profiles and same-day booking.",
+                    "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
+                  },
+                  "image": {
+                    "url": "/stock/app-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Clinic website screens",
+                      "ar": "شاشات موقع العيادة"
+                    }
+                  },
+                  "tags": [
+                    "Website"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Dar Al Tibb Clinic",
+                    "ar": "عيادة دار الطب"
+                  }
+                },
+                {
+                  "id": "qahwa-corner",
+                  "size": "sm",
+                  "title": {
+                    "en": "Qahwa Corner — +40% catering enquiries",
+                    "ar": "ركن القهوة: طلبات الضيافة زادت 40%"
+                  },
+                  "description": {
+                    "en": "A catering page with a quote form that sales answers on WhatsApp the same day.",
+                    "ar": "صفحة للضيافة مع نموذج عرض سعر يردّ عليه فريق المبيعات عبر واتساب في اليوم نفسه."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Coffee and notes on a desk",
+                      "ar": "قهوة وملاحظات على مكتب"
+                    }
+                  },
+                  "tags": [
+                    "Landing page"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Qahwa Corner",
+                    "ar": "ركن القهوة"
+                  }
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "All case studies",
+                  "ar": "كل دراسات الحالة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "case-studies"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "results",
+            "example": true
+          },
+          {
+            "id": "launch-testimonials",
+            "blockType": "testimonials",
+            "variant": "wall",
+            "content": {
+              "eyebrow": {
+                "en": "Kind words",
+                "ar": "كلمات طيبة"
+              },
+              "heading": {
+                "en": "Owners who launched with me",
+                "ar": "أصحاب مشاريع انطلقوا معي"
+              },
+              "items": [
+                {
+                  "id": "t1",
+                  "rating": 5,
+                  "quote": {
+                    "en": "We stopped taking orders by DM. Three times the orders, and I finally sleep before midnight.",
+                    "ar": "توقفنا عن استقبال الطلبات عبر الرسائل الخاصة. تضاعفت الطلبات ثلاث مرات، وصرت أنام قبل منتصف الليل أخيرًا."
+                  },
+                  "name": {
+                    "en": "Reem Al-Saadi",
+                    "ar": "ريم السعدي"
+                  },
+                  "role": {
+                    "en": "Owner, Bayt Bakery",
+                    "ar": "صاحبة مخبز بيت"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-blush.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Reem Al-Saadi",
+                      "ar": "صورة ريم السعدي"
+                    }
+                  }
+                },
+                {
+                  "id": "t2",
+                  "rating": 5,
+                  "quote": {
+                    "en": "Sara wrote our Arabic copy better than we could. 1,200 families signed up in the first month.",
+                    "ar": "كتبت سارة محتوانا العربي أفضل مما كنا سنكتبه. سجّلت 1,200 عائلة في الشهر الأول."
+                  },
+                  "name": {
+                    "en": "Khalid Nasser",
+                    "ar": "خالد ناصر"
+                  },
+                  "role": {
+                    "en": "Founder, LinguaKids",
+                    "ar": "مؤسس لينغوا كيدز"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Khalid Nasser",
+                      "ar": "صورة خالد ناصر"
+                    }
+                  }
+                },
+                {
+                  "id": "t3",
+                  "rating": 5,
+                  "quote": {
+                    "en": "The audit was a to-do list we could act on the same week. Bookings doubled by the next month.",
+                    "ar": "كان التدقيق قائمة مهام بدأنا تنفيذها في الأسبوع نفسه، وتضاعفت الحجوزات في الشهر التالي."
+                  },
+                  "name": {
+                    "en": "Mona Al-Kuwari",
+                    "ar": "منى الكواري"
+                  },
+                  "role": {
+                    "en": "Manager, Falcon Fitness",
+                    "ar": "مديرة فالكون فتنس"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Mona Al-Kuwari",
+                      "ar": "صورة منى الكواري"
+                    }
+                  }
+                },
+                {
+                  "id": "t4",
+                  "rating": 5,
+                  "quote": {
+                    "en": "Clear prices, clear dates, and a launch on the exact day she promised.",
+                    "ar": "أسعار واضحة ومواعيد واضحة، وإطلاق في اليوم الذي وعدت به تمامًا."
+                  },
+                  "name": {
+                    "en": "Dr. Hani Barakat",
+                    "ar": "د. هاني بركات"
+                  },
+                  "role": {
+                    "en": "Director, Dar Al Tibb Clinic",
+                    "ar": "مدير عيادة دار الطب"
+                  }
+                },
+                {
+                  "id": "t5",
+                  "rating": 5,
+                  "quote": {
+                    "en": "Our catering page now pays for itself every single week.",
+                    "ar": "صفحة الضيافة صارت تغطي تكلفتها كل أسبوع."
+                  },
+                  "name": {
+                    "en": "Yaser Haidar",
+                    "ar": "ياسر حيدر"
+                  },
+                  "role": {
+                    "en": "Co-founder, Qahwa Corner",
+                    "ar": "شريك مؤسس في ركن القهوة"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-slate.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Yaser Haidar",
+                      "ar": "صورة ياسر حيدر"
+                    }
+                  }
+                },
+                {
+                  "id": "t6",
+                  "rating": 4,
+                  "quote": {
+                    "en": "She asked about our customers before our colours. That is why it works.",
+                    "ar": "سألت عن عملائنا قبل أن تسأل عن ألواننا، ولهذا نجح الموقع."
+                  },
+                  "name": {
+                    "en": "Lina Farouk",
+                    "ar": "لينا فاروق"
+                  },
+                  "role": {
+                    "en": "Owner, Noor Florist",
+                    "ar": "صاحبة زهور نور"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-pricing",
+            "blockType": "pricing",
+            "variant": "tiers",
+            "content": {
+              "eyebrow": {
+                "en": "Pricing",
+                "ar": "الأسعار"
+              },
+              "heading": {
+                "en": "Simple plans, no surprises",
+                "ar": "باقات واضحة بلا مفاجآت"
+              },
+              "intro": {
+                "en": "Fixed prices agreed before we start. Half up front, half on launch day.",
+                "ar": "أسعار ثابتة نتفق عليها قبل البدء: النصف مقدمًا والنصف يوم الإطلاق."
+              },
+              "currency": "USD",
+              "defaultPeriod": "one-time",
+              "tiers": [
+                {
+                  "id": "tier-starter",
+                  "name": {
+                    "en": "Starter",
+                    "ar": "البداية"
+                  },
+                  "description": {
+                    "en": "A one-page site to get you online fast.",
+                    "ar": "موقع من صفحة واحدة لتنطلق بسرعة."
+                  },
+                  "oneTime": 900,
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "One landing page",
+                        "ar": "صفحة هبوط واحدة"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Arabic and English",
+                        "ar": "بالعربية والإنجليزية"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Contact form and WhatsApp button",
+                        "ar": "نموذج تواصل وزر واتساب"
+                      }
+                    },
+                    {
+                      "id": "f4",
+                      "text": {
+                        "en": "Live in 2 weeks",
+                        "ar": "جاهز خلال أسبوعين"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Get started",
+                      "ar": "ابدأ الآن"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "tier-growth",
+                  "name": {
+                    "en": "Growth",
+                    "ar": "النمو"
+                  },
+                  "description": {
+                    "en": "A full site built to turn visitors into enquiries.",
+                    "ar": "موقع متكامل يحوّل الزوار إلى طلبات تواصل."
+                  },
+                  "oneTime": 2400,
+                  "popular": true,
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Up to five pages",
+                        "ar": "حتى خمس صفحات"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Copywriting in both languages",
+                        "ar": "كتابة المحتوى باللغتين"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Booking and analytics set up",
+                        "ar": "إعداد الحجز والتحليلات"
+                      }
+                    },
+                    {
+                      "id": "f4",
+                      "text": {
+                        "en": "Two rounds of revisions",
+                        "ar": "جولتان من التعديلات"
+                      }
+                    },
+                    {
+                      "id": "f5",
+                      "text": {
+                        "en": "30 days of free fixes",
+                        "ar": "30 يومًا من التعديلات المجانية"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Choose Growth",
+                      "ar": "اختر باقة النمو"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "tier-partner",
+                  "name": {
+                    "en": "Partner",
+                    "ar": "الشراكة"
+                  },
+                  "description": {
+                    "en": "An ongoing partner for your site and campaigns.",
+                    "ar": "شريك دائم لموقعك وحملاتك."
+                  },
+                  "monthly": 4000,
+                  "from": true,
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Everything in Growth",
+                        "ar": "كل ما في باقة النمو"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "A new landing page every month",
+                        "ar": "صفحة هبوط جديدة كل شهر"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Monthly conversion report",
+                        "ar": "تقرير شهري عن معدّل التحويل"
+                      }
+                    },
+                    {
+                      "id": "f4",
+                      "text": {
+                        "en": "Priority WhatsApp support",
+                        "ar": "دعم مُقدَّم عبر واتساب"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a call",
+                      "ar": "احجز مكالمة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "pricing",
+            "example": true
+          },
+          {
+            "id": "launch-faq",
+            "blockType": "faq",
+            "variant": "accordion",
+            "content": {
+              "eyebrow": {
+                "en": "FAQ",
+                "ar": "الأسئلة الشائعة"
+              },
+              "heading": {
+                "en": "Questions, answered",
+                "ar": "إجابات أسئلتك"
+              },
+              "items": [
+                {
+                  "id": "faq-timeline",
+                  "question": {
+                    "en": "How long does a website take?",
+                    "ar": "كم يستغرق إنجاز الموقع؟"
+                  },
+                  "answer": {
+                    "en": "Most landing pages are live in two to three weeks. A full site with several pages usually takes five to six weeks, depending on how quickly we agree on content.",
+                    "ar": "تنطلق معظم صفحات الهبوط خلال أسبوعين إلى ثلاثة، أما الموقع الكامل متعدد الصفحات فيستغرق عادةً من خمسة إلى ستة أسابيع، بحسب سرعة اعتماد المحتوى."
+                  }
+                },
+                {
+                  "id": "faq-revisions",
+                  "question": {
+                    "en": "How many revisions are included?",
+                    "ar": "كم جولة تعديل يشمل العمل؟"
+                  },
+                  "answer": {
+                    "en": "Every package includes two rounds of revisions on the design and the copy. Small fixes after launch are free for the first 30 days.",
+                    "ar": "تشمل كل باقة جولتين من التعديلات على التصميم والمحتوى، والتعديلات الصغيرة بعد الإطلاق مجانية خلال أول 30 يومًا."
+                  }
+                },
+                {
+                  "id": "faq-payment",
+                  "question": {
+                    "en": "How does payment work?",
+                    "ar": "كيف يتم الدفع؟"
+                  },
+                  "answer": {
+                    "en": "Half up front to book your start date and half on launch day, by bank transfer in US dollars, Qatari riyals or UAE dirhams.",
+                    "ar": "نصف المبلغ مقدمًا لحجز موعد البدء والنصف الآخر يوم الإطلاق، بالتحويل البنكي بالدولار الأمريكي أو الريال القطري أو الدرهم الإماراتي."
+                  }
+                },
+                {
+                  "id": "faq-arabic",
+                  "question": {
+                    "en": "Can you build the site in Arabic too?",
+                    "ar": "هل يمكنك بناء الموقع بالعربية أيضًا؟"
+                  },
+                  "answer": {
+                    "en": "Yes. Every site I make works in Arabic and English, with proper right-to-left layouts and copy written for each language rather than translated word for word.",
+                    "ar": "نعم. كل موقع أبنيه يعمل بالعربية والإنجليزية، باتجاه صحيح من اليمين إلى اليسار، ومحتوى مكتوب لكل لغة بدلًا من ترجمته حرفيًا."
+                  }
+                }
+              ]
+            },
+            "style": {
+              "width": "narrow"
+            },
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "faq",
+            "example": true
+          },
+          {
+            "id": "launch-booking",
+            "blockType": "booking",
+            "variant": "inline-calendar",
+            "content": {
+              "eyebrow": {
+                "en": "Free 20-min intro call",
+                "ar": "مكالمة تعارف مجانية لمدة 20 دقيقة"
+              },
+              "heading": {
+                "en": "Let’s plan your launch",
+                "ar": "لنخطط لإطلاقك معًا"
+              },
+              "intro": {
+                "en": "Pick a time that suits you. We will look at your current site, your goals and which plan fits — no obligation.",
+                "ar": "اختر الوقت الذي يناسبك. سنراجع موقعك الحالي وأهدافك والباقة المناسبة لك، دون أي التزام."
+              },
+              "meetingTypeIds": [],
+              "buttonLabel": {
+                "en": "See available times",
+                "ar": "اطّلع على المواعيد المتاحة"
+              },
+              "cta": {
+                "label": {
+                  "en": "Message me instead",
+                  "ar": "أو راسلني مباشرة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "icon": "arrow-right"
+              },
+              "note": {
+                "en": "Calls in Arabic or English, Sunday to Thursday, Doha time.",
+                "ar": "المكالمات بالعربية أو الإنجليزية، من الأحد إلى الخميس، بتوقيت الدوحة."
+              }
+            },
+            "style": {
+              "background": {
+                "type": "gradient",
+                "value": "brand-soft"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "book",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "case-studies",
+        "slug": "case-studies",
+        "title": {
+          "en": "Case studies",
+          "ar": "دراسات الحالة"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "launch-cases",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Case studies",
+                "ar": "دراسات حالة"
+              },
+              "heading": {
+                "en": "Launches that paid for themselves",
+                "ar": "مواقع غطّت تكلفتها"
+              },
+              "intro": {
+                "en": "Every project starts with one number to move. Here is what moved.",
+                "ar": "يبدأ كل مشروع برقم واحد نسعى إلى تحريكه، وهذا ما تحقق."
+              },
+              "items": [
+                {
+                  "id": "bayt-bakery",
+                  "title": {
+                    "en": "Bayt Bakery — online orders up 3×",
+                    "ar": "مخبز بيت: الطلبات الإلكترونية تضاعفت ثلاث مرات"
+                  },
+                  "description": {
+                    "en": "A bilingual ordering site with next-morning pickup slots, replacing a busy Instagram inbox.",
+                    "ar": "موقع طلبات باللغتين مع مواعيد استلام صباح اليوم التالي، بدلًا من صندوق رسائل مزدحم على إنستغرام."
+                  },
+                  "image": {
+                    "url": "/stock/food-clay.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Fresh bread on a clay plate",
+                      "ar": "خبز طازج على طبق فخاري"
+                    }
+                  },
+                  "tags": [
+                    "Strategy",
+                    "E-commerce"
+                  ],
+                  "year": "2026",
+                  "client": {
+                    "en": "Bayt Bakery",
+                    "ar": "مخبز بيت"
+                  },
+                  "link": {
+                    "type": "page",
+                    "value": "case-bayt"
+                  }
+                },
+                {
+                  "id": "linguakids",
+                  "title": {
+                    "en": "LinguaKids — 1,200 sign-ups in launch month",
+                    "ar": "لينغوا كيدز: 1,200 تسجيل في شهر الإطلاق"
+                  },
+                  "description": {
+                    "en": "A playful landing page and trial-class funnel for an Arabic–English language school for children.",
+                    "ar": "صفحة هبوط مرحة ومسار حجز حصة تجريبية لمدرسة لغات للأطفال بالعربية والإنجليزية."
+                  },
+                  "image": {
+                    "url": "/stock/art-blush.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Colourful abstract shapes",
+                      "ar": "أشكال تجريدية ملوّنة"
+                    }
+                  },
+                  "tags": [
+                    "Landing page"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "LinguaKids",
+                    "ar": "لينغوا كيدز"
+                  }
+                },
+                {
+                  "id": "falcon-fitness",
+                  "title": {
+                    "en": "Falcon Fitness — booking rate doubled",
+                    "ar": "فالكون فتنس: معدّل الحجز تضاعف"
+                  },
+                  "description": {
+                    "en": "A conversion audit and new class timetable that halved the steps to book a session.",
+                    "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Booking dashboard in teal",
+                      "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
+                    }
+                  },
+                  "tags": [
+                    "Audit",
+                    "UX"
+                  ],
+                  "year": "2025",
+                  "client": {
+                    "en": "Falcon Fitness",
+                    "ar": "فالكون فتنس"
+                  }
+                },
+                {
+                  "id": "dar-al-tibb",
+                  "title": {
+                    "en": "Dar Al Tibb — 2.5× online appointments",
+                    "ar": "دار الطب: المواعيد الإلكترونية زادت 2.5 مرة"
+                  },
+                  "description": {
+                    "en": "A calm, trustworthy clinic site with doctors’ profiles and same-day booking.",
+                    "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
+                  },
+                  "image": {
+                    "url": "/stock/app-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Clinic website screens",
+                      "ar": "شاشات موقع العيادة"
+                    }
+                  },
+                  "tags": [
+                    "Website"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Dar Al Tibb Clinic",
+                    "ar": "عيادة دار الطب"
+                  }
+                },
+                {
+                  "id": "qahwa-corner",
+                  "title": {
+                    "en": "Qahwa Corner — +40% catering enquiries",
+                    "ar": "ركن القهوة: طلبات الضيافة زادت 40%"
+                  },
+                  "description": {
+                    "en": "A catering page with a quote form that sales answers on WhatsApp the same day.",
+                    "ar": "صفحة للضيافة مع نموذج عرض سعر يردّ عليه فريق المبيعات عبر واتساب في اليوم نفسه."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Coffee and notes on a desk",
+                      "ar": "قهوة وملاحظات على مكتب"
+                    }
+                  },
+                  "tags": [
+                    "Landing page"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "Qahwa Corner",
+                    "ar": "ركن القهوة"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-cases-cta",
+            "blockType": "cta",
+            "variant": "gradient",
+            "content": {
+              "eyebrow": {
+                "en": "Your launch next?",
+                "ar": "هل إطلاقك هو التالي؟"
+              },
+              "heading": {
+                "en": "Let’s find the one number your site should move.",
+                "ar": "لنحدد الرقم الذي يجب أن يحرّكه موقعك."
+              },
+              "intro": {
+                "en": "Book a free 20-minute call and leave with a clear plan, whether we work together or not.",
+                "ar": "احجز مكالمة مجانية لمدة 20 دقيقة واخرج منها بخطة واضحة، سواء عملنا معًا أم لا."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Book a call",
+                  "ar": "احجز مكالمة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                },
+                "icon": "calendar"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "See pricing",
+                  "ar": "الأسعار"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "Websites that tripled orders and doubled bookings for small businesses in the Gulf.",
+            "ar": "مواقع ضاعفت الطلبات والحجوزات لشركات صغيرة في الخليج."
+          }
+        }
+      },
+      {
+        "id": "case-bayt",
+        "slug": "bayt-bakery",
+        "title": {
+          "en": "Bayt Bakery case study",
+          "ar": "دراسة حالة مخبز بيت"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "launch-case-bayt",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Case study",
+                "ar": "دراسة حالة"
+              },
+              "title": {
+                "en": "Bayt Bakery: from DMs to 3× online orders",
+                "ar": "مخبز بيت: من الرسائل الخاصة إلى ثلاثة أضعاف الطلبات"
+              },
+              "subtitle": {
+                "en": "A bilingual ordering site for a family bakery in Al Wakrah that was running its business from an Instagram inbox.",
+                "ar": "موقع طلبات باللغتين لمخبز عائلي في الوكرة كان يدير أعماله من صندوق رسائل إنستغرام."
+              },
+              "cover": {
+                "url": "/stock/food-clay.svg",
+                "width": 1400,
+                "height": 1400,
+                "alt": {
+                  "en": "Fresh bread on a clay plate",
+                  "ar": "خبز طازج على طبق فخاري"
+                }
+              },
+              "meta": [
+                {
+                  "id": "client",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Bayt Bakery",
+                    "ar": "مخبز بيت"
+                  }
+                },
+                {
+                  "id": "plan",
+                  "label": {
+                    "en": "Plan",
+                    "ar": "الباقة"
+                  },
+                  "value": {
+                    "en": "Growth",
+                    "ar": "النمو"
+                  }
+                },
+                {
+                  "id": "year",
+                  "label": {
+                    "en": "Year",
+                    "ar": "السنة"
+                  },
+                  "value": {
+                    "en": "2026",
+                    "ar": "2026"
+                  }
+                },
+                {
+                  "id": "duration",
+                  "label": {
+                    "en": "Duration",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "5 weeks",
+                    "ar": "5 أسابيع"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "problem",
+                  "label": {
+                    "en": "Problem",
+                    "ar": "المشكلة"
+                  },
+                  "heading": {
+                    "en": "Great bread, lost orders",
+                    "ar": "خبز رائع وطلبات ضائعة"
+                  },
+                  "body": {
+                    "en": "<p>Bayt Bakery took every order by direct message. On Thursday nights the owner answered more than 150 messages by hand, and orders slipped through the cracks.</p><p>Customers loved the bread but could not see the menu, the prices or when to pick up.</p>",
+                    "ar": "<p>كان مخبز بيت يستقبل كل الطلبات عبر الرسائل الخاصة. وفي ليالي الخميس كانت صاحبته تردّ يدويًا على أكثر من 150 رسالة، فتضيع بعض الطلبات.</p><p>أحبّ الزبائن الخبز، لكنهم لم يجدوا القائمة ولا الأسعار ولا مواعيد الاستلام.</p>"
+                  }
+                },
+                {
+                  "id": "process",
+                  "label": {
+                    "en": "Process",
+                    "ar": "الطريقة"
+                  },
+                  "heading": {
+                    "en": "One clear path to order",
+                    "ar": "طريق واحد واضح للطلب"
+                  },
+                  "body": {
+                    "en": "<p>We interviewed twelve regulars and mapped the questions they asked most.</p><ul><li>A menu with photos and prices in Arabic and English</li><li>Next-morning pickup slots that close automatically when full</li><li>WhatsApp confirmations the owner never has to type</li></ul>",
+                    "ar": "<p>أجرينا مقابلات مع اثني عشر زبونًا دائمًا وحددنا الأسئلة الأكثر تكرارًا.</p><ul><li>قائمة بالصور والأسعار بالعربية والإنجليزية</li><li>مواعيد استلام صباح اليوم التالي تُغلق تلقائيًا عند امتلائها</li><li>رسائل تأكيد عبر واتساب لا تحتاج صاحبة المخبز إلى كتابتها</li></ul>"
+                  },
+                  "images": [
+                    {
+                      "id": "screens",
+                      "image": {
+                        "url": "/stock/app-slate.svg",
+                        "width": 1600,
+                        "height": 1067,
+                        "alt": {
+                          "en": "Ordering site screens",
+                          "ar": "شاشات موقع الطلبات"
+                        }
+                      },
+                      "caption": {
+                        "en": "The ordering flow: three taps from menu to pickup slot.",
+                        "ar": "مسار الطلب: ثلاث نقرات من القائمة إلى موعد الاستلام."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "Three times the orders, half the messages",
+                    "ar": "ثلاثة أضعاف الطلبات ونصف الرسائل"
+                  },
+                  "body": {
+                    "en": "<p>Within eight weeks online orders tripled, and Thursday-night messages dropped by more than half. The bakery added a second oven in month three.</p>",
+                    "ar": "<p>خلال ثمانية أسابيع تضاعفت الطلبات الإلكترونية ثلاث مرات، وانخفضت رسائل ليلة الخميس بأكثر من النصف. وفي الشهر الثالث أضاف المخبز فرنًا ثانيًا.</p>"
+                  }
+                }
+              ],
+              "resultsHeading": {
+                "en": "Eight weeks after launch",
+                "ar": "بعد ثمانية أسابيع من الإطلاق"
+              },
+              "results": [
+                {
+                  "id": "orders",
+                  "value": {
+                    "en": "3×",
+                    "ar": "3×"
+                  },
+                  "label": {
+                    "en": "online orders",
+                    "ar": "الطلبات الإلكترونية"
+                  }
+                },
+                {
+                  "id": "messages",
+                  "value": {
+                    "en": "−55%",
+                    "ar": "−55%"
+                  },
+                  "label": {
+                    "en": "messages to answer",
+                    "ar": "الرسائل التي تحتاج إلى رد"
+                  }
+                },
+                {
+                  "id": "basket",
+                  "value": {
+                    "en": "+22%",
+                    "ar": "+22%"
+                  },
+                  "label": {
+                    "en": "average order value",
+                    "ar": "متوسط قيمة الطلب"
+                  }
+                },
+                {
+                  "id": "weeks",
+                  "value": {
+                    "en": "5",
+                    "ar": "5"
+                  },
+                  "label": {
+                    "en": "weeks to launch",
+                    "ar": "أسابيع حتى الإطلاق"
+                  }
+                }
+              ],
+              "next": {
+                "title": {
+                  "en": "All case studies",
+                  "ar": "كل دراسات الحالة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "case-studies"
+                },
+                "image": {
+                  "url": "/stock/art-blush.svg",
+                  "width": 1400,
+                  "height": 1400,
+                  "alt": {
+                    "en": "Colourful abstract shapes",
+                    "ar": "أشكال تجريدية ملوّنة"
+                  }
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-case-bayt-cta",
+            "blockType": "cta",
+            "variant": "gradient",
+            "content": {
+              "eyebrow": {
+                "en": "Your launch next?",
+                "ar": "هل إطلاقك هو التالي؟"
+              },
+              "heading": {
+                "en": "Let’s find the one number your site should move.",
+                "ar": "لنحدد الرقم الذي يجب أن يحرّكه موقعك."
+              },
+              "intro": {
+                "en": "Book a free 20-minute call and leave with a clear plan, whether we work together or not.",
+                "ar": "احجز مكالمة مجانية لمدة 20 دقيقة واخرج منها بخطة واضحة، سواء عملنا معًا أم لا."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Book a call",
+                  "ar": "احجز مكالمة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                },
+                "icon": "calendar"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "See pricing",
+                  "ar": "الأسعار"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "How a bilingual ordering site tripled Bayt Bakery’s online orders.",
+            "ar": "كيف ضاعف موقع طلبات باللغتين طلبات مخبز بيت ثلاث مرات."
+          }
+        }
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "launch-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Tell me about your launch",
+                "ar": "حدّثني عن إطلاقك"
+              },
+              "intro": {
+                "en": "A few lines about your business and what the site should do. I reply within one working day.",
+                "ar": "بضعة أسطر عن مشروعك وما يجب أن يحققه الموقع، وسأردّ خلال يوم عمل واحد."
+              },
+              "form": {
+                "name": "Project enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "business",
+                    "type": "text",
+                    "label": {
+                      "en": "Business",
+                      "ar": "اسم المشروع"
+                    },
+                    "placeholder": {
+                      "en": "Bayt Bakery",
+                      "ar": "مخبز بيت"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "plan",
+                    "type": "select",
+                    "label": {
+                      "en": "Plan",
+                      "ar": "الباقة"
+                    },
+                    "required": false,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "starter",
+                        "label": {
+                          "en": "Starter",
+                          "ar": "البداية"
+                        }
+                      },
+                      {
+                        "value": "growth",
+                        "label": {
+                          "en": "Growth",
+                          "ar": "النمو"
+                        }
+                      },
+                      {
+                        "value": "partner",
+                        "label": {
+                          "en": "Partner",
+                          "ar": "الشراكة"
+                        }
+                      },
+                      {
+                        "value": "unsure",
+                        "label": {
+                          "en": "Not sure yet",
+                          "ar": "لم أقرر بعد"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "What should the site do?",
+                      "ar": "ما الذي يجب أن يحققه الموقع؟"
+                    },
+                    "placeholder": {
+                      "en": "More orders, more bookings…",
+                      "ar": "طلبات أكثر، حجوزات أكثر…"
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "إرسال الطلب"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you — I will reply within one working day.",
+                      "ar": "شكرًا لك، سأردّ خلال يوم عمل واحد."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "note": {
+                "en": "Prefer to talk? Book a free 20-minute call.",
+                "ar": "تفضّل الحديث؟ احجز مكالمة مجانية لمدة 20 دقيقة."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "map": {
+                "enabled": false,
+                "query": ""
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "launch-contact-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "eyebrow": {
+                "en": "Free 20-min intro call",
+                "ar": "مكالمة تعارف مجانية لمدة 20 دقيقة"
+              },
+              "heading": {
+                "en": "Rather talk it through?",
+                "ar": "تفضّل أن نتحدث؟"
+              },
+              "intro": {
+                "en": "Pick a slot and we will plan your launch together.",
+                "ar": "اختر موعدًا وسنخطط لإطلاقك معًا."
+              },
+              "meetingTypeIds": [],
+              "buttonLabel": {
+                "en": "Book a call",
+                "ar": "احجز مكالمة"
+              },
+              "note": {
+                "en": "Sunday to Thursday, Doha time.",
+                "ar": "من الأحد إلى الخميس بتوقيت الدوحة."
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "launch-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": {
+            "en": "Sara Mansour",
+            "ar": "سارة منصور"
+          },
+          "cta": {
+            "label": {
+              "en": "Book a call",
+              "ar": "احجز مكالمة"
+            },
+            "link": {
+              "type": "booking",
+              "value": ""
+            },
+            "style": "primary",
+            "icon": "calendar"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "announcementBar": {
+        "id": "launch-announcement",
+        "blockType": "announcement",
+        "variant": "bar",
+        "content": {
+          "text": {
+            "en": "Free 20-minute intro call — 2 launch slots left for April.",
+            "ar": "مكالمة تعارف مجانية لمدة 20 دقيقة، وبقي موعدان للإطلاق في أبريل."
+          },
+          "cta": {
+            "label": {
+              "en": "Book a call",
+              "ar": "احجز مكالمة"
+            },
+            "link": {
+              "type": "booking",
+              "value": ""
+            },
+            "icon": "arrow-right"
+          },
+          "dismissible": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {},
+        "example": true
+      },
+      "footer": {
+        "id": "launch-footer",
+        "blockType": "footer",
+        "variant": "columns",
+        "content": {
+          "heading": {
+            "en": "Sara Mansour",
+            "ar": "سارة منصور"
+          },
+          "text": {
+            "en": "Websites that bring in customers, for small businesses across the Gulf.",
+            "ar": "مواقع تجلب العملاء للشركات الصغيرة في أنحاء الخليج."
+          },
+          "copyright": {
+            "en": "© 2026 Sara Mansour",
+            "ar": "© 2026 سارة منصور"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Sara Mansour",
+        "defaultDescription": {
+          "en": "Sara Mansour helps small businesses in the Gulf launch bilingual websites that bring in customers.",
+          "ar": "تساعد سارة منصور الشركات الصغيرة في الخليج على إطلاق مواقع ثنائية اللغة تجلب العملاء."
+        }
+      },
+      "social": [
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/in/example"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/example"
+        },
+        {
+          "platform": "x",
+          "url": "https://x.com/example"
+        }
+      ],
+      "contact": {
+        "email": "sara@example.com",
+        "phone": "+974 5550 2468",
+        "whatsapp": "+97455502468",
+        "address": {
+          "en": "Msheireb, Doha, Qatar",
+          "ar": "مشيرب، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Sara Mansour",
+        "ar": "سارة منصور"
+      },
+      "ownerTitle": {
+        "en": "Website strategist & designer",
+        "ar": "استراتيجية وتصميم مواقع"
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+import { loc, type ImageRef } from '@/schemas/fields'
+import { defineManifest, type FieldConfig } from '../types'
+import { GALLERY_COLUMNS, GALLERY_PER_VIEW, GALLERY_RATIOS, MAX_GALLERY_ITEMS, gallerySchema, type GalleryContent } from './schema'
+
+function stock(id: string, width: number, height: number, en: string, ar: string): ImageRef {
+  return { url: `/stock/${id}.svg`, width, height, alt: loc(en, ar) }
+}
+
+const RATIO_LABELS: Record<(typeof GALLERY_RATIOS)[number], ReturnType<typeof loc>> = {
+  '1/1': loc('Square', 'مربّع'),
+  '4/3': loc('Landscape 4:3', 'أفقي 4:3'),
+  '3/4': loc('Portrait 3:4', 'عمودي 3:4'),
+  '3/2': loc('Photo 3:2', 'صورة 3:2'),
+  '16/9': loc('Wide 16:9', 'عريض 16:9'),
+}
+
+const itemFields: FieldConfig[] = [
+  { kind: 'image', path: 'image', label: loc('Image', 'الصورة') },
+  { kind: 'image', path: 'after', label: loc('“After” image', 'صورة «بعد»'), variants: ['before-after'] },
+  { kind: 'text', path: 'caption', label: loc('Caption', 'التعليق') },
+  {
+    kind: 'string',
+    path: 'category',
+    label: loc('Category id', 'معرّف الفئة'),
+    help: loc('The id of one of the categories of this section.', 'معرّف إحدى فئات هذا القسم.'),
+  },
+  { kind: 'text', path: 'medium', label: loc('Medium', 'الخامة'), help: loc('For artworks, e.g. “Ink on paper”.', 'للأعمال الفنية، مثل «حبر على ورق».') },
+  { kind: 'text', path: 'size', label: loc('Size', 'المقاس'), help: loc('For artworks, e.g. “50 × 70 cm”.', 'للأعمال الفنية، مثل «50 × 70 سم».') },
+  { kind: 'string', path: 'year', label: loc('Year', 'السنة'), placeholder: '2026' },
+]
+
+export const manifest = defineManifest<GalleryContent>({
+  type: 'gallery',
+  name: loc('Gallery', 'معرض الصور'),
+  description: loc('Photos or artworks with captions, a category filter and a full-screen viewer.', 'صور أو أعمال فنية مع تعليقات وتصفية حسب الفئة وعارض بملء الشاشة.'),
+  icon: 'image',
+  category: 'media',
+  variants: [
+    { id: 'grid', name: loc('Grid', 'شبكة'), description: loc('Even tiles in one shape.', 'مربعات متساوية بشكل واحد.'), tier: 'free' },
+    { id: 'masonry', name: loc('Masonry', 'جدار متدرّج'), description: loc('Columns that keep each image’s shape.', 'أعمدة تحفظ شكل كل صورة.'), tier: 'free' },
+    { id: 'slider', name: loc('Slider', 'شريط عرض'), description: loc('Swipe through one or more images at a time.', 'تنقّل بين صورة أو أكثر في كل مرة.'), tier: 'free' },
+    { id: 'justified', name: loc('Gallery wall', 'جدار المعرض'), description: loc('Framed rows that fill the width, with artwork labels.', 'صفوف مؤطّرة تملأ العرض مع بطاقات الأعمال.'), tier: 'pro' },
+    { id: 'before-after', name: loc('Before / after', 'قبل وبعد'), description: loc('Drag to compare two states of a project.', 'اسحب للمقارنة بين حالتين لمشروع.'), tier: 'pro' },
+  ],
+  schema: gallerySchema,
+  defaultContent: {
+    eyebrow: loc('Selected works', 'أعمال مختارة'),
+    heading: loc('Ink, line and light', 'حبر وخطّ وضوء'),
+    intro: loc(
+      'Paintings and calligraphy made in my Sharjah studio between 2023 and 2026. Tap any work to see it larger.',
+      'لوحات وأعمال خطّية أنجزتها في مرسمي بالشارقة بين عامَي 2023 و2026. اضغط على أي عمل لتراه بحجم أكبر.',
+    ),
+    categories: [
+      { id: 'ink', label: loc('Ink paintings', 'لوحات بالحبر') },
+      { id: 'calligraphy', label: loc('Calligraphy', 'خط عربي') },
+      { id: 'landscape', label: loc('Landscapes', 'مناظر طبيعية') },
+    ],
+    items: [
+      {
+        id: 'g1',
+        image: stock('art-ink', 1200, 1600, 'Tall ink composition in deep blue strokes', 'تكوين عمودي بضربات حبر زرقاء داكنة'),
+        after: stock('art-sand', 1400, 1400, 'The same composition finished in warm sand tones', 'التكوين نفسه مكتملًا بدرجات رملية دافئة'),
+        caption: loc('Night Script', 'كتابة الليل'),
+        category: 'ink',
+        medium: loc('Ink on paper', 'حبر على ورق'),
+        size: loc('50 × 70 cm', '50 × 70 سم'),
+        year: '2025',
+      },
+      {
+        id: 'g2',
+        image: stock('nature-sand', 1920, 1080, 'Wide desert dunes under a pale sky', 'كثبان صحراوية واسعة تحت سماء شاحبة'),
+        after: stock('nature-olive', 1600, 1067, 'The dunes reworked as layered green hills', 'الكثبان نفسها وقد صارت تلالًا خضراء متدرّجة'),
+        caption: loc('Liwa at Noon', 'ليوا عند الظهيرة'),
+        category: 'landscape',
+        medium: loc('Acrylic on canvas', 'أكريليك على قماش'),
+        size: loc('120 × 70 cm', '120 × 70 سم'),
+        year: '2024',
+      },
+      {
+        id: 'g3',
+        image: stock('art-blush', 1400, 1400, 'Square composition of rose-coloured arcs', 'تكوين مربّع من أقواس وردية'),
+        after: stock('art-sea', 1600, 1067, 'The arcs repainted in teal', 'الأقواس نفسها بالأزرق المخضرّ'),
+        caption: loc('Breath, study I', 'نَفَس، دراسة أولى'),
+        category: 'calligraphy',
+        medium: loc('Gouache and gold leaf', 'غواش ورقائق ذهب'),
+        size: loc('40 × 40 cm', '40 × 40 سم'),
+        year: '2026',
+      },
+      {
+        id: 'g4',
+        image: stock('art-sea', 1600, 1067, 'Teal abstract with flowing horizontal lines', 'تجريد بالأزرق المخضرّ بخطوط أفقية منسابة'),
+        after: stock('nature-sea', 1600, 1067, 'The finished seascape it became', 'المنظر البحري الذي انتهت إليه'),
+        caption: loc('Khor Fakkan Tide', 'مدّ خورفكان'),
+        category: 'landscape',
+        medium: loc('Ink and watercolour', 'حبر وألوان مائية'),
+        size: loc('90 × 60 cm', '90 × 60 سم'),
+        year: '2024',
+      },
+      {
+        id: 'g5',
+        image: stock('interior-clay', 1200, 1600, 'Warm clay forms in a tall frame', 'أشكال طينية دافئة في إطار عمودي'),
+        caption: loc('The Majlis Door', 'باب المجلس'),
+        category: 'calligraphy',
+        medium: loc('Ink on handmade paper', 'حبر على ورق مصنوع يدويًا'),
+        size: loc('60 × 80 cm', '60 × 80 سم'),
+        year: '2023',
+      },
+      {
+        id: 'g6',
+        image: stock('art-sand', 1400, 1400, 'Square abstract in layered sand tones', 'تجريد مربّع بطبقات رملية'),
+        caption: loc('Lines of Light', 'خطوط من ضوء'),
+        category: 'ink',
+        medium: loc('Ink and pigment', 'حبر وصبغات'),
+        size: loc('70 × 70 cm', '70 × 70 سم'),
+        year: '2025',
+      },
+      {
+        id: 'g7',
+        image: stock('city-dusk', 1920, 1080, 'Skyline at dusk in soft violet', 'أفق المدينة عند الغروب بلون بنفسجي خافت'),
+        caption: loc('Corniche, Evening', 'الكورنيش مساءً'),
+        category: 'landscape',
+        medium: loc('Oil on linen', 'زيت على كتان'),
+        size: loc('150 × 85 cm', '150 × 85 سم'),
+        year: '2026',
+      },
+      {
+        id: 'g8',
+        image: stock('portrait-ink', 1200, 1600, 'Figure drawn in low light with ink washes', 'هيئة مرسومة في ضوء خافت بغسلات حبر'),
+        caption: loc('The Reader', 'القارئة'),
+        category: 'ink',
+        medium: loc('Ink wash on paper', 'غسلات حبر على ورق'),
+        size: loc('45 × 60 cm', '45 × 60 سم'),
+        year: '2023',
+      },
+    ],
+    ratio: '1/1',
+    columns: '3',
+    perView: '2',
+    cta: { label: loc('Enquire about a work', 'استفسر عن عمل'), link: { type: 'anchor', value: 'contact' }, style: 'outline' },
+  },
+  editableFields: [
+    {
+      kind: 'select',
+      path: 'ratio',
+      label: loc('Tile shape', 'شكل المربعات'),
+      variants: ['grid'],
+      options: GALLERY_RATIOS.map((value) => ({ value, label: RATIO_LABELS[value] })),
+    },
+    {
+      kind: 'select',
+      path: 'columns',
+      label: loc('Columns on large screens', 'الأعمدة على الشاشات الكبيرة'),
+      variants: ['grid', 'masonry'],
+      options: GALLERY_COLUMNS.map((value) => ({ value, label: loc(value, value) })),
+    },
+    {
+      kind: 'select',
+      path: 'perView',
+      label: loc('Images per view', 'الصور في كل عرض'),
+      variants: ['slider'],
+      options: GALLERY_PER_VIEW.map((value) => ({ value, label: loc(value, value) })),
+    },
+    {
+      kind: 'boolean',
+      path: 'showFilter',
+      label: loc('Show category filter', 'إظهار التصفية حسب الفئة'),
+      variants: ['grid', 'masonry', 'justified'],
+    },
+    {
+      kind: 'list',
+      path: 'categories',
+      label: loc('Categories', 'الفئات'),
+      itemLabel: loc('Category', 'فئة'),
+      titlePath: 'label',
+      max: 12,
+      fields: [
+        { kind: 'text', path: 'label', label: loc('Name', 'الاسم') },
+        { kind: 'string', path: 'id', label: loc('Id', 'المعرّف'), help: loc('Images refer to a category by this id.', 'تشير الصور إلى الفئة بهذا المعرّف.') },
+      ],
+      defaultItem: { label: loc('New category', 'فئة جديدة') },
+    },
+    {
+      kind: 'list',
+      path: 'items',
+      label: loc('Images', 'الصور'),
+      help: loc('Before / after shows only items that have both images.', 'يعرض نمط «قبل وبعد» العناصر التي تحمل الصورتين فقط.'),
+      itemLabel: loc('Image', 'صورة'),
+      titlePath: 'caption',
+      max: MAX_GALLERY_ITEMS,
+      fields: itemFields,
+      defaultItem: { caption: loc('New image', 'صورة جديدة') },
+    },
+    { kind: 'button', path: 'cta', label: loc('Button under the gallery', 'زر أسفل المعرض') },
+  ],
+})

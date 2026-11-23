@@ -1,0 +1,1582 @@
+{
+  "id": "bloom-coach",
+  "name": {
+    "en": "Bloom Coach",
+    "ar": "بلوم كوتش"
+  },
+  "description": {
+    "en": "A warm, booking-first site for coaches, tutors and trainers.",
+    "ar": "موقع دافئ يضع الحجز أولًا، للمدرّبين والمرشدين والمعلّمين الخصوصيين."
+  },
+  "signature": {
+    "en": "Soft organic blobs behind photos with a gentle float, and booking everywhere: hero button, booking bar and an inline calendar.",
+    "ar": "أشكال عضوية ناعمة خلف الصور تطفو بلطف، والحجز في كل مكان: زر في الواجهة وشريط حجز وتقويم مدمج."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Coaches",
+      "ar": "المرشدون والمدرّبون"
+    },
+    {
+      "en": "Tutors",
+      "ar": "المعلّمون الخصوصيون"
+    },
+    {
+      "en": "Fitness & nutrition",
+      "ar": "مدرّبو اللياقة والتغذية"
+    }
+  ],
+  "professions": [
+    "coach"
+  ],
+  "styles": [
+    "minimal",
+    "playful"
+  ],
+  "defaultLocale": "en",
+  "order": 8,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "bloom-coach",
+      "palette": {
+        "background": "#FFFBF7",
+        "surface": "#FFFFFF",
+        "text": "#2D2A32",
+        "mutedText": "#6E6A75",
+        "primary": "#E07A5F",
+        "secondary": "#81B29A",
+        "accent": "#F2CC8F",
+        "border": "#F0E6DD"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "DM Serif Display"
+        },
+        "body": {
+          "family": "DM Sans"
+        },
+        "arabicHeading": {
+          "family": "Almarai"
+        },
+        "arabicBody": {
+          "family": "Almarai"
+        }
+      },
+      "radius": "full",
+      "spacing": "airy",
+      "motion": "subtle",
+      "buttonStyle": "pill"
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-programs",
+          "label": {
+            "en": "Programs",
+            "ar": "البرامج"
+          },
+          "link": {
+            "type": "page",
+            "value": "programs"
+          }
+        },
+        {
+          "id": "nav-blog",
+          "label": {
+            "en": "Blog",
+            "ar": "المدونة"
+          },
+          "link": {
+            "type": "page",
+            "value": "blog"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-programs",
+          "label": {
+            "en": "Programs",
+            "ar": "البرامج"
+          },
+          "link": {
+            "type": "page",
+            "value": "programs"
+          }
+        },
+        {
+          "id": "foot-blog",
+          "label": {
+            "en": "Blog",
+            "ar": "المدونة"
+          },
+          "link": {
+            "type": "page",
+            "value": "blog"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        },
+        {
+          "id": "foot-book",
+          "label": {
+            "en": "Book a session",
+            "ar": "احجز جلسة"
+          },
+          "link": {
+            "type": "booking",
+            "value": ""
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "bloom-hero",
+            "blockType": "hero",
+            "variant": "split-image",
+            "content": {
+              "eyebrow": {
+                "en": "Career coach · Doha & online",
+                "ar": "مرشدة مهنية · الدوحة وعن بُعد"
+              },
+              "name": {
+                "en": "Hana Ibrahim",
+                "ar": "هناء إبراهيم"
+              },
+              "heading": {
+                "en": "Career coaching for teachers and graduates ready for their next step.",
+                "ar": "إرشاد مهني للمعلمين والخريجين المستعدين لخطوتهم التالية."
+              },
+              "tagline": {
+                "en": "Calm, practical sessions that help you understand your strengths, tell your story and walk into interviews with confidence.",
+                "ar": "جلسات هادئة وعملية تساعدك على فهم نقاط قوتك، ورواية قصتك، ودخول المقابلات بثقة."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Book a session",
+                  "ar": "احجز جلسة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                },
+                "icon": "calendar"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Ways to work with me",
+                  "ar": "طرق العمل معي"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "programs"
+                },
+                "style": "ghost"
+              },
+              "image": {
+                "url": "/stock/portrait-blush.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Hana Ibrahim smiling",
+                  "ar": "هناء إبراهيم مبتسمة"
+                }
+              },
+              "imageSide": "end",
+              "blob": true,
+              "badge": {
+                "en": "Free 20-min intro call",
+                "ar": "مكالمة تعارف مجانية ٢٠ دقيقة"
+              },
+              "location": {
+                "en": "Doha, Qatar",
+                "ar": "الدوحة، قطر"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Hi, I'm Hana.",
+                "ar": "مرحبًا، أنا هناء."
+              },
+              "body": {
+                "en": "I taught English for eight years before moving into career guidance. I know how it feels to love your work and still wonder what comes next. Today I help teachers and new graduates find their direction, write CVs that sound like them and prepare for interviews without the panic. My sessions are warm, honest and always end with a clear next step.",
+                "ar": "درّستُ اللغة الإنجليزية ثماني سنوات قبل أن أتّجه إلى الإرشاد المهني، وأعرف شعور أن تحب عملك وتتساءل مع ذلك عن الخطوة التالية. أساعد اليوم المعلمين والخريجين الجدد على تحديد وجهتهم، وكتابة سيرة ذاتية تشبههم، والاستعداد للمقابلات دون توتر. جلساتي دافئة وصريحة، وتنتهي دائمًا بخطوة واضحة."
+              },
+              "image": {
+                "url": "/stock/portrait-clay.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Hana at her desk",
+                  "ar": "هناء في مكتبها"
+                }
+              },
+              "imageSide": "start",
+              "cta": {
+                "label": {
+                  "en": "Book a free intro call",
+                  "ar": "احجز مكالمة تعارف مجانية"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "bloom-services",
+            "blockType": "services",
+            "variant": "cards",
+            "content": {
+              "eyebrow": {
+                "en": "Programs",
+                "ar": "البرامج"
+              },
+              "heading": {
+                "en": "Ways to work with me",
+                "ar": "طرق العمل معي"
+              },
+              "intro": {
+                "en": "Start with one session or go deeper with a short program. Every option includes a written plan.",
+                "ar": "ابدأ بجلسة واحدة أو تعمّق أكثر ببرنامج قصير. كل خيار يشمل خطة مكتوبة."
+              },
+              "items": [
+                {
+                  "id": "bloom-svc-clarity",
+                  "name": {
+                    "en": "1:1 career clarity session (60 min)",
+                    "ar": "جلسة وضوح مهني فردية (٦٠ دقيقة)"
+                  },
+                  "description": {
+                    "en": "One focused hour to untangle where you are, what you want next and the first three steps to get there.",
+                    "ar": "ساعة مركّزة نفكّ فيها تشابك وضعك الحالي، ونحدد ما تريده بعد ذلك، وأول ثلاث خطوات للوصول إليه."
+                  },
+                  "icon": "compass",
+                  "price": {
+                    "amount": 450,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "60 minutes · online or in Doha",
+                    "ar": "٦٠ دقيقة · عن بُعد أو في الدوحة"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-c1",
+                      "text": {
+                        "en": "Pre-session questionnaire",
+                        "ar": "استبيان قبل الجلسة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-c2",
+                      "text": {
+                        "en": "Written action plan within 24 hours",
+                        "ar": "خطة عمل مكتوبة خلال ٢٤ ساعة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-c3",
+                      "text": {
+                        "en": "One follow-up message",
+                        "ar": "رسالة متابعة واحدة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-svc-cv",
+                  "name": {
+                    "en": "CV & interview prep (3 sessions)",
+                    "ar": "تجهيز السيرة الذاتية والمقابلة (٣ جلسات)"
+                  },
+                  "description": {
+                    "en": "We rewrite your CV around your strengths, then rehearse real interview questions until your answers feel natural.",
+                    "ar": "نعيد كتابة سيرتك الذاتية حول نقاط قوتك، ثم نتدرّب على أسئلة مقابلات حقيقية حتى تصبح إجاباتك طبيعية."
+                  },
+                  "icon": "file-text",
+                  "price": {
+                    "amount": 1200,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "3 × 60 minutes over three weeks",
+                    "ar": "٣ جلسات × ٦٠ دقيقة على ثلاثة أسابيع"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-v1",
+                      "text": {
+                        "en": "CV and LinkedIn rewrite",
+                        "ar": "إعادة كتابة السيرة الذاتية وملف LinkedIn"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-v2",
+                      "text": {
+                        "en": "Two recorded mock interviews",
+                        "ar": "مقابلتان تجريبيتان مسجّلتان"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-v3",
+                      "text": {
+                        "en": "Feedback on every answer",
+                        "ar": "ملاحظات على كل إجابة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-svc-workshop",
+                  "name": {
+                    "en": "Group workshop: market yourself",
+                    "ar": "ورشة جماعية: سوّق لنفسك"
+                  },
+                  "description": {
+                    "en": "A friendly half-day workshop for up to twelve people on telling your story, networking and personal branding.",
+                    "ar": "ورشة ودّية لنصف يوم تتسع لاثني عشر مشاركًا، عن رواية قصتك المهنية وبناء العلاقات والعلامة الشخصية."
+                  },
+                  "icon": "users",
+                  "price": {
+                    "amount": 300,
+                    "currency": "QAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "4 hours · monthly in Doha",
+                    "ar": "٤ ساعات · شهريًا في الدوحة"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-w1",
+                      "text": {
+                        "en": "Workbook and templates",
+                        "ar": "كرّاسة عمل وقوالب جاهزة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-w2",
+                      "text": {
+                        "en": "Small groups, lots of practice",
+                        "ar": "مجموعات صغيرة وتطبيق كثير"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-w3",
+                      "text": {
+                        "en": "Team rates for schools",
+                        "ar": "أسعار خاصة للمدارس والفرق"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "programs",
+            "example": true
+          },
+          {
+            "id": "bloom-process",
+            "blockType": "process",
+            "variant": "flow",
+            "content": {
+              "eyebrow": {
+                "en": "How it works",
+                "ar": "كيف نعمل"
+              },
+              "heading": {
+                "en": "Four gentle steps",
+                "ar": "أربع خطوات هادئة"
+              },
+              "steps": [
+                {
+                  "id": "bloom-step-1",
+                  "icon": "message-circle",
+                  "title": {
+                    "en": "Free intro call",
+                    "ar": "مكالمة تعارف مجانية"
+                  },
+                  "body": {
+                    "en": "Twenty relaxed minutes to see if we are a good fit.",
+                    "ar": "عشرون دقيقة هادئة لنعرف إن كنا مناسبين لبعضنا."
+                  }
+                },
+                {
+                  "id": "bloom-step-2",
+                  "icon": "target",
+                  "title": {
+                    "en": "Clarify your goal",
+                    "ar": "وضوح الهدف"
+                  },
+                  "body": {
+                    "en": "We name the role, the timeline and what is holding you back.",
+                    "ar": "نحدد الوظيفة والمدة الزمنية وما يعيقك."
+                  }
+                },
+                {
+                  "id": "bloom-step-3",
+                  "icon": "pencil",
+                  "title": {
+                    "en": "Build your tools",
+                    "ar": "تجهيز أدواتك"
+                  },
+                  "body": {
+                    "en": "CV, LinkedIn and a story you can tell with confidence.",
+                    "ar": "سيرة ذاتية وملف LinkedIn وقصة ترويها بثقة."
+                  }
+                },
+                {
+                  "id": "bloom-step-4",
+                  "icon": "sparkles",
+                  "title": {
+                    "en": "Step forward",
+                    "ar": "انطلق"
+                  },
+                  "body": {
+                    "en": "Practice, apply and keep me posted. I am here until you land it.",
+                    "ar": "تدرّب وقدّم وأبقني على اطلاع. أنا معك حتى تحصل عليها."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-testimonials",
+            "blockType": "testimonials",
+            "variant": "carousel",
+            "content": {
+              "eyebrow": {
+                "en": "Kind words",
+                "ar": "كلمات طيبة"
+              },
+              "heading": {
+                "en": "What clients say",
+                "ar": "ماذا يقول العملاء"
+              },
+              "items": [
+                {
+                  "id": "bloom-t-1",
+                  "quote": {
+                    "en": "After two sessions I finally knew how to present myself in interviews.",
+                    "ar": "بعد جلستين فقط عرفتُ أخيرًا كيف أقدّم نفسي في المقابلات."
+                  },
+                  "name": {
+                    "en": "Dana",
+                    "ar": "دانة"
+                  },
+                  "role": {
+                    "en": "Teacher",
+                    "ar": "معلّمة"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Dana",
+                      "ar": "صورة دانة"
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-t-2",
+                  "quote": {
+                    "en": "Hana helped me turn three years of volunteering into a CV that got me two offers.",
+                    "ar": "ساعدتني هناء على تحويل ثلاث سنوات من العمل التطوعي إلى سيرة ذاتية أوصلتني إلى عرضين وظيفيين."
+                  },
+                  "name": {
+                    "en": "Yousef",
+                    "ar": "يوسف"
+                  },
+                  "role": {
+                    "en": "Engineering graduate",
+                    "ar": "خريج هندسة"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-olive.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Yousef",
+                      "ar": "صورة يوسف"
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-t-3",
+                  "quote": {
+                    "en": "Kind, practical and honest. I left every session with something I could do the same day.",
+                    "ar": "لطيفة وعملية وصريحة. كنت أخرج من كل جلسة بخطوة أستطيع تنفيذها في اليوم نفسه."
+                  },
+                  "name": {
+                    "en": "Maryam",
+                    "ar": "مريم"
+                  },
+                  "role": {
+                    "en": "Moving from teaching to training",
+                    "ar": "تنتقل من التدريس إلى التدريب"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Maryam",
+                      "ar": "صورة مريم"
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-t-4",
+                  "quote": {
+                    "en": "The group workshop gave our new teachers a confidence boost we still talk about.",
+                    "ar": "منحت الورشة الجماعية معلّمينا الجدد دفعة من الثقة ما زلنا نتحدث عنها."
+                  },
+                  "name": {
+                    "en": "Khalid",
+                    "ar": "خالد"
+                  },
+                  "role": {
+                    "en": "School principal",
+                    "ar": "مدير مدرسة"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-slate.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Khalid",
+                      "ar": "صورة خالد"
+                    }
+                  }
+                }
+              ],
+              "autoplay": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-booking",
+            "blockType": "booking",
+            "variant": "inline-calendar",
+            "content": {
+              "eyebrow": {
+                "en": "Book a session",
+                "ar": "احجز جلسة"
+              },
+              "heading": {
+                "en": "Let's find your next step together",
+                "ar": "لنكتشف خطوتك التالية معًا"
+              },
+              "intro": {
+                "en": "Pick a time that suits you. Your first 20-minute call is free.",
+                "ar": "اختر الوقت الذي يناسبك، فمكالمتك الأولى لمدة ٢٠ دقيقة مجانية."
+              },
+              "meetingTypeIds": [],
+              "buttonLabel": {
+                "en": "See available times",
+                "ar": "اطّلع على المواعيد المتاحة"
+              },
+              "cta": {
+                "label": {
+                  "en": "Message me instead",
+                  "ar": "أو راسلني"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "icon": "arrow-right"
+              },
+              "note": {
+                "en": "Sessions in Arabic or English, Sunday to Thursday.",
+                "ar": "الجلسات بالعربية أو الإنجليزية، من الأحد إلى الخميس."
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "booking",
+            "example": true
+          },
+          {
+            "id": "bloom-faq",
+            "blockType": "faq",
+            "variant": "accordion",
+            "content": {
+              "eyebrow": {
+                "en": "FAQ",
+                "ar": "أسئلة شائعة"
+              },
+              "heading": {
+                "en": "Good questions",
+                "ar": "أسئلة في محلها"
+              },
+              "items": [
+                {
+                  "id": "bloom-q-1",
+                  "question": {
+                    "en": "Do you offer sessions online?",
+                    "ar": "هل تقدّمين جلسات عن بُعد؟"
+                  },
+                  "answer": {
+                    "en": "Yes. Most sessions happen on video call. If you are in Doha, we can also meet at a quiet café in West Bay.",
+                    "ar": "نعم، معظم الجلسات تتم عبر مكالمة فيديو. وإن كنت في الدوحة يمكننا اللقاء في مقهى هادئ في الخليج الغربي."
+                  }
+                },
+                {
+                  "id": "bloom-q-2",
+                  "question": {
+                    "en": "Is coaching right for me?",
+                    "ar": "هل الإرشاد المهني مناسب لي؟"
+                  },
+                  "answer": {
+                    "en": "If you feel stuck, unsure how to present yourself or ready for a change but not sure where to start, coaching helps. The free intro call is the easiest way to find out.",
+                    "ar": "إن كنت تشعر بالجمود، أو لا تعرف كيف تقدّم نفسك، أو مستعدًا للتغيير ولا تعرف من أين تبدأ، فالإرشاد سيساعدك. ومكالمة التعارف المجانية أسهل طريقة لتتأكد."
+                  }
+                },
+                {
+                  "id": "bloom-q-3",
+                  "question": {
+                    "en": "Which languages do you coach in?",
+                    "ar": "بأي لغة تُعقد الجلسات؟"
+                  },
+                  "answer": {
+                    "en": "Arabic and English, or a mix of both — whatever helps you speak freely.",
+                    "ar": "بالعربية أو الإنجليزية أو بمزيج منهما، بما يساعدك على التحدث بحرية."
+                  }
+                },
+                {
+                  "id": "bloom-q-4",
+                  "question": {
+                    "en": "Can I reschedule a session?",
+                    "ar": "هل يمكنني تغيير موعد الجلسة؟"
+                  },
+                  "answer": {
+                    "en": "Of course. Reschedule up to 24 hours before at no cost, straight from your confirmation email.",
+                    "ar": "بالتأكيد. يمكنك تغيير الموعد مجانًا قبل ٢٤ ساعة على الأقل من رسالة التأكيد مباشرة."
+                  }
+                },
+                {
+                  "id": "bloom-q-5",
+                  "question": {
+                    "en": "Do you work with schools and teams?",
+                    "ar": "هل تعملين مع المدارس والفرق؟"
+                  },
+                  "answer": {
+                    "en": "Yes. The group workshop can be held at your school or office for up to twelve people.",
+                    "ar": "نعم، يمكن تقديم الورشة الجماعية في مدرستك أو مكتبك لما يصل إلى اثني عشر مشاركًا."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-newsletter",
+            "blockType": "newsletter",
+            "variant": "inline",
+            "content": {
+              "eyebrow": {
+                "en": "Free guide",
+                "ar": "دليل مجاني"
+              },
+              "heading": {
+                "en": "10 ways to stand out in your next interview",
+                "ar": "١٠ طرق لتتميّز في مقابلتك القادمة"
+              },
+              "intro": {
+                "en": "A short, practical guide plus one encouraging email a month. No spam, ever.",
+                "ar": "دليل قصير وعملي، ورسالة مشجّعة واحدة كل شهر. بلا رسائل مزعجة أبدًا."
+              },
+              "buttonLabel": {
+                "en": "Send me the guide",
+                "ar": "أرسلي لي الدليل"
+              },
+              "note": {
+                "en": "Unsubscribe with one click.",
+                "ar": "يمكنك إلغاء الاشتراك بنقرة واحدة."
+              },
+              "incentive": {
+                "title": {
+                  "en": "Free PDF guide",
+                  "ar": "دليل PDF مجاني"
+                },
+                "description": {
+                  "en": "12 pages · 10 minutes to read",
+                  "ar": "١٢ صفحة · ١٠ دقائق قراءة"
+                },
+                "image": {
+                  "url": "/stock/workspace-sand.svg",
+                  "width": 1600,
+                  "height": 1067,
+                  "alt": {
+                    "en": "Notebook and coffee on a desk",
+                    "ar": "دفتر وقهوة على مكتب"
+                  }
+                }
+              }
+            },
+            "style": {
+              "background": {
+                "type": "accent"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "programs",
+        "slug": "programs",
+        "title": {
+          "en": "Programs",
+          "ar": "البرامج"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "bloom-programs-pricing",
+            "blockType": "services",
+            "variant": "pricing-table",
+            "content": {
+              "eyebrow": {
+                "en": "Programs",
+                "ar": "البرامج"
+              },
+              "heading": {
+                "en": "Choose what fits you today",
+                "ar": "اختر ما يناسبك اليوم"
+              },
+              "intro": {
+                "en": "Prices in Qatari riyals. Teachers and recent graduates get 15% off — just mention it when you book.",
+                "ar": "الأسعار بالريال القطري. للمعلمين وحديثي التخرج خصم ١٥٪، اذكر ذلك عند الحجز فقط."
+              },
+              "items": [
+                {
+                  "id": "bloom-svc-clarity-p",
+                  "name": {
+                    "en": "1:1 career clarity session (60 min)",
+                    "ar": "جلسة وضوح مهني فردية (٦٠ دقيقة)"
+                  },
+                  "description": {
+                    "en": "One focused hour to untangle where you are, what you want next and the first three steps to get there.",
+                    "ar": "ساعة مركّزة نفكّ فيها تشابك وضعك الحالي، ونحدد ما تريده بعد ذلك، وأول ثلاث خطوات للوصول إليه."
+                  },
+                  "icon": "compass",
+                  "price": {
+                    "amount": 450,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "60 minutes · online or in Doha",
+                    "ar": "٦٠ دقيقة · عن بُعد أو في الدوحة"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-c1",
+                      "text": {
+                        "en": "Pre-session questionnaire",
+                        "ar": "استبيان قبل الجلسة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-c2",
+                      "text": {
+                        "en": "Written action plan within 24 hours",
+                        "ar": "خطة عمل مكتوبة خلال ٢٤ ساعة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-c3",
+                      "text": {
+                        "en": "One follow-up message",
+                        "ar": "رسالة متابعة واحدة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-svc-cv-p",
+                  "name": {
+                    "en": "CV & interview prep (3 sessions)",
+                    "ar": "تجهيز السيرة الذاتية والمقابلة (٣ جلسات)"
+                  },
+                  "description": {
+                    "en": "We rewrite your CV around your strengths, then rehearse real interview questions until your answers feel natural.",
+                    "ar": "نعيد كتابة سيرتك الذاتية حول نقاط قوتك، ثم نتدرّب على أسئلة مقابلات حقيقية حتى تصبح إجاباتك طبيعية."
+                  },
+                  "icon": "file-text",
+                  "price": {
+                    "amount": 1200,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "3 × 60 minutes over three weeks",
+                    "ar": "٣ جلسات × ٦٠ دقيقة على ثلاثة أسابيع"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-v1",
+                      "text": {
+                        "en": "CV and LinkedIn rewrite",
+                        "ar": "إعادة كتابة السيرة الذاتية وملف LinkedIn"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-v2",
+                      "text": {
+                        "en": "Two recorded mock interviews",
+                        "ar": "مقابلتان تجريبيتان مسجّلتان"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-v3",
+                      "text": {
+                        "en": "Feedback on every answer",
+                        "ar": "ملاحظات على كل إجابة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-svc-workshop-p",
+                  "name": {
+                    "en": "Group workshop: market yourself",
+                    "ar": "ورشة جماعية: سوّق لنفسك"
+                  },
+                  "description": {
+                    "en": "A friendly half-day workshop for up to twelve people on telling your story, networking and personal branding.",
+                    "ar": "ورشة ودّية لنصف يوم تتسع لاثني عشر مشاركًا، عن رواية قصتك المهنية وبناء العلاقات والعلامة الشخصية."
+                  },
+                  "icon": "users",
+                  "price": {
+                    "amount": 300,
+                    "currency": "QAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "4 hours · monthly in Doha",
+                    "ar": "٤ ساعات · شهريًا في الدوحة"
+                  },
+                  "features": [
+                    {
+                      "id": "bloom-f-w1",
+                      "text": {
+                        "en": "Workbook and templates",
+                        "ar": "كرّاسة عمل وقوالب جاهزة"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-w2",
+                      "text": {
+                        "en": "Small groups, lots of practice",
+                        "ar": "مجموعات صغيرة وتطبيق كثير"
+                      }
+                    },
+                    {
+                      "id": "bloom-f-w3",
+                      "text": {
+                        "en": "Team rates for schools",
+                        "ar": "أسعار خاصة للمدارس والفرق"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Book a session",
+                      "ar": "احجز جلسة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-programs-process",
+            "blockType": "process",
+            "variant": "numbered",
+            "content": {
+              "eyebrow": {
+                "en": "What to expect",
+                "ar": "ماذا تتوقع"
+              },
+              "heading": {
+                "en": "Inside a program",
+                "ar": "داخل البرنامج"
+              },
+              "steps": [
+                {
+                  "id": "bloom-step-1-p",
+                  "icon": "message-circle",
+                  "title": {
+                    "en": "Free intro call",
+                    "ar": "مكالمة تعارف مجانية"
+                  },
+                  "body": {
+                    "en": "Twenty relaxed minutes to see if we are a good fit.",
+                    "ar": "عشرون دقيقة هادئة لنعرف إن كنا مناسبين لبعضنا."
+                  }
+                },
+                {
+                  "id": "bloom-step-2-p",
+                  "icon": "target",
+                  "title": {
+                    "en": "Clarify your goal",
+                    "ar": "وضوح الهدف"
+                  },
+                  "body": {
+                    "en": "We name the role, the timeline and what is holding you back.",
+                    "ar": "نحدد الوظيفة والمدة الزمنية وما يعيقك."
+                  }
+                },
+                {
+                  "id": "bloom-step-3-p",
+                  "icon": "pencil",
+                  "title": {
+                    "en": "Build your tools",
+                    "ar": "تجهيز أدواتك"
+                  },
+                  "body": {
+                    "en": "CV, LinkedIn and a story you can tell with confidence.",
+                    "ar": "سيرة ذاتية وملف LinkedIn وقصة ترويها بثقة."
+                  }
+                },
+                {
+                  "id": "bloom-step-4-p",
+                  "icon": "sparkles",
+                  "title": {
+                    "en": "Step forward",
+                    "ar": "انطلق"
+                  },
+                  "body": {
+                    "en": "Practice, apply and keep me posted. I am here until you land it.",
+                    "ar": "تدرّب وقدّم وأبقني على اطلاع. أنا معك حتى تحصل عليها."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-programs-testimonial",
+            "blockType": "testimonials",
+            "variant": "single",
+            "content": {
+              "items": [
+                {
+                  "id": "bloom-t-2-p",
+                  "quote": {
+                    "en": "Hana helped me turn three years of volunteering into a CV that got me two offers.",
+                    "ar": "ساعدتني هناء على تحويل ثلاث سنوات من العمل التطوعي إلى سيرة ذاتية أوصلتني إلى عرضين وظيفيين."
+                  },
+                  "name": {
+                    "en": "Yousef",
+                    "ar": "يوسف"
+                  },
+                  "role": {
+                    "en": "Engineering graduate",
+                    "ar": "خريج هندسة"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-olive.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Yousef",
+                      "ar": "صورة يوسف"
+                    }
+                  }
+                },
+                {
+                  "id": "bloom-t-4-p",
+                  "quote": {
+                    "en": "The group workshop gave our new teachers a confidence boost we still talk about.",
+                    "ar": "منحت الورشة الجماعية معلّمينا الجدد دفعة من الثقة ما زلنا نتحدث عنها."
+                  },
+                  "name": {
+                    "en": "Khalid",
+                    "ar": "خالد"
+                  },
+                  "role": {
+                    "en": "School principal",
+                    "ar": "مدير مدرسة"
+                  },
+                  "rating": 5,
+                  "photo": {
+                    "url": "/stock/portrait-slate.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Khalid",
+                      "ar": "صورة خالد"
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-programs-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "eyebrow": {
+                "en": "Ready when you are",
+                "ar": "جاهزة متى كنت جاهزًا"
+              },
+              "heading": {
+                "en": "Book your first session",
+                "ar": "احجز جلستك الأولى"
+              },
+              "intro": {
+                "en": "Not sure which program? Start with the free 20-minute call.",
+                "ar": "لم تحدد البرنامج بعد؟ ابدأ بالمكالمة المجانية لمدة ٢٠ دقيقة."
+              },
+              "meetingTypeIds": [],
+              "buttonLabel": {
+                "en": "Book a session",
+                "ar": "احجز جلسة"
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-programs-faq",
+            "blockType": "faq",
+            "variant": "two-column",
+            "content": {
+              "heading": {
+                "en": "Before you book",
+                "ar": "قبل أن تحجز"
+              },
+              "items": [
+                {
+                  "id": "bloom-q-1-p",
+                  "question": {
+                    "en": "Do you offer sessions online?",
+                    "ar": "هل تقدّمين جلسات عن بُعد؟"
+                  },
+                  "answer": {
+                    "en": "Yes. Most sessions happen on video call. If you are in Doha, we can also meet at a quiet café in West Bay.",
+                    "ar": "نعم، معظم الجلسات تتم عبر مكالمة فيديو. وإن كنت في الدوحة يمكننا اللقاء في مقهى هادئ في الخليج الغربي."
+                  }
+                },
+                {
+                  "id": "bloom-q-2-p",
+                  "question": {
+                    "en": "Is coaching right for me?",
+                    "ar": "هل الإرشاد المهني مناسب لي؟"
+                  },
+                  "answer": {
+                    "en": "If you feel stuck, unsure how to present yourself or ready for a change but not sure where to start, coaching helps. The free intro call is the easiest way to find out.",
+                    "ar": "إن كنت تشعر بالجمود، أو لا تعرف كيف تقدّم نفسك، أو مستعدًا للتغيير ولا تعرف من أين تبدأ، فالإرشاد سيساعدك. ومكالمة التعارف المجانية أسهل طريقة لتتأكد."
+                  }
+                },
+                {
+                  "id": "bloom-q-3-p",
+                  "question": {
+                    "en": "Which languages do you coach in?",
+                    "ar": "بأي لغة تُعقد الجلسات؟"
+                  },
+                  "answer": {
+                    "en": "Arabic and English, or a mix of both — whatever helps you speak freely.",
+                    "ar": "بالعربية أو الإنجليزية أو بمزيج منهما، بما يساعدك على التحدث بحرية."
+                  }
+                },
+                {
+                  "id": "bloom-q-4-p",
+                  "question": {
+                    "en": "Can I reschedule a session?",
+                    "ar": "هل يمكنني تغيير موعد الجلسة؟"
+                  },
+                  "answer": {
+                    "en": "Of course. Reschedule up to 24 hours before at no cost, straight from your confirmation email.",
+                    "ar": "بالتأكيد. يمكنك تغيير الموعد مجانًا قبل ٢٤ ساعة على الأقل من رسالة التأكيد مباشرة."
+                  }
+                },
+                {
+                  "id": "bloom-q-5-p",
+                  "question": {
+                    "en": "Do you work with schools and teams?",
+                    "ar": "هل تعملين مع المدارس والفرق؟"
+                  },
+                  "answer": {
+                    "en": "Yes. The group workshop can be held at your school or office for up to twelve people.",
+                    "ar": "نعم، يمكن تقديم الورشة الجماعية في مدرستك أو مكتبك لما يصل إلى اثني عشر مشاركًا."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "Career clarity sessions, CV and interview prep, and group workshops.",
+            "ar": "جلسات وضوح مهني، وتجهيز السيرة الذاتية والمقابلات، وورش عمل جماعية."
+          }
+        }
+      },
+      {
+        "id": "blog",
+        "slug": "blog",
+        "title": {
+          "en": "Blog",
+          "ar": "المدونة"
+        },
+        "type": "blogIndex",
+        "sections": [
+          {
+            "id": "bloom-blog-list",
+            "blockType": "blogList",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Blog",
+                "ar": "المدونة"
+              },
+              "heading": {
+                "en": "Notes for your next step",
+                "ar": "ملاحظات لخطوتك التالية"
+              },
+              "intro": {
+                "en": "Short, practical reads on CVs, interviews and changing careers with confidence.",
+                "ar": "قراءات قصيرة وعملية عن السيرة الذاتية والمقابلات وتغيير المسار المهني بثقة."
+              },
+              "count": 9,
+              "showAll": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-blog-newsletter",
+            "blockType": "newsletter",
+            "variant": "card",
+            "content": {
+              "heading": {
+                "en": "Get the free interview guide",
+                "ar": "احصل على دليل المقابلات المجاني"
+              },
+              "intro": {
+                "en": "Ten ideas you can use this week, straight to your inbox.",
+                "ar": "عشر أفكار يمكنك تطبيقها هذا الأسبوع، تصلك إلى بريدك."
+              },
+              "buttonLabel": {
+                "en": "Send me the guide",
+                "ar": "أرسلي لي الدليل"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "bloom-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Say hello — I'd love to hear from you",
+                "ar": "قل مرحبًا، يسعدني أن أسمع منك"
+              },
+              "intro": {
+                "en": "Tell me a little about where you are and what you are hoping for. I reply to every message myself.",
+                "ar": "أخبرني قليلًا عن وضعك وما تطمح إليه. أردّ على كل رسالة بنفسي."
+              },
+              "note": {
+                "en": "I reply within one working day, Sunday to Thursday.",
+                "ar": "أردّ خلال يوم عمل واحد، من الأحد إلى الخميس."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "bloom-contact-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "heading": {
+                "en": "Prefer to talk?",
+                "ar": "تفضّل الحديث مباشرة؟"
+              },
+              "intro": {
+                "en": "Book a free 20-minute intro call at a time that suits you.",
+                "ar": "احجز مكالمة تعارف مجانية لمدة ٢٠ دقيقة في الوقت الذي يناسبك."
+              },
+              "meetingTypeIds": [],
+              "buttonLabel": {
+                "en": "Book a session",
+                "ar": "احجز جلسة"
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "bloom-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": {
+            "en": "Hana Ibrahim",
+            "ar": "هناء إبراهيم"
+          },
+          "cta": {
+            "label": {
+              "en": "Book a session",
+              "ar": "احجز جلسة"
+            },
+            "link": {
+              "type": "booking",
+              "value": ""
+            },
+            "icon": "calendar"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "bloom-footer",
+        "blockType": "footer",
+        "variant": "columns",
+        "content": {
+          "heading": {
+            "en": "Hana Ibrahim",
+            "ar": "هناء إبراهيم"
+          },
+          "text": {
+            "en": "Career coaching for teachers and graduates. Online and in Doha.",
+            "ar": "إرشاد مهني للمعلمين والخريجين، عن بُعد وفي الدوحة."
+          },
+          "copyright": {
+            "en": "© 2026 Hana Ibrahim Coaching",
+            "ar": "© 2026 هناء إبراهيم للإرشاد المهني"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "announcementBar": {
+        "id": "bloom-announcement",
+        "blockType": "announcement",
+        "variant": "bar",
+        "content": {
+          "text": {
+            "en": "Free 20-minute intro calls this week — two spots left.",
+            "ar": "مكالمات تعارف مجانية لمدة ٢٠ دقيقة هذا الأسبوع — بقي موعدان."
+          },
+          "cta": {
+            "label": {
+              "en": "Book a session",
+              "ar": "احجز جلسة"
+            },
+            "link": {
+              "type": "booking",
+              "value": ""
+            },
+            "icon": "arrow-right"
+          },
+          "dismissible": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {},
+        "example": true
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Hana Ibrahim",
+        "defaultDescription": {
+          "en": "Career coaching for teachers and graduates ready for their next step.",
+          "ar": "إرشاد مهني للمعلمين والخريجين المستعدين لخطوتهم التالية."
+        }
+      },
+      "ownerName": {
+        "en": "Hana Ibrahim",
+        "ar": "هناء إبراهيم"
+      },
+      "ownerTitle": {
+        "en": "Career coach",
+        "ar": "مرشدة مهنية"
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/example"
+        },
+        {
+          "platform": "whatsapp",
+          "url": "https://wa.me/97455501234"
+        }
+      ],
+      "contact": {
+        "email": "hana@example.com",
+        "phone": "+974 5550 1234",
+        "whatsapp": "+97455501234",
+        "address": {
+          "en": "West Bay, Doha, Qatar",
+          "ar": "الخليج الغربي، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

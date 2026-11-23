@@ -1,0 +1,920 @@
+{
+  "id": "editorial",
+  "name": {
+    "en": "Editorial",
+    "ar": "افتتاحية"
+  },
+  "description": {
+    "en": "A print-inspired magazine site with your name on the cover.",
+    "ar": "موقع بروح المجلات المطبوعة، واسمك على الغلاف."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Writers",
+      "ar": "الكتّاب"
+    },
+    {
+      "en": "Journalists",
+      "ar": "الصحفيون"
+    },
+    {
+      "en": "Copywriters",
+      "ar": "كتّاب المحتوى الإعلاني"
+    },
+    {
+      "en": "Marketers",
+      "ar": "المسوّقون"
+    }
+  ],
+  "professions": [
+    "writer",
+    "creator",
+    "freelancer"
+  ],
+  "styles": [
+    "elegant",
+    "minimal"
+  ],
+  "signature": {
+    "en": "A magazine-cover hero: your name as a huge masthead, your headline as the cover line, the issue number in the corner.",
+    "ar": "واجهة على شكل غلاف مجلة: اسمك ترويسة ضخمة، وعنوانك سطر الغلاف، ورقم العدد في الزاوية."
+  },
+  "defaultLocale": "en",
+  "order": 1,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "editorial",
+      "palette": {
+        "background": "#F7F3EC",
+        "surface": "#FFFFFF",
+        "text": "#1A1A1A",
+        "mutedText": "#6B645A",
+        "primary": "#B3261E",
+        "secondary": "#1A1A1A",
+        "accent": "#E8B931",
+        "border": "#DDD5C7"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Playfair Display"
+        },
+        "body": {
+          "family": "Source Serif 4"
+        },
+        "arabicHeading": {
+          "family": "Amiri"
+        },
+        "arabicBody": {
+          "family": "Noto Naskh Arabic"
+        }
+      },
+      "radius": "none",
+      "spacing": "comfortable",
+      "motion": "subtle",
+      "buttonStyle": "outline",
+      "backgroundStyle": {
+        "type": "noise",
+        "value": "0.05"
+      }
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-articles",
+          "label": {
+            "en": "Articles",
+            "ar": "المقالات"
+          },
+          "link": {
+            "type": "page",
+            "value": "articles"
+          }
+        },
+        {
+          "id": "nav-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-articles",
+          "label": {
+            "en": "Articles",
+            "ar": "المقالات"
+          },
+          "link": {
+            "type": "page",
+            "value": "articles"
+          }
+        },
+        {
+          "id": "foot-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "page",
+            "value": "about"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "editorial-hero",
+            "blockType": "hero",
+            "variant": "magazine-cover",
+            "content": {
+              "name": {
+                "en": "Yousef Al-Amin",
+                "ar": "يوسف الأمين"
+              },
+              "eyebrow": {
+                "en": "November 2026",
+                "ar": "نوفمبر 2026"
+              },
+              "issue": {
+                "en": "Issue 07 — Stories that travel",
+                "ar": "العدد ٠٧ — قصص تسافر"
+              },
+              "tagline": {
+                "en": "Writer covering technology, culture and the Gulf's creative economy.",
+                "ar": "كاتب يغطي التقنية والثقافة والاقتصاد الإبداعي في الخليج."
+              },
+              "coverLines": [
+                {
+                  "id": "c1",
+                  "text": {
+                    "en": "The quiet rise of Doha's indie game studios",
+                    "ar": "الصعود الهادئ لاستوديوهات الألعاب المستقلة في الدوحة"
+                  }
+                },
+                {
+                  "id": "c2",
+                  "text": {
+                    "en": "Why Arabic UX writing needs its own rules",
+                    "ar": "لماذا تحتاج كتابة واجهات الاستخدام العربية إلى قواعدها الخاصة"
+                  }
+                },
+                {
+                  "id": "c3",
+                  "text": {
+                    "en": "Inside a 48-hour startup weekend",
+                    "ar": "من داخل عطلة نهاية أسبوع لريادة الأعمال مدتها 48 ساعة"
+                  }
+                }
+              ],
+              "image": {
+                "url": "/stock/portrait-sand.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Yousef Al-Amin",
+                  "ar": "صورة يوسف الأمين"
+                }
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Read the latest",
+                  "ar": "اقرأ الجديد"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "articles"
+                },
+                "style": "outline",
+                "icon": "arrow-right"
+              },
+              "scrollCue": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-about",
+            "blockType": "about",
+            "variant": "big-quote",
+            "content": {
+              "eyebrow": {
+                "en": "Editor's letter",
+                "ar": "كلمة المحرر"
+              },
+              "quote": {
+                "en": "The best stories in our region are being written in small studios, late at night, in two languages at once. I go and find them.",
+                "ar": "أجمل القصص في منطقتنا تُكتب في استوديوهات صغيرة، في ساعات الليل المتأخرة، وبلغتين معًا. وأنا أذهب لأجدها."
+              },
+              "attribution": {
+                "en": "Yousef Al-Amin",
+                "ar": "يوسف الأمين"
+              },
+              "attributionRole": {
+                "en": "Writer and editor, Doha",
+                "ar": "كاتب ومحرر، الدوحة"
+              },
+              "image": {
+                "url": "/stock/portrait-sand.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Yousef at his desk",
+                  "ar": "يوسف على مكتبه"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "editorial-stories",
+            "blockType": "projects",
+            "variant": "hover-reveal",
+            "content": {
+              "eyebrow": {
+                "en": "Features",
+                "ar": "تحقيقات"
+              },
+              "heading": {
+                "en": "Featured stories",
+                "ar": "قصص مختارة"
+              },
+              "items": [
+                {
+                  "id": "f1",
+                  "title": {
+                    "en": "The quiet rise of Doha's indie game studios",
+                    "ar": "الصعود الهادئ لاستوديوهات الألعاب المستقلة في الدوحة"
+                  },
+                  "description": {
+                    "en": "Six studios, forty developers and a shared office above a car showroom. A long read on the city’s newest creative scene.",
+                    "ar": "ستة استوديوهات وأربعون مطورًا ومكتب مشترك فوق معرض سيارات. قراءة مطوّلة في أحدث مشهد إبداعي في المدينة."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-sand.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "A shared studio desk with sketches",
+                      "ar": "مكتب استوديو مشترك عليه رسومات"
+                    }
+                  },
+                  "client": {
+                    "en": "The Gulf Review",
+                    "ar": "مجلة الخليج"
+                  },
+                  "year": "2026",
+                  "link": {
+                    "type": "page",
+                    "value": "articles"
+                  }
+                },
+                {
+                  "id": "f2",
+                  "title": {
+                    "en": "Why Arabic UX writing needs its own rules",
+                    "ar": "لماذا تحتاج كتابة واجهات الاستخدام العربية إلى قواعدها الخاصة"
+                  },
+                  "description": {
+                    "en": "Translated buttons, broken plurals and the gender of “you”: what product teams get wrong, and how to fix it.",
+                    "ar": "أزرار مترجمة وجموع مكسورة وتذكير المخاطَب وتأنيثه: ما الذي تخطئ فيه فرق المنتجات، وكيف يُصلَح."
+                  },
+                  "image": {
+                    "url": "/stock/app-sea.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Interface panels in teal",
+                      "ar": "لوحات واجهة بلون أخضر مزرق"
+                    }
+                  },
+                  "client": {
+                    "en": "Desert Tech Weekly",
+                    "ar": "أسبوعية تقنية الصحراء"
+                  },
+                  "year": "2026",
+                  "link": {
+                    "type": "page",
+                    "value": "articles"
+                  }
+                },
+                {
+                  "id": "f3",
+                  "title": {
+                    "en": "Inside a 48-hour startup weekend",
+                    "ar": "من داخل عطلة نهاية أسبوع لريادة الأعمال مدتها 48 ساعة"
+                  },
+                  "description": {
+                    "en": "Ninety strangers, twelve ideas and one very tired jury. I joined a team and stayed until the final pitch.",
+                    "ar": "تسعون غريبًا واثنتا عشرة فكرة ولجنة تحكيم منهكة. انضممت إلى أحد الفرق وبقيت حتى العرض الأخير."
+                  },
+                  "image": {
+                    "url": "/stock/event-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Warm celebration shapes",
+                      "ar": "أشكال احتفالية دافئة"
+                    }
+                  },
+                  "client": {
+                    "en": "Majaz Magazine",
+                    "ar": "مجلة مجاز"
+                  },
+                  "year": "2025",
+                  "link": {
+                    "type": "page",
+                    "value": "articles"
+                  }
+                },
+                {
+                  "id": "f4",
+                  "title": {
+                    "en": "The last bookbinder of Souq Waqif",
+                    "ar": "آخر مجلّد كتب في سوق واقف"
+                  },
+                  "description": {
+                    "en": "A portrait of a craft that refuses to go digital, and the apprentice who might keep it alive.",
+                    "ar": "صورة قلمية لحرفة ترفض التحول الرقمي، وللمتدرّب الذي قد يبقيها حية."
+                  },
+                  "image": {
+                    "url": "/stock/interior-clay.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "A warm workshop interior",
+                      "ar": "ورشة دافئة من الداخل"
+                    }
+                  },
+                  "client": {
+                    "en": "The Gulf Review",
+                    "ar": "مجلة الخليج"
+                  },
+                  "year": "2025",
+                  "link": {
+                    "type": "page",
+                    "value": "articles"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "stories",
+            "example": true
+          },
+          {
+            "id": "editorial-press",
+            "blockType": "clients",
+            "variant": "grid",
+            "content": {
+              "heading": {
+                "en": "As seen in",
+                "ar": "نُشرت كتاباتي في"
+              },
+              "items": [
+                {
+                  "id": "c1",
+                  "name": {
+                    "en": "The Gulf Review",
+                    "ar": "مجلة الخليج"
+                  }
+                },
+                {
+                  "id": "c2",
+                  "name": {
+                    "en": "Desert Tech Weekly",
+                    "ar": "أسبوعية تقنية الصحراء"
+                  }
+                },
+                {
+                  "id": "c3",
+                  "name": {
+                    "en": "Majaz Magazine",
+                    "ar": "مجلة مجاز"
+                  }
+                },
+                {
+                  "id": "c4",
+                  "name": {
+                    "en": "Corniche Radio",
+                    "ar": "إذاعة الكورنيش"
+                  }
+                },
+                {
+                  "id": "c5",
+                  "name": {
+                    "en": "Lantern Books",
+                    "ar": "دار الفانوس"
+                  }
+                }
+              ],
+              "greyscale": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-latest",
+            "blockType": "blogList",
+            "variant": "featured",
+            "content": {
+              "eyebrow": {
+                "en": "From the notebook",
+                "ar": "من الدفتر"
+              },
+              "heading": {
+                "en": "Latest articles",
+                "ar": "أحدث المقالات"
+              },
+              "count": 4,
+              "showAll": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-newsletter",
+            "blockType": "newsletter",
+            "variant": "inline",
+            "content": {
+              "heading": {
+                "en": "Get my weekly letter",
+                "ar": "اشترك في رسالتي الأسبوعية"
+              },
+              "intro": {
+                "en": "One story, three links and a sentence I could not stop thinking about. Every Sunday morning.",
+                "ar": "قصة واحدة وثلاثة روابط وجملة لم أتوقف عن التفكير فيها. صباح كل أحد."
+              },
+              "buttonLabel": {
+                "en": "Subscribe",
+                "ar": "اشترك"
+              },
+              "note": {
+                "en": "2,400 readers. No spam, unsubscribe anytime.",
+                "ar": "ألفان وأربعمئة قارئ. بلا رسائل مزعجة، ويمكنك إلغاء الاشتراك متى شئت."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-contact",
+            "blockType": "contact",
+            "variant": "minimal",
+            "content": {
+              "heading": {
+                "en": "Commissions and conversations",
+                "ar": "للتكليفات والحوارات"
+              },
+              "intro": {
+                "en": "Editors, producers and founders with a story worth telling — write to me.",
+                "ar": "إلى المحررين والمنتجين والمؤسسين الذين لديهم قصة تستحق أن تُروى: راسلوني."
+              },
+              "note": {
+                "en": "I reply to every pitch within a week.",
+                "ar": "أرد على كل مقترح خلال أسبوع."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "articles",
+        "slug": "articles",
+        "title": {
+          "en": "Articles",
+          "ar": "المقالات"
+        },
+        "type": "blogIndex",
+        "sections": [
+          {
+            "id": "editorial-articles",
+            "blockType": "blogList",
+            "variant": "list",
+            "content": {
+              "eyebrow": {
+                "en": "Archive",
+                "ar": "الأرشيف"
+              },
+              "heading": {
+                "en": "Articles",
+                "ar": "المقالات"
+              },
+              "intro": {
+                "en": "Essays, reported features and notes on technology, culture and the creative economy of the Gulf.",
+                "ar": "مقالات وتحقيقات وملاحظات عن التقنية والثقافة والاقتصاد الإبداعي في الخليج."
+              },
+              "count": 12
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-articles-newsletter",
+            "blockType": "newsletter",
+            "variant": "card",
+            "content": {
+              "heading": {
+                "en": "Never miss a story",
+                "ar": "لا تفوّت أي قصة"
+              },
+              "intro": {
+                "en": "New articles arrive in my Sunday letter first.",
+                "ar": "تصل المقالات الجديدة أولًا في رسالتي يوم الأحد."
+              },
+              "buttonLabel": {
+                "en": "Subscribe",
+                "ar": "اشترك"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "about",
+        "slug": "about",
+        "title": {
+          "en": "About",
+          "ar": "نبذة"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "editorial-about-page",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "A reporter of small rooms and big ideas",
+                "ar": "مراسل الغرف الصغيرة والأفكار الكبيرة"
+              },
+              "body": {
+                "en": "<p>I have written about technology and culture in the Gulf for nine years — first as a news reporter, then as a features editor, and now as an independent writer.</p><p>My beat is the people building things: game studios, type designers, founders, translators and the occasional bookbinder. I write long, I report on the ground, and I publish in Arabic and English.</p><p>When I am not writing, I teach a feature-writing workshop for young journalists and edit the occasional book.</p>",
+                "ar": "<p>أكتب عن التقنية والثقافة في الخليج منذ تسع سنوات، بدأت مراسلًا إخباريًا ثم محررًا للتحقيقات، وأعمل اليوم كاتبًا مستقلًا.</p><p>موضوعي هو الناس الذين يصنعون الأشياء: استوديوهات الألعاب ومصممو الخطوط والمؤسسون والمترجمون، وأحيانًا مجلّد كتب. أكتب نصوصًا طويلة، وأنقل من الميدان، وأنشر بالعربية والإنجليزية.</p><p>وحين لا أكتب، أقدّم ورشة في كتابة التحقيقات للصحفيين الشباب، وأحرر كتابًا بين حين وآخر.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-sand.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Yousef Al-Amin",
+                  "ar": "صورة يوسف الأمين"
+                }
+              },
+              "imageSide": "end",
+              "cta": {
+                "label": {
+                  "en": "Commission a story",
+                  "ar": "اطلب قصة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-experience",
+            "blockType": "experience",
+            "variant": "compact",
+            "content": {
+              "heading": {
+                "en": "Where I have written",
+                "ar": "أين كتبت"
+              },
+              "items": [
+                {
+                  "id": "e1",
+                  "role": {
+                    "en": "Independent writer",
+                    "ar": "كاتب مستقل"
+                  },
+                  "organisation": {
+                    "en": "Self-employed",
+                    "ar": "عمل حر"
+                  },
+                  "start": "2023",
+                  "current": true,
+                  "description": {
+                    "en": "Features and essays for regional and international magazines.",
+                    "ar": "تحقيقات ومقالات لمجلات إقليمية ودولية."
+                  }
+                },
+                {
+                  "id": "e2",
+                  "role": {
+                    "en": "Features Editor",
+                    "ar": "محرر التحقيقات"
+                  },
+                  "organisation": {
+                    "en": "The Gulf Review",
+                    "ar": "مجلة الخليج"
+                  },
+                  "start": "2020",
+                  "end": "2023",
+                  "description": {
+                    "en": "Commissioned and edited the monthly long-read section.",
+                    "ar": "كلّفت بقسم القراءات المطوّلة الشهري وحررته."
+                  }
+                },
+                {
+                  "id": "e3",
+                  "role": {
+                    "en": "Technology Reporter",
+                    "ar": "مراسل تقني"
+                  },
+                  "organisation": {
+                    "en": "Desert Tech Weekly",
+                    "ar": "أسبوعية تقنية الصحراء"
+                  },
+                  "start": "2017",
+                  "end": "2020",
+                  "description": {
+                    "en": "Daily news on startups, telecoms and digital policy.",
+                    "ar": "أخبار يومية عن الشركات الناشئة والاتصالات والسياسات الرقمية."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "editorial-about-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Have a story for me?",
+                "ar": "لديك قصة لي؟"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Get in touch",
+                  "ar": "تواصل معي"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "style": "primary"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "editorial-contact-page",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Write to me",
+                "ar": "راسلني"
+              },
+              "intro": {
+                "en": "For commissions, interviews, speaking or workshop requests. A short pitch is perfect.",
+                "ar": "للتكليفات والمقابلات والمحاضرات وطلبات الورش. يكفي مقترح قصير."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "editorial-header",
+        "blockType": "header",
+        "variant": "centered",
+        "content": {
+          "heading": {
+            "en": "Yousef Al-Amin",
+            "ar": "يوسف الأمين"
+          },
+          "text": {
+            "en": "Issue 07",
+            "ar": "العدد ٠٧"
+          },
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "editorial-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": {
+            "en": "Yousef Al-Amin",
+            "ar": "يوسف الأمين"
+          },
+          "text": {
+            "en": "Stories on technology, culture and the creative Gulf.",
+            "ar": "قصص عن التقنية والثقافة والخليج المبدع."
+          },
+          "copyright": {
+            "en": "© 2026 Yousef Al-Amin. All rights reserved.",
+            "ar": "© 2026 يوسف الأمين. جميع الحقوق محفوظة."
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Yousef Al-Amin",
+        "defaultDescription": {
+          "en": "Yousef Al-Amin writes about technology, culture and the Gulf's creative economy.",
+          "ar": "يوسف الأمين يكتب عن التقنية والثقافة والاقتصاد الإبداعي في الخليج."
+        }
+      },
+      "social": [
+        {
+          "platform": "x",
+          "url": "https://x.com/example"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/in/example"
+        },
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@example"
+        }
+      ],
+      "contact": {
+        "email": "yousef@example.com",
+        "phone": "+974 5550 2468",
+        "address": {
+          "en": "Msheireb, Doha, Qatar",
+          "ar": "مشيرب، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Yousef Al-Amin",
+        "ar": "يوسف الأمين"
+      },
+      "ownerTitle": {
+        "en": "Writer and editor",
+        "ar": "كاتب ومحرر"
+      }
+    }
+  }
+}

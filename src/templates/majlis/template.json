@@ -1,0 +1,1017 @@
+{
+  "id": "majlis",
+  "name": {
+    "en": "Majlis",
+    "ar": "مجلس"
+  },
+  "description": {
+    "en": "An elegant, Arabic-first site for senior professionals, with gold hairlines and geometric patterns.",
+    "ar": "موقع أنيق يبدأ بالعربية لكبار المهنيين، بخطوط ذهبية رفيعة وزخارف هندسية."
+  },
+  "signature": {
+    "en": "A subtle Islamic geometric line pattern in backgrounds and dividers, gold hairline frames and a bilingual name lockup.",
+    "ar": "نقش هندسي إسلامي رقيق في الخلفيات والفواصل، وإطارات ذهبية رفيعة، واسم ثنائي اللغة العربية فوق الإنجليزية."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Lawyers & consultants",
+      "ar": "المحامون والمستشارون"
+    },
+    {
+      "en": "Executives",
+      "ar": "القياديون"
+    },
+    {
+      "en": "Academics",
+      "ar": "الأكاديميون"
+    },
+    {
+      "en": "Government professionals",
+      "ar": "موظفو القطاع الحكومي"
+    }
+  ],
+  "professions": [
+    "business",
+    "academic",
+    "freelancer"
+  ],
+  "styles": [
+    "elegant",
+    "arabic-first"
+  ],
+  "defaultLocale": "ar",
+  "order": 9,
+  "content": {
+    "version": 1,
+    "locales": [
+      "ar",
+      "en"
+    ],
+    "theme": {
+      "templateId": "majlis",
+      "palette": {
+        "background": "#FBFAF7",
+        "surface": "#FFFFFF",
+        "text": "#1F2A2E",
+        "mutedText": "#667075",
+        "primary": "#7A1E3A",
+        "secondary": "#1F4E5A",
+        "accent": "#B8964F",
+        "border": "#E6DFD1"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Cormorant Garamond"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "El Messiri"
+        },
+        "arabicBody": {
+          "family": "Noto Kufi Arabic"
+        }
+      },
+      "radius": "sm",
+      "spacing": "airy",
+      "motion": "subtle",
+      "buttonStyle": "outline",
+      "backgroundStyle": {
+        "type": "pattern",
+        "value": "islamic-star"
+      }
+    },
+    "navigation": {
+      "style": "top",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-experience",
+          "label": {
+            "en": "Experience",
+            "ar": "الخبرات"
+          },
+          "link": {
+            "type": "page",
+            "value": "experience"
+          }
+        },
+        {
+          "id": "nav-articles",
+          "label": {
+            "en": "Articles",
+            "ar": "المقالات"
+          },
+          "link": {
+            "type": "page",
+            "value": "articles"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-experience",
+          "label": {
+            "en": "Experience",
+            "ar": "الخبرات"
+          },
+          "link": {
+            "type": "page",
+            "value": "experience"
+          }
+        },
+        {
+          "id": "foot-articles",
+          "label": {
+            "en": "Articles",
+            "ar": "المقالات"
+          },
+          "link": {
+            "type": "page",
+            "value": "articles"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "majlis-hero",
+            "blockType": "hero",
+            "variant": "centered",
+            "content": {
+              "eyebrow": {
+                "en": "Advisor in education policy and institutional development",
+                "ar": "مستشار في السياسات التعليمية والتطوير المؤسسي"
+              },
+              "heading": {
+                "en": "د. عبدالله الكواري",
+                "ar": "د. عبدالله الكواري"
+              },
+              "tagline": {
+                "en": "Dr. Abdullah Al-Kuwari",
+                "ar": "Dr. Abdullah Al-Kuwari"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Request a consultation",
+                  "ar": "اطلب استشارة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "View experience",
+                  "ar": "استعرض الخبرات"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "experience"
+                },
+                "style": "ghost"
+              },
+              "frame": "pattern",
+              "location": {
+                "en": "Doha, Qatar",
+                "ar": "الدوحة، قطر"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-about",
+            "blockType": "about",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Two decades in service of education",
+                "ar": "عقدان في خدمة التعليم"
+              },
+              "body": {
+                "en": "For twenty years I have worked where policy meets the classroom. I began as a lecturer in educational leadership, then led curriculum teams and later built performance frameworks for public institutions across the Gulf. My conviction is simple: reform succeeds when the people who carry it understand it, believe in it and can measure it. Today I advise ministries, universities and school networks on policy, curriculum and institutional performance, and I write regularly on how evidence can shape better decisions.",
+                "ar": "عملتُ عشرين عامًا في المساحة التي تلتقي فيها السياسات بالفصل الدراسي. بدأتُ محاضرًا في القيادة التربوية، ثم قدتُ فرق تطوير المناهج، وبعدها بنيتُ أطرًا للأداء المؤسسي لجهات حكومية في أنحاء الخليج. قناعتي بسيطة: ينجح الإصلاح حين يفهمه من يحملونه، ويؤمنون به، ويستطيعون قياسه. أقدّم اليوم المشورة للوزارات والجامعات وشبكات المدارس في السياسات والمناهج والأداء المؤسسي، وأكتب بانتظام عن دور الأدلة في صناعة قرارات أفضل."
+              },
+              "dropCap": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "majlis-divider",
+            "blockType": "divider",
+            "variant": "shape",
+            "content": {
+              "shape": "geometric",
+              "fill": "accent",
+              "size": "md"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-stats",
+            "blockType": "stats",
+            "variant": "big-numbers",
+            "content": {
+              "eyebrow": {
+                "en": "In numbers",
+                "ar": "بالأرقام"
+              },
+              "heading": {
+                "en": "A record built over twenty years",
+                "ar": "مسيرة بُنيت على مدى عشرين عامًا"
+              },
+              "items": [
+                {
+                  "id": "majlis-s-1",
+                  "value": "20",
+                  "label": {
+                    "en": "Years of experience",
+                    "ar": "عامًا من الخبرة"
+                  }
+                },
+                {
+                  "id": "majlis-s-2",
+                  "value": "35",
+                  "label": {
+                    "en": "National projects",
+                    "ar": "مشروعًا وطنيًا"
+                  }
+                },
+                {
+                  "id": "majlis-s-3",
+                  "value": "12",
+                  "label": {
+                    "en": "Research papers",
+                    "ar": "ورقة بحثية"
+                  }
+                },
+                {
+                  "id": "majlis-s-4",
+                  "value": "6",
+                  "label": {
+                    "en": "Countries advised",
+                    "ar": "دول قُدّمت لها الاستشارات"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "pattern",
+                "value": "islamic-star"
+              }
+            },
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-experience",
+            "blockType": "experience",
+            "variant": "cards",
+            "content": {
+              "eyebrow": {
+                "en": "Experience",
+                "ar": "الخبرات"
+              },
+              "heading": {
+                "en": "Selected roles",
+                "ar": "مناصب مختارة"
+              },
+              "items": [
+                {
+                  "id": "majlis-x-1",
+                  "role": {
+                    "en": "Senior Education Policy Advisor",
+                    "ar": "مستشار أول للسياسات التعليمية"
+                  },
+                  "organisation": {
+                    "en": "National Education Development Council",
+                    "ar": "المجلس الوطني لتطوير التعليم"
+                  },
+                  "start": "2018",
+                  "current": true,
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Advises leadership on national curriculum reform, school accountability and teacher licensing frameworks.",
+                    "ar": "يقدّم المشورة للقيادات في إصلاح المناهج الوطنية، ومساءلة المدارس، وأطر ترخيص المعلمين."
+                  }
+                },
+                {
+                  "id": "majlis-x-2",
+                  "role": {
+                    "en": "Director of Institutional Performance",
+                    "ar": "مدير الأداء المؤسسي"
+                  },
+                  "organisation": {
+                    "en": "Gulf Institute for Public Administration",
+                    "ar": "المعهد الخليجي للإدارة العامة"
+                  },
+                  "start": "2012",
+                  "end": "2018",
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Built the institute’s first performance framework, adopted by eleven public bodies.",
+                    "ar": "بنى أول إطار للأداء المؤسسي في المعهد، واعتمدته إحدى عشرة جهة حكومية."
+                  }
+                },
+                {
+                  "id": "majlis-x-3",
+                  "role": {
+                    "en": "Head of Curriculum Development",
+                    "ar": "رئيس قسم تطوير المناهج"
+                  },
+                  "organisation": {
+                    "en": "Ministry-affiliated Curriculum Centre",
+                    "ar": "مركز المناهج التابع للوزارة"
+                  },
+                  "start": "2008",
+                  "end": "2012",
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Led the redesign of the secondary science and Arabic language curricula.",
+                    "ar": "قاد إعادة تصميم مناهج العلوم واللغة العربية للمرحلة الثانوية."
+                  }
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "Full experience",
+                  "ar": "الخبرات كاملة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "experience"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-services",
+            "blockType": "services",
+            "variant": "list-icons",
+            "content": {
+              "eyebrow": {
+                "en": "Areas of expertise",
+                "ar": "مجالات الخبرة"
+              },
+              "heading": {
+                "en": "How I can help",
+                "ar": "كيف يمكنني المساعدة"
+              },
+              "items": [
+                {
+                  "id": "majlis-a-1",
+                  "icon": "book-open",
+                  "name": {
+                    "en": "Curriculum development",
+                    "ar": "تطوير المناهج"
+                  },
+                  "description": {
+                    "en": "Standards-based curricula from framework to classroom materials.",
+                    "ar": "مناهج قائمة على المعايير، من الإطار العام إلى المواد الصفية."
+                  }
+                },
+                {
+                  "id": "majlis-a-2",
+                  "icon": "bar-chart",
+                  "name": {
+                    "en": "Institutional performance evaluation",
+                    "ar": "تقييم الأداء المؤسسي"
+                  },
+                  "description": {
+                    "en": "Indicators, reviews and dashboards that leaders actually use.",
+                    "ar": "مؤشرات ومراجعات ولوحات متابعة يستخدمها القادة فعلًا."
+                  }
+                },
+                {
+                  "id": "majlis-a-3",
+                  "icon": "compass",
+                  "name": {
+                    "en": "Leading change",
+                    "ar": "قيادة التغيير"
+                  },
+                  "description": {
+                    "en": "Guiding teams through reform with clear roles and steady communication.",
+                    "ar": "توجيه الفرق خلال الإصلاح بأدوار واضحة وتواصل مستمر."
+                  }
+                },
+                {
+                  "id": "majlis-a-4",
+                  "icon": "scale",
+                  "name": {
+                    "en": "Education policy",
+                    "ar": "السياسات التعليمية"
+                  },
+                  "description": {
+                    "en": "Evidence reviews and policy papers for decision makers.",
+                    "ar": "مراجعات للأدلة وأوراق سياسات لصنّاع القرار."
+                  }
+                },
+                {
+                  "id": "majlis-a-5",
+                  "icon": "target",
+                  "name": {
+                    "en": "Strategic planning",
+                    "ar": "التخطيط الاستراتيجي"
+                  },
+                  "description": {
+                    "en": "Five-year strategies with measurable, honest targets.",
+                    "ar": "استراتيجيات خمسية بأهداف قابلة للقياس وواقعية."
+                  }
+                },
+                {
+                  "id": "majlis-a-6",
+                  "icon": "users",
+                  "name": {
+                    "en": "Leadership capacity building",
+                    "ar": "بناء القدرات القيادية"
+                  },
+                  "description": {
+                    "en": "Programs for school principals and senior officials.",
+                    "ar": "برامج لمديري المدارس وكبار المسؤولين."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-blog",
+            "blockType": "blogList",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Articles",
+                "ar": "المقالات"
+              },
+              "heading": {
+                "en": "Recent writing",
+                "ar": "أحدث المقالات"
+              },
+              "count": 3
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-contact",
+            "blockType": "contact",
+            "variant": "split-map",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Let us discuss your project",
+                "ar": "لنتحدث عن مشروعكم"
+              },
+              "intro": {
+                "en": "For consultations, speaking invitations or research collaboration, send a short note and my office will respond within two working days.",
+                "ar": "للاستشارات أو دعوات المحاضرات أو التعاون البحثي، أرسلوا رسالة موجزة وسيردّ مكتبي خلال يومَي عمل."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "map": {
+                "enabled": false,
+                "query": ""
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "experience",
+        "slug": "experience",
+        "title": {
+          "en": "Experience",
+          "ar": "الخبرات"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "majlis-exp-intro",
+            "blockType": "about",
+            "variant": "timeline-intro",
+            "content": {
+              "eyebrow": {
+                "en": "Experience",
+                "ar": "الخبرات"
+              },
+              "heading": {
+                "en": "A path between research and practice",
+                "ar": "مسيرة بين البحث والممارسة"
+              },
+              "body": {
+                "en": "Milestones from a career spent improving how schools and institutions learn.",
+                "ar": "محطات من مسيرة كُرّست لتحسين طريقة تعلّم المدارس والمؤسسات."
+              },
+              "milestones": [
+                {
+                  "id": "majlis-m-1",
+                  "year": "2003",
+                  "title": {
+                    "en": "PhD in Educational Leadership",
+                    "ar": "الدكتوراه في القيادة التربوية"
+                  },
+                  "text": {
+                    "en": "Thesis on school accountability in Gulf systems.",
+                    "ar": "أطروحة عن مساءلة المدارس في الأنظمة التعليمية الخليجية."
+                  }
+                },
+                {
+                  "id": "majlis-m-2",
+                  "year": "2010",
+                  "title": {
+                    "en": "National curriculum framework",
+                    "ar": "الإطار الوطني للمناهج"
+                  },
+                  "text": {
+                    "en": "Co-authored the framework still used today.",
+                    "ar": "شارك في تأليف الإطار المعتمد حتى اليوم."
+                  }
+                },
+                {
+                  "id": "majlis-m-3",
+                  "year": "2015",
+                  "title": {
+                    "en": "Public performance index",
+                    "ar": "مؤشر الأداء الحكومي"
+                  },
+                  "text": {
+                    "en": "Adopted by eleven public bodies.",
+                    "ar": "اعتمدته إحدى عشرة جهة حكومية."
+                  }
+                },
+                {
+                  "id": "majlis-m-4",
+                  "year": "2022",
+                  "title": {
+                    "en": "Regional advisory board",
+                    "ar": "المجلس الاستشاري الإقليمي"
+                  },
+                  "text": {
+                    "en": "Appointed member for education quality.",
+                    "ar": "عُيّن عضوًا لشؤون جودة التعليم."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-exp-timeline",
+            "blockType": "experience",
+            "variant": "timeline",
+            "content": {
+              "heading": {
+                "en": "Professional history",
+                "ar": "السجل المهني"
+              },
+              "items": [
+                {
+                  "id": "majlis-x-1-t",
+                  "role": {
+                    "en": "Senior Education Policy Advisor",
+                    "ar": "مستشار أول للسياسات التعليمية"
+                  },
+                  "organisation": {
+                    "en": "National Education Development Council",
+                    "ar": "المجلس الوطني لتطوير التعليم"
+                  },
+                  "start": "2018",
+                  "current": true,
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Advises leadership on national curriculum reform, school accountability and teacher licensing frameworks.",
+                    "ar": "يقدّم المشورة للقيادات في إصلاح المناهج الوطنية، ومساءلة المدارس، وأطر ترخيص المعلمين."
+                  }
+                },
+                {
+                  "id": "majlis-x-2-t",
+                  "role": {
+                    "en": "Director of Institutional Performance",
+                    "ar": "مدير الأداء المؤسسي"
+                  },
+                  "organisation": {
+                    "en": "Gulf Institute for Public Administration",
+                    "ar": "المعهد الخليجي للإدارة العامة"
+                  },
+                  "start": "2012",
+                  "end": "2018",
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Built the institute’s first performance framework, adopted by eleven public bodies.",
+                    "ar": "بنى أول إطار للأداء المؤسسي في المعهد، واعتمدته إحدى عشرة جهة حكومية."
+                  }
+                },
+                {
+                  "id": "majlis-x-3-t",
+                  "role": {
+                    "en": "Head of Curriculum Development",
+                    "ar": "رئيس قسم تطوير المناهج"
+                  },
+                  "organisation": {
+                    "en": "Ministry-affiliated Curriculum Centre",
+                    "ar": "مركز المناهج التابع للوزارة"
+                  },
+                  "start": "2008",
+                  "end": "2012",
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Led the redesign of the secondary science and Arabic language curricula.",
+                    "ar": "قاد إعادة تصميم مناهج العلوم واللغة العربية للمرحلة الثانوية."
+                  }
+                },
+                {
+                  "id": "majlis-x-4-t",
+                  "role": {
+                    "en": "Lecturer in Educational Leadership",
+                    "ar": "محاضر في القيادة التربوية"
+                  },
+                  "organisation": {
+                    "en": "College of Education",
+                    "ar": "كلية التربية"
+                  },
+                  "start": "2004",
+                  "end": "2008",
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Taught graduate courses in school leadership and evaluation.",
+                    "ar": "درّس مقررات الدراسات العليا في القيادة المدرسية والتقويم."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "majlis-exp-areas",
+            "blockType": "services",
+            "variant": "cards",
+            "content": {
+              "eyebrow": {
+                "en": "Areas of expertise",
+                "ar": "مجالات الخبرة"
+              },
+              "heading": {
+                "en": "Where I add value",
+                "ar": "أين أضيف قيمة"
+              },
+              "items": [
+                {
+                  "id": "majlis-a-1-c",
+                  "icon": "book-open",
+                  "name": {
+                    "en": "Curriculum development",
+                    "ar": "تطوير المناهج"
+                  },
+                  "description": {
+                    "en": "Standards-based curricula from framework to classroom materials.",
+                    "ar": "مناهج قائمة على المعايير، من الإطار العام إلى المواد الصفية."
+                  }
+                },
+                {
+                  "id": "majlis-a-2-c",
+                  "icon": "bar-chart",
+                  "name": {
+                    "en": "Institutional performance evaluation",
+                    "ar": "تقييم الأداء المؤسسي"
+                  },
+                  "description": {
+                    "en": "Indicators, reviews and dashboards that leaders actually use.",
+                    "ar": "مؤشرات ومراجعات ولوحات متابعة يستخدمها القادة فعلًا."
+                  }
+                },
+                {
+                  "id": "majlis-a-3-c",
+                  "icon": "compass",
+                  "name": {
+                    "en": "Leading change",
+                    "ar": "قيادة التغيير"
+                  },
+                  "description": {
+                    "en": "Guiding teams through reform with clear roles and steady communication.",
+                    "ar": "توجيه الفرق خلال الإصلاح بأدوار واضحة وتواصل مستمر."
+                  }
+                }
+              ]
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "articles",
+        "slug": "articles",
+        "title": {
+          "en": "Articles",
+          "ar": "المقالات"
+        },
+        "type": "blogIndex",
+        "sections": [
+          {
+            "id": "majlis-articles",
+            "blockType": "blogList",
+            "variant": "featured",
+            "content": {
+              "eyebrow": {
+                "en": "Articles",
+                "ar": "المقالات"
+              },
+              "heading": {
+                "en": "Writing on policy and practice",
+                "ar": "كتابات في السياسات والممارسة"
+              },
+              "intro": {
+                "en": "Essays and short papers on curriculum, accountability and leading change in public education.",
+                "ar": "مقالات وأوراق قصيرة عن المناهج والمساءلة وقيادة التغيير في التعليم العام."
+              },
+              "count": 9,
+              "showAll": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "majlis-contact-form",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Office of Dr. Abdullah Al-Kuwari",
+                "ar": "مكتب د. عبدالله الكواري"
+              },
+              "intro": {
+                "en": "Please include your organisation, the nature of the request and any timelines.",
+                "ar": "يُرجى ذكر الجهة وطبيعة الطلب وأي مواعيد مرتبطة به."
+              },
+              "note": {
+                "en": "Office hours: Sunday to Thursday, 8:00–15:00.",
+                "ar": "ساعات العمل: من الأحد إلى الخميس، ٨:٠٠ – ١٥:٠٠."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "majlis-header",
+        "blockType": "header",
+        "variant": "top-bar",
+        "content": {
+          "heading": {
+            "en": "Dr. Abdullah Al-Kuwari",
+            "ar": "د. عبدالله الكواري"
+          },
+          "cta": {
+            "label": {
+              "en": "Request a consultation",
+              "ar": "اطلب استشارة"
+            },
+            "link": {
+              "type": "page",
+              "value": "contact"
+            }
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "majlis-footer",
+        "blockType": "footer",
+        "variant": "columns",
+        "content": {
+          "heading": {
+            "en": "Dr. Abdullah Al-Kuwari",
+            "ar": "د. عبدالله الكواري"
+          },
+          "text": {
+            "en": "Advisor in education policy and institutional development",
+            "ar": "مستشار في السياسات التعليمية والتطوير المؤسسي"
+          },
+          "copyright": {
+            "en": "© 2026 Dr. Abdullah Al-Kuwari. All rights reserved.",
+            "ar": "© 2026 د. عبدالله الكواري. جميع الحقوق محفوظة."
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — د. عبدالله الكواري",
+        "defaultDescription": {
+          "en": "Advisor in education policy and institutional development",
+          "ar": "مستشار في السياسات التعليمية والتطوير المؤسسي"
+        }
+      },
+      "ownerName": {
+        "en": "Dr. Abdullah Al-Kuwari",
+        "ar": "د. عبدالله الكواري"
+      },
+      "ownerTitle": {
+        "en": "Advisor in education policy and institutional development",
+        "ar": "مستشار في السياسات التعليمية والتطوير المؤسسي"
+      },
+      "social": [
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/example"
+        },
+        {
+          "platform": "x",
+          "url": "https://x.com/example"
+        },
+        {
+          "platform": "email",
+          "url": "mailto:office@example.com"
+        }
+      ],
+      "contact": {
+        "email": "office@example.com",
+        "phone": "+974 5550 2020",
+        "whatsapp": "+97455502020",
+        "address": {
+          "en": "Tower 3, West Bay, Doha, Qatar",
+          "ar": "البرج ٣، الخليج الغربي، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

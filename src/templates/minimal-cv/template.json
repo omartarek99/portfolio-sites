@@ -1,0 +1,823 @@
+{
+  "id": "minimal-cv",
+  "name": {
+    "en": "Minimal CV",
+    "ar": "سيرة بسيطة"
+  },
+  "description": {
+    "en": "A clean, recruiter-friendly CV page that prints as a tidy one-page PDF.",
+    "ar": "صفحة سيرة ذاتية نظيفة تناسب مسؤولي التوظيف وتُطبع ملف PDF أنيقًا من صفحة واحدة."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Job seekers",
+      "ar": "الباحثون عن عمل"
+    },
+    {
+      "en": "Graduates",
+      "ar": "الخريجون"
+    },
+    {
+      "en": "Engineers",
+      "ar": "المهندسون"
+    },
+    {
+      "en": "Teachers",
+      "ar": "المعلمون"
+    }
+  ],
+  "professions": [
+    "job-seeker",
+    "academic",
+    "developer"
+  ],
+  "styles": [
+    "minimal"
+  ],
+  "signature": {
+    "en": "Reads like a beautifully typeset CV, with a sticky side column for your photo, contact details and a Download CV button.",
+    "ar": "تُقرأ كسيرة ذاتية منسّقة بعناية، مع عمود جانبي ثابت لصورتك وبيانات التواصل وزر تحميل السيرة الذاتية."
+  },
+  "defaultLocale": "en",
+  "order": 3,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "minimal-cv",
+      "palette": {
+        "background": "#FFFFFF",
+        "surface": "#F8F9FA",
+        "text": "#111827",
+        "mutedText": "#6B7280",
+        "primary": "#0F766E",
+        "secondary": "#111827",
+        "accent": "#14B8A6",
+        "border": "#E5E7EB"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Inter"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "IBM Plex Sans Arabic"
+        },
+        "arabicBody": {
+          "family": "IBM Plex Sans Arabic"
+        }
+      },
+      "radius": "sm",
+      "spacing": "compact",
+      "motion": "subtle",
+      "buttonStyle": "solid"
+    },
+    "navigation": {
+      "style": "side",
+      "header": [
+        {
+          "id": "nav-about",
+          "label": {
+            "en": "Profile",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "about"
+          }
+        },
+        {
+          "id": "nav-experience",
+          "label": {
+            "en": "Experience",
+            "ar": "الخبرة"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "experience"
+          }
+        },
+        {
+          "id": "nav-education",
+          "label": {
+            "en": "Education",
+            "ar": "التعليم"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "education"
+          }
+        },
+        {
+          "id": "nav-skills",
+          "label": {
+            "en": "Skills",
+            "ar": "المهارات"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "skills"
+          }
+        },
+        {
+          "id": "nav-projects",
+          "label": {
+            "en": "Projects",
+            "ar": "المشاريع"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "projects"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-about",
+          "label": {
+            "en": "Profile",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "about"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "CV",
+          "ar": "السيرة الذاتية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "minimal-cv-hero",
+            "blockType": "hero",
+            "variant": "minimal",
+            "content": {
+              "eyebrow": {
+                "en": "Curriculum vitae",
+                "ar": "السيرة الذاتية"
+              },
+              "name": {
+                "en": "Ahmed Saleh",
+                "ar": "أحمد صالح"
+              },
+              "heading": {
+                "en": "Mechanical engineer · Energy efficiency · Open to roles in Qatar",
+                "ar": "مهندس ميكانيكي · كفاءة الطاقة · متاح لفرص العمل في قطر"
+              },
+              "tagline": {
+                "en": "Mechanical engineer · Energy efficiency · Open to roles in Qatar",
+                "ar": "مهندس ميكانيكي · كفاءة الطاقة · متاح لفرص العمل في قطر"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Download CV",
+                  "ar": "حمّل السيرة الذاتية"
+                },
+                "link": {
+                  "type": "file",
+                  "value": "https://example.com/files/ahmed-saleh-cv.pdf"
+                },
+                "icon": "download"
+              },
+              "badge": {
+                "en": "Available from June 2026",
+                "ar": "متاح ابتداءً من يونيو 2026"
+              },
+              "location": {
+                "en": "Doha, Qatar",
+                "ar": "الدوحة، قطر"
+              }
+            },
+            "style": {
+              "paddingY": "lg"
+            },
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "minimal-cv-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "content": {
+              "eyebrow": {
+                "en": "Profile",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Engineering buildings that use less",
+                "ar": "هندسة مبانٍ تستهلك أقل"
+              },
+              "intro": {
+                "en": "I design and commission HVAC systems, and I find the savings hiding in buildings that are already running.",
+                "ar": "أصمّم أنظمة التكييف والتهوية وأشرف على تشغيلها، وأكتشف فرص التوفير المخفية في المباني القائمة."
+              },
+              "body": {
+                "en": "<p>Since graduating in 2020 I have worked on towers, schools and hospitals in Qatar and Saudi Arabia. My audits have cut energy bills by up to 24% without a single tenant complaint.</p><p>I am a member of the Qatar Society of Engineers, hold a LEED Green Associate credential, and am looking for a project or design engineer role where efficiency is part of the brief from day one.</p>",
+                "ar": "<p>منذ تخرجي عام 2020 عملت على أبراج ومدارس ومستشفيات في قطر والسعودية، وخفّضت عمليات التدقيق التي أجريتها فواتير الطاقة بنسبة وصلت إلى 24% دون شكوى واحدة من الشاغلين.</p><p>أنا عضو في جمعية المهندسين القطرية وحاصل على شهادة LEED Green Associate، وأبحث عن دور مهندس مشاريع أو مهندس تصميم تكون فيه الكفاءة جزءًا من المتطلبات منذ اليوم الأول.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-olive.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Portrait of Ahmed Saleh",
+                  "ar": "صورة شخصية لأحمد صالح"
+                }
+              },
+              "imageSide": "end"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "minimal-cv-experience",
+            "blockType": "experience",
+            "variant": "compact",
+            "content": {
+              "eyebrow": {
+                "en": "Experience",
+                "ar": "الخبرة"
+              },
+              "heading": {
+                "en": "Work history",
+                "ar": "الخبرة العملية"
+              },
+              "items": [
+                {
+                  "id": "x1",
+                  "role": {
+                    "en": "Project Engineer",
+                    "ar": "مهندس مشاريع"
+                  },
+                  "organisation": {
+                    "en": "GulfBuild Co.",
+                    "ar": "شركة الخليج للبناء"
+                  },
+                  "start": "2022",
+                  "current": true,
+                  "location": {
+                    "en": "Doha, Qatar",
+                    "ar": "الدوحة، قطر"
+                  },
+                  "description": {
+                    "en": "<ul><li>Lead mechanical works on a 32-storey office tower, coordinating 6 subcontractors and a QAR 18M budget.</li><li>Redesigned the chilled-water layout, cutting projected cooling load by 15%.</li><li>Introduced a weekly commissioning checklist now used on every GulfBuild site.</li></ul>",
+                    "ar": "<ul><li>أقود الأعمال الميكانيكية في برج مكاتب من 32 طابقًا، وأنسّق مع 6 مقاولين من الباطن بميزانية 18 مليون ريال.</li><li>أعدت تصميم شبكة المياه المبرّدة فانخفض حمل التبريد المتوقع بنسبة 15%.</li><li>أطلقت قائمة فحص أسبوعية للتشغيل التجريبي تُستخدم اليوم في جميع مواقع الشركة.</li></ul>"
+                  },
+                  "tags": [
+                    "HVAC",
+                    "Revit MEP",
+                    "Commissioning"
+                  ]
+                },
+                {
+                  "id": "x2",
+                  "role": {
+                    "en": "Graduate Engineer",
+                    "ar": "مهندس حديث التخرج"
+                  },
+                  "organisation": {
+                    "en": "Arabian Utilities",
+                    "ar": "المرافق العربية"
+                  },
+                  "start": "2020",
+                  "end": "2022",
+                  "location": {
+                    "en": "Riyadh, Saudi Arabia",
+                    "ar": "الرياض، السعودية"
+                  },
+                  "description": {
+                    "en": "<ul><li>Carried out energy audits on 14 schools and two hospitals.</li><li>Recommended retrofits that saved an average of 24% on annual electricity bills.</li></ul>",
+                    "ar": "<ul><li>أجريت تدقيقًا للطاقة في 14 مدرسة ومستشفيين.</li><li>اقترحت تحسينات وفّرت في المتوسط 24% من فواتير الكهرباء السنوية.</li></ul>"
+                  },
+                  "tags": [
+                    "Energy audits",
+                    "AutoCAD"
+                  ]
+                },
+                {
+                  "id": "x3",
+                  "role": {
+                    "en": "Engineering Intern",
+                    "ar": "متدرب هندسي"
+                  },
+                  "organisation": {
+                    "en": "Doha Facilities Services",
+                    "ar": "الدوحة لخدمات المرافق"
+                  },
+                  "start": "2019",
+                  "end": "2019",
+                  "location": {
+                    "en": "Doha, Qatar",
+                    "ar": "الدوحة، قطر"
+                  },
+                  "description": {
+                    "en": "<p>Summer placement maintaining chillers and air-handling units across a university campus.</p>",
+                    "ar": "<p>تدريب صيفي في صيانة المبرّدات ووحدات مناولة الهواء في حرم جامعي.</p>"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "experience",
+            "example": true
+          },
+          {
+            "id": "minimal-cv-education",
+            "blockType": "education",
+            "variant": "list",
+            "content": {
+              "eyebrow": {
+                "en": "Education",
+                "ar": "التعليم"
+              },
+              "heading": {
+                "en": "Education and certificates",
+                "ar": "التعليم والشهادات"
+              },
+              "items": [
+                {
+                  "id": "e1",
+                  "qualification": {
+                    "en": "B.Sc. Mechanical Engineering",
+                    "ar": "بكالوريوس الهندسة الميكانيكية"
+                  },
+                  "institution": {
+                    "en": "Gulf University of Technology",
+                    "ar": "جامعة الخليج للتقنية"
+                  },
+                  "period": "2016 – 2020",
+                  "location": {
+                    "en": "Doha, Qatar",
+                    "ar": "الدوحة، قطر"
+                  },
+                  "description": {
+                    "en": "Graduated with distinction. Final project: a solar-assisted cooling system for a school building.",
+                    "ar": "تخرجت بتقدير امتياز. مشروع التخرج: نظام تبريد مدعوم بالطاقة الشمسية لمبنى مدرسي."
+                  }
+                },
+                {
+                  "id": "e2",
+                  "qualification": {
+                    "en": "LEED Green Associate",
+                    "ar": "LEED Green Associate"
+                  },
+                  "institution": {
+                    "en": "Green building credential",
+                    "ar": "شهادة المباني الخضراء"
+                  },
+                  "period": "2023",
+                  "location": {
+                    "en": "Online",
+                    "ar": "عن بُعد"
+                  }
+                },
+                {
+                  "id": "e3",
+                  "qualification": {
+                    "en": "Certified Energy Auditor (course)",
+                    "ar": "دورة مدقق الطاقة المعتمد"
+                  },
+                  "institution": {
+                    "en": "Regional Energy Institute",
+                    "ar": "المعهد الإقليمي للطاقة"
+                  },
+                  "period": "2021",
+                  "location": {
+                    "en": "Riyadh, Saudi Arabia",
+                    "ar": "الرياض، السعودية"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "education",
+            "example": true
+          },
+          {
+            "id": "minimal-cv-skills",
+            "blockType": "skills",
+            "variant": "tags",
+            "content": {
+              "eyebrow": {
+                "en": "Skills",
+                "ar": "المهارات"
+              },
+              "heading": {
+                "en": "Skills and languages",
+                "ar": "المهارات واللغات"
+              },
+              "items": [
+                {
+                  "id": "s1",
+                  "name": {
+                    "en": "AutoCAD",
+                    "ar": "AutoCAD"
+                  },
+                  "group": {
+                    "en": "Tools",
+                    "ar": "الأدوات"
+                  }
+                },
+                {
+                  "id": "s2",
+                  "name": {
+                    "en": "Revit MEP",
+                    "ar": "Revit MEP"
+                  },
+                  "group": {
+                    "en": "Tools",
+                    "ar": "الأدوات"
+                  }
+                },
+                {
+                  "id": "s3",
+                  "name": {
+                    "en": "HAP load calculation",
+                    "ar": "برنامج HAP لحساب الأحمال"
+                  },
+                  "group": {
+                    "en": "Tools",
+                    "ar": "الأدوات"
+                  }
+                },
+                {
+                  "id": "s4",
+                  "name": {
+                    "en": "HVAC design",
+                    "ar": "تصميم أنظمة التكييف"
+                  },
+                  "group": {
+                    "en": "Engineering",
+                    "ar": "الهندسة"
+                  }
+                },
+                {
+                  "id": "s5",
+                  "name": {
+                    "en": "Energy audits",
+                    "ar": "تدقيق الطاقة"
+                  },
+                  "group": {
+                    "en": "Engineering",
+                    "ar": "الهندسة"
+                  }
+                },
+                {
+                  "id": "s6",
+                  "name": {
+                    "en": "Commissioning",
+                    "ar": "التشغيل التجريبي"
+                  },
+                  "group": {
+                    "en": "Engineering",
+                    "ar": "الهندسة"
+                  }
+                },
+                {
+                  "id": "s7",
+                  "name": {
+                    "en": "Project planning",
+                    "ar": "تخطيط المشاريع"
+                  },
+                  "group": {
+                    "en": "Management",
+                    "ar": "الإدارة"
+                  }
+                },
+                {
+                  "id": "s8",
+                  "name": {
+                    "en": "Subcontractor coordination",
+                    "ar": "التنسيق مع المقاولين"
+                  },
+                  "group": {
+                    "en": "Management",
+                    "ar": "الإدارة"
+                  }
+                },
+                {
+                  "id": "s9",
+                  "name": {
+                    "en": "Arabic (native)",
+                    "ar": "العربية (اللغة الأم)"
+                  },
+                  "group": {
+                    "en": "Languages",
+                    "ar": "اللغات"
+                  }
+                },
+                {
+                  "id": "s10",
+                  "name": {
+                    "en": "English (fluent)",
+                    "ar": "الإنجليزية (بطلاقة)"
+                  },
+                  "group": {
+                    "en": "Languages",
+                    "ar": "اللغات"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "skills",
+            "example": true
+          },
+          {
+            "id": "minimal-cv-projects",
+            "blockType": "projects",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Projects",
+                "ar": "المشاريع"
+              },
+              "heading": {
+                "en": "Selected projects",
+                "ar": "مشاريع مختارة"
+              },
+              "columns": "3",
+              "items": [
+                {
+                  "id": "p1",
+                  "title": {
+                    "en": "Al Sadd office tower",
+                    "ar": "برج مكاتب السد"
+                  },
+                  "description": {
+                    "en": "Chilled-water redesign for a 32-storey tower; 15% lower cooling load.",
+                    "ar": "إعادة تصميم شبكة المياه المبرّدة لبرج من 32 طابقًا، مع خفض حمل التبريد 15%."
+                  },
+                  "image": {
+                    "url": "/stock/city-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Office towers",
+                      "ar": "أبراج مكاتب"
+                    }
+                  },
+                  "tags": [
+                    "HVAC"
+                  ],
+                  "year": "2024",
+                  "client": {
+                    "en": "GulfBuild Co.",
+                    "ar": "شركة الخليج للبناء"
+                  }
+                },
+                {
+                  "id": "p2",
+                  "title": {
+                    "en": "School energy programme",
+                    "ar": "برنامج الطاقة في المدارس"
+                  },
+                  "description": {
+                    "en": "Audits and retrofits across 14 schools, saving 24% a year.",
+                    "ar": "تدقيق وتحسين في 14 مدرسة بتوفير سنوي قدره 24%."
+                  },
+                  "image": {
+                    "url": "/stock/workspace-slate.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Engineering drawings on a desk",
+                      "ar": "مخططات هندسية على مكتب"
+                    }
+                  },
+                  "tags": [
+                    "Energy audit"
+                  ],
+                  "year": "2021",
+                  "client": {
+                    "en": "Arabian Utilities",
+                    "ar": "المرافق العربية"
+                  }
+                },
+                {
+                  "id": "p3",
+                  "title": {
+                    "en": "Solar-assisted cooling",
+                    "ar": "تبريد بمساعدة الطاقة الشمسية"
+                  },
+                  "description": {
+                    "en": "Graduation project modelling solar thermal cooling for a school.",
+                    "ar": "مشروع تخرج يحاكي التبريد الحراري الشمسي لمدرسة."
+                  },
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Desert under the sun",
+                      "ar": "صحراء تحت الشمس"
+                    }
+                  },
+                  "tags": [
+                    "Research"
+                  ],
+                  "year": "2020",
+                  "client": {
+                    "en": "Gulf University of Technology",
+                    "ar": "جامعة الخليج للتقنية"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "projects",
+            "example": true
+          },
+          {
+            "id": "minimal-cv-contact",
+            "blockType": "contact",
+            "variant": "minimal",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Let’s talk about the role",
+                "ar": "لنتحدث عن الوظيفة"
+              },
+              "intro": {
+                "en": "I reply to every recruiter and hiring manager within one working day.",
+                "ar": "أردّ على كل مسؤول توظيف خلال يوم عمل واحد."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "minimal-cv-header",
+        "blockType": "header",
+        "variant": "side",
+        "content": {
+          "heading": {
+            "en": "Ahmed Saleh",
+            "ar": "أحمد صالح"
+          },
+          "text": {
+            "en": "Mechanical engineer · Doha",
+            "ar": "مهندس ميكانيكي · الدوحة"
+          },
+          "logo": {
+            "url": "/stock/portrait-olive.svg",
+            "width": 1200,
+            "height": 1600,
+            "alt": {
+              "en": "Portrait of Ahmed Saleh",
+              "ar": "صورة شخصية لأحمد صالح"
+            }
+          },
+          "cta": {
+            "label": {
+              "en": "Download CV",
+              "ar": "حمّل السيرة الذاتية"
+            },
+            "link": {
+              "type": "file",
+              "value": "https://example.com/files/ahmed-saleh-cv.pdf"
+            },
+            "icon": "download"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "minimal-cv-footer",
+        "blockType": "footer",
+        "variant": "simple",
+        "content": {
+          "heading": {
+            "en": "Ahmed Saleh",
+            "ar": "أحمد صالح"
+          },
+          "copyright": {
+            "en": "© 2026 Ahmed Saleh",
+            "ar": "© 2026 أحمد صالح"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Ahmed Saleh",
+        "defaultDescription": {
+          "en": "Ahmed Saleh is a mechanical engineer in Doha specialising in HVAC design and energy efficiency, open to roles in Qatar.",
+          "ar": "أحمد صالح مهندس ميكانيكي في الدوحة متخصص في تصميم أنظمة التكييف وكفاءة الطاقة، ومتاح لفرص العمل في قطر."
+        }
+      },
+      "social": [
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/in/example"
+        }
+      ],
+      "contact": {
+        "email": "ahmed.saleh@example.com",
+        "phone": "+974 5550 7788",
+        "whatsapp": "+97455507788",
+        "address": {
+          "en": "Doha, Qatar",
+          "ar": "الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Ahmed Saleh",
+        "ar": "أحمد صالح"
+      },
+      "ownerTitle": {
+        "en": "Mechanical engineer",
+        "ar": "مهندس ميكانيكي"
+      }
+    }
+  }
+}

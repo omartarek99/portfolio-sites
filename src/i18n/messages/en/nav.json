@@ -1,0 +1,22 @@
+{
+  "links": {
+    "services": "Services",
+    "work": "Showcase",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "language": "العربية",
+  "cta": "Get started",
+  "menu": "Menu",
+  "whatsapp": "Chat on WhatsApp",
+  "footer": {
+    "tagline": "Websites and AI videos.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "theme": {
+    "light": "Switch to light mode",
+    "dark": "Switch to dark mode"
+  }
+}

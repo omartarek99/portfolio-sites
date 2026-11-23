@@ -1,0 +1,1118 @@
+{
+  "inter": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/inter/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/inter/latin-variable-normal.woff2"
+    }
+  ],
+  "space-grotesk": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/space-grotesk/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/space-grotesk/latin-variable-normal.woff2"
+    }
+  ],
+  "sora": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/sora/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/sora/latin-variable-normal.woff2"
+    }
+  ],
+  "dm-sans": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/dm-sans/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/dm-sans/latin-variable-normal.woff2"
+    }
+  ],
+  "poppins": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-ext-500-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-500-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 600,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-ext-600-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 600,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-600-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-ext-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/poppins/latin-700-normal.woff2"
+    }
+  ],
+  "manrope": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/manrope/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/manrope/latin-variable-normal.woff2"
+    }
+  ],
+  "source-sans-3": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/source-sans-3/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/source-sans-3/latin-variable-normal.woff2"
+    }
+  ],
+  "plus-jakarta-sans": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/plus-jakarta-sans/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/plus-jakarta-sans/latin-variable-normal.woff2"
+    }
+  ],
+  "outfit": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/outfit/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/outfit/latin-variable-normal.woff2"
+    }
+  ],
+  "work-sans": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/work-sans/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/work-sans/latin-variable-normal.woff2"
+    }
+  ],
+  "montserrat": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/montserrat/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/montserrat/latin-variable-normal.woff2"
+    }
+  ],
+  "nunito": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/nunito/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/nunito/latin-variable-normal.woff2"
+    }
+  ],
+  "figtree": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/figtree/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/figtree/latin-variable-normal.woff2"
+    }
+  ],
+  "bricolage-grotesque": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/bricolage-grotesque/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/bricolage-grotesque/latin-variable-normal.woff2"
+    }
+  ],
+  "playfair-display": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/playfair-display/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/playfair-display/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/playfair-display/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/playfair-display/latin-variable-normal.woff2"
+    }
+  ],
+  "source-serif-4": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/source-serif-4/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/source-serif-4/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/source-serif-4/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/source-serif-4/latin-variable-normal.woff2"
+    }
+  ],
+  "cormorant-garamond": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/cormorant-garamond/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/cormorant-garamond/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/cormorant-garamond/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/cormorant-garamond/latin-variable-normal.woff2"
+    }
+  ],
+  "fraunces": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/fraunces/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/fraunces/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/fraunces/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/fraunces/latin-variable-normal.woff2"
+    }
+  ],
+  "lora": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/lora/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/lora/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/lora/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/lora/latin-variable-normal.woff2"
+    }
+  ],
+  "merriweather": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/merriweather/latin-ext-variable-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "italic",
+      "url": "/fonts/merriweather/latin-variable-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/merriweather/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/merriweather/latin-variable-normal.woff2"
+    }
+  ],
+  "dm-serif-display": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/dm-serif-display/latin-ext-400-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/dm-serif-display/latin-400-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/dm-serif-display/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/dm-serif-display/latin-400-normal.woff2"
+    }
+  ],
+  "instrument-serif": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/instrument-serif/latin-ext-400-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/instrument-serif/latin-400-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/instrument-serif/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/instrument-serif/latin-400-normal.woff2"
+    }
+  ],
+  "libre-baskerville": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/libre-baskerville/latin-ext-400-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/libre-baskerville/latin-400-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "italic",
+      "url": "/fonts/libre-baskerville/latin-ext-700-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "italic",
+      "url": "/fonts/libre-baskerville/latin-700-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/libre-baskerville/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/libre-baskerville/latin-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/libre-baskerville/latin-ext-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/libre-baskerville/latin-700-normal.woff2"
+    }
+  ],
+  "archivo-black": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/archivo-black/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/archivo-black/latin-400-normal.woff2"
+    }
+  ],
+  "bebas-neue": [
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/bebas-neue/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/bebas-neue/latin-400-normal.woff2"
+    }
+  ],
+  "syne": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/syne/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/syne/latin-variable-normal.woff2"
+    }
+  ],
+  "unbounded": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/unbounded/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/unbounded/latin-variable-normal.woff2"
+    }
+  ],
+  "jetbrains-mono": [
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/jetbrains-mono/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/jetbrains-mono/latin-variable-normal.woff2"
+    }
+  ],
+  "readex-pro": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/readex-pro/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/readex-pro/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/readex-pro/latin-variable-normal.woff2"
+    }
+  ],
+  "ibm-plex-sans-arabic": [
+    {
+      "subset": "arabic",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/arabic-300-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-ext-300-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-300-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-400-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/arabic-500-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-ext-500-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-500-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 600,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/arabic-600-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 600,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-ext-600-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 600,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-600-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/arabic-700-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-ext-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/ibm-plex-sans-arabic/latin-700-normal.woff2"
+    }
+  ],
+  "tajawal": [
+    {
+      "subset": "arabic",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/tajawal/arabic-300-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/tajawal/latin-300-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/tajawal/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/tajawal/latin-400-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/tajawal/arabic-500-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 500,
+      "style": "normal",
+      "url": "/fonts/tajawal/latin-500-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/tajawal/arabic-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/tajawal/latin-700-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 800,
+      "style": "normal",
+      "url": "/fonts/tajawal/arabic-800-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 800,
+      "style": "normal",
+      "url": "/fonts/tajawal/latin-800-normal.woff2"
+    }
+  ],
+  "cairo": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/cairo/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/cairo/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/cairo/latin-variable-normal.woff2"
+    }
+  ],
+  "almarai": [
+    {
+      "subset": "arabic",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/almarai/arabic-300-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 300,
+      "style": "normal",
+      "url": "/fonts/almarai/latin-300-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/almarai/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/almarai/latin-400-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/almarai/arabic-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/almarai/latin-700-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 800,
+      "style": "normal",
+      "url": "/fonts/almarai/arabic-800-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 800,
+      "style": "normal",
+      "url": "/fonts/almarai/latin-800-normal.woff2"
+    }
+  ],
+  "rubik": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/rubik/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/rubik/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/rubik/latin-variable-normal.woff2"
+    }
+  ],
+  "noto-sans-arabic": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-sans-arabic/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-sans-arabic/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-sans-arabic/latin-variable-normal.woff2"
+    }
+  ],
+  "noto-kufi-arabic": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-kufi-arabic/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-kufi-arabic/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-kufi-arabic/latin-variable-normal.woff2"
+    }
+  ],
+  "alexandria": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/alexandria/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/alexandria/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/alexandria/latin-variable-normal.woff2"
+    }
+  ],
+  "changa": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/changa/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/changa/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/changa/latin-variable-normal.woff2"
+    }
+  ],
+  "amiri": [
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/amiri/arabic-400-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/amiri/latin-ext-400-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "italic",
+      "url": "/fonts/amiri/latin-400-italic.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "italic",
+      "url": "/fonts/amiri/arabic-700-italic.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "italic",
+      "url": "/fonts/amiri/latin-ext-700-italic.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "italic",
+      "url": "/fonts/amiri/latin-700-italic.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/amiri/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/amiri/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/amiri/latin-400-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/amiri/arabic-700-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/amiri/latin-ext-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/amiri/latin-700-normal.woff2"
+    }
+  ],
+  "noto-naskh-arabic": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-naskh-arabic/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-naskh-arabic/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/noto-naskh-arabic/latin-variable-normal.woff2"
+    }
+  ],
+  "markazi-text": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/markazi-text/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/markazi-text/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/markazi-text/latin-variable-normal.woff2"
+    }
+  ],
+  "el-messiri": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/el-messiri/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/el-messiri/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/el-messiri/latin-variable-normal.woff2"
+    }
+  ],
+  "reem-kufi": [
+    {
+      "subset": "arabic",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/reem-kufi/arabic-variable-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/reem-kufi/latin-ext-variable-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": "variable",
+      "style": "normal",
+      "url": "/fonts/reem-kufi/latin-variable-normal.woff2"
+    }
+  ],
+  "lalezar": [
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/lalezar/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/lalezar/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/lalezar/latin-400-normal.woff2"
+    }
+  ],
+  "aref-ruqaa": [
+    {
+      "subset": "arabic",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/arabic-400-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/latin-ext-400-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 400,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/latin-400-normal.woff2"
+    },
+    {
+      "subset": "arabic",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/arabic-700-normal.woff2"
+    },
+    {
+      "subset": "latin-ext",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/latin-ext-700-normal.woff2"
+    },
+    {
+      "subset": "latin",
+      "weight": 700,
+      "style": "normal",
+      "url": "/fonts/aref-ruqaa/latin-700-normal.woff2"
+    }
+  ]
+}

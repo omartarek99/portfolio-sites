@@ -1,0 +1,1860 @@
+{
+  "id": "noir-lens",
+  "name": {
+    "en": "Noir Lens",
+    "ar": "نوار لنز"
+  },
+  "description": {
+    "en": "A dark, image-first portfolio for photographers, with a cinematic slideshow and packages up front.",
+    "ar": "معرض أعمال داكن تتصدّره الصور، للمصوّرين، مع عرض صور سينمائي وباقات واضحة."
+  },
+  "tier": "pro",
+  "bestFor": [
+    {
+      "en": "Photographers",
+      "ar": "المصوّرون"
+    },
+    {
+      "en": "Wedding photographers",
+      "ar": "مصوّرو الأعراس"
+    },
+    {
+      "en": "Portrait studios",
+      "ar": "استوديوهات البورتريه"
+    }
+  ],
+  "professions": [
+    "photographer"
+  ],
+  "styles": [
+    "dark",
+    "elegant"
+  ],
+  "signature": {
+    "en": "A full-screen slideshow with a slow Ken Burns zoom, and a filterable masonry gallery that opens into an immersive lightbox.",
+    "ar": "عرض صور بملء الشاشة مع تكبير بطيء على طريقة كين بيرنز، ومعرض متدرّج قابل للتصفية يفتح في عارض غامر."
+  },
+  "defaultLocale": "en",
+  "order": 4,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "noir-lens",
+      "palette": {
+        "background": "#0A0A0A",
+        "surface": "#151515",
+        "text": "#F2F2F2",
+        "mutedText": "#9C9C9C",
+        "primary": "#C9A96E",
+        "secondary": "#F2F2F2",
+        "accent": "#C9A96E",
+        "border": "#2A2A2A"
+      },
+      "mode": "dark",
+      "fonts": {
+        "heading": {
+          "family": "Cormorant Garamond"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "El Messiri"
+        },
+        "arabicBody": {
+          "family": "Noto Kufi Arabic"
+        }
+      },
+      "radius": "none",
+      "spacing": "airy",
+      "motion": "cinematic",
+      "buttonStyle": "outline"
+    },
+    "navigation": {
+      "style": "minimal",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-portfolio",
+          "label": {
+            "en": "Portfolio",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "portfolio"
+          }
+        },
+        {
+          "id": "nav-packages",
+          "label": {
+            "en": "Packages",
+            "ar": "الباقات"
+          },
+          "link": {
+            "type": "page",
+            "value": "packages"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "fnav-portfolio",
+          "label": {
+            "en": "Portfolio",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "portfolio"
+          }
+        },
+        {
+          "id": "fnav-packages",
+          "label": {
+            "en": "Packages",
+            "ar": "الباقات"
+          },
+          "link": {
+            "type": "page",
+            "value": "packages"
+          }
+        },
+        {
+          "id": "fnav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "noir-hero",
+            "blockType": "hero",
+            "variant": "full-bleed",
+            "content": {
+              "eyebrow": {
+                "en": "Noor Studio",
+                "ar": "نور ستوديو"
+              },
+              "name": {
+                "en": "Mariam Al-Khatib",
+                "ar": "مريم الخطيب"
+              },
+              "heading": {
+                "en": "Wedding & portrait photography in Doha. Quiet moments, captured honestly.",
+                "ar": "تصوير أعراس وبورتريه في الدوحة. لحظات هادئة بصدق."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "View portfolio",
+                  "ar": "شاهدي الأعمال"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "portfolio"
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Check my availability",
+                  "ar": "تحقّق من المواعيد المتاحة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                }
+              },
+              "images": [
+                {
+                  "id": "s1",
+                  "image": {
+                    "url": "/stock/event-sand.svg",
+                    "alt": {
+                      "en": "Bride and groom under warm evening light",
+                      "ar": "عروسان تحت ضوء المساء الدافئ"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  }
+                },
+                {
+                  "id": "s2",
+                  "image": {
+                    "url": "/stock/portrait-dusk.svg",
+                    "alt": {
+                      "en": "Portrait in soft dusk light",
+                      "ar": "بورتريه في ضوء الغسق الناعم"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  }
+                },
+                {
+                  "id": "s3",
+                  "image": {
+                    "url": "/stock/event-dusk.svg",
+                    "alt": {
+                      "en": "Evening celebration by the water",
+                      "ar": "احتفال مسائي قرب الماء"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  }
+                },
+                {
+                  "id": "s4",
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "alt": {
+                      "en": "Desert dunes at golden hour",
+                      "ar": "كثبان الصحراء وقت الغروب"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  }
+                }
+              ],
+              "kenBurns": true,
+              "overlayLabel": {
+                "en": "Doha · since 2016",
+                "ar": "الدوحة · منذ 2016"
+              },
+              "scrollCue": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-gallery",
+            "blockType": "gallery",
+            "variant": "masonry",
+            "content": {
+              "eyebrow": {
+                "en": "Selected work",
+                "ar": "أعمال مختارة"
+              },
+              "heading": {
+                "en": "Portfolio",
+                "ar": "معرض الأعمال"
+              },
+              "intro": {
+                "en": "Weddings, portraits and events from the last two seasons.",
+                "ar": "أعراس وبورتريهات ومناسبات من الموسمين الأخيرين."
+              },
+              "categories": [
+                {
+                  "id": "weddings",
+                  "label": {
+                    "en": "Weddings",
+                    "ar": "أعراس"
+                  }
+                },
+                {
+                  "id": "portraits",
+                  "label": {
+                    "en": "Portraits",
+                    "ar": "بورتريه"
+                  }
+                },
+                {
+                  "id": "events",
+                  "label": {
+                    "en": "Events",
+                    "ar": "مناسبات"
+                  }
+                }
+              ],
+              "showFilter": true,
+              "columns": "3",
+              "items": [
+                {
+                  "id": "w1",
+                  "image": {
+                    "url": "/stock/event-sand.svg",
+                    "alt": {
+                      "en": "Huda & Faisal, first look at the Pearl",
+                      "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Huda & Faisal, first look at the Pearl",
+                    "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w2",
+                  "image": {
+                    "url": "/stock/portrait-dusk.svg",
+                    "alt": {
+                      "en": "Reem, window light study",
+                      "ar": "ريم، دراسة على ضوء النافذة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Reem, window light study",
+                    "ar": "ريم، دراسة على ضوء النافذة"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w3",
+                  "image": {
+                    "url": "/stock/event-dusk.svg",
+                    "alt": {
+                      "en": "Gala night at the waterfront",
+                      "ar": "ليلة حفل على الواجهة البحرية"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Gala night at the waterfront",
+                    "ar": "ليلة حفل على الواجهة البحرية"
+                  },
+                  "category": "events"
+                },
+                {
+                  "id": "w4",
+                  "image": {
+                    "url": "/stock/event-blush.svg",
+                    "alt": {
+                      "en": "Confetti on the courtyard steps",
+                      "ar": "قصاصات ملوّنة على درج الفناء"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "caption": {
+                    "en": "Confetti on the courtyard steps",
+                    "ar": "قصاصات ملوّنة على درج الفناء"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w5",
+                  "image": {
+                    "url": "/stock/portrait-ink.svg",
+                    "alt": {
+                      "en": "Yousef, studio portrait in black",
+                      "ar": "يوسف، بورتريه بالأسود في الاستوديو"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Yousef, studio portrait in black",
+                    "ar": "يوسف، بورتريه بالأسود في الاستوديو"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w6",
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "alt": {
+                      "en": "Engagement walk in the dunes",
+                      "ar": "جلسة خطوبة بين الكثبان"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Engagement walk in the dunes",
+                    "ar": "جلسة خطوبة بين الكثبان"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w7",
+                  "image": {
+                    "url": "/stock/portrait-blush.svg",
+                    "alt": {
+                      "en": "Lulwa, graduation portrait",
+                      "ar": "لولوة، صورة التخرج"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Lulwa, graduation portrait",
+                    "ar": "لولوة، صورة التخرج"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w8",
+                  "image": {
+                    "url": "/stock/city-dusk.svg",
+                    "alt": {
+                      "en": "Product launch over the skyline",
+                      "ar": "إطلاق منتج على خلفية الأفق"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Product launch over the skyline",
+                    "ar": "إطلاق منتج على خلفية الأفق"
+                  },
+                  "category": "events"
+                },
+                {
+                  "id": "w9",
+                  "image": {
+                    "url": "/stock/food-clay.svg",
+                    "alt": {
+                      "en": "The wedding dinner table",
+                      "ar": "مائدة عشاء العرس"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "The wedding dinner table",
+                    "ar": "مائدة عشاء العرس"
+                  },
+                  "category": "events"
+                }
+              ],
+              "cta": {
+                "label": {
+                  "en": "See the full portfolio",
+                  "ar": "شاهدي المعرض كاملًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "portfolio"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "anchor": "portfolio",
+            "example": true
+          },
+          {
+            "id": "noir-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Behind the camera",
+                "ar": "خلف الكاميرا"
+              },
+              "body": {
+                "en": "<p>I am Mariam, a Qatari-Palestinian photographer who fell in love with film in my father’s darkroom. Since 2016 I have photographed more than 180 weddings across Qatar, from small majlis gatherings to grand ballroom nights.</p><p>I work quietly and mostly with available light. No stiff poses, no long lists of shots: just the glance between sisters, the hands of a grandmother, the moment before the doors open.</p>",
+                "ar": "<p>أنا مريم، مصوّرة قطرية فلسطينية أحببت التصوير في غرفة التحميض عند أبي. منذ عام 2016 صوّرت أكثر من 180 عرسًا في أنحاء قطر، من جلسات المجلس الصغيرة إلى ليالي القاعات الكبرى.</p><p>أعمل بهدوء وأعتمد غالبًا على الضوء المتاح. لا أوضاع متكلّفة ولا قوائم طويلة من اللقطات، بل نظرة بين أختين، ويدا جدّة، واللحظة التي تسبق فتح الأبواب.</p>"
+              },
+              "image": {
+                "url": "/stock/portrait-ink.svg",
+                "alt": {
+                  "en": "Mariam Al-Khatib holding her camera",
+                  "ar": "مريم الخطيب تحمل كاميرتها"
+                },
+                "width": 1200,
+                "height": 1600
+              },
+              "imageSide": "start",
+              "cta": {
+                "label": {
+                  "en": "Check my availability",
+                  "ar": "تحقّق من المواعيد المتاحة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "reveal-mask"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "noir-packages",
+            "blockType": "services",
+            "variant": "pricing-table",
+            "content": {
+              "eyebrow": {
+                "en": "Packages",
+                "ar": "الباقات"
+              },
+              "heading": {
+                "en": "Packages",
+                "ar": "الباقات"
+              },
+              "intro": {
+                "en": "Every package includes a planning call, hand-edited images and a private online gallery to share with family.",
+                "ar": "تشمل كل باقة مكالمة تخطيط، وصورًا معدّلة يدويًا، ومعرضًا خاصًا على الإنترنت تشاركه مع عائلتك."
+              },
+              "items": [
+                {
+                  "id": "pkg-portrait",
+                  "name": {
+                    "en": "Portrait session",
+                    "ar": "جلسة بورتريه"
+                  },
+                  "description": {
+                    "en": "One location, natural light, for individuals, couples or families.",
+                    "ar": "موقع واحد وضوء طبيعي، للأفراد أو الأزواج أو العائلات."
+                  },
+                  "icon": "camera",
+                  "price": {
+                    "amount": 1200,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "90 minutes",
+                    "ar": "90 دقيقة"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "25 edited images",
+                        "ar": "25 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Studio or outdoor location",
+                        "ar": "في الاستوديو أو في الهواء الطلق"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Gallery delivered in 7 days",
+                        "ar": "تسليم المعرض خلال 7 أيام"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "pkg-engagement",
+                  "name": {
+                    "en": "Engagement",
+                    "ar": "الخطوبة"
+                  },
+                  "description": {
+                    "en": "A relaxed session before the big day, so you meet the camera as a couple.",
+                    "ar": "جلسة هادئة قبل اليوم الكبير، لتعتادا على الكاميرا معًا."
+                  },
+                  "icon": "heart",
+                  "price": {
+                    "amount": 2500,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "3 hours",
+                    "ar": "3 ساعات"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Two locations of your choice",
+                        "ar": "موقعان من اختياركما"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "60 edited images",
+                        "ar": "60 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Printed 20 × 30 cm keepsake",
+                        "ar": "صورة مطبوعة للذكرى بمقاس 20 × 30 سم"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "pkg-wedding",
+                  "name": {
+                    "en": "Full wedding",
+                    "ar": "العرس كاملًا"
+                  },
+                  "description": {
+                    "en": "From the first preparations to the last dance, with a second photographer.",
+                    "ar": "من التحضيرات الأولى حتى الرقصة الأخيرة، مع مصوّرة ثانية."
+                  },
+                  "icon": "gem",
+                  "price": {
+                    "amount": 9000,
+                    "currency": "QAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "Up to 10 hours",
+                    "ar": "حتى 10 ساعات"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Women-only team on request",
+                        "ar": "فريق نسائي بالكامل عند الطلب"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "400+ edited images",
+                        "ar": "أكثر من 400 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Linen-bound album, 30 pages",
+                        "ar": "ألبوم بغلاف كتّان من 30 صفحة"
+                      }
+                    },
+                    {
+                      "id": "f4",
+                      "text": {
+                        "en": "Sneak peek within 48 hours",
+                        "ar": "صور أولى خلال 48 ساعة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "packages",
+            "example": true
+          },
+          {
+            "id": "noir-testimonials",
+            "blockType": "testimonials",
+            "variant": "carousel",
+            "content": {
+              "eyebrow": {
+                "en": "Kind words",
+                "ar": "كلمات طيبة"
+              },
+              "heading": {
+                "en": "From the couples and families",
+                "ar": "من الأزواج والعائلات"
+              },
+              "autoplay": true,
+              "items": [
+                {
+                  "id": "t1",
+                  "quote": {
+                    "en": "We cried looking at our photos. Every moment was there.",
+                    "ar": "بكينا ونحن نشاهد صورنا. كانت كل لحظة حاضرة فيها."
+                  },
+                  "name": {
+                    "en": "Huda & Faisal",
+                    "ar": "هدى وفيصل"
+                  },
+                  "role": {
+                    "en": "Wedding, The Pearl",
+                    "ar": "عرس في اللؤلؤة"
+                  },
+                  "rating": 5
+                },
+                {
+                  "id": "t2",
+                  "quote": {
+                    "en": "Mariam made my grandmother laugh within five minutes. That portrait now hangs in every house in the family.",
+                    "ar": "أضحكت مريم جدتي خلال خمس دقائق. وتلك الصورة معلّقة اليوم في كل بيت من بيوت العائلة."
+                  },
+                  "name": {
+                    "en": "Noura S.",
+                    "ar": "نورة س."
+                  },
+                  "role": {
+                    "en": "Family portrait session",
+                    "ar": "جلسة صور عائلية"
+                  },
+                  "rating": 5
+                },
+                {
+                  "id": "t3",
+                  "quote": {
+                    "en": "Calm, discreet and always in the right place. Our guests barely noticed her, and she missed nothing.",
+                    "ar": "هادئة ومتحفّظة وفي المكان المناسب دائمًا. بالكاد لاحظها ضيوفنا، ولم يفُتها شيء."
+                  },
+                  "name": {
+                    "en": "Al-Mannai family",
+                    "ar": "عائلة المناعي"
+                  },
+                  "role": {
+                    "en": "Engagement evening",
+                    "ar": "حفل خطوبة"
+                  },
+                  "rating": 5
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "eyebrow": {
+                "en": "2026 – 2027 dates",
+                "ar": "مواعيد 2026 – 2027"
+              },
+              "heading": {
+                "en": "Is your date still open?",
+                "ar": "هل ما زال موعدك متاحًا؟"
+              },
+              "intro": {
+                "en": "I photograph a limited number of weddings each season so every couple gets my full attention.",
+                "ar": "أصوّر عددًا محدودًا من الأعراس في كل موسم، ليحظى كل زوجين باهتمامي الكامل."
+              },
+              "buttonLabel": {
+                "en": "Check my availability",
+                "ar": "تحقّق من المواعيد المتاحة"
+              },
+              "note": {
+                "en": "Replies within one working day.",
+                "ar": "أردّ خلال يوم عمل واحد."
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-contact",
+            "blockType": "contact",
+            "variant": "split-map",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Tell me about your day",
+                "ar": "حدّثيني عن يومك"
+              },
+              "intro": {
+                "en": "Share the date, the venue and a few words about you. I will reply with availability and a tailored quote.",
+                "ar": "شاركيني التاريخ والمكان وكلمات قليلة عنكم، وسأردّ بالمواعيد المتاحة وعرض سعر مناسب لكم."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "map": {
+                "enabled": true,
+                "query": "Msheireb Downtown, Doha, Qatar"
+              },
+              "form": {
+                "name": "Enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "session",
+                    "type": "select",
+                    "label": {
+                      "en": "Session",
+                      "ar": "نوع الجلسة"
+                    },
+                    "required": true,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "portrait",
+                        "label": {
+                          "en": "Portrait session",
+                          "ar": "جلسة بورتريه"
+                        }
+                      },
+                      {
+                        "value": "engagement",
+                        "label": {
+                          "en": "Engagement",
+                          "ar": "الخطوبة"
+                        }
+                      },
+                      {
+                        "value": "wedding",
+                        "label": {
+                          "en": "Full wedding",
+                          "ar": "العرس كاملًا"
+                        }
+                      },
+                      {
+                        "value": "event",
+                        "label": {
+                          "en": "Event",
+                          "ar": "مناسبة"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "date",
+                    "type": "date",
+                    "label": {
+                      "en": "Date",
+                      "ar": "التاريخ"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "required": true,
+                    "placeholder": {
+                      "en": "Venue, number of guests, anything I should know…",
+                      "ar": "المكان وعدد الضيوف وأي تفاصيل تودّين مشاركتها…"
+                    }
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "إرسال الطلب"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you. I will be in touch within one working day.",
+                      "ar": "شكرًا لك، سأتواصل معك خلال يوم عمل واحد."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "portfolio",
+        "slug": "portfolio",
+        "title": {
+          "en": "Portfolio",
+          "ar": "الأعمال"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "noir-portfolio-gallery",
+            "blockType": "gallery",
+            "variant": "masonry",
+            "content": {
+              "eyebrow": {
+                "en": "Portfolio",
+                "ar": "معرض الأعمال"
+              },
+              "heading": {
+                "en": "Twelve stories, told in light",
+                "ar": "اثنتا عشرة قصة يرويها الضوء"
+              },
+              "intro": {
+                "en": "Choose a category, then open any image to see it full screen.",
+                "ar": "اختاري تصنيفًا، ثم افتحي أي صورة لتريها بملء الشاشة."
+              },
+              "categories": [
+                {
+                  "id": "weddings",
+                  "label": {
+                    "en": "Weddings",
+                    "ar": "أعراس"
+                  }
+                },
+                {
+                  "id": "portraits",
+                  "label": {
+                    "en": "Portraits",
+                    "ar": "بورتريه"
+                  }
+                },
+                {
+                  "id": "events",
+                  "label": {
+                    "en": "Events",
+                    "ar": "مناسبات"
+                  }
+                }
+              ],
+              "showFilter": true,
+              "columns": "3",
+              "items": [
+                {
+                  "id": "w1",
+                  "image": {
+                    "url": "/stock/event-sand.svg",
+                    "alt": {
+                      "en": "Huda & Faisal, first look at the Pearl",
+                      "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Huda & Faisal, first look at the Pearl",
+                    "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w2",
+                  "image": {
+                    "url": "/stock/portrait-dusk.svg",
+                    "alt": {
+                      "en": "Reem, window light study",
+                      "ar": "ريم، دراسة على ضوء النافذة"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Reem, window light study",
+                    "ar": "ريم، دراسة على ضوء النافذة"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w3",
+                  "image": {
+                    "url": "/stock/event-dusk.svg",
+                    "alt": {
+                      "en": "Gala night at the waterfront",
+                      "ar": "ليلة حفل على الواجهة البحرية"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Gala night at the waterfront",
+                    "ar": "ليلة حفل على الواجهة البحرية"
+                  },
+                  "category": "events"
+                },
+                {
+                  "id": "w4",
+                  "image": {
+                    "url": "/stock/event-blush.svg",
+                    "alt": {
+                      "en": "Confetti on the courtyard steps",
+                      "ar": "قصاصات ملوّنة على درج الفناء"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "caption": {
+                    "en": "Confetti on the courtyard steps",
+                    "ar": "قصاصات ملوّنة على درج الفناء"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w5",
+                  "image": {
+                    "url": "/stock/portrait-ink.svg",
+                    "alt": {
+                      "en": "Yousef, studio portrait in black",
+                      "ar": "يوسف، بورتريه بالأسود في الاستوديو"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Yousef, studio portrait in black",
+                    "ar": "يوسف، بورتريه بالأسود في الاستوديو"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w6",
+                  "image": {
+                    "url": "/stock/nature-sand.svg",
+                    "alt": {
+                      "en": "Engagement walk in the dunes",
+                      "ar": "جلسة خطوبة بين الكثبان"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Engagement walk in the dunes",
+                    "ar": "جلسة خطوبة بين الكثبان"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w7",
+                  "image": {
+                    "url": "/stock/portrait-blush.svg",
+                    "alt": {
+                      "en": "Lulwa, graduation portrait",
+                      "ar": "لولوة، صورة التخرج"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Lulwa, graduation portrait",
+                    "ar": "لولوة، صورة التخرج"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w8",
+                  "image": {
+                    "url": "/stock/city-dusk.svg",
+                    "alt": {
+                      "en": "Product launch over the skyline",
+                      "ar": "إطلاق منتج على خلفية الأفق"
+                    },
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "caption": {
+                    "en": "Product launch over the skyline",
+                    "ar": "إطلاق منتج على خلفية الأفق"
+                  },
+                  "category": "events"
+                },
+                {
+                  "id": "w9",
+                  "image": {
+                    "url": "/stock/food-clay.svg",
+                    "alt": {
+                      "en": "The wedding dinner table",
+                      "ar": "مائدة عشاء العرس"
+                    },
+                    "width": 1400,
+                    "height": 1400
+                  },
+                  "caption": {
+                    "en": "The wedding dinner table",
+                    "ar": "مائدة عشاء العرس"
+                  },
+                  "category": "events"
+                },
+                {
+                  "id": "w10",
+                  "image": {
+                    "url": "/stock/portrait-sand.svg",
+                    "alt": {
+                      "en": "Noura and her grandmother",
+                      "ar": "نورة وجدّتها"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Noura and her grandmother",
+                    "ar": "نورة وجدّتها"
+                  },
+                  "category": "portraits"
+                },
+                {
+                  "id": "w11",
+                  "image": {
+                    "url": "/stock/nature-sea.svg",
+                    "alt": {
+                      "en": "Vows by the sea at Al Wakra",
+                      "ar": "عهود على البحر في الوكرة"
+                    },
+                    "width": 1600,
+                    "height": 1067
+                  },
+                  "caption": {
+                    "en": "Vows by the sea at Al Wakra",
+                    "ar": "عهود على البحر في الوكرة"
+                  },
+                  "category": "weddings"
+                },
+                {
+                  "id": "w12",
+                  "image": {
+                    "url": "/stock/portrait-sea.svg",
+                    "alt": {
+                      "en": "Salem, family portrait session",
+                      "ar": "سالم، جلسة صور عائلية"
+                    },
+                    "width": 1200,
+                    "height": 1600
+                  },
+                  "caption": {
+                    "en": "Salem, family portrait session",
+                    "ar": "سالم، جلسة صور عائلية"
+                  },
+                  "category": "portraits"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-portfolio-quote",
+            "blockType": "testimonials",
+            "variant": "single",
+            "content": {
+              "items": [
+                {
+                  "id": "t1",
+                  "quote": {
+                    "en": "We cried looking at our photos. Every moment was there.",
+                    "ar": "بكينا ونحن نشاهد صورنا. كانت كل لحظة حاضرة فيها."
+                  },
+                  "name": {
+                    "en": "Huda & Faisal",
+                    "ar": "هدى وفيصل"
+                  },
+                  "role": {
+                    "en": "Wedding, The Pearl",
+                    "ar": "عرس في اللؤلؤة"
+                  },
+                  "rating": 5
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "blur"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-portfolio-cta",
+            "blockType": "cta",
+            "variant": "simple",
+            "content": {
+              "heading": {
+                "en": "Planning a wedding in Qatar?",
+                "ar": "تخطّطين لعرس في قطر؟"
+              },
+              "intro": {
+                "en": "Dates for next season are filling quickly.",
+                "ar": "مواعيد الموسم القادم تُحجز بسرعة."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Check my availability",
+                  "ar": "تحقّق من المواعيد المتاحة"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                }
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "See packages",
+                  "ar": "اطّلعي على الباقات"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "packages"
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "packages",
+        "slug": "packages",
+        "title": {
+          "en": "Packages",
+          "ar": "الباقات"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "noir-packages-list",
+            "blockType": "services",
+            "variant": "pricing-table",
+            "content": {
+              "eyebrow": {
+                "en": "Packages",
+                "ar": "الباقات"
+              },
+              "heading": {
+                "en": "Packages",
+                "ar": "الباقات"
+              },
+              "intro": {
+                "en": "Every package includes a planning call, hand-edited images and a private online gallery to share with family.",
+                "ar": "تشمل كل باقة مكالمة تخطيط، وصورًا معدّلة يدويًا، ومعرضًا خاصًا على الإنترنت تشاركه مع عائلتك."
+              },
+              "items": [
+                {
+                  "id": "pkg-portrait",
+                  "name": {
+                    "en": "Portrait session",
+                    "ar": "جلسة بورتريه"
+                  },
+                  "description": {
+                    "en": "One location, natural light, for individuals, couples or families.",
+                    "ar": "موقع واحد وضوء طبيعي، للأفراد أو الأزواج أو العائلات."
+                  },
+                  "icon": "camera",
+                  "price": {
+                    "amount": 1200,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "90 minutes",
+                    "ar": "90 دقيقة"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "25 edited images",
+                        "ar": "25 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Studio or outdoor location",
+                        "ar": "في الاستوديو أو في الهواء الطلق"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Gallery delivered in 7 days",
+                        "ar": "تسليم المعرض خلال 7 أيام"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "pkg-engagement",
+                  "name": {
+                    "en": "Engagement",
+                    "ar": "الخطوبة"
+                  },
+                  "description": {
+                    "en": "A relaxed session before the big day, so you meet the camera as a couple.",
+                    "ar": "جلسة هادئة قبل اليوم الكبير، لتعتادا على الكاميرا معًا."
+                  },
+                  "icon": "heart",
+                  "price": {
+                    "amount": 2500,
+                    "currency": "QAR"
+                  },
+                  "duration": {
+                    "en": "3 hours",
+                    "ar": "3 ساعات"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Two locations of your choice",
+                        "ar": "موقعان من اختياركما"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "60 edited images",
+                        "ar": "60 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Printed 20 × 30 cm keepsake",
+                        "ar": "صورة مطبوعة للذكرى بمقاس 20 × 30 سم"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "pkg-wedding",
+                  "name": {
+                    "en": "Full wedding",
+                    "ar": "العرس كاملًا"
+                  },
+                  "description": {
+                    "en": "From the first preparations to the last dance, with a second photographer.",
+                    "ar": "من التحضيرات الأولى حتى الرقصة الأخيرة، مع مصوّرة ثانية."
+                  },
+                  "icon": "gem",
+                  "price": {
+                    "amount": 9000,
+                    "currency": "QAR",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "Up to 10 hours",
+                    "ar": "حتى 10 ساعات"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Women-only team on request",
+                        "ar": "فريق نسائي بالكامل عند الطلب"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "400+ edited images",
+                        "ar": "أكثر من 400 صورة معدّلة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Linen-bound album, 30 pages",
+                        "ar": "ألبوم بغلاف كتّان من 30 صفحة"
+                      }
+                    },
+                    {
+                      "id": "f4",
+                      "text": {
+                        "en": "Sneak peek within 48 hours",
+                        "ar": "صور أولى خلال 48 ساعة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Check my availability",
+                      "ar": "تحقّق من المواعيد المتاحة"
+                    },
+                    "link": {
+                      "type": "booking",
+                      "value": ""
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-packages-notes",
+            "blockType": "richText",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "Good to know",
+                "ar": "معلومات مفيدة"
+              },
+              "heading": {
+                "en": "How booking works",
+                "ar": "كيف يتم الحجز"
+              },
+              "body": {
+                "en": "<p><strong>Reserving your date.</strong> A 30% deposit holds your date; the rest is due two weeks before the wedding.</p><p><strong>Travel.</strong> Anywhere in Qatar is included. For weddings abroad I quote travel at cost.</p><p><strong>Privacy.</strong> Nothing is shared online without your written permission, and women-only events are photographed by women only.</p><p><strong>Delivery.</strong> Sneak peeks within 48 hours, the full gallery within four weeks, albums within eight.</p>",
+                "ar": "<p><strong>حجز الموعد.</strong> تُثبّت دفعة مقدّمة بنسبة 30% موعدك، ويُسدَّد الباقي قبل العرس بأسبوعين.</p><p><strong>التنقّل.</strong> التصوير في أي مكان داخل قطر مشمول. أما الأعراس خارجها فتُحسب تكاليف السفر بسعرها الفعلي.</p><p><strong>الخصوصية.</strong> لا يُنشر أي شيء على الإنترنت دون إذن مكتوب منكم، وتصوّر المناسباتِ النسائية نساءٌ فقط.</p><p><strong>التسليم.</strong> صور أولى خلال 48 ساعة، والمعرض كاملًا خلال أربعة أسابيع، والألبوم خلال ثمانية.</p>"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-packages-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "eyebrow": {
+                "en": "2026 – 2027 dates",
+                "ar": "مواعيد 2026 – 2027"
+              },
+              "heading": {
+                "en": "Is your date still open?",
+                "ar": "هل ما زال موعدك متاحًا؟"
+              },
+              "intro": {
+                "en": "I photograph a limited number of weddings each season so every couple gets my full attention.",
+                "ar": "أصوّر عددًا محدودًا من الأعراس في كل موسم، ليحظى كل زوجين باهتمامي الكامل."
+              },
+              "buttonLabel": {
+                "en": "Check my availability",
+                "ar": "تحقّق من المواعيد المتاحة"
+              },
+              "note": {
+                "en": "Replies within one working day.",
+                "ar": "أردّ خلال يوم عمل واحد."
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "noir-contact-page",
+            "blockType": "contact",
+            "variant": "split-map",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Tell me about your day",
+                "ar": "حدّثيني عن يومك"
+              },
+              "intro": {
+                "en": "Share the date, the venue and a few words about you. I will reply with availability and a tailored quote.",
+                "ar": "شاركيني التاريخ والمكان وكلمات قليلة عنكم، وسأردّ بالمواعيد المتاحة وعرض سعر مناسب لكم."
+              },
+              "showDetails": true,
+              "showSocial": true,
+              "map": {
+                "enabled": true,
+                "query": "Msheireb Downtown, Doha, Qatar"
+              },
+              "form": {
+                "name": "Enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Email",
+                      "ar": "البريد الإلكتروني"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "session",
+                    "type": "select",
+                    "label": {
+                      "en": "Session",
+                      "ar": "نوع الجلسة"
+                    },
+                    "required": true,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "portrait",
+                        "label": {
+                          "en": "Portrait session",
+                          "ar": "جلسة بورتريه"
+                        }
+                      },
+                      {
+                        "value": "engagement",
+                        "label": {
+                          "en": "Engagement",
+                          "ar": "الخطوبة"
+                        }
+                      },
+                      {
+                        "value": "wedding",
+                        "label": {
+                          "en": "Full wedding",
+                          "ar": "العرس كاملًا"
+                        }
+                      },
+                      {
+                        "value": "event",
+                        "label": {
+                          "en": "Event",
+                          "ar": "مناسبة"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "date",
+                    "type": "date",
+                    "label": {
+                      "en": "Date",
+                      "ar": "التاريخ"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Message",
+                      "ar": "الرسالة"
+                    },
+                    "required": true,
+                    "placeholder": {
+                      "en": "Venue, number of guests, anything I should know…",
+                      "ar": "المكان وعدد الضيوف وأي تفاصيل تودّين مشاركتها…"
+                    }
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "إرسال الطلب"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you. I will be in touch within one working day.",
+                      "ar": "شكرًا لك، سأتواصل معك خلال يوم عمل واحد."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "noir-contact-booking",
+            "blockType": "booking",
+            "variant": "button-modal",
+            "content": {
+              "eyebrow": {
+                "en": "2026 – 2027 dates",
+                "ar": "مواعيد 2026 – 2027"
+              },
+              "heading": {
+                "en": "Is your date still open?",
+                "ar": "هل ما زال موعدك متاحًا؟"
+              },
+              "intro": {
+                "en": "I photograph a limited number of weddings each season so every couple gets my full attention.",
+                "ar": "أصوّر عددًا محدودًا من الأعراس في كل موسم، ليحظى كل زوجين باهتمامي الكامل."
+              },
+              "buttonLabel": {
+                "en": "Check my availability",
+                "ar": "تحقّق من المواعيد المتاحة"
+              },
+              "note": {
+                "en": "Replies within one working day.",
+                "ar": "أردّ خلال يوم عمل واحد."
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "noir-header",
+        "blockType": "header",
+        "variant": "minimal",
+        "content": {
+          "heading": {
+            "en": "Noor Studio",
+            "ar": "نور ستوديو"
+          },
+          "cta": {
+            "label": {
+              "en": "Check my availability",
+              "ar": "تحقّق من المواعيد المتاحة"
+            },
+            "link": {
+              "type": "booking",
+              "value": ""
+            }
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "noir-footer",
+        "blockType": "footer",
+        "variant": "simple",
+        "content": {
+          "heading": {
+            "en": "Noor Studio",
+            "ar": "نور ستوديو"
+          },
+          "text": {
+            "en": "Wedding & portrait photography in Doha, Qatar.",
+            "ar": "تصوير أعراس وبورتريه في الدوحة، قطر."
+          },
+          "copyright": {
+            "en": "© 2026 Noor Studio. All images are the property of their subjects and the studio.",
+            "ar": "© 2026 نور ستوديو. جميع الصور ملك أصحابها والاستوديو."
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Noor Studio",
+        "defaultDescription": {
+          "en": "Mariam Al-Khatib photographs weddings, portraits and events in Doha. Quiet moments, captured honestly.",
+          "ar": "مريم الخطيب تصوّر الأعراس والبورتريه والمناسبات في الدوحة. لحظات هادئة بصدق."
+        }
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://example.com/instagram/noorstudio"
+        },
+        {
+          "platform": "pinterest",
+          "url": "https://example.com/pinterest/noorstudio"
+        },
+        {
+          "platform": "whatsapp",
+          "url": "https://wa.me/97455501234"
+        }
+      ],
+      "contact": {
+        "email": "hello@noorstudio.example.com",
+        "phone": "+974 5550 1234",
+        "whatsapp": "+97455501234",
+        "address": {
+          "en": "Msheireb Downtown, Doha, Qatar",
+          "ar": "مشيرب قلب الدوحة، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Noor Studio — Mariam Al-Khatib",
+        "ar": "نور ستوديو — مريم الخطيب"
+      },
+      "ownerTitle": {
+        "en": "Wedding & portrait photographer",
+        "ar": "مصوّرة أعراس وبورتريه"
+      }
+    }
+  }
+}

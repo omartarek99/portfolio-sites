@@ -1,0 +1,1097 @@
+{
+  "id": "aurora",
+  "name": {
+    "en": "Aurora",
+    "ar": "أورورا"
+  },
+  "description": {
+    "en": "A cinematic dark one-pager where your story unfolds scene by scene.",
+    "ar": "صفحة واحدة داكنة بطابع سينمائي تتكشف فيها قصتك مشهدًا بعد مشهد."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Creative generalists",
+      "ar": "المبدعون متعددو المهارات"
+    },
+    {
+      "en": "Job seekers",
+      "ar": "الباحثون عن عمل"
+    },
+    {
+      "en": "Marketers",
+      "ar": "المسوّقون"
+    }
+  ],
+  "professions": [
+    "designer",
+    "job-seeker",
+    "freelancer"
+  ],
+  "styles": [
+    "dark",
+    "bold"
+  ],
+  "signature": {
+    "en": "A slow aurora glow in your brand colours behind the hero, and sections that reveal like film scenes as you scroll.",
+    "ar": "وهج شفقي بطيء بألوان علامتك خلف الواجهة، وأقسام تتكشف كمشاهد فيلم أثناء التمرير."
+  },
+  "defaultLocale": "en",
+  "order": 0,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "aurora",
+      "palette": {
+        "background": "#0B0D17",
+        "surface": "#141729",
+        "text": "#F4F5FB",
+        "mutedText": "#9AA0BC",
+        "primary": "#7C5CFF",
+        "secondary": "#22D3EE",
+        "accent": "#F472B6",
+        "border": "#262A45"
+      },
+      "mode": "dark",
+      "fonts": {
+        "heading": {
+          "family": "Space Grotesk"
+        },
+        "body": {
+          "family": "Inter"
+        },
+        "arabicHeading": {
+          "family": "Readex Pro"
+        },
+        "arabicBody": {
+          "family": "IBM Plex Sans Arabic"
+        }
+      },
+      "radius": "lg",
+      "spacing": "airy",
+      "motion": "cinematic",
+      "buttonStyle": "glass",
+      "backgroundStyle": {
+        "type": "gradient",
+        "value": "spotlight"
+      }
+    },
+    "navigation": {
+      "style": "floating",
+      "header": [
+        {
+          "id": "nav-about",
+          "label": {
+            "en": "About",
+            "ar": "نبذة"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "about"
+          }
+        },
+        {
+          "id": "nav-experience",
+          "label": {
+            "en": "Experience",
+            "ar": "الخبرة"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "experience"
+          }
+        },
+        {
+          "id": "nav-work",
+          "label": {
+            "en": "Work",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "work"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-work",
+          "label": {
+            "en": "Work",
+            "ar": "الأعمال"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "work"
+          }
+        },
+        {
+          "id": "foot-case",
+          "label": {
+            "en": "Sahra Coffee case study",
+            "ar": "دراسة حالة قهوة صحرا"
+          },
+          "link": {
+            "type": "page",
+            "value": "case-sahra"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "anchor",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "aurora-hero",
+            "blockType": "hero",
+            "variant": "animated-text",
+            "content": {
+              "eyebrow": {
+                "en": "Brand designer · Doha",
+                "ar": "مصممة هوية بصرية · الدوحة"
+              },
+              "heading": {
+                "en": "I'm Layla, a",
+                "ar": "أنا ليلى،"
+              },
+              "animation": "word-rotate",
+              "words": [
+                {
+                  "id": "w-1",
+                  "text": {
+                    "en": "designer",
+                    "ar": "مصممة"
+                  }
+                },
+                {
+                  "id": "w-2",
+                  "text": {
+                    "en": "storyteller",
+                    "ar": "راوية قصص"
+                  }
+                },
+                {
+                  "id": "w-3",
+                  "text": {
+                    "en": "problem solver",
+                    "ar": "صانعة حلول"
+                  }
+                }
+              ],
+              "tagline": {
+                "en": "Brand designer turning ideas into stories people remember.",
+                "ar": "مصممة هوية بصرية أحوّل الأفكار إلى قصص لا تُنسى."
+              },
+              "badge": {
+                "en": "Open to work",
+                "ar": "متاحة للعمل"
+              },
+              "location": {
+                "en": "Doha, Qatar",
+                "ar": "الدوحة، قطر"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "See my work",
+                  "ar": "شاهد أعمالي"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "work"
+                },
+                "style": "primary",
+                "icon": "arrow-down"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Let's talk",
+                  "ar": "لنتحدث"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "contact"
+                },
+                "style": "outline"
+              },
+              "scrollCue": true
+            },
+            "style": {
+              "background": {
+                "type": "gradient",
+                "value": "aurora"
+              },
+              "paddingY": "xl"
+            },
+            "animation": {
+              "entrance": "blur"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "aurora-about",
+            "blockType": "about",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Seven years of finding the voice behind a brand",
+                "ar": "سبع سنوات في البحث عن الصوت الكامن خلف كل علامة"
+              },
+              "body": {
+                "en": "<p>I've spent 7 years helping startups and cultural institutions find their visual voice — from first logo to full campaigns.</p><p>My work starts with listening. I sit with founders, curators and the people who serve their customers every day, and I look for the story they already tell without noticing. Then I give it a shape: a mark, a palette, a type system and a set of rules simple enough for a busy team to keep.</p><p>I grew up between Beirut and Doha, and I design in Arabic and English with the same care. Good bilingual identity is not a translation — it is two voices that sound like the same person.</p>",
+                "ar": "<p>أمضيت سبع سنوات أساعد الشركات الناشئة والمؤسسات الثقافية في إيجاد صوتها البصري، من أول شعار حتى الحملات الكاملة.</p><p>يبدأ عملي بالإصغاء. أجلس مع المؤسسين والقيّمين والعاملين الذين يخدمون العملاء كل يوم، وأبحث عن القصة التي يروونها دون أن ينتبهوا. ثم أمنحها شكلًا: علامة ولوحة ألوان ونظام خطوط وقواعد بسيطة يستطيع الفريق المشغول الالتزام بها.</p><p>نشأت بين بيروت والدوحة، وأصمم بالعربية والإنجليزية بالعناية نفسها. فالهوية الثنائية اللغة الجيدة ليست ترجمة، بل صوتان يبدوان كأنهما لشخص واحد.</p>"
+              },
+              "dropCap": true,
+              "cta": {
+                "label": {
+                  "en": "See selected work",
+                  "ar": "شاهد الأعمال المختارة"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "work"
+                },
+                "style": "ghost",
+                "icon": "arrow-down"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "about",
+            "example": true
+          },
+          {
+            "id": "aurora-stats",
+            "blockType": "stats",
+            "variant": "counters",
+            "content": {
+              "heading": {
+                "en": "A few numbers",
+                "ar": "بعض الأرقام"
+              },
+              "items": [
+                {
+                  "id": "s1",
+                  "value": "7",
+                  "label": {
+                    "en": "years in brand design",
+                    "ar": "سنوات في تصميم الهويات"
+                  },
+                  "icon": "clock"
+                },
+                {
+                  "id": "s2",
+                  "value": "40+",
+                  "label": {
+                    "en": "brands shaped",
+                    "ar": "علامة تجارية"
+                  },
+                  "icon": "sparkles"
+                },
+                {
+                  "id": "s3",
+                  "value": "3",
+                  "label": {
+                    "en": "design awards",
+                    "ar": "جوائز تصميم"
+                  },
+                  "icon": "award"
+                },
+                {
+                  "id": "s4",
+                  "value": "9",
+                  "label": {
+                    "en": "countries reached",
+                    "ar": "دول وصلت إليها الأعمال"
+                  },
+                  "icon": "globe"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "aurora-experience",
+            "blockType": "experience",
+            "variant": "timeline",
+            "content": {
+              "eyebrow": {
+                "en": "Experience",
+                "ar": "الخبرة"
+              },
+              "heading": {
+                "en": "The road so far",
+                "ar": "الطريق حتى الآن"
+              },
+              "items": [
+                {
+                  "id": "x1",
+                  "role": {
+                    "en": "Senior Brand Designer",
+                    "ar": "مصممة هوية أولى"
+                  },
+                  "organisation": {
+                    "en": "Nova Studio",
+                    "ar": "استوديو نوفا"
+                  },
+                  "start": "2021",
+                  "current": true,
+                  "location": {
+                    "en": "Doha",
+                    "ar": "الدوحة"
+                  },
+                  "description": {
+                    "en": "Lead designer on identity projects for cafés, museums and fintech startups. I run discovery workshops, set the creative direction and mentor two junior designers.",
+                    "ar": "أقود مشاريع الهوية للمقاهي والمتاحف والشركات الناشئة في التقنية المالية. أدير ورش الاستكشاف وأحدد التوجه الإبداعي وأوجّه مصممَين مبتدئَين."
+                  }
+                },
+                {
+                  "id": "x2",
+                  "role": {
+                    "en": "Designer",
+                    "ar": "مصممة"
+                  },
+                  "organisation": {
+                    "en": "Pixel & Pine",
+                    "ar": "بكسل آند باين"
+                  },
+                  "start": "2018",
+                  "end": "2021",
+                  "location": {
+                    "en": "Beirut",
+                    "ar": "بيروت"
+                  },
+                  "description": {
+                    "en": "Designed campaigns, packaging and social systems for regional retail and hospitality brands.",
+                    "ar": "صممت حملات وتغليفًا وأنظمة لمنصات التواصل لعلامات إقليمية في التجزئة والضيافة."
+                  }
+                },
+                {
+                  "id": "x3",
+                  "role": {
+                    "en": "Junior Designer",
+                    "ar": "مصممة مبتدئة"
+                  },
+                  "organisation": {
+                    "en": "Freelance",
+                    "ar": "عمل حر"
+                  },
+                  "start": "2017",
+                  "end": "2018",
+                  "description": {
+                    "en": "Logos, menus and event posters for small businesses — and the lesson that every brief hides a story.",
+                    "ar": "شعارات وقوائم طعام وملصقات فعاليات لمشاريع صغيرة، ومعها درس أن كل طلب تصميم يخفي قصة."
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "experience",
+            "example": true
+          },
+          {
+            "id": "aurora-work",
+            "blockType": "projects",
+            "variant": "alternating",
+            "content": {
+              "eyebrow": {
+                "en": "Selected work",
+                "ar": "أعمال مختارة"
+              },
+              "heading": {
+                "en": "Stories I helped tell",
+                "ar": "قصص ساعدت في روايتها"
+              },
+              "items": [
+                {
+                  "id": "p1",
+                  "title": {
+                    "en": "Sahra Coffee rebrand",
+                    "ar": "إعادة تصميم هوية قهوة صحرا"
+                  },
+                  "description": {
+                    "en": "One warm identity for twelve cafés: a new wordmark, packaging and a menu system baristas actually like using.",
+                    "ar": "هوية دافئة واحدة لاثني عشر مقهى: شعار كتابي جديد وتغليف ونظام قوائم يحب معدّو القهوة استخدامه."
+                  },
+                  "image": {
+                    "url": "/stock/food-clay.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Coffee cups and packaging from above",
+                      "ar": "أكواب قهوة وتغليف من الأعلى"
+                    }
+                  },
+                  "client": {
+                    "en": "Sahra Coffee",
+                    "ar": "قهوة صحرا"
+                  },
+                  "year": "2025",
+                  "caseStudy": {
+                    "type": "page",
+                    "value": "case-sahra"
+                  }
+                },
+                {
+                  "id": "p2",
+                  "title": {
+                    "en": "Museum night campaign",
+                    "ar": "حملة ليلة المتاحف"
+                  },
+                  "description": {
+                    "en": "Posters, motion and wayfinding for a city-wide night of open museums that drew 18,000 visitors.",
+                    "ar": "ملصقات ورسوم متحركة ولافتات إرشاد لليلة مفتوحة في متاحف المدينة استقطبت ثمانية عشر ألف زائر."
+                  },
+                  "image": {
+                    "url": "/stock/event-dusk.svg",
+                    "width": 1920,
+                    "height": 1080,
+                    "alt": {
+                      "en": "Evening lights over a museum square",
+                      "ar": "أضواء مسائية فوق ساحة متحف"
+                    }
+                  },
+                  "client": {
+                    "en": "Doha Culture Week",
+                    "ar": "أسبوع الدوحة الثقافي"
+                  },
+                  "year": "2024"
+                },
+                {
+                  "id": "p3",
+                  "title": {
+                    "en": "Wavelength fintech app identity",
+                    "ar": "هوية تطبيق ويفلينث المالي"
+                  },
+                  "description": {
+                    "en": "A calm, confident identity for a savings app — from app icon to onboarding illustrations.",
+                    "ar": "هوية هادئة وواثقة لتطبيق ادخار، من أيقونة التطبيق حتى رسومات التعريف."
+                  },
+                  "image": {
+                    "url": "/stock/app-dusk.svg",
+                    "width": 1600,
+                    "height": 1067,
+                    "alt": {
+                      "en": "Dark app screens on a desk",
+                      "ar": "شاشات تطبيق داكنة على مكتب"
+                    }
+                  },
+                  "client": {
+                    "en": "Wavelength",
+                    "ar": "ويفلينث"
+                  },
+                  "year": "2023"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "parallax"
+            },
+            "responsive": {},
+            "anchor": "work",
+            "example": true
+          },
+          {
+            "id": "aurora-testimonials",
+            "blockType": "testimonials",
+            "variant": "single",
+            "content": {
+              "heading": {
+                "en": "Kind words",
+                "ar": "كلمات طيبة"
+              },
+              "items": [
+                {
+                  "id": "t1",
+                  "quote": {
+                    "en": "Layla gave our brand a personality we didn't know we had.",
+                    "ar": "منحت ليلى علامتنا شخصية لم نكن نعرف أننا نملكها."
+                  },
+                  "name": {
+                    "en": "Omar K.",
+                    "ar": "عمر ك."
+                  },
+                  "role": {
+                    "en": "Founder, Sahra Coffee",
+                    "ar": "مؤسس قهوة صحرا"
+                  }
+                },
+                {
+                  "id": "t2",
+                  "quote": {
+                    "en": "She listened to forty curators and somehow made one campaign everyone felt was theirs.",
+                    "ar": "أصغت إلى أربعين قيّمًا، ثم صنعت حملة واحدة شعر كل منهم أنها تخصه."
+                  },
+                  "name": {
+                    "en": "Mariam S.",
+                    "ar": "مريم س."
+                  },
+                  "role": {
+                    "en": "Programme Director, Doha Culture Week",
+                    "ar": "مديرة البرامج، أسبوع الدوحة الثقافي"
+                  }
+                },
+                {
+                  "id": "t3",
+                  "quote": {
+                    "en": "Our app finally looks as trustworthy as the product behind it.",
+                    "ar": "أخيرًا صار تطبيقنا يبدو جديرًا بالثقة مثل المنتج الذي يقف خلفه."
+                  },
+                  "name": {
+                    "en": "Karim A.",
+                    "ar": "كريم أ."
+                  },
+                  "role": {
+                    "en": "CEO, Wavelength",
+                    "ar": "الرئيس التنفيذي، ويفلينث"
+                  }
+                }
+              ],
+              "autoplay": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "aurora-cta",
+            "blockType": "cta",
+            "variant": "gradient",
+            "content": {
+              "heading": {
+                "en": "Have a story to tell? Let's talk.",
+                "ar": "لديك قصة ترويها؟ لنتحدث."
+              },
+              "intro": {
+                "en": "I take on two new identity projects each quarter. Tell me about yours.",
+                "ar": "أتولى مشروعَي هوية جديدين كل ربع سنة. أخبرني عن مشروعك."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Start a conversation",
+                  "ar": "ابدأ المحادثة"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "contact"
+                },
+                "style": "primary",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "aurora-contact",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Tell me about your project",
+                "ar": "حدّثني عن مشروعك"
+              },
+              "intro": {
+                "en": "A few lines are enough. I reply within two working days.",
+                "ar": "بضعة أسطر تكفي. أرد خلال يومَي عمل."
+              },
+              "note": {
+                "en": "Based in Doha, working with teams worldwide.",
+                "ar": "مقيمة في الدوحة وأعمل مع فرق حول العالم."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "contact",
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "case-sahra",
+        "slug": "sahra-coffee",
+        "title": {
+          "en": "Sahra Coffee rebrand",
+          "ar": "إعادة تصميم هوية قهوة صحرا"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "aurora-case",
+            "blockType": "caseStudy",
+            "variant": "problem-process-result",
+            "content": {
+              "eyebrow": {
+                "en": "Case study",
+                "ar": "دراسة حالة"
+              },
+              "title": {
+                "en": "Sahra Coffee: one identity for twelve cafés",
+                "ar": "قهوة صحرا: هوية واحدة لاثني عشر مقهى"
+              },
+              "subtitle": {
+                "en": "A warmer brand, new packaging and a menu system for a Doha roastery that was growing faster than its look.",
+                "ar": "علامة أكثر دفئًا وتغليف جديد ونظام قوائم لمحمصة في الدوحة كانت تكبر أسرع من مظهرها."
+              },
+              "cover": {
+                "url": "/stock/workspace-dusk.svg",
+                "width": 1600,
+                "height": 1067,
+                "alt": {
+                  "en": "Sketches and packaging samples on an evening desk",
+                  "ar": "رسومات أولية ونماذج تغليف على مكتب في المساء"
+                }
+              },
+              "meta": [
+                {
+                  "id": "client",
+                  "label": {
+                    "en": "Client",
+                    "ar": "العميل"
+                  },
+                  "value": {
+                    "en": "Sahra Coffee",
+                    "ar": "قهوة صحرا"
+                  }
+                },
+                {
+                  "id": "role",
+                  "label": {
+                    "en": "Role",
+                    "ar": "الدور"
+                  },
+                  "value": {
+                    "en": "Brand and packaging design",
+                    "ar": "تصميم الهوية والتغليف"
+                  }
+                },
+                {
+                  "id": "year",
+                  "label": {
+                    "en": "Year",
+                    "ar": "السنة"
+                  },
+                  "value": {
+                    "en": "2025",
+                    "ar": "2025"
+                  }
+                },
+                {
+                  "id": "duration",
+                  "label": {
+                    "en": "Duration",
+                    "ar": "المدة"
+                  },
+                  "value": {
+                    "en": "14 weeks",
+                    "ar": "14 أسبوعًا"
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "id": "problem",
+                  "label": {
+                    "en": "Problem",
+                    "ar": "المشكلة"
+                  },
+                  "heading": {
+                    "en": "A loved café that looked different in every branch",
+                    "ar": "مقهى محبوب يختلف شكله من فرع إلى آخر"
+                  },
+                  "body": {
+                    "en": "<p>Sahra opened its first café in 2016 with a hand-painted sign. Nine years and eleven branches later, every location had its own menu, its own cups and its own idea of the logo. Customers recognised the coffee, not the brand.</p>",
+                    "ar": "<p>افتتحت «صحرا» مقهاها الأول عام 2016 بلافتة مرسومة باليد. وبعد تسع سنوات وأحد عشر فرعًا، صار لكل فرع قائمته وأكوابه وتصوّره الخاص للشعار. كان الزبائن يعرفون القهوة، لا العلامة.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "before",
+                      "image": {
+                        "url": "/stock/food-clay.svg",
+                        "width": 1400,
+                        "height": 1400,
+                        "alt": {
+                          "en": "A table at the first café",
+                          "ar": "طاولة في المقهى الأول"
+                        }
+                      },
+                      "caption": {
+                        "en": "The first café, where the warm palette comes from.",
+                        "ar": "المقهى الأول، ومنه جاءت الألوان الدافئة."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "process",
+                  "label": {
+                    "en": "Process",
+                    "ar": "الطريقة"
+                  },
+                  "heading": {
+                    "en": "Listening first, drawing second",
+                    "ar": "الإصغاء أولًا ثم الرسم"
+                  },
+                  "body": {
+                    "en": "<p>I spent two weeks behind the counter in three branches, then ran a workshop with baristas and the founding family.</p><ul><li>Twenty-four interviews with regulars and staff</li><li>Three identity routes, tested on real cups and bags</li><li>One menu grid that works in Arabic and English</li></ul>",
+                    "ar": "<p>قضيت أسبوعين خلف طاولة التحضير في ثلاثة فروع، ثم أدرت ورشة عمل مع معدّي القهوة والعائلة المؤسِّسة.</p><ul><li>أربع وعشرون مقابلة مع الزبائن الدائمين والعاملين</li><li>ثلاثة اتجاهات للهوية جُرّبت على أكواب وأكياس حقيقية</li><li>شبكة قوائم واحدة تعمل بالعربية والإنجليزية</li></ul>"
+                  },
+                  "images": [
+                    {
+                      "id": "routes",
+                      "image": {
+                        "url": "/stock/art-sand.svg",
+                        "width": 1400,
+                        "height": 1400,
+                        "alt": {
+                          "en": "Identity sketches in sand tones",
+                          "ar": "رسومات الهوية بألوان رملية"
+                        }
+                      },
+                      "caption": {
+                        "en": "Early shapes for the wordmark.",
+                        "ar": "أشكال أولية للشعار الكتابي."
+                      }
+                    },
+                    {
+                      "id": "palette",
+                      "image": {
+                        "url": "/stock/art-blush.svg",
+                        "width": 1400,
+                        "height": 1400,
+                        "alt": {
+                          "en": "Colour studies for the packaging",
+                          "ar": "دراسات لونية للتغليف"
+                        }
+                      },
+                      "caption": {
+                        "en": "Colour studies for the retail bags.",
+                        "ar": "دراسات لونية لأكياس البيع."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "result",
+                  "label": {
+                    "en": "Result",
+                    "ar": "النتيجة"
+                  },
+                  "heading": {
+                    "en": "One identity that travels",
+                    "ar": "هوية واحدة تنتقل إلى كل مكان"
+                  },
+                  "body": {
+                    "en": "<p>The new system rolled out to all twelve cafés in nine weeks, with a guide short enough to read over one coffee. The retail range launched in forty stores the same month.</p>",
+                    "ar": "<p>طُبّق النظام الجديد في المقاهي الاثني عشر خلال تسعة أسابيع، مع دليل قصير يكفي فنجان قهوة واحد لقراءته. وفي الشهر نفسه وصلت منتجات البيع إلى أربعين متجرًا.</p>"
+                  },
+                  "images": [
+                    {
+                      "id": "after",
+                      "image": {
+                        "url": "/stock/interior-clay.svg",
+                        "width": 1200,
+                        "height": 1600,
+                        "alt": {
+                          "en": "The refreshed café interior",
+                          "ar": "المقهى بعد التجديد"
+                        }
+                      },
+                      "caption": {
+                        "en": "The Msheireb branch after the rollout.",
+                        "ar": "فرع مشيرب بعد تطبيق الهوية."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "resultsHeading": {
+                "en": "Six months later",
+                "ar": "بعد ستة أشهر"
+              },
+              "results": [
+                {
+                  "id": "orders",
+                  "value": {
+                    "en": "+38%",
+                    "ar": "+38%"
+                  },
+                  "label": {
+                    "en": "repeat orders",
+                    "ar": "زيادة في الطلبات المتكررة"
+                  }
+                },
+                {
+                  "id": "branches",
+                  "value": {
+                    "en": "12",
+                    "ar": "12"
+                  },
+                  "label": {
+                    "en": "cafés rebranded",
+                    "ar": "مقهى بالهوية الجديدة"
+                  }
+                },
+                {
+                  "id": "stores",
+                  "value": {
+                    "en": "40",
+                    "ar": "40"
+                  },
+                  "label": {
+                    "en": "stores stocking the range",
+                    "ar": "متجرًا يبيع المنتجات"
+                  }
+                },
+                {
+                  "id": "rollout",
+                  "value": {
+                    "en": "9",
+                    "ar": "9"
+                  },
+                  "label": {
+                    "en": "weeks to roll out",
+                    "ar": "أسابيع للتطبيق"
+                  }
+                }
+              ],
+              "next": {
+                "label": {
+                  "en": "Back to",
+                  "ar": "العودة إلى"
+                },
+                "title": {
+                  "en": "All selected work",
+                  "ar": "كل الأعمال المختارة"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                },
+                "image": {
+                  "url": "/stock/event-dusk.svg",
+                  "width": 1920,
+                  "height": 1080,
+                  "alt": {
+                    "en": "Museum Night poster at dusk",
+                    "ar": "ملصق ليلة المتاحف عند الغروب"
+                  }
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "aurora-case-cta",
+            "blockType": "cta",
+            "variant": "gradient",
+            "content": {
+              "heading": {
+                "en": "Want results like these?",
+                "ar": "تريد نتائج كهذه؟"
+              },
+              "intro": {
+                "en": "Tell me where your brand is today and where you want it to go.",
+                "ar": "أخبرني أين تقف علامتك اليوم وإلى أين تريد أن تصل."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Let's talk",
+                  "ar": "لنتحدث"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "home"
+                },
+                "style": "primary",
+                "icon": "arrow-right"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "seo": {
+          "description": {
+            "en": "How one identity brought twelve Sahra cafés together.",
+            "ar": "كيف جمعت هوية واحدة مقاهي صحرا الاثني عشر."
+          }
+        },
+        "visibility": "public"
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "aurora-header",
+        "blockType": "header",
+        "variant": "floating-pill",
+        "content": {
+          "heading": {
+            "en": "Layla Haddad",
+            "ar": "ليلى حداد"
+          },
+          "cta": {
+            "label": {
+              "en": "Let's talk",
+              "ar": "لنتحدث"
+            },
+            "link": {
+              "type": "anchor",
+              "value": "contact"
+            },
+            "style": "primary"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "aurora-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": {
+            "en": "Layla Haddad",
+            "ar": "ليلى حداد"
+          },
+          "text": {
+            "en": "Brand designer in Doha. Turning ideas into stories people remember.",
+            "ar": "مصممة هوية بصرية في الدوحة. أحوّل الأفكار إلى قصص لا تُنسى."
+          },
+          "copyright": {
+            "en": "© 2026 Layla Haddad",
+            "ar": "© 2026 ليلى حداد"
+          },
+          "showBackToTop": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Layla Haddad",
+        "defaultDescription": {
+          "en": "Layla Haddad is a brand designer in Doha helping startups and cultural institutions find their visual voice.",
+          "ar": "ليلى حداد مصممة هوية بصرية في الدوحة تساعد الشركات الناشئة والمؤسسات الثقافية في إيجاد صوتها البصري."
+        }
+      },
+      "social": [
+        {
+          "platform": "behance",
+          "url": "https://www.behance.net/example"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/example"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/in/example"
+        }
+      ],
+      "contact": {
+        "email": "layla@example.com",
+        "phone": "+974 5550 1234",
+        "whatsapp": "+97455501234",
+        "address": {
+          "en": "West Bay, Doha, Qatar",
+          "ar": "الخليج الغربي، الدوحة، قطر"
+        }
+      },
+      "cookieBanner": false,
+      "ownerName": {
+        "en": "Layla Haddad",
+        "ar": "ليلى حداد"
+      },
+      "ownerTitle": {
+        "en": "Brand designer",
+        "ar": "مصممة هوية بصرية"
+      }
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "id": "bento",
+  "name": { "en": "Bento", "ar": "بينتو" },
+  "description": {
+    "en": "A modern personal page built as one bento grid of cards: who you are, where you are, what you are working on and how to reach you.",
+    "ar": "صفحة شخصية عصرية مبنية كشبكة بينتو واحدة من البطاقات: من أنت، وأين تقيم، وعلامَ تعمل، وكيف يمكن التواصل معك."
+  },
+  "tier": "free",
+  "bestFor": [
+    { "en": "Students", "ar": "الطلاب" },
+    { "en": "Product managers", "ar": "مديرو المنتجات" },
+    { "en": "Generalists", "ar": "أصحاب المهارات المتعددة" },
+    { "en": "Makers", "ar": "المبدعون والصنّاع" }
+  ],
+  "professions": ["job-seeker", "freelancer", "designer", "developer", "business"],
+  "styles": ["minimal", "playful"],
+  "signature": {
+    "en": "The whole home page is one bento grid of cards in different sizes — intro, photo, current role, a map of your city, latest project, \"now learning\", social and contact cards — that lift on hover and stack neatly on a phone.",
+    "ar": "الصفحة الرئيسية كلها شبكة بينتو واحدة من بطاقات بأحجام مختلفة: تعريف وصورة ودور حالي وخريطة مدينتك وأحدث مشروع و«أتعلّم الآن» وبطاقات للحسابات والتواصل، ترتفع عند المرور عليها وتترتب بأناقة على الهاتف."
+  },
+  "defaultLocale": "en",
+  "order": 14,
+  "content": {
+    "version": 1,
+    "locales": ["en", "ar"],
+    "theme": {
+      "templateId": "bento",
+      "palette": {
+        "background": "#F2F2F7",
+        "surface": "#FFFFFF",
+        "text": "#111114",
+        "mutedText": "#6E6E78",
+        "primary": "#007AFF",
+        "secondary": "#34C759",
+        "accent": "#FF9F0A",
+        "border": "#E2E2E8"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": { "family": "Plus Jakarta Sans" },
+        "body": { "family": "Plus Jakarta Sans" },
+        "arabicHeading": { "family": "Rubik" },
+        "arabicBody": { "family": "Rubik" }
+      },
+      "radius": "lg",
+      "spacing": "compact",
+      "motion": "subtle",
+      "buttonStyle": "solid"
+    },
+    "navigation": {
+      "style": "minimal",
+      "header": [],
+      "footer": [
+        { "id": "nav-foot-linkedin", "label": { "en": "LinkedIn", "ar": "لينكدإن" }, "link": { "type": "url", "value": "https://www.linkedin.com/in/example-mona-alsayed", "newTab": true } },
+        { "id": "nav-foot-email", "label": { "en": "Email", "ar": "البريد" }, "link": { "type": "email", "value": "mona@example.com" } }
+      ]
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": { "en": "Home", "ar": "الرئيسية" },
+        "type": "standard",
+        "visibility": "public",
+        "seo": {
+          "title": { "en": "Product manager", "ar": "مديرة منتجات" },
+          "description": {
+            "en": "Product manager in Doha. I turn messy problems into simple products.",
+            "ar": "مديرة منتجات في الدوحة. أحوّل المشكلات المعقّدة إلى منتجات بسيطة."
+          }
+        },
+        "sections": [
+          {
+            "id": "bento-grid",
+            "blockType": "projects",
+            "variant": "bento",
+            "example": true,
+            "content": {
+              "items": [
+                {
+                  "id": "bento-intro",
+                  "kind": "intro",
+                  "size": "lg",
+                  "label": { "en": "Hello, I’m", "ar": "مرحبًا، أنا" },
+                  "title": { "en": "Mona Al-Sayed", "ar": "منى السيد" },
+                  "description": {
+                    "en": "Product manager. I turn messy problems into simple products.",
+                    "ar": "مديرة منتجات. أحوّل المشكلات المعقّدة إلى منتجات بسيطة."
+                  },
+                  "image": { "url": "/stock/portrait-sea.svg", "width": 1200, "height": 1600, "alt": { "en": "Portrait of Mona Al-Sayed", "ar": "صورة شخصية لمنى السيد" } },
+                  "tags": ["Product", "Research", "Travel tech"]
+                },
+                {
+                  "id": "bento-photo",
+                  "kind": "photo",
+                  "size": "tall",
+                  "title": { "en": "Weekends on the Corniche", "ar": "عطلات نهاية الأسبوع على الكورنيش" },
+                  "image": { "url": "/stock/nature-sea.svg", "width": 1600, "height": 1067, "alt": { "en": "Calm sea along the coast", "ar": "بحر هادئ على امتداد الساحل" } }
+                },
+                {
+                  "id": "bento-status",
+                  "kind": "status",
+                  "label": { "en": "Currently", "ar": "حاليًا" },
+                  "title": { "en": "PM at Rahal Travel", "ar": "مديرة منتج في «رحّال للسفر»" },
+                  "description": { "en": "Leading the trip-planning team of nine.", "ar": "أقود فريق تخطيط الرحلات المؤلف من تسعة أشخاص." }
+                },
+                {
+                  "id": "bento-location",
+                  "kind": "location",
+                  "label": { "en": "Based in", "ar": "أقيم في" },
+                  "title": { "en": "Doha, Qatar", "ar": "الدوحة، قطر" }
+                },
+                {
+                  "id": "bento-latest",
+                  "kind": "project",
+                  "size": "md",
+                  "label": { "en": "Latest", "ar": "أحدث عمل" },
+                  "title": { "en": "Launched trip-planner v2", "ar": "إطلاق النسخة الثانية من مخطِّط الرحلات" },
+                  "description": {
+                    "en": "A weekend idea becomes a booked trip in under four minutes — bookings up 38% in the first month.",
+                    "ar": "فكرة عطلة نهاية الأسبوع تصبح رحلة محجوزة في أقل من أربع دقائق، وارتفعت الحجوزات 38٪ في الشهر الأول."
+                  },
+                  "image": { "url": "/stock/app-sea.svg", "width": 1920, "height": 1080, "alt": { "en": "Trip planner dashboard", "ar": "لوحة مخطِّط الرحلات" } },
+                  "link": { "type": "url", "value": "https://example.com/rahal-planner", "newTab": true },
+                  "year": "2026"
+                },
+                {
+                  "id": "bento-learning",
+                  "kind": "learning",
+                  "label": { "en": "Now learning", "ar": "أتعلّم الآن" },
+                  "title": { "en": "Data analytics", "ar": "تحليل البيانات" },
+                  "description": { "en": "SQL and experiment design, one evening a week.", "ar": "لغة SQL وتصميم التجارب، مساءً كل أسبوع." }
+                },
+                { "id": "bento-linkedin", "kind": "social", "platform": "linkedin", "handle": "example-mona-alsayed" },
+                { "id": "bento-x", "kind": "social", "platform": "x", "handle": "@example_mona" },
+                { "id": "bento-github", "kind": "social", "platform": "github", "handle": "example-mona" },
+                {
+                  "id": "bento-contact",
+                  "kind": "contact",
+                  "size": "md",
+                  "label": { "en": "Open to coffee chats", "ar": "متاحة لفنجان قهوة وحديث" },
+                  "title": { "en": "Say hi", "ar": "قل مرحبًا" },
+                  "description": { "en": "mona@example.com — I reply within a day.", "ar": "mona@example.com — أردّ خلال يوم واحد." },
+                  "link": { "type": "email", "value": "mona@example.com" }
+                }
+              ]
+            },
+            "style": { "paddingY": "md", "width": "wide" },
+            "animation": { "entrance": "stagger" },
+            "responsive": {}
+          },
+          {
+            "id": "bento-work",
+            "blockType": "projects",
+            "variant": "bento",
+            "anchor": "work",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Shipped", "ar": "أُطلِق" },
+              "heading": { "en": "More things I’ve worked on", "ar": "أعمال أخرى شاركتُ فيها" },
+              "items": [
+                {
+                  "id": "bento-work-checkin",
+                  "kind": "project",
+                  "size": "wide",
+                  "label": { "en": "Mobile · 2025", "ar": "تطبيق جوال · 2025" },
+                  "title": { "en": "One-tap hotel check-in", "ar": "تسجيل الوصول إلى الفندق بلمسة واحدة" },
+                  "description": {
+                    "en": "Cut the front-desk queue from twelve minutes to two by moving ID checks and room keys into the Rahal app.",
+                    "ar": "قلّصنا الانتظار عند مكتب الاستقبال من اثنتي عشرة دقيقة إلى دقيقتين بنقل التحقق من الهوية ومفاتيح الغرف إلى تطبيق «رحّال»."
+                  },
+                  "image": { "url": "/stock/app-slate.svg", "width": 1600, "height": 1067, "alt": { "en": "Check-in screens on a phone", "ar": "شاشات تسجيل الوصول على الهاتف" } },
+                  "tags": ["Mobile", "Ops"]
+                },
+                {
+                  "id": "bento-work-visa",
+                  "kind": "project",
+                  "size": "sm",
+                  "label": { "en": "Side project", "ar": "مشروع جانبي" },
+                  "title": { "en": "Visa checklist", "ar": "قائمة متطلبات التأشيرة" },
+                  "description": {
+                    "en": "A free tool that tells Gulf travellers exactly which documents to bring.",
+                    "ar": "أداة مجانية تخبر مسافري الخليج بالمستندات المطلوبة بالضبط."
+                  },
+                  "link": { "type": "url", "value": "https://example.com/visa-checklist", "newTab": true }
+                },
+                {
+                  "id": "bento-work-groups",
+                  "kind": "project",
+                  "size": "sm",
+                  "label": { "en": "Pilot · 2024", "ar": "تجربة · 2024" },
+                  "title": { "en": "Group trips", "ar": "الرحلات الجماعية" },
+                  "description": {
+                    "en": "Split payments and a shared plan for families travelling together.",
+                    "ar": "تقسيم المدفوعات وخطة مشتركة للعائلات المسافرة معًا."
+                  }
+                },
+                {
+                  "id": "bento-work-research",
+                  "kind": "project",
+                  "size": "wide",
+                  "label": { "en": "Playbook · 2024", "ar": "دليل عمل · 2024" },
+                  "title": { "en": "Research ops for a team of nine", "ar": "تنظيم البحث لفريق من تسعة أشخاص" },
+                  "description": {
+                    "en": "A weekly rhythm of five customer calls, shared notes and one decision log — now used across three product teams.",
+                    "ar": "إيقاع أسبوعي من خمس مكالمات مع العملاء وملاحظات مشتركة وسجل واحد للقرارات، تعتمده الآن ثلاثة فرق منتجات."
+                  },
+                  "image": { "url": "/stock/workspace-sand.svg", "width": 1600, "height": 1067, "alt": { "en": "Sticky notes on a workshop wall", "ar": "ملاحظات لاصقة على جدار ورشة عمل" } },
+                  "tags": ["Research", "Process"]
+                }
+              ]
+            },
+            "style": { "paddingY": "md", "width": "wide" },
+            "animation": { "entrance": "stagger" },
+            "responsive": {}
+          },
+          {
+            "id": "bento-blog",
+            "blockType": "blogList",
+            "variant": "list",
+            "anchor": "writing",
+            "example": true,
+            "content": {
+              "eyebrow": { "en": "Writing", "ar": "كتابات" },
+              "heading": { "en": "Notes on building products", "ar": "ملاحظات عن بناء المنتجات" },
+              "intro": {
+                "en": "Short posts about research, roadmaps and shipping small things often.",
+                "ar": "تدوينات قصيرة عن البحث وخرائط الطريق وإطلاق الأشياء الصغيرة باستمرار."
+              },
+              "count": 3
+            },
+            "style": {},
+            "animation": { "entrance": "fade" },
+            "responsive": { "hideOn": ["mobile", "tablet", "desktop"] }
+          }
+        ]
+      }
+    ],
+    "globalSections": {
+      "header": {
+        "id": "bento-header",
+        "blockType": "header",
+        "variant": "minimal",
+        "content": {
+          "heading": { "en": "Mona Al-Sayed", "ar": "منى السيد" },
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": { "entrance": "none" },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "bento-footer",
+        "blockType": "footer",
+        "variant": "big-name",
+        "content": {
+          "heading": { "en": "Mona Al-Sayed", "ar": "منى السيد" },
+          "text": { "en": "Product manager in Doha. Building simple things for travellers.", "ar": "مديرة منتجات في الدوحة. أبني أشياء بسيطة للمسافرين." },
+          "copyright": { "en": "© 2026 Mona Al-Sayed", "ar": "© 2026 منى السيد" }
+        },
+        "style": {},
+        "animation": { "entrance": "none" },
+        "responsive": {}
+      }
+    },
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Mona Al-Sayed",
+        "defaultDescription": {
+          "en": "Mona Al-Sayed, product manager in Doha. I turn messy problems into simple products.",
+          "ar": "منى السيد، مديرة منتجات في الدوحة. أحوّل المشكلات المعقّدة إلى منتجات بسيطة."
+        }
+      },
+      "ownerName": { "en": "Mona Al-Sayed", "ar": "منى السيد" },
+      "ownerTitle": { "en": "Product manager", "ar": "مديرة منتجات" },
+      "social": [
+        { "platform": "linkedin", "url": "https://www.linkedin.com/in/example-mona-alsayed" },
+        { "platform": "x", "url": "https://x.com/example_mona" },
+        { "platform": "github", "url": "https://github.com/example-mona" }
+      ],
+      "contact": {
+        "email": "mona@example.com",
+        "phone": "+974 5550 2468",
+        "whatsapp": "+97455502468",
+        "address": { "en": "Doha, Qatar", "ar": "الدوحة، قطر" }
+      },
+      "cookieBanner": false
+    }
+  }
+}

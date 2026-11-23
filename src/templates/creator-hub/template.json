@@ -1,0 +1,1548 @@
+{
+  "id": "creator-hub",
+  "name": {
+    "en": "Creator Hub",
+    "ar": "مركز صانع المحتوى"
+  },
+  "description": {
+    "en": "A playful link-in-bio that grows into a full media kit for creators.",
+    "ar": "صفحة روابط مرحة تتحول إلى ملف إعلامي كامل لصنّاع المحتوى."
+  },
+  "signature": {
+    "en": "A phone-first link hub on an animated gradient that expands on desktop into a media kit with audience stats and rates.",
+    "ar": "مركز روابط مصمَّم للهاتف على خلفية متدرجة متحركة، يتسع على الشاشة الكبيرة ليصبح ملفًا إعلاميًا بإحصاءات الجمهور والأسعار."
+  },
+  "tier": "free",
+  "bestFor": [
+    {
+      "en": "Content creators",
+      "ar": "صنّاع المحتوى"
+    },
+    {
+      "en": "Influencers",
+      "ar": "المؤثرون"
+    },
+    {
+      "en": "Podcasters & streamers",
+      "ar": "مقدّمو البودكاست والبث"
+    }
+  ],
+  "professions": [
+    "creator"
+  ],
+  "styles": [
+    "playful",
+    "bold"
+  ],
+  "defaultLocale": "en",
+  "order": 10,
+  "content": {
+    "version": 1,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "theme": {
+      "templateId": "creator-hub",
+      "palette": {
+        "background": "#FDF2FF",
+        "surface": "#FFFFFF",
+        "text": "#1E1033",
+        "mutedText": "#6B5B85",
+        "primary": "#A855F7",
+        "secondary": "#EC4899",
+        "accent": "#22D3EE",
+        "border": "#EFD9FF"
+      },
+      "mode": "light",
+      "fonts": {
+        "heading": {
+          "family": "Poppins"
+        },
+        "body": {
+          "family": "Poppins"
+        },
+        "arabicHeading": {
+          "family": "Cairo"
+        },
+        "arabicBody": {
+          "family": "Cairo"
+        }
+      },
+      "radius": "full",
+      "spacing": "comfortable",
+      "motion": "expressive",
+      "buttonStyle": "pill",
+      "backgroundStyle": {
+        "type": "gradient",
+        "value": "gradient-pan"
+      }
+    },
+    "navigation": {
+      "style": "minimal",
+      "header": [
+        {
+          "id": "nav-home",
+          "label": {
+            "en": "Links",
+            "ar": "الروابط"
+          },
+          "link": {
+            "type": "page",
+            "value": "home"
+          }
+        },
+        {
+          "id": "nav-media-kit",
+          "label": {
+            "en": "Media kit",
+            "ar": "الملف الإعلامي"
+          },
+          "link": {
+            "type": "page",
+            "value": "media-kit"
+          }
+        },
+        {
+          "id": "nav-contact",
+          "label": {
+            "en": "Contact",
+            "ar": "تواصل"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ],
+      "footer": [
+        {
+          "id": "foot-media-kit",
+          "label": {
+            "en": "Media kit",
+            "ar": "الملف الإعلامي"
+          },
+          "link": {
+            "type": "page",
+            "value": "media-kit"
+          }
+        },
+        {
+          "id": "foot-contact",
+          "label": {
+            "en": "Business enquiries",
+            "ar": "استفسارات الأعمال"
+          },
+          "link": {
+            "type": "page",
+            "value": "contact"
+          }
+        }
+      ]
+    },
+    "globalSections": {
+      "header": {
+        "id": "creator-hub-header",
+        "blockType": "header",
+        "variant": "minimal",
+        "content": {
+          "heading": {
+            "en": "@reemcooks",
+            "ar": "ريم تطبخ"
+          },
+          "cta": {
+            "label": {
+              "en": "Media kit",
+              "ar": "الملف الإعلامي"
+            },
+            "link": {
+              "type": "page",
+              "value": "media-kit"
+            },
+            "icon": "sparkles"
+          },
+          "sticky": true,
+          "showLanguage": true
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      },
+      "footer": {
+        "id": "creator-hub-footer",
+        "blockType": "footer",
+        "variant": "simple",
+        "content": {
+          "heading": {
+            "en": "@reemcooks",
+            "ar": "ريم تطبخ"
+          },
+          "text": {
+            "en": "Easy Gulf recipes in under 30 minutes.",
+            "ar": "وصفات خليجية سهلة في أقل من 30 دقيقة."
+          },
+          "copyright": {
+            "en": "© 2026 Reem Al-Saadi",
+            "ar": "© 2026 ريم السعدي"
+          },
+          "showBackToTop": false
+        },
+        "style": {},
+        "animation": {
+          "entrance": "none"
+        },
+        "responsive": {}
+      }
+    },
+    "pages": [
+      {
+        "id": "home",
+        "slug": "",
+        "title": {
+          "en": "Links",
+          "ar": "الروابط"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "creator-hub-hero",
+            "blockType": "hero",
+            "variant": "centered",
+            "content": {
+              "eyebrow": {
+                "en": "Recipes · Podcast · Brand partnerships",
+                "ar": "وصفات · بودكاست · شراكات مع العلامات"
+              },
+              "name": {
+                "en": "@reemcooks",
+                "ar": "ريم تطبخ"
+              },
+              "heading": {
+                "en": "Reem Al-Saadi",
+                "ar": "ريم السعدي"
+              },
+              "tagline": {
+                "en": "Easy Gulf recipes in under 30 minutes 🍲",
+                "ar": "وصفات خليجية سهلة في أقل من 30 دقيقة 🍲"
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Watch the new video",
+                  "ar": "شاهد الفيديو الجديد"
+                },
+                "link": {
+                  "type": "anchor",
+                  "value": "videos"
+                },
+                "icon": "play"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Media kit",
+                  "ar": "الملف الإعلامي"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "media-kit"
+                },
+                "style": "outline"
+              },
+              "avatar": {
+                "url": "/stock/portrait-blush.svg",
+                "width": 1200,
+                "height": 1600,
+                "alt": {
+                  "en": "Reem Al-Saadi smiling in her kitchen",
+                  "ar": "ريم السعدي مبتسمة في مطبخها"
+                }
+              },
+              "badge": {
+                "en": "New recipe every Sunday",
+                "ar": "وصفة جديدة كل أحد"
+              },
+              "location": {
+                "en": "Muscat, Oman",
+                "ar": "مسقط، عُمان"
+              },
+              "textStyle": "gradient"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-links",
+            "blockType": "linkHub",
+            "variant": "stacked",
+            "content": {
+              "heading": {
+                "en": "Start here",
+                "ar": "ابدأ من هنا"
+              },
+              "intro": {
+                "en": "Everything I cook, write and record — in one place.",
+                "ar": "كل ما أطبخه وأكتبه وأسجّله في مكان واحد."
+              },
+              "items": [
+                {
+                  "id": "l-video",
+                  "label": {
+                    "en": "New video: 15-min machboos",
+                    "ar": "فيديو جديد: مجبوس في 15 دقيقة"
+                  },
+                  "description": {
+                    "en": "Weeknight chicken machboos in one pot",
+                    "ar": "مجبوس دجاج سريع في قدر واحد"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://youtube.com/@example",
+                    "newTab": true
+                  },
+                  "icon": "youtube",
+                  "thumbnail": {
+                    "url": "/stock/food-clay.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Chicken machboos served in a wide bowl",
+                      "ar": "مجبوس دجاج في طبق واسع"
+                    }
+                  },
+                  "isNew": true
+                },
+                {
+                  "id": "l-book",
+                  "label": {
+                    "en": "My recipe e-book",
+                    "ar": "كتاب وصفاتي الإلكتروني"
+                  },
+                  "description": {
+                    "en": "40 family recipes, step by step, with shopping lists",
+                    "ar": "40 وصفة عائلية خطوة بخطوة مع قوائم التسوّق"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/reemcooks/ebook",
+                    "newTab": true
+                  },
+                  "icon": "book-open",
+                  "thumbnail": {
+                    "url": "/stock/food-olive.svg",
+                    "width": 1400,
+                    "height": 1400,
+                    "alt": {
+                      "en": "Cover of the recipe e-book with a herb salad",
+                      "ar": "غلاف كتاب الوصفات مع سلطة أعشاب"
+                    }
+                  }
+                },
+                {
+                  "id": "l-pod",
+                  "label": {
+                    "en": "Podcast: Kitchen Talks",
+                    "ar": "بودكاست: أحاديث المطبخ"
+                  },
+                  "description": {
+                    "en": "Grandmothers, chefs and home cooks — new episode every Thursday",
+                    "ar": "جدّات وطهاة وهواة طبخ، حلقة جديدة كل خميس"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/kitchen-talks",
+                    "newTab": true
+                  },
+                  "icon": "mic"
+                },
+                {
+                  "id": "l-shop",
+                  "label": {
+                    "en": "Shop my kitchen tools",
+                    "ar": "تسوّق أدوات مطبخي"
+                  },
+                  "description": {
+                    "en": "The pots, spices and knives I use every day",
+                    "ar": "القدور والبهارات والسكاكين التي أستخدمها يوميًا"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/reemcooks/shop",
+                    "newTab": true
+                  },
+                  "icon": "shopping-bag"
+                },
+                {
+                  "id": "l-news",
+                  "label": {
+                    "en": "Sunday recipe letter",
+                    "ar": "رسالة وصفات الأحد"
+                  },
+                  "description": {
+                    "en": "One recipe and one tip in your inbox each week",
+                    "ar": "وصفة ونصيحة واحدة في بريدك كل أسبوع"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://example.com/reemcooks/newsletter",
+                    "newTab": true
+                  },
+                  "icon": "mail"
+                },
+                {
+                  "id": "l-ig",
+                  "label": {
+                    "en": "Follow me on Instagram",
+                    "ar": "تابعني على إنستغرام"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://instagram.com/example",
+                    "newTab": true
+                  },
+                  "icon": "instagram"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-videos",
+            "blockType": "video",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Latest videos",
+                "ar": "أحدث الفيديوهات"
+              },
+              "heading": {
+                "en": "Cook along with me",
+                "ar": "اطبخ معي"
+              },
+              "intro": {
+                "en": "Three new recipes from this month. Tap a video to watch it full screen.",
+                "ar": "ثلاث وصفات جديدة من هذا الشهر. اضغط على أي فيديو لمشاهدته بملء الشاشة."
+              },
+              "items": [
+                {
+                  "id": "v-machboos",
+                  "video": {
+                    "url": "",
+                    "poster": {
+                      "url": "/stock/food-clay.svg",
+                      "width": 1400,
+                      "height": 1400,
+                      "alt": {
+                        "en": "15-minute machboos",
+                        "ar": "مجبوس في 15 دقيقة"
+                      }
+                    }
+                  },
+                  "title": {
+                    "en": "15-minute machboos",
+                    "ar": "مجبوس في 15 دقيقة"
+                  },
+                  "description": {
+                    "en": "Fragrant rice and chicken in one pot, ready before the kids finish homework.",
+                    "ar": "أرز ودجاج بنكهة البهارات في قدر واحد، جاهز قبل أن ينهي الأطفال واجباتهم."
+                  },
+                  "duration": "8:12"
+                },
+                {
+                  "id": "v-salad",
+                  "video": {
+                    "url": "",
+                    "poster": {
+                      "url": "/stock/food-olive.svg",
+                      "width": 1400,
+                      "height": 1400,
+                      "alt": {
+                        "en": "Za’atar fattoush in five minutes",
+                        "ar": "فتوش بالزعتر في خمس دقائق"
+                      }
+                    }
+                  },
+                  "title": {
+                    "en": "Za’atar fattoush in five minutes",
+                    "ar": "فتوش بالزعتر في خمس دقائق"
+                  },
+                  "description": {
+                    "en": "Crunchy, sour and fresh — my go-to side for every grill night.",
+                    "ar": "مقرمش وحامض ومنعش، طبقي الجانبي لكل سهرة شواء."
+                  },
+                  "duration": "5:40"
+                },
+                {
+                  "id": "v-luqaimat",
+                  "video": {
+                    "url": "",
+                    "poster": {
+                      "url": "/stock/event-blush.svg",
+                      "width": 1600,
+                      "height": 1067,
+                      "alt": {
+                        "en": "Luqaimat for Eid guests",
+                        "ar": "لقيمات لضيوف العيد"
+                      }
+                    }
+                  },
+                  "title": {
+                    "en": "Luqaimat for Eid guests",
+                    "ar": "لقيمات لضيوف العيد"
+                  },
+                  "description": {
+                    "en": "Golden dumplings with date syrup, and the trick that keeps them round.",
+                    "ar": "كرات ذهبية مع دبس التمر، وسرّ بقائها مستديرة."
+                  },
+                  "duration": "10:05"
+                }
+              ],
+              "columns": "3"
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true,
+            "anchor": "videos"
+          },
+          {
+            "id": "creator-hub-media-kit",
+            "blockType": "mediaKit",
+            "variant": "stats",
+            "content": {
+              "eyebrow": {
+                "en": "Media kit",
+                "ar": "الملف الإعلامي"
+              },
+              "heading": {
+                "en": "Work with @reemcooks",
+                "ar": "تعاون مع ريم تطبخ"
+              },
+              "intro": {
+                "en": "Over half a million home cooks across the Gulf follow my quick recipes every week.",
+                "ar": "أكثر من نصف مليون محبٍّ للطبخ في الخليج يتابعون وصفاتي السريعة كل أسبوع."
+              },
+              "platforms": [
+                {
+                  "id": "p-ig",
+                  "platform": "instagram",
+                  "handle": "@reemcooks",
+                  "followers": {
+                    "en": "185K",
+                    "ar": "185 ألف"
+                  },
+                  "engagement": {
+                    "en": "6.8%",
+                    "ar": "6.8%"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://instagram.com/example",
+                    "newTab": true
+                  }
+                },
+                {
+                  "id": "p-tt",
+                  "platform": "tiktok",
+                  "handle": "@reemcooks",
+                  "followers": {
+                    "en": "320K",
+                    "ar": "320 ألف"
+                  },
+                  "engagement": {
+                    "en": "9.1%",
+                    "ar": "9.1%"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://tiktok.com/@example",
+                    "newTab": true
+                  }
+                },
+                {
+                  "id": "p-yt",
+                  "platform": "youtube",
+                  "handle": "@reemcooks",
+                  "followers": {
+                    "en": "64K",
+                    "ar": "64 ألف"
+                  },
+                  "engagement": {
+                    "en": "4.2%",
+                    "ar": "4.2%"
+                  },
+                  "link": {
+                    "type": "url",
+                    "value": "https://youtube.com/@example",
+                    "newTab": true
+                  }
+                }
+              ],
+              "audienceHeading": {
+                "en": "Audience",
+                "ar": "الجمهور"
+              },
+              "audience": [
+                {
+                  "id": "a-women",
+                  "label": {
+                    "en": "Women",
+                    "ar": "النساء"
+                  },
+                  "value": {
+                    "en": "68%",
+                    "ar": "68%"
+                  }
+                },
+                {
+                  "id": "a-age",
+                  "label": {
+                    "en": "Main age group",
+                    "ar": "الفئة العمرية الأكبر"
+                  },
+                  "value": {
+                    "en": "25–34",
+                    "ar": "⁦25–34⁩"
+                  }
+                },
+                {
+                  "id": "a-geo",
+                  "label": {
+                    "en": "Top countries",
+                    "ar": "أبرز الدول"
+                  },
+                  "value": {
+                    "en": "Saudi Arabia, UAE, Oman",
+                    "ar": "السعودية، الإمارات، عُمان"
+                  }
+                },
+                {
+                  "id": "a-reach",
+                  "label": {
+                    "en": "Monthly reach",
+                    "ar": "الوصول الشهري"
+                  },
+                  "value": {
+                    "en": "2.1M",
+                    "ar": "2.1 مليون"
+                  }
+                }
+              ],
+              "ratesHeading": {
+                "en": "Rates",
+                "ar": "الأسعار"
+              },
+              "rates": [
+                {
+                  "id": "r-reel",
+                  "deliverable": {
+                    "en": "Instagram Reel",
+                    "ar": "مقطع ريلز على إنستغرام"
+                  },
+                  "price": {
+                    "en": "From $600",
+                    "ar": "من 600$"
+                  },
+                  "note": {
+                    "en": "Recipe filmed in my kitchen, one round of edits",
+                    "ar": "وصفة تُصوَّر في مطبخي، مع جولة تعديل واحدة"
+                  }
+                },
+                {
+                  "id": "r-tiktok",
+                  "deliverable": {
+                    "en": "TikTok video",
+                    "ar": "فيديو على تيك توك"
+                  },
+                  "price": {
+                    "en": "From $750",
+                    "ar": "من 750$"
+                  }
+                },
+                {
+                  "id": "r-yt",
+                  "deliverable": {
+                    "en": "YouTube integration",
+                    "ar": "فقرة ضمن فيديو يوتيوب"
+                  },
+                  "price": {
+                    "en": "From $1,200",
+                    "ar": "من 1,200$"
+                  },
+                  "note": {
+                    "en": "60–90 seconds inside a full recipe video",
+                    "ar": "من 60 إلى 90 ثانية داخل فيديو وصفة كامل"
+                  }
+                },
+                {
+                  "id": "r-story",
+                  "deliverable": {
+                    "en": "Story set (3 frames)",
+                    "ar": "مجموعة قصص (3 إطارات)"
+                  },
+                  "price": {
+                    "en": "$350",
+                    "ar": "350$"
+                  }
+                }
+              ],
+              "download": {
+                "label": {
+                  "en": "Download media kit (PDF)",
+                  "ar": "حمّل الملف الإعلامي (PDF)"
+                },
+                "link": {
+                  "type": "url",
+                  "value": "https://example.com/reemcooks-media-kit.pdf",
+                  "newTab": true
+                },
+                "icon": "download"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-clients",
+            "blockType": "clients",
+            "variant": "marquee",
+            "content": {
+              "eyebrow": {
+                "en": "Partners",
+                "ar": "الشركاء"
+              },
+              "heading": {
+                "en": "Brands I've worked with",
+                "ar": "علامات تعاونت معها"
+              },
+              "items": [
+                {
+                  "id": "c-1",
+                  "name": {
+                    "en": "Nakhla Dates",
+                    "ar": "تمور نخلة"
+                  }
+                },
+                {
+                  "id": "c-2",
+                  "name": {
+                    "en": "Bahar Spices",
+                    "ar": "بهارات بحر"
+                  }
+                },
+                {
+                  "id": "c-3",
+                  "name": {
+                    "en": "Qidr Cookware",
+                    "ar": "قِدر لأدوات الطبخ"
+                  }
+                },
+                {
+                  "id": "c-4",
+                  "name": {
+                    "en": "Sahil Market",
+                    "ar": "سوق الساحل"
+                  }
+                },
+                {
+                  "id": "c-5",
+                  "name": {
+                    "en": "Rimal Dairy",
+                    "ar": "ألبان رمال"
+                  }
+                },
+                {
+                  "id": "c-6",
+                  "name": {
+                    "en": "Wadi Olive Oil",
+                    "ar": "زيت زيتون وادي"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-contact",
+            "blockType": "contact",
+            "variant": "minimal",
+            "content": {
+              "eyebrow": {
+                "en": "Business enquiries",
+                "ar": "استفسارات الأعمال"
+              },
+              "heading": {
+                "en": "Let’s cook something together",
+                "ar": "لنطبخ شيئًا معًا"
+              },
+              "intro": {
+                "en": "For brand partnerships, events and press, write to my team. We reply within two working days.",
+                "ar": "للشراكات مع العلامات والفعاليات والصحافة، راسل فريقي. نردّ خلال يومَي عمل."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true,
+            "anchor": "contact"
+          }
+        ],
+        "visibility": "public"
+      },
+      {
+        "id": "media-kit",
+        "slug": "media-kit",
+        "title": {
+          "en": "Media kit",
+          "ar": "الملف الإعلامي"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "creator-hub-mk-stats",
+            "blockType": "stats",
+            "variant": "big-numbers",
+            "content": {
+              "eyebrow": {
+                "en": "Media kit 2026",
+                "ar": "الملف الإعلامي 2026"
+              },
+              "heading": {
+                "en": "A kitchen the Gulf tunes into",
+                "ar": "مطبخ يتابعه الخليج"
+              },
+              "intro": {
+                "en": "Numbers from the last 90 days across Instagram, TikTok and YouTube.",
+                "ar": "أرقام آخر 90 يومًا على إنستغرام وتيك توك ويوتيوب."
+              },
+              "items": [
+                {
+                  "id": "s-followers",
+                  "value": "569",
+                  "label": {
+                    "en": "Thousand followers",
+                    "ar": "ألف متابع"
+                  },
+                  "description": {
+                    "en": "Across three platforms",
+                    "ar": "على ثلاث منصات"
+                  },
+                  "icon": "users"
+                },
+                {
+                  "id": "s-views",
+                  "value": "6.4",
+                  "label": {
+                    "en": "Million video views a month",
+                    "ar": "مليون مشاهدة شهريًا"
+                  },
+                  "icon": "play"
+                },
+                {
+                  "id": "s-eng",
+                  "value": "7.4%",
+                  "label": {
+                    "en": "Average engagement",
+                    "ar": "متوسط التفاعل"
+                  },
+                  "icon": "heart"
+                },
+                {
+                  "id": "s-saves",
+                  "value": "48",
+                  "label": {
+                    "en": "Thousand recipe saves a month",
+                    "ar": "ألف حفظ للوصفات شهريًا"
+                  },
+                  "icon": "bookmark"
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "stagger"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-mk-packages",
+            "blockType": "services",
+            "variant": "pricing-table",
+            "content": {
+              "eyebrow": {
+                "en": "Packages",
+                "ar": "الباقات"
+              },
+              "heading": {
+                "en": "Ways to partner",
+                "ar": "طرق الشراكة"
+              },
+              "intro": {
+                "en": "Every package includes recipe development, filming in my kitchen and usage rights for 30 days.",
+                "ar": "تشمل كل باقة تطوير الوصفة والتصوير في مطبخي وحقوق الاستخدام لمدة 30 يومًا."
+              },
+              "items": [
+                {
+                  "id": "pk-reel",
+                  "name": {
+                    "en": "Single recipe",
+                    "ar": "وصفة واحدة"
+                  },
+                  "description": {
+                    "en": "One recipe built around your product, posted as a Reel and a TikTok.",
+                    "ar": "وصفة واحدة حول منتجك، تُنشر ريلز وتيك توك."
+                  },
+                  "icon": "utensils",
+                  "price": {
+                    "amount": 1200,
+                    "currency": "USD",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "2 weeks",
+                    "ar": "أسبوعان"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "1 Reel + 1 TikTok",
+                        "ar": "ريلز واحد وتيك توك واحد"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "3 story frames",
+                        "ar": "3 إطارات قصص"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "One round of edits",
+                        "ar": "جولة تعديل واحدة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Enquire",
+                      "ar": "استفسر"
+                    },
+                    "link": {
+                      "type": "page",
+                      "value": "contact"
+                    },
+                    "icon": "arrow-right"
+                  }
+                },
+                {
+                  "id": "pk-series",
+                  "name": {
+                    "en": "Ramadan series",
+                    "ar": "سلسلة رمضان"
+                  },
+                  "description": {
+                    "en": "Four suhoor and iftar recipes across the holy month, with a YouTube feature.",
+                    "ar": "أربع وصفات للسحور والإفطار خلال الشهر الكريم، مع فقرة على يوتيوب."
+                  },
+                  "icon": "moon",
+                  "price": {
+                    "amount": 4500,
+                    "currency": "USD",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "1 month",
+                    "ar": "شهر واحد"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "4 Reels + 4 TikToks",
+                        "ar": "4 ريلز و4 تيك توك"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "1 YouTube integration",
+                        "ar": "فقرة واحدة على يوتيوب"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Newsletter mention",
+                        "ar": "ذكر في الرسالة الأسبوعية"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Enquire",
+                      "ar": "استفسر"
+                    },
+                    "link": {
+                      "type": "page",
+                      "value": "contact"
+                    },
+                    "icon": "arrow-right"
+                  }
+                },
+                {
+                  "id": "pk-launch",
+                  "name": {
+                    "en": "Product launch",
+                    "ar": "إطلاق منتج"
+                  },
+                  "description": {
+                    "en": "A launch week with a live cook-along, giveaway and a recipe card for your packaging.",
+                    "ar": "أسبوع إطلاق مع بث مباشر للطبخ ومسابقة وبطاقة وصفة لعبوتك."
+                  },
+                  "icon": "rocket",
+                  "price": {
+                    "amount": 7000,
+                    "currency": "USD",
+                    "from": true
+                  },
+                  "duration": {
+                    "en": "3 weeks",
+                    "ar": "3 أسابيع"
+                  },
+                  "features": [
+                    {
+                      "id": "f1",
+                      "text": {
+                        "en": "Live cook-along",
+                        "ar": "بث مباشر للطبخ"
+                      }
+                    },
+                    {
+                      "id": "f2",
+                      "text": {
+                        "en": "Giveaway management",
+                        "ar": "إدارة المسابقة"
+                      }
+                    },
+                    {
+                      "id": "f3",
+                      "text": {
+                        "en": "Recipe card artwork",
+                        "ar": "تصميم بطاقة الوصفة"
+                      }
+                    }
+                  ],
+                  "cta": {
+                    "label": {
+                      "en": "Enquire",
+                      "ar": "استفسر"
+                    },
+                    "link": {
+                      "type": "page",
+                      "value": "contact"
+                    },
+                    "icon": "arrow-right"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-mk-testimonials",
+            "blockType": "testimonials",
+            "variant": "wall",
+            "content": {
+              "eyebrow": {
+                "en": "From partners",
+                "ar": "من الشركاء"
+              },
+              "heading": {
+                "en": "What brands say",
+                "ar": "ماذا تقول العلامات"
+              },
+              "items": [
+                {
+                  "id": "t1",
+                  "quote": {
+                    "en": "Reem’s date-syrup series sold out our Ramadan stock in nine days.",
+                    "ar": "سلسلة ريم مع دبس التمر أنفدت مخزوننا الرمضاني في تسعة أيام."
+                  },
+                  "name": {
+                    "en": "Salma Al-Harthy",
+                    "ar": "سلمى الحارثي"
+                  },
+                  "role": {
+                    "en": "Marketing lead, Nakhla Dates",
+                    "ar": "مسؤولة التسويق، تمور نخلة"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-sand.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Salma Al-Harthy",
+                      "ar": "صورة سلمى الحارثي"
+                    }
+                  },
+                  "rating": 5
+                },
+                {
+                  "id": "t2",
+                  "quote": {
+                    "en": "Her audience actually cooks. Our spice mix saves tripled after one Reel.",
+                    "ar": "جمهورها يطبخ فعلًا. تضاعف حفظ خلطة بهاراتنا ثلاث مرات بعد ريلز واحد."
+                  },
+                  "name": {
+                    "en": "Khalid Al-Mansoori",
+                    "ar": "خالد المنصوري"
+                  },
+                  "role": {
+                    "en": "Founder, Bahar Spices",
+                    "ar": "المؤسس، بهارات بحر"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-sea.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Khalid Al-Mansoori",
+                      "ar": "صورة خالد المنصوري"
+                    }
+                  },
+                  "rating": 5
+                },
+                {
+                  "id": "t3",
+                  "quote": {
+                    "en": "Clear brief, on-time delivery and recipes our customers still ask about.",
+                    "ar": "موجز واضح وتسليم في الموعد ووصفات ما زال عملاؤنا يسألون عنها."
+                  },
+                  "name": {
+                    "en": "Noura Al-Balushi",
+                    "ar": "نورة البلوشي"
+                  },
+                  "role": {
+                    "en": "Brand manager, Qidr Cookware",
+                    "ar": "مديرة العلامة، قِدر لأدوات الطبخ"
+                  },
+                  "photo": {
+                    "url": "/stock/portrait-olive.svg",
+                    "width": 1200,
+                    "height": 1600,
+                    "alt": {
+                      "en": "Portrait of Noura Al-Balushi",
+                      "ar": "صورة نورة البلوشي"
+                    }
+                  },
+                  "rating": 5
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-mk-clients",
+            "blockType": "clients",
+            "variant": "grid",
+            "content": {
+              "eyebrow": {
+                "en": "Partners",
+                "ar": "الشركاء"
+              },
+              "heading": {
+                "en": "Recent collaborations",
+                "ar": "تعاونات حديثة"
+              },
+              "items": [
+                {
+                  "id": "c-1",
+                  "name": {
+                    "en": "Nakhla Dates",
+                    "ar": "تمور نخلة"
+                  }
+                },
+                {
+                  "id": "c-2",
+                  "name": {
+                    "en": "Bahar Spices",
+                    "ar": "بهارات بحر"
+                  }
+                },
+                {
+                  "id": "c-3",
+                  "name": {
+                    "en": "Qidr Cookware",
+                    "ar": "قِدر لأدوات الطبخ"
+                  }
+                },
+                {
+                  "id": "c-4",
+                  "name": {
+                    "en": "Sahil Market",
+                    "ar": "سوق الساحل"
+                  }
+                },
+                {
+                  "id": "c-5",
+                  "name": {
+                    "en": "Rimal Dairy",
+                    "ar": "ألبان رمال"
+                  }
+                },
+                {
+                  "id": "c-6",
+                  "name": {
+                    "en": "Wadi Olive Oil",
+                    "ar": "زيت زيتون وادي"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          },
+          {
+            "id": "creator-hub-mk-cta",
+            "blockType": "cta",
+            "variant": "gradient",
+            "content": {
+              "eyebrow": {
+                "en": "Booking for spring 2027",
+                "ar": "الحجز مفتوح لربيع 2027"
+              },
+              "heading": {
+                "en": "Have a product people should cook with?",
+                "ar": "لديك منتج يستحق أن يُطبخ به؟"
+              },
+              "intro": {
+                "en": "Send a short brief and your dates. I’ll reply with ideas and availability.",
+                "ar": "أرسل موجزًا قصيرًا ومواعيدك، وسأردّ بأفكار ومواعيد متاحة."
+              },
+              "primaryCta": {
+                "label": {
+                  "en": "Send a brief",
+                  "ar": "أرسل موجزًا"
+                },
+                "link": {
+                  "type": "page",
+                  "value": "contact"
+                },
+                "icon": "send"
+              },
+              "secondaryCta": {
+                "label": {
+                  "en": "Download media kit",
+                  "ar": "حمّل الملف الإعلامي"
+                },
+                "link": {
+                  "type": "url",
+                  "value": "https://example.com/reemcooks-media-kit.pdf",
+                  "newTab": true
+                },
+                "style": "outline",
+                "icon": "download"
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "zoom"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public",
+        "seo": {
+          "description": {
+            "en": "Audience, platforms, packages and rates for brand partnerships with @reemcooks.",
+            "ar": "الجمهور والمنصات والباقات والأسعار للشراكات مع ريم تطبخ."
+          }
+        }
+      },
+      {
+        "id": "contact",
+        "slug": "contact",
+        "title": {
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "type": "standard",
+        "sections": [
+          {
+            "id": "creator-hub-contact-form",
+            "blockType": "contact",
+            "variant": "form-details",
+            "content": {
+              "eyebrow": {
+                "en": "Contact",
+                "ar": "تواصل"
+              },
+              "heading": {
+                "en": "Business enquiries",
+                "ar": "استفسارات الأعمال"
+              },
+              "intro": {
+                "en": "Tell us about your brand, your product and when you’d like to go live.",
+                "ar": "أخبرنا عن علامتك ومنتجك والموعد الذي تريد النشر فيه."
+              },
+              "form": {
+                "name": "Brand enquiry",
+                "fields": [
+                  {
+                    "id": "name",
+                    "type": "text",
+                    "label": {
+                      "en": "Name",
+                      "ar": "الاسم"
+                    },
+                    "placeholder": {
+                      "en": "Your name",
+                      "ar": "اسمك"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "email",
+                    "type": "email",
+                    "label": {
+                      "en": "Work email",
+                      "ar": "البريد الإلكتروني للعمل"
+                    },
+                    "placeholder": {
+                      "en": "you@example.com",
+                      "ar": "you@example.com"
+                    },
+                    "required": true,
+                    "half": true
+                  },
+                  {
+                    "id": "brand",
+                    "type": "text",
+                    "label": {
+                      "en": "Brand",
+                      "ar": "العلامة التجارية"
+                    },
+                    "placeholder": {
+                      "en": "Brand or agency",
+                      "ar": "العلامة أو الوكالة"
+                    },
+                    "required": false,
+                    "half": true
+                  },
+                  {
+                    "id": "service",
+                    "type": "select",
+                    "label": {
+                      "en": "Package",
+                      "ar": "الباقة"
+                    },
+                    "required": false,
+                    "half": true,
+                    "options": [
+                      {
+                        "value": "single",
+                        "label": {
+                          "en": "Single recipe",
+                          "ar": "وصفة واحدة"
+                        }
+                      },
+                      {
+                        "value": "series",
+                        "label": {
+                          "en": "Ramadan series",
+                          "ar": "سلسلة رمضان"
+                        }
+                      },
+                      {
+                        "value": "launch",
+                        "label": {
+                          "en": "Product launch",
+                          "ar": "إطلاق منتج"
+                        }
+                      },
+                      {
+                        "value": "other",
+                        "label": {
+                          "en": "Something else",
+                          "ar": "أمر آخر"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "budget",
+                    "type": "budget",
+                    "label": {
+                      "en": "Budget",
+                      "ar": "الميزانية"
+                    },
+                    "required": false,
+                    "options": [
+                      {
+                        "value": "lt-2k",
+                        "label": {
+                          "en": "Under $2,000",
+                          "ar": "أقل من 2,000$"
+                        }
+                      },
+                      {
+                        "value": "2-5k",
+                        "label": {
+                          "en": "$2,000–5,000",
+                          "ar": "2,000–5,000$"
+                        }
+                      },
+                      {
+                        "value": "5-10k",
+                        "label": {
+                          "en": "$5,000–10,000",
+                          "ar": "5,000–10,000$"
+                        }
+                      },
+                      {
+                        "value": "gt-10k",
+                        "label": {
+                          "en": "$10,000+",
+                          "ar": "أكثر من 10,000$"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "message",
+                    "type": "textarea",
+                    "label": {
+                      "en": "Your brief",
+                      "ar": "الموجز"
+                    },
+                    "placeholder": {
+                      "en": "Product, timing and what success looks like",
+                      "ar": "المنتج والتوقيت وما يعنيه النجاح لك"
+                    },
+                    "required": true
+                  }
+                ],
+                "settings": {
+                  "submitLabel": {
+                    "en": "Send enquiry",
+                    "ar": "أرسل الاستفسار"
+                  },
+                  "afterSubmit": {
+                    "type": "message",
+                    "message": {
+                      "en": "Thank you — my team will reply within two working days.",
+                      "ar": "شكرًا لك، سيردّ فريقي خلال يومَي عمل."
+                    }
+                  },
+                  "notifyOwner": true
+                }
+              },
+              "note": {
+                "en": "Press and podcast guests are welcome too.",
+                "ar": "نرحّب أيضًا بطلبات الصحافة وضيوف البودكاست."
+              },
+              "showDetails": true,
+              "showSocial": true
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
+            "example": true
+          }
+        ],
+        "visibility": "public"
+      }
+    ],
+    "settings": {
+      "seo": {
+        "titleTemplate": "%s — Reem Al-Saadi",
+        "defaultDescription": {
+          "en": "Easy Gulf recipes in under 30 minutes — videos, podcast, e-book and brand partnerships.",
+          "ar": "وصفات خليجية سهلة في أقل من 30 دقيقة: فيديوهات وبودكاست وكتاب إلكتروني وشراكات مع العلامات."
+        }
+      },
+      "ownerName": {
+        "en": "Reem Al-Saadi",
+        "ar": "ريم السعدي"
+      },
+      "ownerTitle": {
+        "en": "Food creator",
+        "ar": "صانعة محتوى الطبخ"
+      },
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://tiktok.com/@example"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://youtube.com/@example"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/show/example"
+        }
+      ],
+      "contact": {
+        "email": "partners@example.com",
+        "phone": "+968 5550 2468",
+        "whatsapp": "+96855502468",
+        "address": {
+          "en": "Muscat, Oman",
+          "ar": "مسقط، عُمان"
+        }
+      },
+      "cookieBanner": false
+    }
+  }
+}

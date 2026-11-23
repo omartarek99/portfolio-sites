@@ -2,6 +2,7 @@ import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play } from 'lucide-rea
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { FeaturedProjects } from '@/components/marketing/featured'
+import { OmarBio } from '@/components/marketing/OmarBio'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
 import { templatePreview } from '@/templates/types'
 
@@ -38,7 +39,7 @@ export default async function HomePage() {
             <span className="bg-vz-yellow size-1.5 rounded-full" aria-hidden="true" />
             {t('hero.badge')}
           </p>
-          <h1 className="mt-6 max-w-3xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-4xl font-semibold tracking-tight text-balance text-transparent sm:text-5xl md:text-6xl">
+          <h1 className="vz-hero-title mt-6 max-w-3xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-4xl font-semibold tracking-tight text-balance text-transparent sm:text-5xl md:text-6xl">
             {t('hero.title')}
           </h1>
           <p className="mt-5 max-w-xl text-base text-pretty text-fg/60 md:text-lg">{t('hero.subtitle')}</p>
@@ -126,13 +127,13 @@ export default async function HomePage() {
             href={localePath(locale, '/showcase#videos')}
             className="group relative overflow-hidden rounded-2xl border border-fg/10 bg-black"
           >
-            <video
-              src="/showcase-explainer.mp4#t=4"
-              muted
-              playsInline
-              preload="metadata"
-              className="aspect-video w-full object-contain"
-              aria-hidden="true"
+            <img
+              src="/showcase/explainer-poster.webp"
+              alt=""
+              width={1280}
+              height={720}
+              loading="lazy"
+              className="block aspect-video w-full object-cover"
             />
             <span className="absolute inset-0 grid place-items-center bg-black/30 transition group-hover:bg-black/20">
               <span className="grid size-14 place-items-center rounded-full bg-white text-black">
@@ -202,7 +203,7 @@ export default async function HomePage() {
           <div>
             <p className="text-vz-accent text-sm font-medium">{t('about.eyebrow')}</p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight">{t('about.title')}</h2>
-            <p className="mt-4 text-pretty text-fg/70">{t('about.body1')}</p>
+            <OmarBio text={t('about.body1')} />
             <p className="mt-3 text-pretty text-fg/70">{t('about.body2')}</p>
             <ul className="mt-6 flex flex-wrap gap-2">
               {aboutPoints.map((point) => (

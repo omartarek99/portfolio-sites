@@ -75,8 +75,16 @@ export default async function ShowcasePage() {
           subtitle={t('showcase.videos.subtitle')}
         />
         <figure className="mx-auto max-w-4xl overflow-hidden rounded-2xl border border-fg/10 bg-black">
-          {/* preload="metadata": nothing heavy loads until the visitor presses play. */}
-          <video src="/showcase-explainer.mp4#t=4" controls playsInline preload="metadata" className="aspect-video w-full" />
+          <video
+            controls
+            playsInline
+            preload="metadata"
+            poster="/showcase/explainer-poster.webp"
+            className="block aspect-video w-full"
+          >
+            <source src="/showcase-explainer.webm" type={'video/webm; codecs="vp9, opus"'} />
+            <source src="/showcase-explainer.mp4" type="video/mp4" />
+          </video>
           <figcaption className="bg-vz-bg flex flex-wrap items-baseline justify-between gap-2 border-t border-fg/10 p-5">
             <span className="font-semibold">{t('work.videoTitle')}</span>
             <span className="text-sm text-fg/50">{t('showcase.videos.caption')}</span>

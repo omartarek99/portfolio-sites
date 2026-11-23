@@ -155,36 +155,31 @@
                     "en": "Product manager. I turn messy problems into simple products.",
                     "ar": "مديرة منتجات. أحوّل المشكلات المعقّدة إلى منتجات بسيطة."
                   },
-                  "image": {
-                    "url": "/stock/portrait-sea.svg",
-                    "width": 1200,
-                    "height": 1600,
-                    "alt": {
-                      "en": "Portrait of Mona Al-Sayed",
-                      "ar": "صورة شخصية لمنى السيد"
-                    }
-                  },
                   "tags": [
                     "Product",
                     "Research",
                     "Travel tech"
-                  ]
+                  ],
+                  "link": {
+                    "type": "anchor",
+                    "value": "work"
+                  }
                 },
                 {
                   "id": "bento-photo",
                   "kind": "photo",
                   "size": "tall",
                   "title": {
-                    "en": "Weekends on the Corniche",
-                    "ar": "عطلات نهاية الأسبوع على الكورنيش"
+                    "en": "Coastal inspiration",
+                    "ar": "إلهام من الساحل"
                   },
                   "image": {
-                    "url": "/stock/nature-sea.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/nature-sea.jpg",
+                    "width": 762,
+                    "height": 873,
                     "alt": {
-                      "en": "Calm sea along the coast",
-                      "ar": "بحر هادئ على امتداد الساحل"
+                      "en": "Coastal village overlooking a blue bay",
+                      "ar": "قرية ساحلية تطل على خليج أزرق"
                     }
                   }
                 },

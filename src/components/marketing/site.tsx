@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, Menu } from 'lucide-react'
+import { ArrowUpRight, Mail } from 'lucide-react'
 import { getLocale, getTranslations } from 'next-intl/server'
 import type { ReactNode } from 'react'
 import { siWhatsapp } from 'simple-icons'
@@ -6,6 +6,7 @@ import { Logo } from '@/components/brand/Logo'
 import { APP_NAME } from '@/lib/config'
 import { whatsappUrl } from '@/lib/links'
 import { cn } from '@/lib/utils'
+import { HeaderMenu } from './HeaderMenu'
 import { LangLink } from './LangLink'
 import { ThemeToggle } from './ThemeToggle'
 
@@ -82,19 +83,12 @@ export async function SiteHeader() {
             </li>
           ))}
         </ul>
-        <div className="ms-auto flex items-center gap-2 text-sm sm:gap-3">
-          <LangLink to={locale === 'ar' ? 'en' : 'ar'} label={t('language')} />
-          <ThemeToggle labels={{ light: t('theme.light'), dark: t('theme.dark') }} />
-          <a href={wa} target="_blank" rel="noopener noreferrer" className={cn(btn.primary, 'hidden px-4 py-2 sm:inline-flex')}>
+        <div className="ms-auto flex shrink-0 items-center gap-2">
+          <a href={wa} target="_blank" rel="noopener noreferrer" className={cn(btn.primary, 'min-h-10 whitespace-nowrap px-4 py-2')}>
             {t('cta')}
           </a>
-          {/* Native disclosure: a mobile menu with no JavaScript. */}
-          <details className="relative md:hidden">
-            <summary className="grid size-9 cursor-pointer list-none place-items-center rounded-lg border border-fg/15 [&::-webkit-details-marker]:hidden">
-              <Menu className="size-4" aria-hidden="true" />
-              <span className="sr-only">{t('menu')}</span>
-            </summary>
-            <ul className="bg-vz-bg absolute end-0 mt-2 w-48 rounded-xl border border-fg/10 p-2 shadow-2xl">
+          <HeaderMenu label={t('options')}>
+            <ul className="mb-2 border-b border-fg/10 pb-2 md:hidden">
               {links.map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className="block rounded-lg px-3 py-2 text-fg/80 hover:bg-fg/5">
@@ -103,7 +97,17 @@ export async function SiteHeader() {
                 </li>
               ))}
             </ul>
-          </details>
+            <div className="space-y-2 p-2">
+              <div className="flex min-h-11 items-center justify-between gap-4">
+                <span>{t('languageLabel')}</span>
+                <LangLink to={locale === 'ar' ? 'en' : 'ar'} label={t('language')} />
+              </div>
+              <div className="flex min-h-11 items-center justify-between gap-4">
+                <span>{t('theme.label')}</span>
+                <ThemeToggle labels={{ light: t('theme.light'), dark: t('theme.dark') }} />
+              </div>
+            </div>
+          </HeaderMenu>
         </div>
       </nav>
     </header>

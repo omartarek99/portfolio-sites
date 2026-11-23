@@ -182,7 +182,7 @@
           {
             "id": "bloom-hero",
             "blockType": "hero",
-            "variant": "split-image",
+            "variant": "centered",
             "content": {
               "eyebrow": {
                 "en": "Career coach · Doha & online",
@@ -222,17 +222,6 @@
                 },
                 "style": "ghost"
               },
-              "image": {
-                "url": "/stock/portrait-blush.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Hana Ibrahim smiling",
-                  "ar": "هناء إبراهيم مبتسمة"
-                }
-              },
-              "imageSide": "end",
-              "blob": true,
               "badge": {
                 "en": "Free 20-min intro call",
                 "ar": "مكالمة تعارف مجانية ٢٠ دقيقة"
@@ -247,52 +236,6 @@
               "entrance": "fade"
             },
             "responsive": {},
-            "example": true
-          },
-          {
-            "id": "bloom-about",
-            "blockType": "about",
-            "variant": "text-portrait",
-            "content": {
-              "eyebrow": {
-                "en": "About",
-                "ar": "نبذة"
-              },
-              "heading": {
-                "en": "Hi, I'm Hana.",
-                "ar": "مرحبًا، أنا هناء."
-              },
-              "body": {
-                "en": "I taught English for eight years before moving into career guidance. I know how it feels to love your work and still wonder what comes next. Today I help teachers and new graduates find their direction, write CVs that sound like them and prepare for interviews without the panic. My sessions are warm, honest and always end with a clear next step.",
-                "ar": "درّستُ اللغة الإنجليزية ثماني سنوات قبل أن أتّجه إلى الإرشاد المهني، وأعرف شعور أن تحب عملك وتتساءل مع ذلك عن الخطوة التالية. أساعد اليوم المعلمين والخريجين الجدد على تحديد وجهتهم، وكتابة سيرة ذاتية تشبههم، والاستعداد للمقابلات دون توتر. جلساتي دافئة وصريحة، وتنتهي دائمًا بخطوة واضحة."
-              },
-              "image": {
-                "url": "/stock/portrait-clay.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Hana at her desk",
-                  "ar": "هناء في مكتبها"
-                }
-              },
-              "imageSide": "start",
-              "cta": {
-                "label": {
-                  "en": "Book a free intro call",
-                  "ar": "احجز مكالمة تعارف مجانية"
-                },
-                "link": {
-                  "type": "booking",
-                  "value": ""
-                }
-              }
-            },
-            "style": {},
-            "animation": {
-              "entrance": "slide-up"
-            },
-            "responsive": {},
-            "anchor": "about",
             "example": true
           },
           {
@@ -481,6 +424,42 @@
             },
             "responsive": {},
             "anchor": "programs",
+            "example": true
+          },
+          {
+            "id": "bloom-about",
+            "blockType": "about",
+            "variant": "two-column",
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "Hi, I'm Hana.",
+                "ar": "مرحبًا، أنا هناء."
+              },
+              "body": {
+                "en": "I taught English for eight years before moving into career guidance. I know how it feels to love your work and still wonder what comes next. Today I help teachers and new graduates find their direction, write CVs that sound like them and prepare for interviews without the panic. My sessions are warm, honest and always end with a clear next step.",
+                "ar": "درّستُ اللغة الإنجليزية ثماني سنوات قبل أن أتّجه إلى الإرشاد المهني، وأعرف شعور أن تحب عملك وتتساءل مع ذلك عن الخطوة التالية. أساعد اليوم المعلمين والخريجين الجدد على تحديد وجهتهم، وكتابة سيرة ذاتية تشبههم، والاستعداد للمقابلات دون توتر. جلساتي دافئة وصريحة، وتنتهي دائمًا بخطوة واضحة."
+              },
+              "cta": {
+                "label": {
+                  "en": "Book a free intro call",
+                  "ar": "احجز مكالمة تعارف مجانية"
+                },
+                "link": {
+                  "type": "booking",
+                  "value": ""
+                }
+              }
+            },
+            "style": {},
+            "animation": {
+              "entrance": "slide-up"
+            },
+            "responsive": {},
+            "anchor": "about",
             "example": true
           },
           {

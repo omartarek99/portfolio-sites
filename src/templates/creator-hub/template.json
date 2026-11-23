@@ -245,15 +245,6 @@
                 },
                 "style": "outline"
               },
-              "avatar": {
-                "url": "/stock/portrait-blush.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Reem Al-Saadi smiling in her kitchen",
-                  "ar": "ريم السعدي مبتسمة في مطبخها"
-                }
-              },
               "badge": {
                 "en": "New recipe every Sunday",
                 "ar": "وصفة جديدة كل أحد"

@@ -426,3 +426,10 @@
     --u: 0.32px;
   }
 }
+
+html[lang='ar'] .vz-hero-title {
+  max-inline-size: 64rem;
+  line-height: 1.4;
+  letter-spacing: normal;
+  word-spacing: 0.08em;
+}

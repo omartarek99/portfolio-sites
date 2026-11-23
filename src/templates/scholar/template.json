@@ -217,7 +217,7 @@
           {
             "id": "scholar-hero",
             "blockType": "hero",
-            "variant": "split-image",
+            "variant": "centered",
             "example": true,
             "content": {
               "eyebrow": {
@@ -258,17 +258,6 @@
                 },
                 "style": "outline"
               },
-              "image": {
-                "url": "/stock/portrait-sea.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Portrait of Fatima Al-Hajri",
-                  "ar": "صورة فاطمة الهاجري"
-                }
-              },
-              "imageSide": "end",
-              "blob": false,
               "location": {
                 "en": "Muscat, Oman",
                 "ar": "مسقط، عُمان"
@@ -277,57 +266,6 @@
             "style": {},
             "animation": {
               "entrance": "fade"
-            },
-            "responsive": {}
-          },
-          {
-            "id": "scholar-about",
-            "blockType": "about",
-            "variant": "text-portrait",
-            "anchor": "about",
-            "example": true,
-            "content": {
-              "eyebrow": {
-                "en": "About",
-                "ar": "نبذة"
-              },
-              "heading": {
-                "en": "A teacher who still learns every day",
-                "ar": "معلمة ما زالت تتعلم كل يوم"
-              },
-              "body": {
-                "en": "<p>I started teaching English in 2010 at a girls' secondary school in Muscat. My first year taught me that a quiet classroom is not always a learning classroom, so I began to experiment with pair work, short games and student-led discussions.</p><p>Today I combine teaching with training: I run workshops for new teachers, mentor student teachers and write about practical classroom strategies. I hold an MA in TESOL and the CELTA certificate.</p>",
-                "ar": "<p>بدأت تدريس اللغة الإنجليزية عام 2010 في مدرسة ثانوية للبنات في مسقط. علّمتني سنتي الأولى أن الفصل الهادئ ليس دائمًا فصلًا يتعلم فيه الطلاب، فبدأت أجرّب العمل الثنائي والألعاب القصيرة والنقاشات التي يقودها الطلاب.</p><p>أجمع اليوم بين التدريس والتدريب: أقدّم ورش عمل للمعلمين الجدد، وأرشد الطلاب المعلمين، وأكتب عن استراتيجيات عملية داخل الفصل. أحمل درجة الماجستير في تدريس الإنجليزية لغير الناطقين بها وشهادة CELTA.</p>"
-              },
-              "image": {
-                "url": "/stock/workspace-sand.svg",
-                "width": 1600,
-                "height": 1067,
-                "alt": {
-                  "en": "A desk with lesson notes and a cup of tea",
-                  "ar": "مكتب عليه ملاحظات الدروس وكوب شاي"
-                }
-              },
-              "imageSide": "start",
-              "cta": {
-                "label": {
-                  "en": "Download my CV",
-                  "ar": "حمّل سيرتي الذاتية"
-                },
-                "link": {
-                  "type": "file",
-                  "value": "https://example.com/files/fatima-al-hajri-cv.pdf"
-                },
-                "style": "outline"
-              }
-            },
-            "style": {
-              "background": {
-                "type": "surface"
-              }
-            },
-            "animation": {
-              "entrance": "slide-up"
             },
             "responsive": {}
           },
@@ -488,6 +426,57 @@
             "style": {},
             "animation": {
               "entrance": "stagger"
+            },
+            "responsive": {}
+          },
+          {
+            "id": "scholar-about",
+            "blockType": "about",
+            "variant": "text-portrait",
+            "anchor": "about",
+            "example": true,
+            "content": {
+              "eyebrow": {
+                "en": "About",
+                "ar": "نبذة"
+              },
+              "heading": {
+                "en": "A teacher who still learns every day",
+                "ar": "معلمة ما زالت تتعلم كل يوم"
+              },
+              "body": {
+                "en": "<p>I started teaching English in 2010 at a girls' secondary school in Muscat. My first year taught me that a quiet classroom is not always a learning classroom, so I began to experiment with pair work, short games and student-led discussions.</p><p>Today I combine teaching with training: I run workshops for new teachers, mentor student teachers and write about practical classroom strategies. I hold an MA in TESOL and the CELTA certificate.</p>",
+                "ar": "<p>بدأت تدريس اللغة الإنجليزية عام 2010 في مدرسة ثانوية للبنات في مسقط. علّمتني سنتي الأولى أن الفصل الهادئ ليس دائمًا فصلًا يتعلم فيه الطلاب، فبدأت أجرّب العمل الثنائي والألعاب القصيرة والنقاشات التي يقودها الطلاب.</p><p>أجمع اليوم بين التدريس والتدريب: أقدّم ورش عمل للمعلمين الجدد، وأرشد الطلاب المعلمين، وأكتب عن استراتيجيات عملية داخل الفصل. أحمل درجة الماجستير في تدريس الإنجليزية لغير الناطقين بها وشهادة CELTA.</p>"
+              },
+              "image": {
+                "url": "/stock/workspace-sand.svg",
+                "width": 1600,
+                "height": 1067,
+                "alt": {
+                  "en": "A desk with lesson notes and a cup of tea",
+                  "ar": "مكتب عليه ملاحظات الدروس وكوب شاي"
+                }
+              },
+              "imageSide": "start",
+              "cta": {
+                "label": {
+                  "en": "Download my CV",
+                  "ar": "حمّل سيرتي الذاتية"
+                },
+                "link": {
+                  "type": "file",
+                  "value": "https://example.com/files/fatima-al-hajri-cv.pdf"
+                },
+                "style": "outline"
+              }
+            },
+            "style": {
+              "background": {
+                "type": "surface"
+              }
+            },
+            "animation": {
+              "entrance": "slide-up"
             },
             "responsive": {}
           },

@@ -172,7 +172,7 @@
           {
             "id": "launch-hero",
             "blockType": "hero",
-            "variant": "tilt-card",
+            "variant": "centered",
             "content": {
               "eyebrow": {
                 "en": "Web strategist & designer · Doha",
@@ -213,15 +213,6 @@
                 "style": "outline",
                 "icon": "arrow-right"
               },
-              "image": {
-                "url": "/stock/portrait-sea.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Portrait of Sara Mansour",
-                  "ar": "صورة شخصية لسارة منصور"
-                }
-              },
               "badge": {
                 "en": "2 launch slots left for April",
                 "ar": "بقي موعدان للإطلاق في أبريل"
@@ -241,79 +232,6 @@
             },
             "animation": {
               "entrance": "zoom"
-            },
-            "responsive": {},
-            "example": true
-          },
-          {
-            "id": "launch-clients",
-            "blockType": "clients",
-            "variant": "marquee",
-            "content": {
-              "eyebrow": {
-                "en": "Clients",
-                "ar": "العملاء"
-              },
-              "heading": {
-                "en": "48 launches for brands like",
-                "ar": "ثمانية وأربعون إطلاقًا لعلامات مثل"
-              },
-              "greyscale": true,
-              "items": [
-                {
-                  "id": "c1",
-                  "name": {
-                    "en": "Bayt Bakery",
-                    "ar": "مخبز بيت"
-                  }
-                },
-                {
-                  "id": "c2",
-                  "name": {
-                    "en": "LinguaKids",
-                    "ar": "لينغوا كيدز"
-                  }
-                },
-                {
-                  "id": "c3",
-                  "name": {
-                    "en": "Falcon Fitness",
-                    "ar": "فالكون فتنس"
-                  }
-                },
-                {
-                  "id": "c4",
-                  "name": {
-                    "en": "Qahwa Corner",
-                    "ar": "ركن القهوة"
-                  }
-                },
-                {
-                  "id": "c5",
-                  "name": {
-                    "en": "Dar Al Tibb Clinic",
-                    "ar": "عيادة دار الطب"
-                  }
-                },
-                {
-                  "id": "c6",
-                  "name": {
-                    "en": "Marsa Boats",
-                    "ar": "مرسى للقوارب"
-                  }
-                },
-                {
-                  "id": "c7",
-                  "name": {
-                    "en": "Noor Florist",
-                    "ar": "زهور نور"
-                  }
-                }
-              ]
-            },
-            "style": {},
-            "animation": {
-              "entrance": "fade"
             },
             "responsive": {},
             "example": true
@@ -468,6 +386,79 @@
             },
             "responsive": {},
             "anchor": "services",
+            "example": true
+          },
+          {
+            "id": "launch-clients",
+            "blockType": "clients",
+            "variant": "marquee",
+            "content": {
+              "eyebrow": {
+                "en": "Clients",
+                "ar": "العملاء"
+              },
+              "heading": {
+                "en": "48 launches for brands like",
+                "ar": "ثمانية وأربعون إطلاقًا لعلامات مثل"
+              },
+              "greyscale": true,
+              "items": [
+                {
+                  "id": "c1",
+                  "name": {
+                    "en": "Bayt Bakery",
+                    "ar": "مخبز بيت"
+                  }
+                },
+                {
+                  "id": "c2",
+                  "name": {
+                    "en": "LinguaKids",
+                    "ar": "لينغوا كيدز"
+                  }
+                },
+                {
+                  "id": "c3",
+                  "name": {
+                    "en": "Falcon Fitness",
+                    "ar": "فالكون فتنس"
+                  }
+                },
+                {
+                  "id": "c4",
+                  "name": {
+                    "en": "Qahwa Corner",
+                    "ar": "ركن القهوة"
+                  }
+                },
+                {
+                  "id": "c5",
+                  "name": {
+                    "en": "Dar Al Tibb Clinic",
+                    "ar": "عيادة دار الطب"
+                  }
+                },
+                {
+                  "id": "c6",
+                  "name": {
+                    "en": "Marsa Boats",
+                    "ar": "مرسى للقوارب"
+                  }
+                },
+                {
+                  "id": "c7",
+                  "name": {
+                    "en": "Noor Florist",
+                    "ar": "زهور نور"
+                  }
+                }
+              ]
+            },
+            "style": {},
+            "animation": {
+              "entrance": "fade"
+            },
+            "responsive": {},
             "example": true
           },
           {

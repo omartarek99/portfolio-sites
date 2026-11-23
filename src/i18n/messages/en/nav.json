@@ -5,9 +5,10 @@
     "about": "About",
     "faq": "FAQ"
   },
+  "languageLabel": "Language",
   "language": "التبديل إلى العربية",
   "cta": "Get started",
-  "menu": "Menu",
+  "options": "Options",
   "whatsapp": "Chat on WhatsApp",
   "footer": {
     "tagline": "Websites and AI videos.",
@@ -16,6 +17,7 @@
     "terms": "Terms"
   },
   "theme": {
+    "label": "Theme",
     "light": "Switch to light mode",
     "dark": "Switch to dark mode"
   }

@@ -219,12 +219,12 @@
                 }
               ],
               "image": {
-                "url": "/stock/portrait-sand.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/city-sand.jpg",
+                "width": 497,
+                "height": 286,
                 "alt": {
-                  "en": "Portrait of Yousef Al-Amin",
-                  "ar": "صورة يوسف الأمين"
+                  "en": "A hillside of white houses and terracotta rooftops",
+                  "ar": "منازل بيضاء وأسقف قرميدية على سفح تل"
                 }
               },
               "primaryCta": {
@@ -268,15 +268,6 @@
               "attributionRole": {
                 "en": "Writer and editor, Doha",
                 "ar": "كاتب ومحرر، الدوحة"
-              },
-              "image": {
-                "url": "/stock/portrait-sand.svg",
-                "width": 1200,
-                "height": 1600,
-                "alt": {
-                  "en": "Yousef at his desk",
-                  "ar": "يوسف على مكتبه"
-                }
               }
             },
             "style": {},

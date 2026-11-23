@@ -1,7 +1,7 @@
 'use client'
 
-import { Moon, Sun } from 'lucide-react'
 import { useSyncExternalStore } from 'react'
+import { Switch } from './Switch'
 
 const KEY = 'vz-theme'
 const query = () => window.matchMedia('(prefers-color-scheme: dark)')
@@ -25,7 +25,7 @@ function subscribe(onChange: () => void): () => void {
   }
 }
 
-/** Light/dark switch: follows the device until the visitor picks one, then remembers it. */
+/** Light/dark switch (Anees's sky switch): follows the device until the visitor picks one, then remembers it. */
 export function ThemeToggle({ labels }: { labels: { light: string; dark: string } }) {
   // null on the server, so the button renders the same until hydration.
   const theme = useSyncExternalStore(subscribe, current, () => null)
@@ -45,9 +45,9 @@ export function ThemeToggle({ labels }: { labels: { light: string; dark: string 
       }}
       aria-label={next === 'dark' ? labels.dark : labels.light}
       title={next === 'dark' ? labels.dark : labels.light}
-      className="text-fg/70 hover:text-fg hover:bg-fg/5 grid size-9 place-items-center rounded-lg transition"
+      className="switch-btn"
     >
-      {theme === 'light' ? <Moon className="size-4" aria-hidden="true" /> : <Sun className="size-4" aria-hidden="true" />}
+      <Switch kind="sky" on={theme === 'light'} />
     </button>
   )
 }

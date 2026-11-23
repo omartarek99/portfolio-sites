@@ -2,21 +2,27 @@
 
 import { usePathname } from 'next/navigation'
 import { LOCALE_COOKIE } from '@/i18n/config'
+import { Switch } from './Switch'
 
-/** Switches the public site's language: remembers the choice, then loads the same page in it. */
-export function LangLink({ to, label, className }: { to: 'en' | 'ar'; label: string; className?: string }) {
+/** The language switch (Anees's 3D switch): remembers the choice, then loads the same page in the other language. */
+export function LangLink({ to, label }: { to: 'en' | 'ar'; label: string }) {
   const path = usePathname().replace(/^\/ar(?=\/|$)/, '') || '/'
   const href = to === 'ar' ? `/ar${path === '/' ? '' : path}` : path
+  const current = to === 'ar' ? 'en' : 'ar'
   return (
     <a
       href={href}
       lang={to}
-      className={className}
+      aria-label={label}
+      title={label}
+      className="switch-btn"
       onClick={() => {
         document.cookie = `${LOCALE_COOKIE}=${to};path=/;max-age=31536000;samesite=lax`
       }}
     >
-      {label}
+      <Switch kind="flat" on={current === 'ar'}>
+        {current === 'ar' ? 'ع' : 'EN'}
+      </Switch>
     </a>
   )
 }

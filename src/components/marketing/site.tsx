@@ -82,14 +82,10 @@ export async function SiteHeader() {
             </li>
           ))}
         </ul>
-        <div className="ms-auto flex items-center gap-3 text-sm">
-          <LangLink
-            to={locale === 'ar' ? 'en' : 'ar'}
-            label={t('language')}
-            className="text-fg/70 transition hover:text-fg"
-          />
+        <div className="ms-auto flex items-center gap-2 text-sm sm:gap-3">
+          <LangLink to={locale === 'ar' ? 'en' : 'ar'} label={t('language')} />
           <ThemeToggle labels={{ light: t('theme.light'), dark: t('theme.dark') }} />
-          <a href={wa} target="_blank" rel="noopener noreferrer" className={cn(btn.primary, 'px-4 py-2')}>
+          <a href={wa} target="_blank" rel="noopener noreferrer" className={cn(btn.primary, 'hidden px-4 py-2 sm:inline-flex')}>
             {t('cta')}
           </a>
           {/* Native disclosure: a mobile menu with no JavaScript. */}

@@ -1,6 +1,7 @@
 import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
+import { FeaturedProjects } from '@/components/marketing/featured'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
 import { templatePreview } from '@/templates/types'
 
@@ -119,7 +120,8 @@ export default async function HomePage() {
       {/* Recent work */}
       <Wrap id="work">
         <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
-        <div className="grid gap-4">
+        <FeaturedProjects />
+        <div className="mt-4 grid gap-4">
           <a
             href={localePath(locale, '/showcase#videos')}
             className="group relative overflow-hidden rounded-2xl border border-fg/10 bg-black"

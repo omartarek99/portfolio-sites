@@ -51,5 +51,5 @@ export function proxy(request: NextRequest): NextResponse {
 }
 
 export const config = {
-  matcher: ['/((?!_next/static|_next/image|_next/webpack-hmr|fonts/|stock/|templates/|favicon\\.ico|icon\\.|.*\\.mp4$).*)'],
+  matcher: ['/((?!_next/static|_next/image|_next/webpack-hmr|fonts/|stock/|templates/|images/|showcase/|favicon\\.ico|icon\\.|.*\\.mp4$).*)'],
 }

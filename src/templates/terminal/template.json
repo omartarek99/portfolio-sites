@@ -45,22 +45,22 @@
     "theme": {
       "templateId": "terminal",
       "palette": {
-        "background": "#0D1117",
-        "surface": "#161B22",
-        "text": "#E6EDF3",
-        "mutedText": "#8B949E",
-        "primary": "#3FB950",
-        "secondary": "#58A6FF",
-        "accent": "#F778BA",
-        "border": "#30363D"
+        "background": "#0A0710",
+        "surface": "#151020",
+        "text": "#F5F0FF",
+        "mutedText": "#A99DBF",
+        "primary": "#C63BD6",
+        "secondary": "#7B3FE4",
+        "accent": "#FF6FAE",
+        "border": "#2A1F3D"
       },
       "mode": "dark",
       "fonts": {
         "heading": {
-          "family": "JetBrains Mono"
+          "family": "Unbounded"
         },
         "body": {
-          "family": "Inter"
+          "family": "Figtree"
         },
         "arabicHeading": {
           "family": "IBM Plex Sans Arabic"
@@ -69,10 +69,10 @@
           "family": "IBM Plex Sans Arabic"
         }
       },
-      "radius": "sm",
+      "radius": "md",
       "spacing": "comfortable",
-      "motion": "subtle",
-      "buttonStyle": "outline"
+      "motion": "expressive",
+      "buttonStyle": "pill"
     },
     "navigation": {
       "style": "top",

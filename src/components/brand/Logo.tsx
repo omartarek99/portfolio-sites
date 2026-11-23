@@ -10,8 +10,8 @@ export type LogoProps = {
 }
 
 /**
- * The Vizo mark (blue tile, yellow V) next to the wordmark. The wordmark is
- * drawn in `currentColor`; the mark keeps its brand colours.
+ * The Vizo mark (a monochrome V: one heavy stroke, one hairline) next to the
+ * wordmark. Both are drawn in `currentColor`, so they follow the theme.
  */
 export function Logo({ tone = 'ink', size = 36, markOnly = false, className }: LogoProps) {
   return (
@@ -34,6 +34,8 @@ export function Logo({ tone = 'ink', size = 36, markOnly = false, className }: L
   )
 }
 
+export const V_PATH = 'M8 10h13l17 44H25zM50 10h5.5L34 54h-4z'
+
 export function LogoMark({ size = 36, className }: { size?: number; className?: string }) {
   return (
     <svg
@@ -44,8 +46,7 @@ export function LogoMark({ size = 36, className }: { size?: number; className?: 
       aria-hidden="true"
       focusable="false"
     >
-      <rect width="64" height="64" rx="14" fill="#2E5BFF" />
-      <path d="M16 18 L32 46 L48 18" fill="none" stroke="#FFCF3F" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
+      <path d={V_PATH} fill="currentColor" />
     </svg>
   )
 }

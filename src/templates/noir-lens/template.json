@@ -45,22 +45,22 @@
     "theme": {
       "templateId": "noir-lens",
       "palette": {
-        "background": "#0A0A0A",
-        "surface": "#151515",
-        "text": "#F2F2F2",
-        "mutedText": "#9C9C9C",
-        "primary": "#C9A96E",
-        "secondary": "#F2F2F2",
-        "accent": "#C9A96E",
-        "border": "#2A2A2A"
+        "background": "#141A12",
+        "surface": "#1D2519",
+        "text": "#F3F6EF",
+        "mutedText": "#A9B5A0",
+        "primary": "#B5D98A",
+        "secondary": "#6E8F55",
+        "accent": "#E9F2DE",
+        "border": "#2E3929"
       },
       "mode": "dark",
       "fonts": {
         "heading": {
-          "family": "Cormorant Garamond"
+          "family": "Figtree"
         },
         "body": {
-          "family": "Inter"
+          "family": "Figtree"
         },
         "arabicHeading": {
           "family": "El Messiri"
@@ -69,9 +69,9 @@
           "family": "Noto Kufi Arabic"
         }
       },
-      "radius": "none",
+      "radius": "full",
       "spacing": "airy",
-      "motion": "cinematic",
+      "motion": "subtle",
       "buttonStyle": "outline"
     },
     "navigation": {
@@ -400,13 +400,13 @@
                 {
                   "id": "w6",
                   "image": {
-                    "url": "/stock/nature-sand.svg",
+                    "url": "/stock/photo/nature-sand.jpg",
                     "alt": {
                       "en": "Engagement walk in the dunes",
                       "ar": "جلسة خطوبة بين الكثبان"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 365,
+                    "height": 645
                   },
                   "caption": {
                     "en": "Engagement walk in the dunes",
@@ -434,13 +434,13 @@
                 {
                   "id": "w8",
                   "image": {
-                    "url": "/stock/city-dusk.svg",
+                    "url": "/stock/photo/city-dusk.jpg",
                     "alt": {
                       "en": "Product launch over the skyline",
                       "ar": "إطلاق منتج على خلفية الأفق"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 300,
+                    "height": 399
                   },
                   "caption": {
                     "en": "Product launch over the skyline",
@@ -1113,13 +1113,13 @@
                 {
                   "id": "w6",
                   "image": {
-                    "url": "/stock/nature-sand.svg",
+                    "url": "/stock/photo/nature-sand.jpg",
                     "alt": {
                       "en": "Engagement walk in the dunes",
                       "ar": "جلسة خطوبة بين الكثبان"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 365,
+                    "height": 645
                   },
                   "caption": {
                     "en": "Engagement walk in the dunes",
@@ -1147,13 +1147,13 @@
                 {
                   "id": "w8",
                   "image": {
-                    "url": "/stock/city-dusk.svg",
+                    "url": "/stock/photo/city-dusk.jpg",
                     "alt": {
                       "en": "Product launch over the skyline",
                       "ar": "إطلاق منتج على خلفية الأفق"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 300,
+                    "height": 399
                   },
                   "caption": {
                     "en": "Product launch over the skyline",
@@ -1198,13 +1198,13 @@
                 {
                   "id": "w11",
                   "image": {
-                    "url": "/stock/nature-sea.svg",
+                    "url": "/stock/photo/nature-sea.jpg",
                     "alt": {
                       "en": "Vows by the sea at Al Wakra",
                       "ar": "عهود على البحر في الوكرة"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 762,
+                    "height": 873
                   },
                   "caption": {
                     "en": "Vows by the sea at Al Wakra",

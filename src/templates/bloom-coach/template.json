@@ -45,22 +45,22 @@
     "theme": {
       "templateId": "bloom-coach",
       "palette": {
-        "background": "#FFFBF7",
-        "surface": "#FFFFFF",
-        "text": "#2D2A32",
-        "mutedText": "#6E6A75",
-        "primary": "#E07A5F",
-        "secondary": "#81B29A",
-        "accent": "#F2CC8F",
-        "border": "#F0E6DD"
+        "background": "#141A12",
+        "surface": "#1D2519",
+        "text": "#F3F6EF",
+        "mutedText": "#A9B5A0",
+        "primary": "#B5D98A",
+        "secondary": "#6E8F55",
+        "accent": "#E9F2DE",
+        "border": "#2E3929"
       },
-      "mode": "light",
+      "mode": "dark",
       "fonts": {
         "heading": {
-          "family": "DM Serif Display"
+          "family": "Figtree"
         },
         "body": {
-          "family": "DM Sans"
+          "family": "Figtree"
         },
         "arabicHeading": {
           "family": "Almarai"
@@ -72,7 +72,7 @@
       "radius": "full",
       "spacing": "airy",
       "motion": "subtle",
-      "buttonStyle": "pill"
+      "buttonStyle": "outline"
     },
     "navigation": {
       "style": "top",

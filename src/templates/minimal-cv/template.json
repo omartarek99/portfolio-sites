@@ -51,21 +51,21 @@
       "templateId": "minimal-cv",
       "palette": {
         "background": "#FFFFFF",
-        "surface": "#F8F9FA",
-        "text": "#111827",
-        "mutedText": "#6B7280",
-        "primary": "#0F766E",
-        "secondary": "#111827",
-        "accent": "#14B8A6",
-        "border": "#E5E7EB"
+        "surface": "#F3F8FE",
+        "text": "#10223F",
+        "mutedText": "#5A6678",
+        "primary": "#1572D3",
+        "secondary": "#0A2A5C",
+        "accent": "#FFB020",
+        "border": "#E3EBF5"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Inter"
+          "family": "Poppins"
         },
         "body": {
-          "family": "Inter"
+          "family": "Poppins"
         },
         "arabicHeading": {
           "family": "IBM Plex Sans Arabic"
@@ -74,7 +74,7 @@
           "family": "IBM Plex Sans Arabic"
         }
       },
-      "radius": "sm",
+      "radius": "md",
       "spacing": "compact",
       "motion": "subtle",
       "buttonStyle": "solid"
@@ -606,9 +606,9 @@
                     "ar": "إعادة تصميم شبكة المياه المبرّدة لبرج من 32 طابقًا، مع خفض حمل التبريد 15%."
                   },
                   "image": {
-                    "url": "/stock/city-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/city-slate.jpg",
+                    "width": 365,
+                    "height": 570,
                     "alt": {
                       "en": "Office towers",
                       "ar": "أبراج مكاتب"
@@ -662,9 +662,9 @@
                     "ar": "مشروع تخرج يحاكي التبريد الحراري الشمسي لمدرسة."
                   },
                   "image": {
-                    "url": "/stock/nature-sand.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/nature-sand.jpg",
+                    "width": 365,
+                    "height": 645,
                     "alt": {
                       "en": "Desert under the sun",
                       "ar": "صحراء تحت الشمس"

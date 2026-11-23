@@ -47,21 +47,21 @@
       "templateId": "launch",
       "palette": {
         "background": "#FFFFFF",
-        "surface": "#F5F7FF",
-        "text": "#0E1222",
-        "mutedText": "#5B6280",
-        "primary": "#2F5BFF",
-        "secondary": "#00C2A8",
+        "surface": "#F3F8FE",
+        "text": "#10223F",
+        "mutedText": "#5A6678",
+        "primary": "#1572D3",
+        "secondary": "#0A2A5C",
         "accent": "#FFB020",
-        "border": "#E3E7F5"
+        "border": "#E3EBF5"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Sora"
+          "family": "Poppins"
         },
         "body": {
-          "family": "Inter"
+          "family": "Poppins"
         },
         "arabicHeading": {
           "family": "Tajawal"
@@ -70,10 +70,10 @@
           "family": "IBM Plex Sans Arabic"
         }
       },
-      "radius": "lg",
+      "radius": "md",
       "spacing": "comfortable",
-      "motion": "expressive",
-      "buttonStyle": "pill"
+      "motion": "subtle",
+      "buttonStyle": "solid"
     },
     "navigation": {
       "style": "top",
@@ -237,10 +237,6 @@
               "blob": true
             },
             "style": {
-              "background": {
-                "type": "gradient",
-                "value": "brand-soft"
-              },
               "paddingY": "xl"
             },
             "animation": {
@@ -1206,12 +1202,7 @@
                 "ar": "المكالمات بالعربية أو الإنجليزية، من الأحد إلى الخميس، بتوقيت الدوحة."
               }
             },
-            "style": {
-              "background": {
-                "type": "gradient",
-                "value": "brand-soft"
-              }
-            },
+            "style": {},
             "animation": {
               "entrance": "slide-up"
             },

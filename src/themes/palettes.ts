@@ -325,82 +325,82 @@ export interface TemplatePaletteSet {
 const TEMPLATE_SPECS: { templateId: string; default: Palette; alternatives: [string, string, string] }[] = [
   {
     templateId: 'aurora',
-    default: p('#0B0D17', '#141729', '#F4F5FB', '#9AA0BC', '#7C5CFF', '#22D3EE', '#F472B6', '#262A45'),
+    default: p('#0A0710', '#151020', '#F5F0FF', '#A99DBF', '#C63BD6', '#7B3FE4', '#FF6FAE', '#2A1F3D'),
     alternatives: ['plum-night', 'slate-ocean', 'graphite'],
   },
   {
     templateId: 'editorial',
-    default: p('#F7F3EC', '#FFFFFF', '#1A1A1A', '#6B645A', '#B3261E', '#1A1A1A', '#E8B931', '#DDD5C7'),
+    default: p('#FFFFFF', '#FFF4F0', '#331811', '#76574D', '#E8603F', '#61291C', '#FFD2C7', '#F0E1DB'),
     alternatives: ['warm-paper', 'linen', 'coffee'],
   },
   {
     templateId: 'launch',
-    default: p('#FFFFFF', '#F5F7FF', '#0E1222', '#5B6280', '#2F5BFF', '#00C2A8', '#FFB020', '#E3E7F5'),
+    default: p('#FFFFFF', '#F3F8FE', '#10223F', '#5A6678', '#1572D3', '#0A2A5C', '#FFB020', '#E3EBF5'),
     alternatives: ['cool-grey', 'ultraviolet', 'paper-white'],
   },
   {
     templateId: 'minimal-cv',
-    default: p('#FFFFFF', '#F8F9FA', '#111827', '#6B7280', '#0F766E', '#111827', '#14B8A6', '#E5E7EB'),
+    default: p('#FFFFFF', '#F3F8FE', '#10223F', '#5A6678', '#1572D3', '#0A2A5C', '#FFB020', '#E3EBF5'),
     alternatives: ['paper-white', 'mist', 'cool-grey'],
   },
   {
     templateId: 'noir-lens',
-    default: p('#0A0A0A', '#151515', '#F2F2F2', '#9C9C9C', '#C9A96E', '#F2F2F2', '#C9A96E', '#2A2A2A'),
+    default: p('#141A12', '#1D2519', '#F3F6EF', '#A9B5A0', '#B5D98A', '#6E8F55', '#E9F2DE', '#2E3929'),
     alternatives: ['carbon-gold', 'night-souq', 'graphite'],
   },
   {
     templateId: 'grid-pop',
-    default: p('#FFF8E7', '#FFFFFF', '#111111', '#444444', '#FF5C39', '#3D5AFE', '#FFD600', '#111111'),
+    default: p('#FFFFFF', '#F3F3F3', '#191A23', '#55565F', '#B9FF66', '#191A23', '#B9FF66', '#191A23'),
     alternatives: ['electric-lime', 'hot-coral', 'candy'],
   },
   {
     templateId: 'terminal',
-    default: p('#0D1117', '#161B22', '#E6EDF3', '#8B949E', '#3FB950', '#58A6FF', '#F778BA', '#30363D'),
+    default: p('#0A0710', '#151020', '#F5F0FF', '#A99DBF', '#C63BD6', '#7B3FE4', '#FF6FAE', '#2A1F3D'),
     alternatives: ['graphite', 'neon-night', 'forest-night'],
   },
   {
     templateId: 'atelier',
-    default: p('#F3EDE4', '#FBF8F3', '#2B2420', '#7A6E64', '#8C4A2F', '#3F5B4C', '#D9A441', '#E0D5C6'),
+    default: p('#FFFFFF', '#FFF4F0', '#331811', '#76574D', '#E8603F', '#61291C', '#FFD2C7', '#F0E1DB'),
     alternatives: ['linen', 'terracotta', 'coffee'],
   },
   {
     templateId: 'bloom-coach',
-    default: p('#FFFBF7', '#FFFFFF', '#2D2A32', '#6E6A75', '#E07A5F', '#81B29A', '#F2CC8F', '#F0E6DD'),
+    default: p('#141A12', '#1D2519', '#F3F6EF', '#A9B5A0', '#B5D98A', '#6E8F55', '#E9F2DE', '#2E3929'),
     alternatives: ['clay-rose', 'sunbaked', 'terracotta'],
   },
   {
     templateId: 'majlis',
-    default: p('#FBFAF7', '#FFFFFF', '#1F2A2E', '#667075', '#7A1E3A', '#1F4E5A', '#B8964F', '#E6DFD1'),
+    default: p('#FFFFFF', '#FFF4F0', '#331811', '#76574D', '#E8603F', '#61291C', '#FFD2C7', '#F0E1DB'),
     alternatives: ['maroon-gold', 'pearl', 'sea-sand'],
   },
   {
     templateId: 'creator-hub',
-    default: p('#FDF2FF', '#FFFFFF', '#1E1033', '#6B5B85', '#A855F7', '#EC4899', '#22D3EE', '#EFD9FF'),
+    default: p('#181818', '#1F1F1F', '#FFFFFF', '#A3A3A3', '#EE10B0', '#0E9EEF', '#EE10B0', '#2B2B2B'),
     alternatives: ['candy', 'ultraviolet', 'hot-coral'],
   },
   {
     templateId: 'blueprint',
-    default: p('#F4F4F2', '#FFFFFF', '#151515', '#707070', '#151515', '#3A6EA5', '#D94F30', '#D6D6D2'),
+    default: p('#FFFFFF', '#F4F5F8', '#0F1629', '#5B6274', '#0F1629', '#141D35', '#3B6FD8', '#E2E5EC'),
     alternatives: ['sand-grey', 'paper-white', 'mist'],
   },
   {
     templateId: 'scholar',
-    default: p('#FFFFFF', '#F4F7FB', '#14213D', '#5C6B84', '#1D4ED8', '#0E7490', '#F59E0B', '#DCE3EE'),
+    default: p('#FFFFFF', '#F3F8FE', '#10223F', '#5A6678', '#1572D3', '#0A2A5C', '#FFB020', '#E3EBF5'),
     alternatives: ['cool-grey', 'mist', 'pearl'],
   },
   {
     templateId: 'motion-reel',
-    default: p('#050505', '#111111', '#FFFFFF', '#A3A3A3', '#FF3B3B', '#FFFFFF', '#FFC53D', '#262626'),
+    default: p('#181818', '#1F1F1F', '#FFFFFF', '#A3A3A3', '#EE10B0', '#0E9EEF', '#EE10B0', '#2B2B2B'),
     alternatives: ['night-souq', 'carbon-gold', 'midnight'],
   },
   {
     templateId: 'bento',
-    default: p('#F2F2F7', '#FFFFFF', '#111114', '#6E6E78', '#007AFF', '#34C759', '#FF9F0A', '#E2E2E8'),
+    default: p('#FFFFFF', '#F3F3F3', '#191A23', '#55565F', '#B9FF66', '#191A23', '#B9FF66', '#191A23'),
     alternatives: ['paper-white', 'cool-grey', 'graphite'],
   },
   {
     templateId: 'founder',
-    default: p('#FFFFFF', '#F6F5FF', '#0F0D1A', '#5E5A73', '#5B21B6', '#0EA5E9', '#22C55E', '#E7E4F5'),
+    default: p('#FFFFFF', '#F4F5F8', '#0F1629', '#5B6274', '#0F1629', '#141D35', '#3B6FD8', '#E2E5EC'),
     alternatives: ['ultraviolet', 'cool-grey', 'midnight'],
   },
 ]

@@ -45,19 +45,19 @@
     "theme": {
       "templateId": "grid-pop",
       "palette": {
-        "background": "#FFF8E7",
-        "surface": "#FFFFFF",
-        "text": "#111111",
-        "mutedText": "#444444",
-        "primary": "#FF5C39",
-        "secondary": "#3D5AFE",
-        "accent": "#FFD600",
-        "border": "#111111"
+        "background": "#FFFFFF",
+        "surface": "#F3F3F3",
+        "text": "#191A23",
+        "mutedText": "#55565F",
+        "primary": "#B9FF66",
+        "secondary": "#191A23",
+        "accent": "#B9FF66",
+        "border": "#191A23"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Archivo Black"
+          "family": "Space Grotesk"
         },
         "body": {
           "family": "Space Grotesk"
@@ -69,10 +69,10 @@
           "family": "Cairo"
         }
       },
-      "radius": "md",
+      "radius": "lg",
       "spacing": "comfortable",
-      "motion": "expressive",
-      "buttonStyle": "brutal"
+      "motion": "subtle",
+      "buttonStyle": "solid"
     },
     "navigation": {
       "style": "top",
@@ -394,13 +394,13 @@
                     "ar": "تطبيق عادات تنمو فيه حديقة صغيرة مع كل يوم تلتزم فيه."
                   },
                   "image": {
-                    "url": "/stock/nature-olive.svg",
+                    "url": "/stock/photo/nature-sea.jpg",
                     "alt": {
                       "en": "Green hills illustration for Plantly",
                       "ar": "رسم تلال خضراء لتطبيق Plantly"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 762,
+                    "height": 873
                   },
                   "tags": [
                     "Side project",
@@ -424,13 +424,13 @@
                     "ar": "المترو والحافلة وسيارة الأجرة في مخطّط رحلات واحد بلغتين."
                   },
                   "image": {
-                    "url": "/stock/city-slate.svg",
+                    "url": "/stock/photo/city-slate.jpg",
                     "alt": {
                       "en": "City skyline for Masar",
                       "ar": "أفق المدينة لتطبيق مسار"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 365,
+                    "height": 570
                   },
                   "tags": [
                     "Mobile",

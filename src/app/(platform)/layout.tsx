@@ -49,7 +49,7 @@ export const viewport: Viewport = {
 export default async function PlatformLayout({ children }: { children: ReactNode }) {
   const locale = (await getLocale()) as Locale
   return (
-    <html lang={locale} dir={dirOf(locale)} className={`${platformFont.variable} ${platformArabicFont.variable} h-full`}>
+    <html suppressHydrationWarning lang={locale} dir={dirOf(locale)} className={`${platformFont.variable} ${platformArabicFont.variable} h-full`}>
       <body className="platform min-h-full bg-white text-ink antialiased">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

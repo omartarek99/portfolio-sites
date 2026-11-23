@@ -47,21 +47,21 @@
       "templateId": "founder",
       "palette": {
         "background": "#FFFFFF",
-        "surface": "#F6F5FF",
-        "text": "#0F0D1A",
-        "mutedText": "#5E5A73",
-        "primary": "#5B21B6",
-        "secondary": "#0EA5E9",
-        "accent": "#22C55E",
-        "border": "#E7E4F5"
+        "surface": "#F4F5F8",
+        "text": "#0F1629",
+        "mutedText": "#5B6274",
+        "primary": "#0F1629",
+        "secondary": "#141D35",
+        "accent": "#3B6FD8",
+        "border": "#E2E5EC"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Outfit"
+          "family": "Playfair Display"
         },
         "body": {
-          "family": "Inter"
+          "family": "Poppins"
         },
         "arabicHeading": {
           "family": "Tajawal"
@@ -70,10 +70,10 @@
           "family": "Tajawal"
         }
       },
-      "radius": "lg",
+      "radius": "sm",
       "spacing": "airy",
-      "motion": "expressive",
-      "buttonStyle": "pill"
+      "motion": "subtle",
+      "buttonStyle": "outline"
     },
     "navigation": {
       "style": "top",
@@ -211,15 +211,10 @@
                 },
                 "style": "outline"
               },
-              "textStyle": "gradient",
               "progressBar": true,
               "scrollCue": true
             },
             "style": {
-              "background": {
-                "type": "gradient",
-                "value": "brand-soft"
-              },
               "paddingY": "xl"
             },
             "animation": {

@@ -51,22 +51,22 @@
     "theme": {
       "templateId": "majlis",
       "palette": {
-        "background": "#FBFAF7",
-        "surface": "#FFFFFF",
-        "text": "#1F2A2E",
-        "mutedText": "#667075",
-        "primary": "#7A1E3A",
-        "secondary": "#1F4E5A",
-        "accent": "#B8964F",
-        "border": "#E6DFD1"
+        "background": "#FFFFFF",
+        "surface": "#FFF4F0",
+        "text": "#331811",
+        "mutedText": "#76574D",
+        "primary": "#E8603F",
+        "secondary": "#61291C",
+        "accent": "#FFD2C7",
+        "border": "#F0E1DB"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Cormorant Garamond"
+          "family": "Playfair Display"
         },
         "body": {
-          "family": "Inter"
+          "family": "Rubik"
         },
         "arabicHeading": {
           "family": "El Messiri"
@@ -75,14 +75,10 @@
           "family": "Noto Kufi Arabic"
         }
       },
-      "radius": "sm",
+      "radius": "md",
       "spacing": "airy",
       "motion": "subtle",
-      "buttonStyle": "outline",
-      "backgroundStyle": {
-        "type": "pattern",
-        "value": "islamic-star"
-      }
+      "buttonStyle": "solid"
     },
     "navigation": {
       "style": "top",

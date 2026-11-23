@@ -51,14 +51,14 @@
     "theme": {
       "templateId": "editorial",
       "palette": {
-        "background": "#F7F3EC",
-        "surface": "#FFFFFF",
-        "text": "#1A1A1A",
-        "mutedText": "#6B645A",
-        "primary": "#B3261E",
-        "secondary": "#1A1A1A",
-        "accent": "#E8B931",
-        "border": "#DDD5C7"
+        "background": "#FFFFFF",
+        "surface": "#FFF4F0",
+        "text": "#331811",
+        "mutedText": "#76574D",
+        "primary": "#E8603F",
+        "secondary": "#61291C",
+        "accent": "#FFD2C7",
+        "border": "#F0E1DB"
       },
       "mode": "light",
       "fonts": {
@@ -66,7 +66,7 @@
           "family": "Playfair Display"
         },
         "body": {
-          "family": "Source Serif 4"
+          "family": "Rubik"
         },
         "arabicHeading": {
           "family": "Amiri"
@@ -75,14 +75,10 @@
           "family": "Noto Naskh Arabic"
         }
       },
-      "radius": "none",
+      "radius": "md",
       "spacing": "comfortable",
       "motion": "subtle",
-      "buttonStyle": "outline",
-      "backgroundStyle": {
-        "type": "noise",
-        "value": "0.05"
-      }
+      "buttonStyle": "solid"
     },
     "navigation": {
       "style": "top",

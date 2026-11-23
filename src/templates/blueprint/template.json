@@ -46,22 +46,22 @@
     "theme": {
       "templateId": "blueprint",
       "palette": {
-        "background": "#F4F4F2",
-        "surface": "#FFFFFF",
-        "text": "#151515",
-        "mutedText": "#707070",
-        "primary": "#151515",
-        "secondary": "#3A6EA5",
-        "accent": "#D94F30",
-        "border": "#D6D6D2"
+        "background": "#FFFFFF",
+        "surface": "#F4F5F8",
+        "text": "#0F1629",
+        "mutedText": "#5B6274",
+        "primary": "#0F1629",
+        "secondary": "#141D35",
+        "accent": "#3B6FD8",
+        "border": "#E2E5EC"
       },
       "mode": "light",
       "fonts": {
         "heading": {
-          "family": "Manrope"
+          "family": "Playfair Display"
         },
         "body": {
-          "family": "Manrope"
+          "family": "Poppins"
         },
         "arabicHeading": {
           "family": "Readex Pro"
@@ -70,14 +70,10 @@
           "family": "Readex Pro"
         }
       },
-      "radius": "none",
+      "radius": "sm",
       "spacing": "airy",
       "motion": "subtle",
-      "buttonStyle": "outline",
-      "backgroundStyle": {
-        "type": "pattern",
-        "value": "blueprint"
-      }
+      "buttonStyle": "outline"
     },
     "navigation": {
       "style": "side",
@@ -392,9 +388,9 @@
                     "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
                   },
                   "image": {
-                    "url": "/stock/nature-sand.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/nature-sand.jpg",
+                    "width": 365,
+                    "height": 645,
                     "alt": {
                       "en": "Low pavilion against the dunes at dusk",
                       "ar": "جناح منخفض أمام الكثبان عند الغروب"
@@ -865,9 +861,9 @@
                     "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
                   },
                   "image": {
-                    "url": "/stock/nature-sand.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/nature-sand.jpg",
+                    "width": 365,
+                    "height": 645,
                     "alt": {
                       "en": "Low pavilion against the dunes at dusk",
                       "ar": "جناح منخفض أمام الكثبان عند الغروب"
@@ -895,9 +891,9 @@
                     "ar": "شقتان دُمجتا في بيت واحد مضيء، بدرج يتحول إلى مكتبة."
                   },
                   "image": {
-                    "url": "/stock/city-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/city-slate.jpg",
+                    "width": 365,
+                    "height": 570,
                     "alt": {
                       "en": "Façade of a mid-rise block in Msheireb",
                       "ar": "واجهة مبنى متوسط الارتفاع في مشيرب"
@@ -921,9 +917,9 @@
                     "ar": "معرض صغير في مبنى قديم بالسوق، رُمّم بجص الجير وضوء نهار جديد من الأعلى."
                   },
                   "image": {
-                    "url": "/stock/city-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/city-sand.jpg",
+                    "width": 497,
+                    "height": 286,
                     "alt": {
                       "en": "Old souq street in warm light",
                       "ar": "شارع سوق قديم في ضوء دافئ"
@@ -947,9 +943,9 @@
                     "ar": "حديقة مظلّلة لعيادة، بنباتات محلية وقناة ماء ضيقة."
                   },
                   "image": {
-                    "url": "/stock/nature-olive.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/nature-sea.jpg",
+                    "width": 762,
+                    "height": 873,
                     "alt": {
                       "en": "Green planting on low hills",
                       "ar": "نباتات خضراء على تلال منخفضة"
@@ -1111,9 +1107,9 @@
                     {
                       "id": "plot",
                       "image": {
-                        "url": "/stock/city-sand.svg",
-                        "width": 1600,
-                        "height": 1067,
+                        "url": "/stock/photo/city-sand.jpg",
+                        "width": 497,
+                        "height": 286,
                         "alt": {
                           "en": "The empty plot and neighbouring houses",
                           "ar": "قطعة الأرض الفارغة والبيوت المجاورة"

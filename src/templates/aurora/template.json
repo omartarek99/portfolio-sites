@@ -47,22 +47,22 @@
     "theme": {
       "templateId": "aurora",
       "palette": {
-        "background": "#0B0D17",
-        "surface": "#141729",
-        "text": "#F4F5FB",
-        "mutedText": "#9AA0BC",
-        "primary": "#7C5CFF",
-        "secondary": "#22D3EE",
-        "accent": "#F472B6",
-        "border": "#262A45"
+        "background": "#0A0710",
+        "surface": "#151020",
+        "text": "#F5F0FF",
+        "mutedText": "#A99DBF",
+        "primary": "#C63BD6",
+        "secondary": "#7B3FE4",
+        "accent": "#FF6FAE",
+        "border": "#2A1F3D"
       },
       "mode": "dark",
       "fonts": {
         "heading": {
-          "family": "Space Grotesk"
+          "family": "Unbounded"
         },
         "body": {
-          "family": "Inter"
+          "family": "Figtree"
         },
         "arabicHeading": {
           "family": "Readex Pro"
@@ -71,14 +71,10 @@
           "family": "IBM Plex Sans Arabic"
         }
       },
-      "radius": "lg",
+      "radius": "md",
       "spacing": "airy",
-      "motion": "cinematic",
-      "buttonStyle": "glass",
-      "backgroundStyle": {
-        "type": "gradient",
-        "value": "spotlight"
-      }
+      "motion": "expressive",
+      "buttonStyle": "pill"
     },
     "navigation": {
       "style": "floating",
@@ -249,10 +245,6 @@
               "scrollCue": true
             },
             "style": {
-              "background": {
-                "type": "gradient",
-                "value": "aurora"
-              },
               "paddingY": "xl"
             },
             "animation": {

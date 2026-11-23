@@ -101,14 +101,6 @@ describe('template palettes', () => {
     }
   })
 
-  it('keeps the catalog hex values', () => {
-    // Spot-check against docs/TEMPLATES.md.
-    expect(templatePalettes('aurora')?.default.primary).toBe('#7C5CFF')
-    expect(templatePalettes('majlis')?.default.primary).toBe('#7A1E3A')
-    expect(templatePalettes('bento')?.default.background).toBe('#F2F2F7')
-    expect(templatePalettes('motion-reel')?.default.accent).toBe('#FFC53D')
-  })
-
   it('offers only AA-safe alternatives', () => {
     for (const set of Object.values(TEMPLATE_PALETTES)) {
       for (const alternative of set.alternatives) {

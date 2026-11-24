@@ -34,11 +34,7 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="mx-auto flex max-w-6xl flex-col items-center px-5 pt-20 text-center md:pt-28">
-          <p className="inline-flex items-center gap-2 rounded-full border border-fg/10 bg-fg/[0.04] px-3 py-1 text-xs text-fg/70">
-            <span className="bg-vz-yellow size-1.5 rounded-full" aria-hidden="true" />
-            {t('hero.badge')}
-          </p>
-          <h1 className="vz-title vz-hero-title mt-6 max-w-5xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-5xl text-balance text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="vz-title vz-hero-title max-w-5xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-5xl text-balance text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
             {t('hero.title')}
           </h1>
           <p className="mt-5 max-w-xl text-base text-pretty text-fg/60 md:text-lg">{t('hero.subtitle')}</p>

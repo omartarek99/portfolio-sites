@@ -34,45 +34,6 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Recent work */}
-      <Wrap id="work">
-        <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
-        <WorkGroup title={t('services.websites.title')} />
-        <FeaturedProjects />
-        <WorkGroup title={t('services.videos.title')} className="mt-14" />
-        <div className="grid gap-4">
-          <a
-            href={localePath(locale, '/showcase#videos')}
-            className="group relative overflow-hidden rounded-2xl border border-fg/10 bg-black"
-          >
-            <img
-              src="/showcase/explainer-poster.webp"
-              alt=""
-              width={1280}
-              height={720}
-              loading="lazy"
-              className="block aspect-video w-full object-cover"
-            />
-            <span className="absolute inset-0 grid place-items-center bg-black/30 transition group-hover:bg-black/20">
-              <span className="grid size-14 place-items-center rounded-full bg-white text-black">
-                <Play className="size-6 translate-x-0.5 fill-current" aria-hidden="true" />
-              </span>
-            </span>
-            <span className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 p-5 text-start text-white">
-              <span className="text-vz-accent block text-xs font-medium">{t('work.videoTag')}</span>
-              <span className="mt-1 block font-semibold">{t('work.videoTitle')}</span>
-            </span>
-          </a>
-        </div>
-        <WorkGroup title={t('services.presentations.title')} className="mt-14" />
-        <Deck className="w-full" />
-        <div className="mt-10 text-center">
-          <a href={localePath(locale, '/showcase')} className={btn.ghost}>
-            {t('work.cta')}
-          </a>
-        </div>
-      </Wrap>
-
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="mx-auto flex max-w-6xl flex-col items-center px-5 pt-20 text-center md:pt-28">
@@ -123,6 +84,45 @@ export default async function HomePage() {
         </div>
         <div aria-hidden="true" className="to-vz-bg absolute inset-x-0 bottom-0 h-32 bg-linear-to-b from-transparent" />
       </section>
+
+      {/* Recent work */}
+      <Wrap id="work">
+        <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
+        <WorkGroup title={t('services.websites.title')} />
+        <FeaturedProjects />
+        <WorkGroup title={t('services.videos.title')} className="mt-14" />
+        <div className="grid gap-4">
+          <a
+            href={localePath(locale, '/showcase#videos')}
+            className="group relative overflow-hidden rounded-2xl border border-fg/10 bg-black"
+          >
+            <img
+              src="/showcase/explainer-poster.webp"
+              alt=""
+              width={1280}
+              height={720}
+              loading="lazy"
+              className="block aspect-video w-full object-cover"
+            />
+            <span className="absolute inset-0 grid place-items-center bg-black/30 transition group-hover:bg-black/20">
+              <span className="grid size-14 place-items-center rounded-full bg-white text-black">
+                <Play className="size-6 translate-x-0.5 fill-current" aria-hidden="true" />
+              </span>
+            </span>
+            <span className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 p-5 text-start text-white">
+              <span className="text-vz-accent block text-xs font-medium">{t('work.videoTag')}</span>
+              <span className="mt-1 block font-semibold">{t('work.videoTitle')}</span>
+            </span>
+          </a>
+        </div>
+        <WorkGroup title={t('services.presentations.title')} className="mt-14" />
+        <Deck className="w-full" />
+        <div className="mt-10 text-center">
+          <a href={localePath(locale, '/showcase')} className={btn.ghost}>
+            {t('work.cta')}
+          </a>
+        </div>
+      </Wrap>
 
 
       {/* How it works */}

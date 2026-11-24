@@ -1,4 +1,4 @@
-import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
+import { ArrowUpRight, Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { DeckSection } from '@/components/marketing/deck'
@@ -19,7 +19,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 type Item = { title: string; body: string }
-type Service = { title: string; points: string[] }
 
 const SERVICE_ICONS = { websites: Globe, videos: Clapperboard, presentations: Presentation }
 /** Three of the AI-built sites from the showcase. */
@@ -95,7 +94,6 @@ export default async function HomePage() {
           <ul className="relative grid gap-3 md:grid-cols-3">
             {(['websites', 'videos', 'presentations'] as const).map((key) => {
               const Icon = SERVICE_ICONS[key]
-              const service = t.raw(`services.${key}`) as Service
               return (
                 <li
                   key={key}
@@ -104,15 +102,7 @@ export default async function HomePage() {
                   <span className="bg-vz-blue grid size-10 place-items-center rounded-sm text-white">
                     <Icon className="size-5" aria-hidden="true" />
                   </span>
-                  <h3 className="mt-5 text-xl font-semibold tracking-tight">{service.title}</h3>
-                  <ul className="mt-4 space-y-2 text-sm text-fg/75">
-                    {service.points.map((point) => (
-                      <li key={point} className="flex gap-2">
-                        <Check className="mt-0.5 size-4 shrink-0 text-fg/40" aria-hidden="true" />
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
+                  <h3 className="mt-5 text-xl font-semibold tracking-tight">{t(`services.${key}.title`)}</h3>
                 </li>
               )
             })}

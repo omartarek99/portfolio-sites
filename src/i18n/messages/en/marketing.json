@@ -17,28 +17,13 @@
     "title": "What {app} makes",
     "subtitle": "Three things, done well.",
     "websites": {
-      "title": "Websites",
-      "points": [
-        "Landing pages and portfolios",
-        "Business websites",
-        "Bilingual, mobile-first design"
-      ]
+      "title": "Websites"
     },
     "videos": {
-      "title": "AI videos",
-      "points": [
-        "Explainer and promo videos",
-        "Reels for TikTok, Instagram and YouTube Shorts",
-        "Captions in English or Arabic"
-      ]
+      "title": "AI videos"
     },
     "presentations": {
-      "title": "Presentations",
-      "points": [
-        "Research and pitch decks",
-        "Clean slides, one idea each",
-        "PowerPoint and Google Slides"
-      ]
+      "title": "Presentations"
     }
   },
   "work": {

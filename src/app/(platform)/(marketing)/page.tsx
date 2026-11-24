@@ -1,4 +1,4 @@
-import { Clapperboard, Globe, Mail, Play, Presentation, type LucideIcon } from 'lucide-react'
+import { Mail, Play } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Deck } from '@/components/marketing/deck'
@@ -20,18 +20,9 @@ export async function generateMetadata(): Promise<Metadata> {
 
 type Item = { title: string; body: string }
 
-const SERVICE_ICONS = { websites: Globe, videos: Clapperboard, presentations: Presentation }
-
-/** A service title heading one group of Recent work. */
-function WorkGroup({ icon: Icon, title, className }: { icon: LucideIcon; title: string; className?: string }) {
-  return (
-    <h3 className={`mb-5 flex items-center gap-3 text-xl font-semibold tracking-tight md:text-2xl ${className ?? ''}`}>
-      <span className="bg-vz-blue grid size-10 place-items-center text-white">
-        <Icon className="size-5" aria-hidden="true" />
-      </span>
-      {title}
-    </h3>
-  )
+/** A centred service title heading one group of Recent work. */
+function WorkGroup({ title, className }: { title: string; className?: string }) {
+  return <h3 className={`mb-6 text-center text-2xl font-semibold tracking-tight md:text-3xl ${className ?? ''}`}>{title}</h3>
 }
 /** Three of the AI-built sites from the showcase. */
 
@@ -97,9 +88,9 @@ export default async function HomePage() {
       {/* Recent work */}
       <Wrap id="work">
         <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
-        <WorkGroup icon={SERVICE_ICONS.websites} title={t('services.websites.title')} />
+        <WorkGroup title={t('services.websites.title')} />
         <FeaturedProjects />
-        <WorkGroup icon={SERVICE_ICONS.videos} title={t('services.videos.title')} className="mt-14" />
+        <WorkGroup title={t('services.videos.title')} className="mt-14" />
         <div className="grid gap-4">
           <a
             href={localePath(locale, '/showcase#videos')}
@@ -124,7 +115,7 @@ export default async function HomePage() {
             </span>
           </a>
         </div>
-        <WorkGroup icon={SERVICE_ICONS.presentations} title={t('services.presentations.title')} className="mt-14" />
+        <WorkGroup title={t('services.presentations.title')} className="mt-14" />
         <Deck className="w-full" />
         <div className="mt-10 text-center">
           <a href={localePath(locale, '/showcase')} className={btn.ghost}>

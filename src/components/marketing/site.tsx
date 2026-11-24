@@ -61,8 +61,6 @@ export function Wrap({ id, className, children }: { id?: string; className?: str
 
 export async function SiteHeader() {
   const [t, locale] = await Promise.all([getTranslations('nav'), getLocale()])
-  // "Get started" opens WhatsApp with its own short enquiry.
-  const wa = whatsappUrl(WHATSAPP, t('ctaMessage'))
   const links = [
     { href: localePath(locale, '/#services'), label: t('links.services') },
     { href: localePath(locale, '/showcase'), label: t('links.work') },
@@ -86,9 +84,6 @@ export async function SiteHeader() {
           ))}
         </ul>
         <div className="ms-auto flex shrink-0 items-center gap-2">
-          <a href={wa} target="_blank" rel="noopener noreferrer" className={cn(btn.primary, 'min-h-10 whitespace-nowrap px-4 py-2')}>
-            {t('cta')}
-          </a>
           <HeaderMenu label={t('options')}>
             <ul className="mb-2 border-b border-fg/10 pb-2 md:hidden">
               {links.map((link) => (

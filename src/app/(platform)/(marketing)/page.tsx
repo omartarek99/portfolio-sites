@@ -92,9 +92,6 @@ export default async function HomePage() {
       <Wrap id="services">
         <SectionHead eyebrow={t('services.eyebrow')} title={t('services.title')} subtitle={t('services.subtitle')} />
         <div className="relative mx-auto max-w-5xl">
-          {/* Brand shapes behind the glass cards. */}
-          <div aria-hidden="true" className="bg-vz-blue absolute -top-8 start-[10%] size-40 rounded-full" />
-          <div aria-hidden="true" className="bg-vz-yellow absolute -bottom-10 end-[12%] size-36 rotate-12 rounded-sm" />
           <ul className="relative grid gap-3 md:grid-cols-3">
             {(['websites', 'videos', 'presentations'] as const).map((key) => {
               const Icon = SERVICE_ICONS[key]

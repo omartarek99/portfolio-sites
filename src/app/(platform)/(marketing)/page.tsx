@@ -39,7 +39,7 @@ export default async function HomePage() {
             <span className="bg-vz-yellow size-1.5 rounded-full" aria-hidden="true" />
             {t('hero.badge')}
           </p>
-          <h1 className="vz-title vz-hero-title mt-6 max-w-3xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-3xl text-balance text-transparent sm:text-4xl md:text-5xl">
+          <h1 className="vz-title vz-hero-title mt-6 max-w-5xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-5xl text-balance text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
             {t('hero.title')}
           </h1>
           <p className="mt-5 max-w-xl text-base text-pretty text-fg/60 md:text-lg">{t('hero.subtitle')}</p>
@@ -91,18 +91,18 @@ export default async function HomePage() {
       <Wrap id="services">
         <SectionHead eyebrow={t('services.eyebrow')} title={t('services.title')} subtitle={t('services.subtitle')} />
         <div className="relative mx-auto max-w-5xl">
-          <ul className="relative grid gap-3 md:grid-cols-3">
+          <ul className="relative grid gap-3 sm:grid-cols-3">
             {(['websites', 'videos', 'presentations'] as const).map((key) => {
               const Icon = SERVICE_ICONS[key]
               return (
                 <li
                   key={key}
-                  className="rounded-sm border border-fg/15 bg-vz-bg/55 p-6 shadow-[inset_0_1px_0_rgb(255_255_255/0.12)] backdrop-blur-xl transition hover:border-fg/30"
+                  className="flex aspect-[2/1] flex-col sm:aspect-square items-center justify-center gap-5 border border-fg/15 bg-vz-bg/55 p-6 text-center shadow-[inset_0_1px_0_rgb(255_255_255/0.12)] backdrop-blur-xl transition hover:border-fg/30"
                 >
-                  <span className="bg-vz-blue grid size-10 place-items-center rounded-sm text-white">
-                    <Icon className="size-5" aria-hidden="true" />
+                  <span className="bg-vz-blue grid size-14 place-items-center text-white">
+                    <Icon className="size-7" aria-hidden="true" />
                   </span>
-                  <h3 className="mt-5 text-xl font-semibold tracking-tight">{t(`services.${key}.title`)}</h3>
+                  <h3 className="text-lg font-semibold tracking-tight lg:text-xl">{t(`services.${key}.title`)}</h3>
                 </li>
               )
             })}

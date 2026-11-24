@@ -58,7 +58,7 @@ export default async function ShowcasePage() {
   return (
     <>
       <header className="mx-auto max-w-3xl px-5 pt-20 text-center md:pt-28">
-        <h1 className="vz-title bg-linear-to-b from-fg to-fg/55 bg-clip-text text-3xl text-transparent md:text-4xl">
+        <h1 className="vz-title bg-linear-to-b from-fg to-fg/55 bg-clip-text text-5xl text-transparent md:text-7xl">
           {t('showcase.title')}
         </h1>
         <p className="mt-4 text-fg/60">{t('showcase.subtitle')}</p>

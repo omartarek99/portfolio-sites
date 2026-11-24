@@ -116,6 +116,14 @@
       "caption": "Script, visuals and edit made with AI",
       "more": "More videos are on the way."
     },
+    "decks": {
+      "eyebrow": "Presentations",
+      "title": "Clean, clear presentations",
+      "subtitle": "Research turned into slides people can follow: a clear structure, real photos and one idea per slide.",
+      "name": "Improving Campus Emergency Response",
+      "caption": "University research presentation · 10 slides",
+      "slide": "Slide {n} of {total}"
+    },
     "sites": {
       "eyebrow": "Websites",
       "title": "Websites designed by {app}",

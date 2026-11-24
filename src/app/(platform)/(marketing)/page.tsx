@@ -1,6 +1,7 @@
 import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
+import { DeckSection } from '@/components/marketing/deck'
 import { FeaturedProjects } from '@/components/marketing/featured'
 import { OmarBio } from '@/components/marketing/OmarBio'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
@@ -176,6 +177,8 @@ export default async function HomePage() {
           </a>
         </div>
       </Wrap>
+
+      <DeckSection />
 
       {/* How it works */}
       <Wrap>

@@ -4,6 +4,7 @@ import type { ReactNode } from 'react'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { FeaturedProjects } from '@/components/marketing/featured'
 import { SectionHead, Wrap } from '@/components/marketing/site'
+import { DeckSection } from '@/components/marketing/deck'
 import { pick, type Locale } from '@/schemas/fields'
 import { listTemplates } from '@/templates/registry'
 import { templatePreview } from '@/templates/types'
@@ -12,9 +13,6 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('marketing')
   return { title: t('showcase.title'), description: t('showcase.subtitle') }
 }
-
-/** Slides of the featured presentation, exported from PowerPoint (title slide first). */
-const DECK = Array.from({ length: 10 }, (_, i) => `/showcase/deck/slide-${String(i + 1).padStart(2, '0')}.webp`)
 
 function SiteCard({
   href,
@@ -96,35 +94,7 @@ export default async function ShowcasePage() {
         <p className="mt-6 text-center text-sm text-fg/40">{t('showcase.videos.more')}</p>
       </Wrap>
 
-      <Wrap id="presentations">
-        <SectionHead
-          eyebrow={t('showcase.decks.eyebrow')}
-          title={t('showcase.decks.title')}
-          subtitle={t('showcase.decks.subtitle')}
-        />
-        <figure className="mx-auto max-w-5xl">
-          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-            {DECK.map((src, i) => (
-              <li key={src} className={i === 0 ? 'col-span-2 sm:col-span-3' : undefined}>
-                <a href={src} target="_blank" rel="noopener noreferrer" className="block">
-                  <img
-                    src={src}
-                    alt={t('showcase.decks.slide', { n: i + 1, total: DECK.length })}
-                    width={1600}
-                    height={900}
-                    loading={i === 0 ? 'eager' : 'lazy'}
-                    className="aspect-video w-full rounded-xl border border-fg/10 bg-white object-cover transition hover:border-fg/30"
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-          <figcaption className="mt-4 flex flex-wrap items-baseline justify-between gap-2">
-            <span className="font-semibold">{t('showcase.decks.name')}</span>
-            <span className="text-sm text-fg/50">{t('showcase.decks.caption')}</span>
-          </figcaption>
-        </figure>
-      </Wrap>
+      <DeckSection />
 
       <Wrap id="websites">
         <SectionHead

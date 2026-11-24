@@ -122,7 +122,10 @@
       "subtitle": "Research turned into slides people can follow: a clear structure, real photos and one idea per slide.",
       "name": "Improving Campus Emergency Response",
       "caption": "University research presentation · 10 slides",
-      "slide": "Slide {n} of {total}"
+      "slide": "Slide {n} of {total}",
+      "previous": "Previous slide",
+      "next": "Next slide",
+      "goTo": "Go to slide {n}"
     },
     "sites": {
       "eyebrow": "Websites",

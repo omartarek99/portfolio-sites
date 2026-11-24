@@ -4,13 +4,6 @@
     "description": "{app} designs clean, fast websites and creates AI videos for businesses and creators. Message on WhatsApp to start."
   },
   "whatsappMessage": "Hi {app}! I'd like to talk about a project.",
-  "hero": {
-    "title": "Your brand, built beautifully",
-    "subtitle": "{app} designs clean, fast websites and creates AI videos that get noticed — in English or Arabic.",
-    "primary": "Chat on WhatsApp",
-    "secondary": "See the work",
-    "mockupAlt": "A website designed by {app}"
-  },
   "services": {
     "websites": {
       "title": "Websites"

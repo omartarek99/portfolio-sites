@@ -5,7 +5,6 @@ import { Deck } from '@/components/marketing/deck'
 import { FeaturedProjects } from '@/components/marketing/featured'
 import { OmarBio } from '@/components/marketing/OmarBio'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
-import { templatePreview } from '@/templates/types'
 
 export async function generateMetadata(): Promise<Metadata> {
   const [locale, t] = await Promise.all([getLocale(), getTranslations('marketing')])
@@ -34,56 +33,27 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="mx-auto flex max-w-6xl flex-col items-center px-5 pt-20 text-center md:pt-28">
-          <h1 className="vz-title vz-hero-title max-w-5xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-5xl text-balance text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
-            {t('hero.title')}
-          </h1>
-          <p className="mt-5 max-w-xl text-base text-pretty text-fg/60 md:text-lg">{t('hero.subtitle')}</p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
+      {/* Top: project call to action */}
+      <Wrap>
+        <div className="relative overflow-hidden rounded-3xl border border-fg/10 px-6 py-16 text-center md:py-20">
+          <div
+            aria-hidden="true"
+            className="absolute inset-x-0 -bottom-32 h-64 rounded-[100%] bg-[radial-gradient(closest-side,rgb(46_91_255/0.5),transparent)] blur-2xl"
+          />
+          <h1 className="relative text-3xl font-semibold tracking-tight text-balance md:text-4xl">{t('cta.title')}</h1>
+          <p className="relative mx-auto mt-4 max-w-md text-fg/60">{t('cta.subtitle')}</p>
+          <div className="relative mt-8 flex flex-wrap justify-center gap-3">
             <a href={wa} target="_blank" rel="noopener noreferrer" className={btn.primary}>
               <WhatsAppIcon />
-              {t('hero.primary')}
+              {t('cta.button')}
             </a>
-            <a href={localePath(locale, '/showcase')} className={btn.ghost}>
-              {t('hero.secondary')}
+            <a href={`mailto:${EMAIL}`} className={btn.ghost}>
+              <Mail className="size-4" aria-hidden="true" />
+              {t('cta.email')}
             </a>
-          </div>
-
-          {/* Glow + product mockup rising from the bottom, as in the Launch UI hero. */}
-          <div className="relative mt-16 w-full max-w-5xl md:mt-20">
-            <div
-              aria-hidden="true"
-              className="absolute inset-x-[10%] -top-24 h-64 rounded-[100%] bg-[radial-gradient(closest-side,rgb(46_91_255/0.55),transparent)] blur-2xl"
-            />
-            <div
-              aria-hidden="true"
-              className="absolute inset-x-[30%] -top-10 h-24 rounded-[100%] bg-[radial-gradient(closest-side,rgb(255_207_63/0.35),transparent)] blur-xl"
-            />
-            <div
-              aria-hidden="true"
-              className="via-vz-yellow/80 absolute inset-x-[15%] top-0 h-px bg-linear-to-r from-transparent to-transparent"
-            />
-            <div className="relative rounded-t-2xl border border-b-0 border-fg/10 bg-fg/[0.03] p-2 pb-0 backdrop-blur">
-              <div className="flex gap-1.5 px-2 pb-2" aria-hidden="true">
-                <span className="size-2.5 rounded-full bg-fg/15" />
-                <span className="size-2.5 rounded-full bg-fg/15" />
-                <span className="size-2.5 rounded-full bg-fg/15" />
-              </div>
-              <img
-                src={templatePreview('aurora').desktop}
-                alt={t('hero.mockupAlt')}
-                width={1440}
-                height={900}
-                fetchPriority="high"
-                className="aspect-[16/9] w-full rounded-t-lg object-cover object-top"
-              />
-            </div>
           </div>
         </div>
-        <div aria-hidden="true" className="to-vz-bg absolute inset-x-0 bottom-0 h-32 bg-linear-to-b from-transparent" />
-      </section>
+      </Wrap>
 
       {/* Recent work */}
       <Wrap id="work">
@@ -182,28 +152,6 @@ export default async function HomePage() {
               <p className="mt-3 text-sm text-pretty text-fg/60">{item.a}</p>
             </details>
           ))}
-        </div>
-      </Wrap>
-
-      {/* Closing call to action */}
-      <Wrap>
-        <div className="relative overflow-hidden rounded-3xl border border-fg/10 px-6 py-16 text-center md:py-20">
-          <div
-            aria-hidden="true"
-            className="absolute inset-x-0 -bottom-32 h-64 rounded-[100%] bg-[radial-gradient(closest-side,rgb(46_91_255/0.5),transparent)] blur-2xl"
-          />
-          <h2 className="relative text-3xl font-semibold tracking-tight text-balance md:text-4xl">{t('cta.title')}</h2>
-          <p className="relative mx-auto mt-4 max-w-md text-fg/60">{t('cta.subtitle')}</p>
-          <div className="relative mt-8 flex flex-wrap justify-center gap-3">
-            <a href={wa} target="_blank" rel="noopener noreferrer" className={btn.primary}>
-              <WhatsAppIcon />
-              {t('cta.button')}
-            </a>
-            <a href={`mailto:${EMAIL}`} className={btn.ghost}>
-              <Mail className="size-4" aria-hidden="true" />
-              {t('cta.email')}
-            </a>
-          </div>
         </div>
       </Wrap>
     </>

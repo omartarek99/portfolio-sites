@@ -1,4 +1,4 @@
-import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play } from 'lucide-react'
+import { ArrowUpRight, Check, Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { DeckSection } from '@/components/marketing/deck'
@@ -19,9 +19,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 type Item = { title: string; body: string }
-type Service = Item & { points: string[] }
+type Service = { title: string; points: string[] }
 
-const SERVICE_ICONS = { websites: Globe, videos: Clapperboard }
+const SERVICE_ICONS = { websites: Globe, videos: Clapperboard, presentations: Presentation }
 /** Three of the AI-built sites from the showcase. */
 const FEATURED_SITES = ['aurora', 'founder', 'majlis']
 
@@ -91,32 +91,36 @@ export default async function HomePage() {
       {/* Services */}
       <Wrap id="services">
         <SectionHead eyebrow={t('services.eyebrow')} title={t('services.title')} subtitle={t('services.subtitle')} />
-        <ul className="mx-auto grid max-w-4xl gap-4 md:grid-cols-2">
-          {(['websites', 'videos'] as const).map((key) => {
-            const Icon = SERVICE_ICONS[key]
-            const service = t.raw(`services.${key}`) as Service
-            return (
-              <li
-                key={key}
-                className="rounded-2xl border border-fg/10 bg-fg/[0.03] p-6 transition hover:border-fg/20"
-              >
-                <span className="bg-vz-blue/15 text-vz-accent grid size-10 place-items-center rounded-lg">
-                  <Icon className="size-5" aria-hidden="true" />
-                </span>
-                <h3 className="mt-5 text-lg font-semibold">{service.title}</h3>
-                <p className="mt-2 text-sm text-pretty text-fg/60">{service.body}</p>
-                <ul className="mt-5 space-y-2 text-sm text-fg/80">
-                  {service.points.map((point) => (
-                    <li key={point} className="flex gap-2">
-                      <Check className="text-vz-accent mt-0.5 size-4 shrink-0" aria-hidden="true" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            )
-          })}
-        </ul>
+        <div className="relative mx-auto max-w-5xl">
+          {/* Brand shapes behind the glass cards. */}
+          <div aria-hidden="true" className="bg-vz-blue absolute -top-8 start-[10%] size-40 rounded-full" />
+          <div aria-hidden="true" className="bg-vz-yellow absolute -bottom-10 end-[12%] size-36 rotate-12 rounded-sm" />
+          <ul className="relative grid gap-3 md:grid-cols-3">
+            {(['websites', 'videos', 'presentations'] as const).map((key) => {
+              const Icon = SERVICE_ICONS[key]
+              const service = t.raw(`services.${key}`) as Service
+              return (
+                <li
+                  key={key}
+                  className="rounded-sm border border-fg/15 bg-vz-bg/55 p-6 shadow-[inset_0_1px_0_rgb(255_255_255/0.12)] backdrop-blur-xl transition hover:border-fg/30"
+                >
+                  <span className="bg-vz-blue grid size-10 place-items-center rounded-sm text-white">
+                    <Icon className="size-5" aria-hidden="true" />
+                  </span>
+                  <h3 className="mt-5 text-xl font-semibold tracking-tight">{service.title}</h3>
+                  <ul className="mt-4 space-y-2 text-sm text-fg/75">
+                    {service.points.map((point) => (
+                      <li key={point} className="flex gap-2">
+                        <Check className="mt-0.5 size-4 shrink-0 text-fg/40" aria-hidden="true" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </Wrap>
 
       {/* Recent work */}

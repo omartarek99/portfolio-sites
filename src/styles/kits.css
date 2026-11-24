@@ -123,6 +123,9 @@
     .site-card {
       --site-text: #ffffff;
       --site-muted: #c3c9da;
+      /* Brand colour is navy, so buttons and links in the navy cards turn white. */
+      --site-primary: #ffffff;
+      --site-on-primary: #0f1629;
       --site-border: #2a3552;
       color: var(--site-text);
       background: var(--site-secondary);

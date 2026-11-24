@@ -15,10 +15,9 @@
   "services": {
     "eyebrow": "Services",
     "title": "What {app} makes",
-    "subtitle": "Two things, done well.",
+    "subtitle": "Three things, done well.",
     "websites": {
       "title": "Websites",
-      "body": "Clean, fast websites that look custom-designed — and work beautifully on every screen.",
       "points": [
         "Landing pages and portfolios",
         "Business websites",
@@ -27,11 +26,18 @@
     },
     "videos": {
       "title": "AI videos",
-      "body": "Explainers, promos and short reels that stop the scroll — made with AI, finished by hand.",
       "points": [
         "Explainer and promo videos",
         "Reels for TikTok, Instagram and YouTube Shorts",
         "Captions in English or Arabic"
+      ]
+    },
+    "presentations": {
+      "title": "Presentations",
+      "points": [
+        "Research and pitch decks",
+        "Clean slides, one idea each",
+        "PowerPoint and Google Slides"
       ]
     }
   },

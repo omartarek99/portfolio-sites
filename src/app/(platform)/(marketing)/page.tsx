@@ -39,7 +39,7 @@ export default async function HomePage() {
             <span className="bg-vz-yellow size-1.5 rounded-full" aria-hidden="true" />
             {t('hero.badge')}
           </p>
-          <h1 className="vz-hero-title mt-6 max-w-3xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-4xl font-semibold tracking-tight text-balance text-transparent sm:text-5xl md:text-6xl">
+          <h1 className="vz-title vz-hero-title mt-6 max-w-3xl bg-linear-to-b from-fg to-fg/55 bg-clip-text text-3xl text-balance text-transparent sm:text-4xl md:text-5xl">
             {t('hero.title')}
           </h1>
           <p className="mt-5 max-w-xl text-base text-pretty text-fg/60 md:text-lg">{t('hero.subtitle')}</p>

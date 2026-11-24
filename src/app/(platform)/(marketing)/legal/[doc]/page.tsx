@@ -20,7 +20,7 @@ export default async function LegalPage({ params }: { params: Promise<{ doc: str
   const [doc, t] = await Promise.all([resolve(params), getTranslations('marketing')])
   return (
     <article className="mx-auto max-w-2xl px-5 py-20 md:py-28">
-      <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">{t(`legal.${doc}.title`)}</h1>
+      <h1 className="vz-title text-2xl md:text-3xl">{t(`legal.${doc}.title`)}</h1>
       {(t.raw(`legal.${doc}.body`) as string[]).map((paragraph) => (
         <p key={paragraph} className="mt-5 leading-relaxed text-pretty text-fg/70">
           {paragraph}

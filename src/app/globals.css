@@ -427,6 +427,21 @@
   }
 }
 
+/* Page titles (home, showcase, legal). Latin only, so Arabic keeps its own font. */
+.vz-title {
+  font-family: var(--font-vz-title), var(--font-platform-ar), serif;
+  font-weight: 400;
+  /* Slant like Tork; a skew renders even under the gradient text clip. */
+  transform: skewX(-10deg);
+  letter-spacing: 0.01em;
+  line-height: 1.12;
+}
+html[lang='ar'] .vz-title {
+  font-family: var(--font-platform-ar), var(--font-vz), sans-serif;
+  font-weight: 700;
+  transform: none;
+}
+
 html[lang='ar'] .vz-hero-title {
   max-inline-size: 64rem;
   line-height: 1.4;

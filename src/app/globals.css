@@ -451,3 +451,10 @@ html[lang='ar'] .vz-title {
   line-height: 1.35;
 }
 
+html[lang='ar'] .vz-hero-title {
+  max-inline-size: 64rem;
+  line-height: 1.4;
+  letter-spacing: normal;
+  word-spacing: 0.08em;
+}
+

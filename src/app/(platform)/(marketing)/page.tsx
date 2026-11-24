@@ -1,7 +1,7 @@
-import { ArrowUpRight, Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
+import { Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
-import { DeckSection } from '@/components/marketing/deck'
+import { Deck } from '@/components/marketing/deck'
 import { FeaturedProjects } from '@/components/marketing/featured'
 import { OmarBio } from '@/components/marketing/OmarBio'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
@@ -22,7 +22,6 @@ type Item = { title: string; body: string }
 
 const SERVICE_ICONS = { websites: Globe, videos: Clapperboard, presentations: Presentation }
 /** Three of the AI-built sites from the showcase. */
-const FEATURED_SITES = ['aurora', 'founder', 'majlis']
 
 export default async function HomePage() {
   const [t, locale, wa] = await Promise.all([getTranslations('marketing'), getLocale(), waHref()])
@@ -137,31 +136,8 @@ export default async function HomePage() {
               <span className="mt-1 block font-semibold">{t('work.videoTitle')}</span>
             </span>
           </a>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {FEATURED_SITES.slice(0, 2).map((id) => (
-              <a
-                key={id}
-                href={`/demo/${id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative overflow-hidden rounded-2xl border border-fg/10"
-              >
-                <img
-                  src={templatePreview(id).thumb}
-                  alt=""
-                  width={720}
-                  height={450}
-                  loading="lazy"
-                  className="aspect-[16/10] w-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
-                />
-                <span className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-linear-to-t from-black/80 p-4 text-sm text-white">
-                  <span>{t('work.siteTag')}</span>
-                  <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
-                </span>
-              </a>
-            ))}
-          </div>
         </div>
+        <Deck className="mt-4" />
         <div className="mt-10 text-center">
           <a href={localePath(locale, '/showcase')} className={btn.ghost}>
             {t('work.cta')}
@@ -169,7 +145,6 @@ export default async function HomePage() {
         </div>
       </Wrap>
 
-      <DeckSection />
 
       {/* How it works */}
       <Wrap>

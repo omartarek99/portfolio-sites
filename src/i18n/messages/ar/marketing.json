@@ -12,9 +12,6 @@
     "mockupAlt": "موقع صممته {app}"
   },
   "services": {
-    "eyebrow": "الخدمات",
-    "title": "ماذا تصنع {app}",
-    "subtitle": "ثلاث خدمات، بإتقان.",
     "websites": {
       "title": "مواقع إلكترونية"
     },

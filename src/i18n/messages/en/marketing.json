@@ -12,9 +12,6 @@
     "mockupAlt": "A website designed by {app}"
   },
   "services": {
-    "eyebrow": "Services",
-    "title": "What {app} makes",
-    "subtitle": "Three things, done well.",
     "websites": {
       "title": "Websites"
     },

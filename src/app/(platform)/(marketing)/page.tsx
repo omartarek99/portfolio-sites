@@ -1,4 +1,4 @@
-import { Clapperboard, Globe, Mail, Play, Presentation } from 'lucide-react'
+import { Clapperboard, Globe, Mail, Play, Presentation, type LucideIcon } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Deck } from '@/components/marketing/deck'
@@ -21,6 +21,18 @@ export async function generateMetadata(): Promise<Metadata> {
 type Item = { title: string; body: string }
 
 const SERVICE_ICONS = { websites: Globe, videos: Clapperboard, presentations: Presentation }
+
+/** A service title heading one group of Recent work. */
+function WorkGroup({ icon: Icon, title, className }: { icon: LucideIcon; title: string; className?: string }) {
+  return (
+    <h3 className={`mb-5 flex items-center gap-3 text-xl font-semibold tracking-tight md:text-2xl ${className ?? ''}`}>
+      <span className="bg-vz-blue grid size-10 place-items-center text-white">
+        <Icon className="size-5" aria-hidden="true" />
+      </span>
+      {title}
+    </h3>
+  )
+}
 /** Three of the AI-built sites from the showcase. */
 
 export default async function HomePage() {
@@ -82,34 +94,13 @@ export default async function HomePage() {
         <div aria-hidden="true" className="to-vz-bg absolute inset-x-0 bottom-0 h-32 bg-linear-to-b from-transparent" />
       </section>
 
-      {/* Services */}
-      <Wrap id="services">
-        <SectionHead eyebrow={t('services.eyebrow')} title={t('services.title')} subtitle={t('services.subtitle')} />
-        <div className="relative mx-auto max-w-5xl">
-          <ul className="relative grid gap-3 sm:grid-cols-3">
-            {(['websites', 'videos', 'presentations'] as const).map((key) => {
-              const Icon = SERVICE_ICONS[key]
-              return (
-                <li
-                  key={key}
-                  className="flex aspect-[2/1] flex-col sm:aspect-square items-center justify-center gap-5 border border-fg/15 bg-vz-bg/55 p-6 text-center shadow-[inset_0_1px_0_rgb(255_255_255/0.12)] backdrop-blur-xl transition hover:border-fg/30"
-                >
-                  <span className="bg-vz-blue grid size-14 place-items-center text-white">
-                    <Icon className="size-7" aria-hidden="true" />
-                  </span>
-                  <h3 className="text-lg font-semibold tracking-tight lg:text-xl">{t(`services.${key}.title`)}</h3>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-      </Wrap>
-
       {/* Recent work */}
       <Wrap id="work">
         <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
+        <WorkGroup icon={SERVICE_ICONS.websites} title={t('services.websites.title')} />
         <FeaturedProjects />
-        <div className="mt-4 grid gap-4">
+        <WorkGroup icon={SERVICE_ICONS.videos} title={t('services.videos.title')} className="mt-14" />
+        <div className="grid gap-4">
           <a
             href={localePath(locale, '/showcase#videos')}
             className="group relative overflow-hidden rounded-2xl border border-fg/10 bg-black"
@@ -133,7 +124,8 @@ export default async function HomePage() {
             </span>
           </a>
         </div>
-        <Deck className="mt-4" />
+        <WorkGroup icon={SERVICE_ICONS.presentations} title={t('services.presentations.title')} className="mt-14" />
+        <Deck className="w-full" />
         <div className="mt-10 text-center">
           <a href={localePath(locale, '/showcase')} className={btn.ghost}>
             {t('work.cta')}

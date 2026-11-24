@@ -62,7 +62,7 @@ export function Wrap({ id, className, children }: { id?: string; className?: str
 export async function SiteHeader() {
   const [t, locale] = await Promise.all([getTranslations('nav'), getLocale()])
   const links = [
-    { href: localePath(locale, '/#services'), label: t('links.services') },
+    { href: localePath(locale, '/#work'), label: t('links.services') },
     { href: localePath(locale, '/showcase'), label: t('links.work') },
     { href: localePath(locale, '/#about'), label: t('links.about') },
     { href: localePath(locale, '/#faq'), label: t('links.faq') },

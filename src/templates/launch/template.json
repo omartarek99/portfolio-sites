@@ -172,7 +172,7 @@
           {
             "id": "launch-hero",
             "blockType": "hero",
-            "variant": "centered",
+            "variant": "split-image",
             "content": {
               "eyebrow": {
                 "en": "Web strategist & designer · Doha",
@@ -225,7 +225,17 @@
                 "en": "Launch No. 48",
                 "ar": "الإطلاق رقم 48"
               },
-              "blob": true
+              "blob": true,
+              "image": {
+                "url": "/stock/photo/p-blazer.jpg",
+                "width": 996,
+                "height": 664,
+                "alt": {
+                  "en": "Portrait of Sara Mansour",
+                  "ar": "صورة سارة منصور"
+                }
+              },
+              "imageSide": "end"
             },
             "style": {
               "paddingY": "xl"
@@ -604,9 +614,9 @@
                     "ar": "صفحة هبوط مرحة ومسار حجز حصة تجريبية لمدرسة لغات للأطفال بالعربية والإنجليزية."
                   },
                   "image": {
-                    "url": "/stock/art-blush.svg",
-                    "width": 1400,
-                    "height": 1400,
+                    "url": "/stock/photo/vr-neon.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Colourful abstract shapes",
                       "ar": "أشكال تجريدية ملوّنة"
@@ -633,9 +643,9 @@
                     "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "width": 546,
+                    "height": 298,
                     "alt": {
                       "en": "Booking dashboard in teal",
                       "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
@@ -663,9 +673,9 @@
                     "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/app-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "width": 350,
+                    "height": 310,
                     "alt": {
                       "en": "Clinic website screens",
                       "ar": "شاشات موقع العيادة"
@@ -692,9 +702,9 @@
                     "ar": "صفحة للضيافة مع نموذج عرض سعر يردّ عليه فريق المبيعات عبر واتساب في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Coffee and notes on a desk",
                       "ar": "قهوة وملاحظات على مكتب"
@@ -761,9 +771,9 @@
                     "ar": "صاحبة مخبز بيت"
                   },
                   "photo": {
-                    "url": "/stock/portrait-blush.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-orange.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Portrait of Reem Al-Saadi",
                       "ar": "صورة ريم السعدي"
@@ -786,9 +796,9 @@
                     "ar": "مؤسس لينغوا كيدز"
                   },
                   "photo": {
-                    "url": "/stock/portrait-sand.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-blazer.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Portrait of Khalid Nasser",
                       "ar": "صورة خالد ناصر"
@@ -811,9 +821,9 @@
                     "ar": "مديرة فالكون فتنس"
                   },
                   "photo": {
-                    "url": "/stock/portrait-clay.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-hat.jpg",
+                    "width": 200,
+                    "height": 200,
                     "alt": {
                       "en": "Portrait of Mona Al-Kuwari",
                       "ar": "صورة منى الكواري"
@@ -852,9 +862,9 @@
                     "ar": "شريك مؤسس في ركن القهوة"
                   },
                   "photo": {
-                    "url": "/stock/portrait-slate.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-turtleneck.jpg",
+                    "width": 1380,
+                    "height": 552,
                     "alt": {
                       "en": "Portrait of Yaser Haidar",
                       "ar": "صورة ياسر حيدر"
@@ -1275,9 +1285,9 @@
                     "ar": "صفحة هبوط مرحة ومسار حجز حصة تجريبية لمدرسة لغات للأطفال بالعربية والإنجليزية."
                   },
                   "image": {
-                    "url": "/stock/art-blush.svg",
-                    "width": 1400,
-                    "height": 1400,
+                    "url": "/stock/photo/vr-neon.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Colourful abstract shapes",
                       "ar": "أشكال تجريدية ملوّنة"
@@ -1303,9 +1313,9 @@
                     "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "width": 546,
+                    "height": 298,
                     "alt": {
                       "en": "Booking dashboard in teal",
                       "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
@@ -1332,9 +1342,9 @@
                     "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/app-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "width": 350,
+                    "height": 310,
                     "alt": {
                       "en": "Clinic website screens",
                       "ar": "شاشات موقع العيادة"
@@ -1360,9 +1370,9 @@
                     "ar": "صفحة للضيافة مع نموذج عرض سعر يردّ عليه فريق المبيعات عبر واتساب في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Coffee and notes on a desk",
                       "ar": "قهوة وملاحظات على مكتب"
@@ -1557,9 +1567,9 @@
                     {
                       "id": "screens",
                       "image": {
-                        "url": "/stock/app-slate.svg",
-                        "width": 1600,
-                        "height": 1067,
+                        "url": "/stock/photo/ui-vr-cards.jpg",
+                        "width": 350,
+                        "height": 310,
                         "alt": {
                           "en": "Ordering site screens",
                           "ar": "شاشات موقع الطلبات"
@@ -1648,9 +1658,9 @@
                   "value": "case-studies"
                 },
                 "image": {
-                  "url": "/stock/art-blush.svg",
-                  "width": 1400,
-                  "height": 1400,
+                  "url": "/stock/photo/vr-neon.jpg",
+                  "width": 996,
+                  "height": 664,
                   "alt": {
                     "en": "Colourful abstract shapes",
                     "ar": "أشكال تجريدية ملوّنة"

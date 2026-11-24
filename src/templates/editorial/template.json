@@ -219,9 +219,9 @@
                 }
               ],
               "image": {
-                "url": "/stock/photo/city-sand.jpg",
-                "width": 497,
-                "height": 286,
+                "url": "/stock/photo/budapest.jpg",
+                "width": 1600,
+                "height": 1067,
                 "alt": {
                   "en": "A hillside of white houses and terracotta rooftops",
                   "ar": "منازل بيضاء وأسقف قرميدية على سفح تل"
@@ -303,9 +303,9 @@
                     "ar": "ستة استوديوهات وأربعون مطورًا ومكتب مشترك فوق معرض سيارات. قراءة مطوّلة في أحدث مشهد إبداعي في المدينة."
                   },
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "A shared studio desk with sketches",
                       "ar": "مكتب استوديو مشترك عليه رسومات"
@@ -332,9 +332,9 @@
                     "ar": "أزرار مترجمة وجموع مكسورة وتذكير المخاطَب وتأنيثه: ما الذي تخطئ فيه فرق المنتجات، وكيف يُصلَح."
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "width": 546,
+                    "height": 298,
                     "alt": {
                       "en": "Interface panels in teal",
                       "ar": "لوحات واجهة بلون أخضر مزرق"
@@ -361,8 +361,8 @@
                     "ar": "تسعون غريبًا واثنتا عشرة فكرة ولجنة تحكيم منهكة. انضممت إلى أحد الفرق وبقيت حتى العرض الأخير."
                   },
                   "image": {
-                    "url": "/stock/event-sand.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/desert.jpg",
+                    "width": 1067,
                     "height": 1600,
                     "alt": {
                       "en": "Warm celebration shapes",
@@ -390,8 +390,8 @@
                     "ar": "صورة قلمية لحرفة ترفض التحول الرقمي، وللمتدرّب الذي قد يبقيها حية."
                   },
                   "image": {
-                    "url": "/stock/interior-clay.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/rialto.jpg",
+                    "width": 1055,
                     "height": 1600,
                     "alt": {
                       "en": "A warm workshop interior",
@@ -646,9 +646,9 @@
                 "ar": "<p>أكتب عن التقنية والثقافة في الخليج منذ تسع سنوات، بدأت مراسلًا إخباريًا ثم محررًا للتحقيقات، وأعمل اليوم كاتبًا مستقلًا.</p><p>موضوعي هو الناس الذين يصنعون الأشياء: استوديوهات الألعاب ومصممو الخطوط والمؤسسون والمترجمون، وأحيانًا مجلّد كتب. أكتب نصوصًا طويلة، وأنقل من الميدان، وأنشر بالعربية والإنجليزية.</p><p>وحين لا أكتب، أقدّم ورشة في كتابة التحقيقات للصحفيين الشباب، وأحرر كتابًا بين حين وآخر.</p>"
               },
               "image": {
-                "url": "/stock/portrait-sand.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/p-turtleneck.jpg",
+                "width": 1380,
+                "height": 552,
                 "alt": {
                   "en": "Portrait of Yousef Al-Amin",
                   "ar": "صورة يوسف الأمين"

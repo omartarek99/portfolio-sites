@@ -221,9 +221,9 @@
                 "style": "outline"
               },
               "image": {
-                "url": "/stock/city-dusk.svg",
-                "width": 1920,
-                "height": 1080,
+                "url": "/stock/photo/madrid.jpg",
+                "width": 1600,
+                "height": 1067,
                 "alt": {
                   "en": "A city skyline at dusk, frame from the showreel",
                   "ar": "أفق مدينة عند الغروب، لقطة من عرض الأعمال"
@@ -265,9 +265,9 @@
                     "ar": "إعلان مدته 60 ثانية لعلامة رياضية، صُوّر عند الشروق على الواجهة البحرية."
                   },
                   "image": {
-                    "url": "/stock/photo/city-dusk.jpg",
-                    "width": 300,
-                    "height": 399,
+                    "url": "/stock/photo/madrid.jpg",
+                    "width": 1600,
+                    "height": 1067,
                     "alt": {
                       "en": "Waterfront skyline at dawn",
                       "ar": "أفق الواجهة البحرية عند الفجر"
@@ -299,9 +299,9 @@
                     "ar": "ثلاث كاميرات وليلة واحدة، وفيلم من دقيقتين سُلّم في صباح اليوم التالي."
                   },
                   "image": {
-                    "url": "/stock/event-dusk.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/vr-visor.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Evening celebration lights",
                       "ar": "أضواء احتفال مسائي"
@@ -328,9 +328,9 @@
                     "ar": "فيلم موشن جرافيك تعريفي مدته 90 ثانية لشركة طاقة ناشئة."
                   },
                   "image": {
-                    "url": "/stock/app-dusk.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-hero.jpg",
+                    "width": 546,
+                    "height": 400,
                     "alt": {
                       "en": "Dark interface panels",
                       "ar": "واجهات رقمية داكنة"
@@ -357,9 +357,9 @@
                     "ar": "سلسلة مقابلات من اثنتي عشرة حلقة، أُضيئت وصُوّرت في يوم استوديو واحد."
                   },
                   "image": {
-                    "url": "/stock/workspace-dusk.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-hex.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "A dark studio desk lit by a screen",
                       "ar": "مكتب استوديو داكن يضيئه وهج الشاشة"
@@ -386,9 +386,9 @@
                     "ar": "فيلم وثائقي قصير يرسم صورة أربعة تجّار في السوق القديم."
                   },
                   "image": {
-                    "url": "/stock/portrait-dusk.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-elder.jpg",
+                    "width": 200,
+                    "height": 200,
                     "alt": {
                       "en": "Portrait at dusk",
                       "ar": "صورة شخصية عند الغروب"
@@ -415,9 +415,9 @@
                     "ar": "فيلم هوية لمطوّر عقاري، مبني على التصوير المتسارع واللقطات الجوية البطيئة."
                   },
                   "image": {
-                    "url": "/stock/photo/city-slate.jpg",
-                    "width": 365,
-                    "height": 570,
+                    "url": "/stock/photo/berlin.jpg",
+                    "width": 1600,
+                    "height": 1060,
                     "alt": {
                       "en": "Desert city towers in daylight",
                       "ar": "أبراج مدينة صحراوية في النهار"
@@ -597,9 +597,9 @@
                 "ar": "<p>حملت أول كاميرا في الرابعة عشرة ولم أتركها منذ ذلك الحين. بعد ثماني سنوات مونتيرًا في شركة إنتاج، أسست طارق فيلمز لأعمل عن قرب مع العلامات والأشخاص الذين أصوّر لهم.</p><p>أُخرج وأصوّر وأقوم بالمونتاج، وأستعين بفريق موثوق من مختصي الصوت والإضاءة والألوان حين يحتاج المشروع إليهم.</p>"
               },
               "image": {
-                "url": "/stock/portrait-ink.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/p-woman.jpg",
+                "width": 200,
+                "height": 200,
                 "alt": {
                   "en": "Portrait of Tariq Hamdan",
                   "ar": "صورة طارق حمدان"
@@ -661,9 +661,9 @@
                 "style": "outline"
               },
               "image": {
-                "url": "/stock/art-ink.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/vr-redblue.jpg",
+                "width": 740,
+                "height": 740,
                 "alt": {
                   "en": "Abstract frame in ink tones",
                   "ar": "لقطة تجريدية بدرجات الحبر"
@@ -766,9 +766,9 @@
                     "url": "https://vimeo.com/76979871",
                     "provider": "vimeo",
                     "poster": {
-                      "url": "/stock/photo/city-dusk.jpg",
-                      "width": 300,
-                      "height": 399,
+                      "url": "/stock/photo/madrid.jpg",
+                      "width": 1600,
+                      "height": 1067,
                       "alt": {
                         "en": "Waterfront skyline at dawn",
                         "ar": "أفق الواجهة البحرية عند الفجر"
@@ -796,9 +796,9 @@
                     "url": "https://vimeo.com/76979871",
                     "provider": "vimeo",
                     "poster": {
-                      "url": "/stock/event-dusk.svg",
-                      "width": 1920,
-                      "height": 1080,
+                      "url": "/stock/photo/vr-visor.jpg",
+                      "width": 996,
+                      "height": 664,
                       "alt": {
                         "en": "Evening celebration lights",
                         "ar": "أضواء احتفال مسائي"
@@ -826,9 +826,9 @@
                     "url": "https://vimeo.com/76979871",
                     "provider": "vimeo",
                     "poster": {
-                      "url": "/stock/app-dusk.svg",
-                      "width": 1600,
-                      "height": 1067,
+                      "url": "/stock/photo/ui-vr-hero.jpg",
+                      "width": 546,
+                      "height": 400,
                       "alt": {
                         "en": "Dark interface panels",
                         "ar": "واجهات رقمية داكنة"
@@ -856,9 +856,9 @@
                     "url": "https://vimeo.com/76979871",
                     "provider": "vimeo",
                     "poster": {
-                      "url": "/stock/photo/city-slate.jpg",
-                      "width": 365,
-                      "height": 570,
+                      "url": "/stock/photo/berlin.jpg",
+                      "width": 1600,
+                      "height": 1060,
                       "alt": {
                         "en": "Desert city towers",
                         "ar": "أبراج مدينة صحراوية"
@@ -947,9 +947,9 @@
                 "ar": "إعلان عند الشروق لعلامة رياضية، صُوّر في صباح واحد على الواجهة البحرية."
               },
               "cover": {
-                "url": "/stock/photo/city-dusk.jpg",
-                "width": 300,
-                "height": 399,
+                "url": "/stock/photo/madrid.jpg",
+                "width": 1600,
+                "height": 1067,
                 "alt": {
                   "en": "Waterfront skyline at dawn",
                   "ar": "أفق الواجهة البحرية عند الفجر"
@@ -1024,9 +1024,9 @@
                     {
                       "id": "cs-shoot-1",
                       "image": {
-                        "url": "/stock/event-dusk.svg",
-                        "width": 1920,
-                        "height": 1080,
+                        "url": "/stock/photo/vr-visor.jpg",
+                        "width": 996,
+                        "height": 664,
                         "alt": {
                           "en": "Runners passing under evening lights",
                           "ar": "عدّاؤون يمرّون تحت أضواء المساء"
@@ -1097,9 +1097,9 @@
                   "value": "work"
                 },
                 "image": {
-                  "url": "/stock/app-dusk.svg",
-                  "width": 1600,
-                  "height": 1067,
+                  "url": "/stock/photo/ui-vr-hero.jpg",
+                  "width": 546,
+                  "height": 400,
                   "alt": {
                     "en": "Dark interface panels",
                     "ar": "واجهات رقمية داكنة"
@@ -1144,9 +1144,9 @@
                 "ar": "<p>أنا طارق حمدان، صاحب طارق فيلمز. أصنع منذ اثني عشر عامًا إعلانات وأفلام مناسبات وموشن جرافيك لعلامات في أنحاء الخليج.</p><p>أحافظ على فريق صغير ليبقى كل مشروع شخصيًا وسريعًا وصادقًا، فأنت تتحدث مباشرة مع من سيصوّر فيلمك ويقوم بمونتاجه.</p>"
               },
               "image": {
-                "url": "/stock/portrait-ink.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/p-woman.jpg",
+                "width": 200,
+                "height": 200,
                 "alt": {
                   "en": "Portrait of Tariq Hamdan",
                   "ar": "صورة طارق حمدان"

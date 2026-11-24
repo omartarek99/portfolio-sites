@@ -274,7 +274,7 @@
                 "style": "outline"
               },
               "image": {
-                "url": "/stock/city-sand.svg",
+                "url": "/stock/photo/budapest.jpg",
                 "width": 1600,
                 "height": 1067,
                 "alt": {
@@ -324,8 +324,8 @@
                     "ar": "بيت عائلي يلتفّ حول فناء مظلَّل، بجدران سميكة وملقف هواء يبرّد الغرف دون أجهزة لنصف العام."
                   },
                   "image": {
-                    "url": "/stock/interior-clay.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/rialto.jpg",
+                    "width": 1055,
                     "height": 1600,
                     "alt": {
                       "en": "Courtyard seen through a tall timber screen",
@@ -358,9 +358,9 @@
                     "ar": "طابق مكتبي مفتوح يتسع لـ180 شخصًا، تقسمه حواجز نباتية وخشب بلوط فاتح، مع غرف هادئة بمحاذاة الواجهة."
                   },
                   "image": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Long oak desks under a slatted ceiling",
                       "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
@@ -388,9 +388,9 @@
                     "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
-                    "width": 365,
-                    "height": 645,
+                    "url": "/stock/photo/desert.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Low pavilion against the dunes at dusk",
                       "ar": "جناح منخفض أمام الكثبان عند الغروب"
@@ -450,7 +450,7 @@
                 {
                   "id": "ba-courtyard",
                   "image": {
-                    "url": "/stock/art-sea.svg",
+                    "url": "/stock/photo/parthenon.jpg",
                     "width": 1600,
                     "height": 1067,
                     "alt": {
@@ -459,8 +459,8 @@
                     }
                   },
                   "after": {
-                    "url": "/stock/interior-clay.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/rialto.jpg",
+                    "width": 1055,
                     "height": 1600,
                     "alt": {
                       "en": "The finished courtyard with timber screen",
@@ -476,18 +476,18 @@
                 {
                   "id": "ba-cowork",
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Sketch study of the co-working floor",
                       "ar": "دراسة مبدئية لطابق العمل المشترك"
                     }
                   },
                   "after": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "The finished co-working floor",
                       "ar": "طابق العمل المشترك بعد التنفيذ"
@@ -606,9 +606,9 @@
                 "ar": "<p>أسّس فارس ناصر الاستوديو عام 2014 بعد عقد من تصميم الأبراج في الخارج. عاد إلى وطنه راغبًا في بناء أقل ارتفاعًا وأهدأ إيقاعًا وأكثر برودة.</p><p>يبدأ كل مشروع من المناخ: أين تسقط الشمس، ومن أين تهب الرياح، وما الذي عرفته العائلات التي سكنت هنا من قبل.</p>"
               },
               "image": {
-                "url": "/stock/portrait-slate.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/p-turtleneck.jpg",
+                "width": 1380,
+                "height": 552,
                 "alt": {
                   "en": "Faris Nasser in the studio",
                   "ar": "فارس ناصر في الاستوديو"
@@ -797,8 +797,8 @@
                     "ar": "بيت عائلي يلتفّ حول فناء مظلَّل، بجدران سميكة وملقف هواء يبرّد الغرف دون أجهزة لنصف العام."
                   },
                   "image": {
-                    "url": "/stock/interior-clay.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/rialto.jpg",
+                    "width": 1055,
                     "height": 1600,
                     "alt": {
                       "en": "Courtyard seen through a tall timber screen",
@@ -831,9 +831,9 @@
                     "ar": "طابق مكتبي مفتوح يتسع لـ180 شخصًا، تقسمه حواجز نباتية وخشب بلوط فاتح، مع غرف هادئة بمحاذاة الواجهة."
                   },
                   "image": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Long oak desks under a slatted ceiling",
                       "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
@@ -861,9 +861,9 @@
                     "ar": "جناح من التراب المدكوك قرب الكثبان، مرفوع عن الرمل، يؤطّر الغروب من خلال فتحة طويلة واحدة."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
-                    "width": 365,
-                    "height": 645,
+                    "url": "/stock/photo/desert.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Low pavilion against the dunes at dusk",
                       "ar": "جناح منخفض أمام الكثبان عند الغروب"
@@ -891,9 +891,9 @@
                     "ar": "شقتان دُمجتا في بيت واحد مضيء، بدرج يتحول إلى مكتبة."
                   },
                   "image": {
-                    "url": "/stock/photo/city-slate.jpg",
-                    "width": 365,
-                    "height": 570,
+                    "url": "/stock/photo/berlin.jpg",
+                    "width": 1600,
+                    "height": 1060,
                     "alt": {
                       "en": "Façade of a mid-rise block in Msheireb",
                       "ar": "واجهة مبنى متوسط الارتفاع في مشيرب"
@@ -917,9 +917,9 @@
                     "ar": "معرض صغير في مبنى قديم بالسوق، رُمّم بجص الجير وضوء نهار جديد من الأعلى."
                   },
                   "image": {
-                    "url": "/stock/photo/city-sand.jpg",
-                    "width": 497,
-                    "height": 286,
+                    "url": "/stock/photo/budapest.jpg",
+                    "width": 1600,
+                    "height": 1067,
                     "alt": {
                       "en": "Old souq street in warm light",
                       "ar": "شارع سوق قديم في ضوء دافئ"
@@ -943,9 +943,9 @@
                     "ar": "حديقة مظلّلة لعيادة، بنباتات محلية وقناة ماء ضيقة."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sea.jpg",
-                    "width": 762,
-                    "height": 873,
+                    "url": "/stock/photo/seaside.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Green planting on low hills",
                       "ar": "نباتات خضراء على تلال منخفضة"
@@ -1034,8 +1034,8 @@
                 "ar": "بيت عائلي يبقى باردًا بالتصميم، حول فناء تتشاركه العائلة كلها."
               },
               "cover": {
-                "url": "/stock/interior-clay.svg",
-                "width": 1200,
+                "url": "/stock/photo/rialto.jpg",
+                "width": 1055,
                 "height": 1600,
                 "alt": {
                   "en": "Courtyard seen through a tall timber screen",
@@ -1107,9 +1107,9 @@
                     {
                       "id": "plot",
                       "image": {
-                        "url": "/stock/photo/city-sand.jpg",
-                        "width": 497,
-                        "height": 286,
+                        "url": "/stock/photo/budapest.jpg",
+                        "width": 1600,
+                        "height": 1067,
                         "alt": {
                           "en": "The empty plot and neighbouring houses",
                           "ar": "قطعة الأرض الفارغة والبيوت المجاورة"
@@ -1140,7 +1140,7 @@
                     {
                       "id": "plan",
                       "image": {
-                        "url": "/stock/art-sea.svg",
+                        "url": "/stock/photo/parthenon.jpg",
                         "width": 1600,
                         "height": 1067,
                         "alt": {
@@ -1156,8 +1156,8 @@
                     {
                       "id": "built",
                       "image": {
-                        "url": "/stock/interior-clay.svg",
-                        "width": 1200,
+                        "url": "/stock/photo/rialto.jpg",
+                        "width": 1055,
                         "height": 1600,
                         "alt": {
                           "en": "The built courtyard",
@@ -1240,9 +1240,9 @@
                   "value": "projects"
                 },
                 "image": {
-                  "url": "/stock/workspace-slate.svg",
-                  "width": 1600,
-                  "height": 1067,
+                  "url": "/stock/photo/vr-headset.jpg",
+                  "width": 498,
+                  "height": 332,
                   "alt": {
                     "en": "Long oak desks under a slatted ceiling",
                     "ar": "مكاتب طويلة من خشب البلوط تحت سقف شرائحي"
@@ -1278,7 +1278,7 @@
                 {
                   "id": "ba-courtyard",
                   "image": {
-                    "url": "/stock/art-sea.svg",
+                    "url": "/stock/photo/parthenon.jpg",
                     "width": 1600,
                     "height": 1067,
                     "alt": {
@@ -1287,8 +1287,8 @@
                     }
                   },
                   "after": {
-                    "url": "/stock/interior-clay.svg",
-                    "width": 1200,
+                    "url": "/stock/photo/rialto.jpg",
+                    "width": 1055,
                     "height": 1600,
                     "alt": {
                       "en": "The finished courtyard with timber screen",
@@ -1304,18 +1304,18 @@
                 {
                   "id": "ba-cowork",
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Sketch study of the co-working floor",
                       "ar": "دراسة مبدئية لطابق العمل المشترك"
                     }
                   },
                   "after": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "The finished co-working floor",
                       "ar": "طابق العمل المشترك بعد التنفيذ"
@@ -1377,9 +1377,9 @@
                 "ar": "<p>نصمّم عددًا أقل من المشاريع لنبقى قريبين من كل منها، من أول زيارة للموقع حتى آخر مقبض على آخر باب.</p>"
               },
               "image": {
-                "url": "/stock/workspace-sand.svg",
-                "width": 1600,
-                "height": 1067,
+                "url": "/stock/photo/p-pool.jpg",
+                "width": 498,
+                "height": 332,
                 "alt": {
                   "en": "Models and drawings on the studio table",
                   "ar": "نماذج ورسومات على طاولة الاستوديو"

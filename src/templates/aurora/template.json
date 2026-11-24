@@ -484,9 +484,9 @@
                     "ar": "ملصقات ورسوم متحركة ولافتات إرشاد لليلة مفتوحة في متاحف المدينة استقطبت ثمانية عشر ألف زائر."
                   },
                   "image": {
-                    "url": "/stock/event-dusk.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/vr-visor.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Evening lights over a museum square",
                       "ar": "أضواء مسائية فوق ساحة متحف"
@@ -509,9 +509,9 @@
                     "ar": "هوية هادئة وواثقة لتطبيق ادخار، من أيقونة التطبيق حتى رسومات التعريف."
                   },
                   "image": {
-                    "url": "/stock/app-dusk.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-hero.jpg",
+                    "width": 546,
+                    "height": 400,
                     "alt": {
                       "en": "Dark app screens on a desk",
                       "ar": "شاشات تطبيق داكنة على مكتب"
@@ -693,9 +693,9 @@
                 "ar": "علامة أكثر دفئًا وتغليف جديد ونظام قوائم لمحمصة في الدوحة كانت تكبر أسرع من مظهرها."
               },
               "cover": {
-                "url": "/stock/workspace-dusk.svg",
-                "width": 1600,
-                "height": 1067,
+                "url": "/stock/photo/vr-hex.jpg",
+                "width": 498,
+                "height": 332,
                 "alt": {
                   "en": "Sketches and packaging samples on an evening desk",
                   "ar": "رسومات أولية ونماذج تغليف على مكتب في المساء"
@@ -799,9 +799,9 @@
                     {
                       "id": "routes",
                       "image": {
-                        "url": "/stock/art-sand.svg",
-                        "width": 1400,
-                        "height": 1400,
+                        "url": "/stock/photo/colosseum.jpg",
+                        "width": 512,
+                        "height": 374,
                         "alt": {
                           "en": "Identity sketches in sand tones",
                           "ar": "رسومات الهوية بألوان رملية"
@@ -815,9 +815,9 @@
                     {
                       "id": "palette",
                       "image": {
-                        "url": "/stock/art-blush.svg",
-                        "width": 1400,
-                        "height": 1400,
+                        "url": "/stock/photo/vr-neon.jpg",
+                        "width": 996,
+                        "height": 664,
                         "alt": {
                           "en": "Colour studies for the packaging",
                           "ar": "دراسات لونية للتغليف"
@@ -848,8 +848,8 @@
                     {
                       "id": "after",
                       "image": {
-                        "url": "/stock/interior-clay.svg",
-                        "width": 1200,
+                        "url": "/stock/photo/rialto.jpg",
+                        "width": 1055,
                         "height": 1600,
                         "alt": {
                           "en": "The refreshed café interior",
@@ -928,9 +928,9 @@
                   "value": "home"
                 },
                 "image": {
-                  "url": "/stock/event-dusk.svg",
-                  "width": 1920,
-                  "height": 1080,
+                  "url": "/stock/photo/vr-visor.jpg",
+                  "width": 996,
+                  "height": 664,
                   "alt": {
                     "en": "Museum Night poster at dusk",
                     "ar": "ملصق ليلة المتاحف عند الغروب"

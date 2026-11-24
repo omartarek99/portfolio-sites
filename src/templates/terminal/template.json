@@ -317,13 +317,13 @@
                     "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
                   },
                   "image": {
-                    "url": "/stock/app-dusk.svg",
+                    "url": "/stock/photo/ui-vr-hero.jpg",
                     "alt": {
                       "en": "ReelLearn feed on a phone screen",
                       "ar": "شريط ReelLearn على شاشة هاتف"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 546,
+                    "height": 400
                   },
                   "tags": [
                     "TypeScript",
@@ -353,13 +353,13 @@
                     "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
+                    "url": "/stock/photo/ui-vr-lower.jpg",
                     "alt": {
                       "en": "QuizForge API dashboard",
                       "ar": "لوحة تحكم QuizForge"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 546,
+                    "height": 298
                   },
                   "tags": [
                     "Node.js",
@@ -385,13 +385,13 @@
                     "ar": "توحيد النص العربي والبحث فيه وتحويله إلى روابط: التشكيل والتطويل وأشكال الألف والأرقام الهندية. تستخدمها أكثر من 300 مستودع. ★ 2.4k"
                   },
                   "image": {
-                    "url": "/stock/workspace-dusk.svg",
+                    "url": "/stock/photo/vr-hex.jpg",
                     "alt": {
                       "en": "Code editor at night",
                       "ar": "محرر الشيفرة ليلًا"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 498,
+                    "height": 332
                   },
                   "tags": [
                     "TypeScript",
@@ -779,13 +779,13 @@
                 "ar": "تحويل المحاضرات ذات الأربعين دقيقة إلى دروس من ستين ثانية يُكملها الطلاب فعلًا."
               },
               "cover": {
-                "url": "/stock/app-dusk.svg",
+                "url": "/stock/photo/ui-vr-hero.jpg",
                 "alt": {
                   "en": "ReelLearn app screens",
                   "ar": "شاشات تطبيق ReelLearn"
                 },
-                "width": 1600,
-                "height": 1067
+                "width": 546,
+                "height": 400
               },
               "meta": [
                 {
@@ -867,13 +867,13 @@
                     {
                       "id": "i-1",
                       "image": {
-                        "url": "/stock/app-slate.svg",
+                        "url": "/stock/photo/ui-vr-cards.jpg",
                         "alt": {
                           "en": "Teacher clip editor",
                           "ar": "محرر المقاطع للمعلّمين"
                         },
-                        "width": 1600,
-                        "height": 1067
+                        "width": 350,
+                        "height": 310
                       },
                       "caption": {
                         "en": "The clip editor teachers use to split a lecture.",
@@ -952,13 +952,13 @@
                   "newTab": true
                 },
                 "image": {
-                  "url": "/stock/app-sea.svg",
+                  "url": "/stock/photo/ui-vr-lower.jpg",
                   "alt": {
                     "en": "QuizForge dashboard",
                     "ar": "لوحة QuizForge"
                   },
-                  "width": 1920,
-                  "height": 1080
+                  "width": 546,
+                  "height": 298
                 }
               }
             },
@@ -995,13 +995,13 @@
                     "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
                   },
                   "image": {
-                    "url": "/stock/app-dusk.svg",
+                    "url": "/stock/photo/ui-vr-hero.jpg",
                     "alt": {
                       "en": "ReelLearn feed on a phone screen",
                       "ar": "شريط ReelLearn على شاشة هاتف"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 546,
+                    "height": 400
                   },
                   "tags": [
                     "TypeScript",
@@ -1027,13 +1027,13 @@
                     "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
+                    "url": "/stock/photo/ui-vr-lower.jpg",
                     "alt": {
                       "en": "QuizForge API dashboard",
                       "ar": "لوحة تحكم QuizForge"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 546,
+                    "height": 298
                   },
                   "tags": [
                     "Node.js",
@@ -1059,13 +1059,13 @@
                     "ar": "توحيد النص العربي والبحث فيه وتحويله إلى روابط: التشكيل والتطويل وأشكال الألف والأرقام الهندية. تستخدمها أكثر من 300 مستودع. ★ 2.4k"
                   },
                   "image": {
-                    "url": "/stock/workspace-dusk.svg",
+                    "url": "/stock/photo/vr-hex.jpg",
                     "alt": {
                       "en": "Code editor at night",
                       "ar": "محرر الشيفرة ليلًا"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 498,
+                    "height": 332
                   },
                   "tags": [
                     "TypeScript",

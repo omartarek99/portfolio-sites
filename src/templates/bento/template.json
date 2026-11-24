@@ -174,9 +174,9 @@
                     "ar": "إلهام من الساحل"
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sea.jpg",
-                    "width": 762,
-                    "height": 873,
+                    "url": "/stock/photo/seaside.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Coastal village overlooking a blue bay",
                       "ar": "قرية ساحلية تطل على خليج أزرق"
@@ -228,9 +228,9 @@
                     "ar": "فكرة عطلة نهاية الأسبوع تصبح رحلة محجوزة في أقل من أربع دقائق، وارتفعت الحجوزات 38٪ في الشهر الأول."
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
-                    "width": 1920,
-                    "height": 1080,
+                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "width": 546,
+                    "height": 298,
                     "alt": {
                       "en": "Trip planner dashboard",
                       "ar": "لوحة مخطِّط الرحلات"
@@ -342,9 +342,9 @@
                     "ar": "قلّصنا الانتظار عند مكتب الاستقبال من اثنتي عشرة دقيقة إلى دقيقتين بنقل التحقق من الهوية ومفاتيح الغرف إلى تطبيق «رحّال»."
                   },
                   "image": {
-                    "url": "/stock/app-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "width": 350,
+                    "height": 310,
                     "alt": {
                       "en": "Check-in screens on a phone",
                       "ar": "شاشات تسجيل الوصول على الهاتف"
@@ -411,9 +411,9 @@
                     "ar": "إيقاع أسبوعي من خمس مكالمات مع العملاء وملاحظات مشتركة وسجل واحد للقرارات، تعتمده الآن ثلاثة فرق منتجات."
                   },
                   "image": {
-                    "url": "/stock/workspace-sand.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/p-pool.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Sticky notes on a workshop wall",
                       "ar": "ملاحظات لاصقة على جدار ورشة عمل"

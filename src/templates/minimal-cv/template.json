@@ -256,9 +256,9 @@
                 "ar": "<p>منذ تخرجي عام 2020 عملت على أبراج ومدارس ومستشفيات في قطر والسعودية، وخفّضت عمليات التدقيق التي أجريتها فواتير الطاقة بنسبة وصلت إلى 24% دون شكوى واحدة من الشاغلين.</p><p>أنا عضو في جمعية المهندسين القطرية وحاصل على شهادة LEED Green Associate، وأبحث عن دور مهندس مشاريع أو مهندس تصميم تكون فيه الكفاءة جزءًا من المتطلبات منذ اليوم الأول.</p>"
               },
               "image": {
-                "url": "/stock/portrait-olive.svg",
-                "width": 1200,
-                "height": 1600,
+                "url": "/stock/photo/p-hat.jpg",
+                "width": 200,
+                "height": 200,
                 "alt": {
                   "en": "Portrait of Ahmed Saleh",
                   "ar": "صورة شخصية لأحمد صالح"
@@ -606,9 +606,9 @@
                     "ar": "إعادة تصميم شبكة المياه المبرّدة لبرج من 32 طابقًا، مع خفض حمل التبريد 15%."
                   },
                   "image": {
-                    "url": "/stock/photo/city-slate.jpg",
-                    "width": 365,
-                    "height": 570,
+                    "url": "/stock/photo/berlin.jpg",
+                    "width": 1600,
+                    "height": 1060,
                     "alt": {
                       "en": "Office towers",
                       "ar": "أبراج مكاتب"
@@ -634,9 +634,9 @@
                     "ar": "تدقيق وتحسين في 14 مدرسة بتوفير سنوي قدره 24%."
                   },
                   "image": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Engineering drawings on a desk",
                       "ar": "مخططات هندسية على مكتب"
@@ -662,9 +662,9 @@
                     "ar": "مشروع تخرج يحاكي التبريد الحراري الشمسي لمدرسة."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
-                    "width": 365,
-                    "height": 645,
+                    "url": "/stock/photo/desert.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Desert under the sun",
                       "ar": "صحراء تحت الشمس"
@@ -736,9 +736,9 @@
             "ar": "مهندس ميكانيكي · الدوحة"
           },
           "logo": {
-            "url": "/stock/portrait-olive.svg",
-            "width": 1200,
-            "height": 1600,
+            "url": "/stock/photo/p-hat.jpg",
+            "width": 200,
+            "height": 200,
             "alt": {
               "en": "Portrait of Ahmed Saleh",
               "ar": "صورة شخصية لأحمد صالح"

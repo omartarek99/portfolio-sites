@@ -209,49 +209,49 @@
                 {
                   "id": "s1",
                   "image": {
-                    "url": "/stock/event-sand.svg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Bride and groom under warm evening light",
                       "ar": "عروسان تحت ضوء المساء الدافئ"
                     },
-                    "width": 1200,
+                    "width": 1067,
                     "height": 1600
                   }
                 },
                 {
                   "id": "s2",
                   "image": {
-                    "url": "/stock/portrait-dusk.svg",
+                    "url": "/stock/photo/p-elder.jpg",
                     "alt": {
                       "en": "Portrait in soft dusk light",
                       "ar": "بورتريه في ضوء الغسق الناعم"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 200,
+                    "height": 200
                   }
                 },
                 {
                   "id": "s3",
                   "image": {
-                    "url": "/stock/event-dusk.svg",
+                    "url": "/stock/photo/vr-visor.jpg",
                     "alt": {
                       "en": "Evening celebration by the water",
                       "ar": "احتفال مسائي قرب الماء"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 996,
+                    "height": 664
                   }
                 },
                 {
                   "id": "s4",
                   "image": {
-                    "url": "/stock/nature-sand.svg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Desert dunes at golden hour",
                       "ar": "كثبان الصحراء وقت الغروب"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 1067,
+                    "height": 1600
                   }
                 }
               ],
@@ -315,12 +315,12 @@
                 {
                   "id": "w1",
                   "image": {
-                    "url": "/stock/event-sand.svg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Huda & Faisal, first look at the Pearl",
                       "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
                     },
-                    "width": 1200,
+                    "width": 1067,
                     "height": 1600
                   },
                   "caption": {
@@ -332,13 +332,13 @@
                 {
                   "id": "w2",
                   "image": {
-                    "url": "/stock/portrait-dusk.svg",
+                    "url": "/stock/photo/p-elder.jpg",
                     "alt": {
                       "en": "Reem, window light study",
                       "ar": "ريم، دراسة على ضوء النافذة"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 200,
+                    "height": 200
                   },
                   "caption": {
                     "en": "Reem, window light study",
@@ -349,13 +349,13 @@
                 {
                   "id": "w3",
                   "image": {
-                    "url": "/stock/event-dusk.svg",
+                    "url": "/stock/photo/vr-visor.jpg",
                     "alt": {
                       "en": "Gala night at the waterfront",
                       "ar": "ليلة حفل على الواجهة البحرية"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Gala night at the waterfront",
@@ -366,13 +366,13 @@
                 {
                   "id": "w4",
                   "image": {
-                    "url": "/stock/event-blush.svg",
+                    "url": "/stock/photo/seaside.jpg",
                     "alt": {
                       "en": "Confetti on the courtyard steps",
                       "ar": "قصاصات ملوّنة على درج الفناء"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Confetti on the courtyard steps",
@@ -383,13 +383,13 @@
                 {
                   "id": "w5",
                   "image": {
-                    "url": "/stock/portrait-ink.svg",
+                    "url": "/stock/photo/p-woman.jpg",
                     "alt": {
                       "en": "Yousef, studio portrait in black",
                       "ar": "يوسف، بورتريه بالأسود في الاستوديو"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 200,
+                    "height": 200
                   },
                   "caption": {
                     "en": "Yousef, studio portrait in black",
@@ -400,13 +400,13 @@
                 {
                   "id": "w6",
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Engagement walk in the dunes",
                       "ar": "جلسة خطوبة بين الكثبان"
                     },
-                    "width": 365,
-                    "height": 645
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Engagement walk in the dunes",
@@ -417,13 +417,13 @@
                 {
                   "id": "w7",
                   "image": {
-                    "url": "/stock/portrait-blush.svg",
+                    "url": "/stock/photo/p-orange.jpg",
                     "alt": {
                       "en": "Lulwa, graduation portrait",
                       "ar": "لولوة، صورة التخرج"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Lulwa, graduation portrait",
@@ -434,13 +434,13 @@
                 {
                   "id": "w8",
                   "image": {
-                    "url": "/stock/photo/city-dusk.jpg",
+                    "url": "/stock/photo/madrid.jpg",
                     "alt": {
                       "en": "Product launch over the skyline",
                       "ar": "إطلاق منتج على خلفية الأفق"
                     },
-                    "width": 300,
-                    "height": 399
+                    "width": 1600,
+                    "height": 1067
                   },
                   "caption": {
                     "en": "Product launch over the skyline",
@@ -504,13 +504,13 @@
                 "ar": "<p>أنا مريم، مصوّرة قطرية فلسطينية أحببت التصوير في غرفة التحميض عند أبي. منذ عام 2016 صوّرت أكثر من 180 عرسًا في أنحاء قطر، من جلسات المجلس الصغيرة إلى ليالي القاعات الكبرى.</p><p>أعمل بهدوء وأعتمد غالبًا على الضوء المتاح. لا أوضاع متكلّفة ولا قوائم طويلة من اللقطات، بل نظرة بين أختين، ويدا جدّة، واللحظة التي تسبق فتح الأبواب.</p>"
               },
               "image": {
-                "url": "/stock/portrait-ink.svg",
+                "url": "/stock/photo/p-woman.jpg",
                 "alt": {
                   "en": "Mariam Al-Khatib holding her camera",
                   "ar": "مريم الخطيب تحمل كاميرتها"
                 },
-                "width": 1200,
-                "height": 1600
+                "width": 200,
+                "height": 200
               },
               "imageSide": "start",
               "cta": {
@@ -1028,12 +1028,12 @@
                 {
                   "id": "w1",
                   "image": {
-                    "url": "/stock/event-sand.svg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Huda & Faisal, first look at the Pearl",
                       "ar": "هدى وفيصل، النظرة الأولى في اللؤلؤة"
                     },
-                    "width": 1200,
+                    "width": 1067,
                     "height": 1600
                   },
                   "caption": {
@@ -1045,13 +1045,13 @@
                 {
                   "id": "w2",
                   "image": {
-                    "url": "/stock/portrait-dusk.svg",
+                    "url": "/stock/photo/p-elder.jpg",
                     "alt": {
                       "en": "Reem, window light study",
                       "ar": "ريم، دراسة على ضوء النافذة"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 200,
+                    "height": 200
                   },
                   "caption": {
                     "en": "Reem, window light study",
@@ -1062,13 +1062,13 @@
                 {
                   "id": "w3",
                   "image": {
-                    "url": "/stock/event-dusk.svg",
+                    "url": "/stock/photo/vr-visor.jpg",
                     "alt": {
                       "en": "Gala night at the waterfront",
                       "ar": "ليلة حفل على الواجهة البحرية"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Gala night at the waterfront",
@@ -1079,13 +1079,13 @@
                 {
                   "id": "w4",
                   "image": {
-                    "url": "/stock/event-blush.svg",
+                    "url": "/stock/photo/seaside.jpg",
                     "alt": {
                       "en": "Confetti on the courtyard steps",
                       "ar": "قصاصات ملوّنة على درج الفناء"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Confetti on the courtyard steps",
@@ -1096,13 +1096,13 @@
                 {
                   "id": "w5",
                   "image": {
-                    "url": "/stock/portrait-ink.svg",
+                    "url": "/stock/photo/p-woman.jpg",
                     "alt": {
                       "en": "Yousef, studio portrait in black",
                       "ar": "يوسف، بورتريه بالأسود في الاستوديو"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 200,
+                    "height": 200
                   },
                   "caption": {
                     "en": "Yousef, studio portrait in black",
@@ -1113,13 +1113,13 @@
                 {
                   "id": "w6",
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Engagement walk in the dunes",
                       "ar": "جلسة خطوبة بين الكثبان"
                     },
-                    "width": 365,
-                    "height": 645
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Engagement walk in the dunes",
@@ -1130,13 +1130,13 @@
                 {
                   "id": "w7",
                   "image": {
-                    "url": "/stock/portrait-blush.svg",
+                    "url": "/stock/photo/p-orange.jpg",
                     "alt": {
                       "en": "Lulwa, graduation portrait",
                       "ar": "لولوة، صورة التخرج"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Lulwa, graduation portrait",
@@ -1147,13 +1147,13 @@
                 {
                   "id": "w8",
                   "image": {
-                    "url": "/stock/photo/city-dusk.jpg",
+                    "url": "/stock/photo/madrid.jpg",
                     "alt": {
                       "en": "Product launch over the skyline",
                       "ar": "إطلاق منتج على خلفية الأفق"
                     },
-                    "width": 300,
-                    "height": 399
+                    "width": 1600,
+                    "height": 1067
                   },
                   "caption": {
                     "en": "Product launch over the skyline",
@@ -1181,13 +1181,13 @@
                 {
                   "id": "w10",
                   "image": {
-                    "url": "/stock/portrait-sand.svg",
+                    "url": "/stock/photo/p-blazer.jpg",
                     "alt": {
                       "en": "Noura and her grandmother",
                       "ar": "نورة وجدّتها"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Noura and her grandmother",
@@ -1198,13 +1198,13 @@
                 {
                   "id": "w11",
                   "image": {
-                    "url": "/stock/photo/nature-sea.jpg",
+                    "url": "/stock/photo/seaside.jpg",
                     "alt": {
                       "en": "Vows by the sea at Al Wakra",
                       "ar": "عهود على البحر في الوكرة"
                     },
-                    "width": 762,
-                    "height": 873
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Vows by the sea at Al Wakra",
@@ -1215,13 +1215,13 @@
                 {
                   "id": "w12",
                   "image": {
-                    "url": "/stock/portrait-sea.svg",
+                    "url": "/stock/photo/p-glasses.jpg",
                     "alt": {
                       "en": "Salem, family portrait session",
                       "ar": "سالم، جلسة صور عائلية"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Salem, family portrait session",

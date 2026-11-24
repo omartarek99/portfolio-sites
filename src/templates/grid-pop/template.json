@@ -227,49 +227,49 @@
                 {
                   "id": "c1",
                   "image": {
-                    "url": "/stock/app-slate.svg",
+                    "url": "/stock/photo/ui-vr-cards.jpg",
                     "alt": {
                       "en": "Dashboard interface design",
                       "ar": "تصميم واجهة لوحة تحكم"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 350,
+                    "height": 310
                   }
                 },
                 {
                   "id": "c2",
                   "image": {
-                    "url": "/stock/portrait-olive.svg",
+                    "url": "/stock/photo/p-turtleneck.jpg",
                     "alt": {
                       "en": "Khalid Rahman",
                       "ar": "خالد رحمن"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 1380,
+                    "height": 552
                   }
                 },
                 {
                   "id": "c3",
                   "image": {
-                    "url": "/stock/art-blush.svg",
+                    "url": "/stock/photo/vr-neon.jpg",
                     "alt": {
                       "en": "Colourful shape studies",
                       "ar": "تجارب ملوّنة بالأشكال"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 996,
+                    "height": 664
                   }
                 },
                 {
                   "id": "c4",
                   "image": {
-                    "url": "/stock/app-sea.svg",
+                    "url": "/stock/photo/ui-vr-lower.jpg",
                     "alt": {
                       "en": "Data dashboard screens",
                       "ar": "شاشات لوحة بيانات"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 546,
+                    "height": 298
                   }
                 }
               ],
@@ -334,13 +334,13 @@
                     "ar": "الطلب من بقالة الحيّ في دقيقة واحدة."
                   },
                   "image": {
-                    "url": "/stock/app-sea.svg",
+                    "url": "/stock/photo/ui-vr-lower.jpg",
                     "alt": {
                       "en": "Qareeb app screens",
                       "ar": "شاشات تطبيق قريب"
                     },
-                    "width": 1920,
-                    "height": 1080
+                    "width": 546,
+                    "height": 298
                   },
                   "tags": [
                     "Mobile",
@@ -364,13 +364,13 @@
                     "ar": "أربعون رسمًا بيانيًا صارت ثلاث إجابات واضحة للبائعين."
                   },
                   "image": {
-                    "url": "/stock/app-slate.svg",
+                    "url": "/stock/photo/ui-vr-cards.jpg",
                     "alt": {
                       "en": "Souq seller dashboard",
                       "ar": "لوحة البائع في سوق"
                     },
-                    "width": 1600,
-                    "height": 1067
+                    "width": 350,
+                    "height": 310
                   },
                   "tags": [
                     "Web app",
@@ -394,13 +394,13 @@
                     "ar": "تطبيق عادات تنمو فيه حديقة صغيرة مع كل يوم تلتزم فيه."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sea.jpg",
+                    "url": "/stock/photo/seaside.jpg",
                     "alt": {
                       "en": "Green hills illustration for Plantly",
                       "ar": "رسم تلال خضراء لتطبيق Plantly"
                     },
-                    "width": 762,
-                    "height": 873
+                    "width": 1067,
+                    "height": 1600
                   },
                   "tags": [
                     "Side project",
@@ -424,13 +424,13 @@
                     "ar": "المترو والحافلة وسيارة الأجرة في مخطّط رحلات واحد بلغتين."
                   },
                   "image": {
-                    "url": "/stock/photo/city-slate.jpg",
+                    "url": "/stock/photo/berlin.jpg",
                     "alt": {
                       "en": "City skyline for Masar",
                       "ar": "أفق المدينة لتطبيق مسار"
                     },
-                    "width": 365,
-                    "height": 570
+                    "width": 1600,
+                    "height": 1060
                   },
                   "tags": [
                     "Mobile",
@@ -449,7 +449,7 @@
                     "ar": "فتح حساب مصرفي في أقل من أربع دقائق."
                   },
                   "image": {
-                    "url": "/stock/art-sea.svg",
+                    "url": "/stock/photo/parthenon.jpg",
                     "alt": {
                       "en": "Abstract shapes for Tala",
                       "ar": "أشكال تجريدية لتالا"
@@ -474,13 +474,13 @@
                     "ar": "120 مكوّنًا موثّقًا بالعربية والإنجليزية."
                   },
                   "image": {
-                    "url": "/stock/art-blush.svg",
+                    "url": "/stock/photo/vr-neon.jpg",
                     "alt": {
                       "en": "Colourful component tiles",
                       "ar": "مربعات مكوّنات ملوّنة"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 996,
+                    "height": 664
                   },
                   "tags": [
                     "Design system",
@@ -682,13 +682,13 @@
                 "ar": "<p>بدأت مصممًا جرافيكيًا أصنع ملصقات نادي السينما في جامعتي، ثم وقعت في حب الواجهات حين أعدت تصميم تطبيق تذاكر النادي في عطلة نهاية أسبوع طويلة.</p><p>أقود اليوم تصميم المنتجات لفرق تريد لتطبيقاتها أن تكون ودودة بالعربية والإنجليزية معًا. أرسم على الورق، وأبني النماذج في فيغما، وأختبرها مع أشخاص حقيقيين في أقرب وقت ممكن.</p>"
               },
               "image": {
-                "url": "/stock/portrait-olive.svg",
+                "url": "/stock/photo/p-turtleneck.jpg",
                 "alt": {
                   "en": "Khalid Rahman smiling",
                   "ar": "خالد رحمن مبتسمًا"
                 },
-                "width": 1200,
-                "height": 1600
+                "width": 1380,
+                "height": 552
               },
               "imageSide": "end",
               "cta": {
@@ -904,13 +904,13 @@
                 "ar": "إعادة تصميم تطبيق بقالة الحيّ ليستغرق الطلب دقيقة واحدة لا خمس دقائق."
               },
               "cover": {
-                "url": "/stock/app-sea.svg",
+                "url": "/stock/photo/ui-vr-lower.jpg",
                 "alt": {
                   "en": "Qareeb app screens on a dashboard",
                   "ar": "شاشات تطبيق قريب على لوحة"
                 },
-                "width": 1920,
-                "height": 1080
+                "width": 546,
+                "height": 298
               },
               "meta": [
                 {
@@ -992,13 +992,13 @@
                     {
                       "id": "i1",
                       "image": {
-                        "url": "/stock/app-slate.svg",
+                        "url": "/stock/photo/ui-vr-cards.jpg",
                         "alt": {
                           "en": "Early wireframes of the basket screen",
                           "ar": "مخططات أولية لشاشة السلّة"
                         },
-                        "width": 1600,
-                        "height": 1067
+                        "width": 350,
+                        "height": 310
                       },
                       "caption": {
                         "en": "Round two of the basket prototype",
@@ -1008,13 +1008,13 @@
                     {
                       "id": "i2",
                       "image": {
-                        "url": "/stock/workspace-slate.svg",
+                        "url": "/stock/photo/vr-headset.jpg",
                         "alt": {
                           "en": "Usability test notes on a desk",
                           "ar": "ملاحظات اختبار الاستخدام على مكتب"
                         },
-                        "width": 1600,
-                        "height": 1067
+                        "width": 498,
+                        "height": 332
                       },
                       "caption": {
                         "en": "Notes from 26 test sessions",
@@ -1092,13 +1092,13 @@
                   "value": "souq"
                 },
                 "image": {
-                  "url": "/stock/app-slate.svg",
+                  "url": "/stock/photo/ui-vr-cards.jpg",
                   "alt": {
                     "en": "Souq seller dashboard",
                     "ar": "لوحة البائع في سوق"
                   },
-                  "width": 1600,
-                  "height": 1067
+                  "width": 350,
+                  "height": 310
                 }
               }
             },
@@ -1184,13 +1184,13 @@
                 "ar": "لوحة للبائعين يقرؤها أصحاب المتاجر الصغيرة بنظرة واحدة بين زبون وآخر."
               },
               "cover": {
-                "url": "/stock/app-slate.svg",
+                "url": "/stock/photo/ui-vr-cards.jpg",
                 "alt": {
                   "en": "Souq seller dashboard on a laptop",
                   "ar": "لوحة البائع في سوق على حاسوب محمول"
                 },
-                "width": 1600,
-                "height": 1067
+                "width": 350,
+                "height": 310
               },
               "meta": [
                 {
@@ -1272,13 +1272,13 @@
                     {
                       "id": "i1",
                       "image": {
-                        "url": "/stock/app-sea.svg",
+                        "url": "/stock/photo/ui-vr-lower.jpg",
                         "alt": {
                           "en": "The new today view",
                           "ar": "شاشة «اليوم» الجديدة"
                         },
-                        "width": 1920,
-                        "height": 1080
+                        "width": 546,
+                        "height": 298
                       },
                       "caption": {
                         "en": "The “today” view",
@@ -1356,13 +1356,13 @@
                   "value": "about"
                 },
                 "image": {
-                  "url": "/stock/portrait-olive.svg",
+                  "url": "/stock/photo/p-turtleneck.jpg",
                   "alt": {
                     "en": "Khalid Rahman",
                     "ar": "خالد رحمن"
                   },
-                  "width": 1200,
-                  "height": 1600
+                  "width": 1380,
+                  "height": 552
                 }
               }
             },
@@ -1448,13 +1448,13 @@
                 "ar": "<p>أنا مصمم واجهات وتجربة مستخدم أقيم في دبي، وُلدت في الشارقة لعائلة من أصحاب المتاجر. علّمتني مراقبة خالي وهو يدير متجره أهم درس في التصميم: الناس مشغولون، والأداة الجيدة تحترم وقتهم.</p><p>أمضيت خمس سنوات أصمّم منتجات في التوصيل والتجزئة والتقنية المالية يستخدمها أكثر من مليوني شخص. يهمّني البحث الذي يغيّر القرارات، وأنظمة التصميم التي تستخدمها الفرق فعلًا، ولحظات البهجة الصغيرة.</p><p>خارج العمل أرشد طلاب التصميم في معسكر تدريبي محلي، وأنظّم أمسية شهرية لمراجعة أعمال المصممين المبتدئين.</p>"
               },
               "image": {
-                "url": "/stock/portrait-olive.svg",
+                "url": "/stock/photo/p-turtleneck.jpg",
                 "alt": {
                   "en": "Khalid Rahman",
                   "ar": "خالد رحمن"
                 },
-                "width": 1200,
-                "height": 1600
+                "width": 1380,
+                "height": 552
               },
               "cta": {
                 "label": {

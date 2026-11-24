@@ -182,7 +182,7 @@
           {
             "id": "bloom-hero",
             "blockType": "hero",
-            "variant": "centered",
+            "variant": "split-image",
             "content": {
               "eyebrow": {
                 "en": "Career coach · Doha & online",
@@ -229,7 +229,17 @@
               "location": {
                 "en": "Doha, Qatar",
                 "ar": "الدوحة، قطر"
-              }
+              },
+              "image": {
+                "url": "/stock/photo/p-orange.jpg",
+                "width": 996,
+                "height": 664,
+                "alt": {
+                  "en": "Portrait of Hana Ibrahim",
+                  "ar": "صورة هناء إبراهيم"
+                }
+              },
+              "imageSide": "end"
             },
             "style": {},
             "animation": {
@@ -563,9 +573,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-sand.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-blazer.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Portrait of Dana",
                       "ar": "صورة دانة"
@@ -588,9 +598,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-olive.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-beret.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Portrait of Yousef",
                       "ar": "صورة يوسف"
@@ -613,9 +623,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-clay.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-hat.jpg",
+                    "width": 200,
+                    "height": 200,
                     "alt": {
                       "en": "Portrait of Maryam",
                       "ar": "صورة مريم"
@@ -638,9 +648,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-slate.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-turtleneck.jpg",
+                    "width": 1380,
+                    "height": 552,
                     "alt": {
                       "en": "Portrait of Khalid",
                       "ar": "صورة خالد"
@@ -820,9 +830,9 @@
                   "ar": "١٢ صفحة · ١٠ دقائق قراءة"
                 },
                 "image": {
-                  "url": "/stock/workspace-sand.svg",
-                  "width": 1600,
-                  "height": 1067,
+                  "url": "/stock/photo/p-pool.jpg",
+                  "width": 498,
+                  "height": 332,
                   "alt": {
                     "en": "Notebook and coffee on a desk",
                     "ar": "دفتر وقهوة على مكتب"
@@ -1133,9 +1143,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-olive.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-beret.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Portrait of Yousef",
                       "ar": "صورة يوسف"
@@ -1158,9 +1168,9 @@
                   },
                   "rating": 5,
                   "photo": {
-                    "url": "/stock/portrait-slate.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-turtleneck.jpg",
+                    "width": 1380,
+                    "height": 552,
                     "alt": {
                       "en": "Portrait of Khalid",
                       "ar": "صورة خالد"

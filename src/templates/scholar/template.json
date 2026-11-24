@@ -217,7 +217,7 @@
           {
             "id": "scholar-hero",
             "blockType": "hero",
-            "variant": "centered",
+            "variant": "split-image",
             "example": true,
             "content": {
               "eyebrow": {
@@ -261,7 +261,17 @@
               "location": {
                 "en": "Muscat, Oman",
                 "ar": "مسقط، عُمان"
-              }
+              },
+              "image": {
+                "url": "/stock/photo/p-glasses.jpg",
+                "width": 996,
+                "height": 664,
+                "alt": {
+                  "en": "Portrait of Ms. Fatima Al-Hajri",
+                  "ar": "صورة أ. فاطمة الهاجري"
+                }
+              },
+              "imageSide": "end"
             },
             "style": {},
             "animation": {
@@ -449,9 +459,9 @@
                 "ar": "<p>بدأت تدريس اللغة الإنجليزية عام 2010 في مدرسة ثانوية للبنات في مسقط. علّمتني سنتي الأولى أن الفصل الهادئ ليس دائمًا فصلًا يتعلم فيه الطلاب، فبدأت أجرّب العمل الثنائي والألعاب القصيرة والنقاشات التي يقودها الطلاب.</p><p>أجمع اليوم بين التدريس والتدريب: أقدّم ورش عمل للمعلمين الجدد، وأرشد الطلاب المعلمين، وأكتب عن استراتيجيات عملية داخل الفصل. أحمل درجة الماجستير في تدريس الإنجليزية لغير الناطقين بها وشهادة CELTA.</p>"
               },
               "image": {
-                "url": "/stock/workspace-sand.svg",
-                "width": 1600,
-                "height": 1067,
+                "url": "/stock/photo/p-pool.jpg",
+                "width": 498,
+                "height": 332,
                 "alt": {
                   "en": "A desk with lesson notes and a cup of tea",
                   "ar": "مكتب عليه ملاحظات الدروس وكوب شاي"
@@ -691,9 +701,9 @@
                     "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
                     "provider": "youtube",
                     "poster": {
-                      "url": "/stock/event-dusk.svg",
-                      "width": 1920,
-                      "height": 1080,
+                      "url": "/stock/photo/vr-visor.jpg",
+                      "width": 996,
+                      "height": 664,
                       "alt": {
                         "en": "Stage lights at the teachers' forum",
                         "ar": "أضواء المسرح في ملتقى المعلمين"
@@ -763,9 +773,9 @@
                     "ar": "معلمة جديدة، الصف الثامن"
                   },
                   "photo": {
-                    "url": "/stock/portrait-blush.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-orange.jpg",
+                    "width": 996,
+                    "height": 664,
                     "alt": {
                       "en": "Reem Al-Balushi",
                       "ar": "ريم البلوشية"
@@ -787,9 +797,9 @@
                     "ar": "منسق مادة"
                   },
                   "photo": {
-                    "url": "/stock/portrait-slate.svg",
-                    "width": 1200,
-                    "height": 1600,
+                    "url": "/stock/photo/p-turtleneck.jpg",
+                    "width": 1380,
+                    "height": 552,
                     "alt": {
                       "en": "Khalid Al-Rawahi",
                       "ar": "خالد الرواحي"
@@ -963,9 +973,9 @@
                     "ar": "عشرون نشاطًا تجعل كل طالب يتحدث ويتحرك ويفكر."
                   },
                   "image": {
-                    "url": "/stock/workspace-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/vr-headset.jpg",
+                    "width": 498,
+                    "height": 332,
                     "alt": {
                       "en": "Workshop materials on a table",
                       "ar": "مواد الورشة على طاولة"
@@ -999,9 +1009,9 @@
                     "ar": "روتين وتوقعات واستجابات هادئة لسنتك الأولى."
                   },
                   "image": {
-                    "url": "/stock/photo/city-slate.jpg",
-                    "width": 365,
-                    "height": 570,
+                    "url": "/stock/photo/berlin.jpg",
+                    "width": 1600,
+                    "height": 1060,
                     "alt": {
                       "en": "School buildings in grey tones",
                       "ar": "مبانٍ مدرسية بدرجات رمادية"
@@ -1035,9 +1045,9 @@
                     "ar": "ملف أعمال وتعريف واضح وخطة لمشاركة عملك."
                   },
                   "image": {
-                    "url": "/stock/app-slate.svg",
-                    "width": 1600,
-                    "height": 1067,
+                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "width": 350,
+                    "height": 310,
                     "alt": {
                       "en": "A portfolio page on screen",
                       "ar": "صفحة ملف أعمال على الشاشة"
@@ -1071,9 +1081,9 @@
                     "ar": "حضور درس وتغذية راجعة صادقة وخطة لفصلك الدراسي القادم."
                   },
                   "image": {
-                    "url": "/stock/photo/nature-sea.jpg",
-                    "width": 762,
-                    "height": 873,
+                    "url": "/stock/photo/seaside.jpg",
+                    "width": 1067,
+                    "height": 1600,
                     "alt": {
                       "en": "Calm coast and water",
                       "ar": "ساحل هادئ ومياه"
@@ -1437,9 +1447,9 @@
                     "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
                     "provider": "youtube",
                     "poster": {
-                      "url": "/stock/event-dusk.svg",
-                      "width": 1920,
-                      "height": 1080,
+                      "url": "/stock/photo/vr-visor.jpg",
+                      "width": 996,
+                      "height": 664,
                       "alt": {
                         "en": "Stage lights at the teachers' forum",
                         "ar": "أضواء المسرح في ملتقى المعلمين"

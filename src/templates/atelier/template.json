@@ -276,13 +276,13 @@
                 {
                   "id": "w-lines",
                   "image": {
-                    "url": "/stock/art-sand.svg",
+                    "url": "/stock/photo/colosseum.jpg",
                     "alt": {
                       "en": "Square calligraphic composition in layered sand tones",
                       "ar": "تكوين خطّي مربّع بطبقات رملية"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 512,
+                    "height": 374
                   },
                   "caption": {
                     "en": "Lines of Light I",
@@ -302,13 +302,13 @@
                 {
                   "id": "w-night",
                   "image": {
-                    "url": "/stock/art-ink.svg",
+                    "url": "/stock/photo/vr-redblue.jpg",
                     "alt": {
                       "en": "Tall ink composition in deep blue strokes",
                       "ar": "تكوين عمودي بضربات حبر زرقاء داكنة"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 740,
+                    "height": 740
                   },
                   "caption": {
                     "en": "Night Script",
@@ -328,13 +328,13 @@
                 {
                   "id": "w-breath",
                   "image": {
-                    "url": "/stock/art-blush.svg",
+                    "url": "/stock/photo/vr-neon.jpg",
                     "alt": {
                       "en": "Rose-coloured arcs on a square sheet",
                       "ar": "أقواس وردية على ورقة مربعة"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Breath, study I",
@@ -354,7 +354,7 @@
                 {
                   "id": "w-tide",
                   "image": {
-                    "url": "/stock/art-sea.svg",
+                    "url": "/stock/photo/parthenon.jpg",
                     "alt": {
                       "en": "Teal abstract with flowing horizontal lines",
                       "ar": "تجريد بالأزرق المخضرّ بخطوط أفقية منسابة"
@@ -380,12 +380,12 @@
                 {
                   "id": "w-door",
                   "image": {
-                    "url": "/stock/interior-clay.svg",
+                    "url": "/stock/photo/rialto.jpg",
                     "alt": {
                       "en": "Warm clay forms in a tall frame",
                       "ar": "أشكال طينية دافئة في إطار عمودي"
                     },
-                    "width": 1200,
+                    "width": 1055,
                     "height": 1600
                   },
                   "caption": {
@@ -406,13 +406,13 @@
                 {
                   "id": "w-dunes",
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Wide desert dunes under a pale sky",
                       "ar": "كثبان صحراوية واسعة تحت سماء شاحبة"
                     },
-                    "width": 365,
-                    "height": 645
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Nafud at Dusk",
@@ -472,13 +472,13 @@
                 "ar": "خطّاطة ورسّامة، درست الثلث والديواني في القاهرة وإسطنبول"
               },
               "image": {
-                "url": "/stock/portrait-clay.svg",
+                "url": "/stock/photo/p-blazer.jpg",
                 "alt": {
                   "en": "Portrait of Rania Youssef",
                   "ar": "صورة رانيا يوسف"
                 },
-                "width": 1200,
-                "height": 1600
+                "width": 996,
+                "height": 664
               }
             },
             "style": {},
@@ -641,13 +641,13 @@
                   "ar": "الحروف الثمانية والعشرون بالخط الديواني، جاهزة للتدرّب عليها بأي قلم."
                 },
                 "image": {
-                  "url": "/stock/art-sand.svg",
+                  "url": "/stock/photo/colosseum.jpg",
                   "alt": {
                     "en": "Calligraphy practice sheet",
                     "ar": "لوحة تدريب على الخط"
                   },
-                  "width": 1400,
-                  "height": 1400,
+                  "width": 512,
+                  "height": 374,
                   "filter": "warm"
                 }
               }
@@ -860,13 +860,13 @@
                 {
                   "id": "w-lines-all",
                   "image": {
-                    "url": "/stock/art-sand.svg",
+                    "url": "/stock/photo/colosseum.jpg",
                     "alt": {
                       "en": "Square calligraphic composition in layered sand tones",
                       "ar": "تكوين خطّي مربّع بطبقات رملية"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 512,
+                    "height": 374
                   },
                   "caption": {
                     "en": "Lines of Light I",
@@ -886,13 +886,13 @@
                 {
                   "id": "w-night-all",
                   "image": {
-                    "url": "/stock/art-ink.svg",
+                    "url": "/stock/photo/vr-redblue.jpg",
                     "alt": {
                       "en": "Tall ink composition in deep blue strokes",
                       "ar": "تكوين عمودي بضربات حبر زرقاء داكنة"
                     },
-                    "width": 1200,
-                    "height": 1600
+                    "width": 740,
+                    "height": 740
                   },
                   "caption": {
                     "en": "Night Script",
@@ -912,13 +912,13 @@
                 {
                   "id": "w-breath-all",
                   "image": {
-                    "url": "/stock/art-blush.svg",
+                    "url": "/stock/photo/vr-neon.jpg",
                     "alt": {
                       "en": "Rose-coloured arcs on a square sheet",
                       "ar": "أقواس وردية على ورقة مربعة"
                     },
-                    "width": 1400,
-                    "height": 1400
+                    "width": 996,
+                    "height": 664
                   },
                   "caption": {
                     "en": "Breath, study I",
@@ -938,7 +938,7 @@
                 {
                   "id": "w-tide-all",
                   "image": {
-                    "url": "/stock/art-sea.svg",
+                    "url": "/stock/photo/parthenon.jpg",
                     "alt": {
                       "en": "Teal abstract with flowing horizontal lines",
                       "ar": "تجريد بالأزرق المخضرّ بخطوط أفقية منسابة"
@@ -964,12 +964,12 @@
                 {
                   "id": "w-door-all",
                   "image": {
-                    "url": "/stock/interior-clay.svg",
+                    "url": "/stock/photo/rialto.jpg",
                     "alt": {
                       "en": "Warm clay forms in a tall frame",
                       "ar": "أشكال طينية دافئة في إطار عمودي"
                     },
-                    "width": 1200,
+                    "width": 1055,
                     "height": 1600
                   },
                   "caption": {
@@ -990,13 +990,13 @@
                 {
                   "id": "w-dunes-all",
                   "image": {
-                    "url": "/stock/photo/nature-sand.jpg",
+                    "url": "/stock/photo/desert.jpg",
                     "alt": {
                       "en": "Wide desert dunes under a pale sky",
                       "ar": "كثبان صحراوية واسعة تحت سماء شاحبة"
                     },
-                    "width": 365,
-                    "height": 645
+                    "width": 1067,
+                    "height": 1600
                   },
                   "caption": {
                     "en": "Nafud at Dusk",
@@ -1016,13 +1016,13 @@
                 {
                   "id": "w-lines2-all",
                   "image": {
-                    "url": "/stock/art-sand.svg",
+                    "url": "/stock/photo/colosseum.jpg",
                     "alt": {
                       "en": "Calligraphic strokes in muted greys",
                       "ar": "ضربات خطّية بدرجات رمادية هادئة"
                     },
-                    "width": 1400,
-                    "height": 1400,
+                    "width": 512,
+                    "height": 374,
                     "filter": "grayscale"
                   },
                   "caption": {
@@ -1043,13 +1043,13 @@
                 {
                   "id": "w-ink2-all",
                   "image": {
-                    "url": "/stock/art-ink.svg",
+                    "url": "/stock/photo/vr-redblue.jpg",
                     "alt": {
                       "en": "Ink composition washed in warm sepia",
                       "ar": "تكوين بالحبر مغسول بلون بنّي دافئ"
                     },
-                    "width": 1200,
-                    "height": 1600,
+                    "width": 740,
+                    "height": 740,
                     "filter": "warm"
                   },
                   "caption": {

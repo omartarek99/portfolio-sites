@@ -46,6 +46,24 @@ const nextConfig: NextConfig = {
     ],
   },
 
+  // Baseline security headers on every response (HSTS comes from Vercel).
+  // No script-src CSP: Next's inline bootstrap and the theme script would need nonces.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'Content-Security-Policy', value: "frame-ancestors 'self'; base-uri 'self'; object-src 'none'" },
+          { key: 'Cross-Origin-Opener-Policy', value: 'same-origin-allow-popups' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=()' },
+        ],
+      },
+    ]
+  },
+
   turbopack: {
     // Pin the workspace root to this project (a stray lockfile higher up would otherwise confuse it).
     root: __dirname,

@@ -23,7 +23,7 @@ export async function Deck({ className }: { className?: string }) {
       />
       <figcaption className="mt-4 flex flex-wrap items-baseline justify-between gap-2">
         <span className="font-semibold">{t('showcase.decks.name')}</span>
-        <span className="text-sm text-fg/50">{t('showcase.decks.caption')}</span>
+        <span className="text-sm text-fg/65">{t('showcase.decks.caption')}</span>
       </figcaption>
     </figure>
   )

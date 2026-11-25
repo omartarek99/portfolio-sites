@@ -24,7 +24,15 @@ export async function FeaturedProjects() {
           delay={index * 120}
           className="border-fg/10 bg-fg/[0.03] grid overflow-hidden rounded-3xl border md:grid-cols-[3fr_2fr]"
         >
-          <a href={project.url} target="_blank" rel="noopener noreferrer" className="group block overflow-hidden">
+          {/* Same destination as the button below, so it stays out of the tab order and screen readers. */}
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            tabIndex={-1}
+            aria-hidden="true"
+            className="group block overflow-hidden"
+          >
             <img
               src={project.image}
               alt=""
@@ -38,7 +46,13 @@ export async function FeaturedProjects() {
             <p className="text-vz-accent text-sm font-medium">{t(`showcase.featured.${project.key}.tag`)}</p>
             <h3 className="text-3xl font-semibold tracking-tight">{t(`showcase.featured.${project.key}.name`)}</h3>
             <p className="text-fg/70 text-pretty">{t(`showcase.featured.${project.key}.body`)}</p>
-            <a href={project.url} target="_blank" rel="noopener noreferrer" className={`${btn.primary} self-start`}>
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${t('showcase.featured.visit')}: ${t(`showcase.featured.${project.key}.name`)}`}
+              className={`${btn.primary} self-start`}
+            >
               {t('showcase.featured.visit')}
               <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
             </a>

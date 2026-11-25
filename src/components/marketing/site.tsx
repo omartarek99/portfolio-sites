@@ -118,7 +118,7 @@ export async function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-12 md:flex-row md:items-start md:justify-between">
         <div className="max-w-xs">
           <Logo className="text-fg" size={28} />
-          <p className="mt-3 text-sm text-fg/50">{t('footer.tagline')}</p>
+          <p className="mt-3 text-sm text-fg/65">{t('footer.tagline')}</p>
         </div>
         <div className="flex flex-col gap-3 text-sm" dir="ltr">
           <a
@@ -137,7 +137,7 @@ export async function SiteFooter() {
           </a>
         </div>
       </div>
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 border-t border-fg/5 px-5 py-6 text-xs text-fg/40">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 border-t border-fg/5 px-5 py-6 text-xs text-fg/60">
         <p>
           © {APP_NAME}. {t('footer.rights')}
         </p>

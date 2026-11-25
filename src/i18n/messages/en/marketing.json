@@ -187,7 +187,26 @@
       "detailsPlaceholder": "What is it for, and what do you already have (logo, text, examples)?",
       "optional": "optional",
       "submit": "Send on WhatsApp",
-      "intro": "Hi {app}! I'd like to start a project."
+      "intro": "Hi {app}! I'd like to start a project.",
+      "files": "Files",
+      "filesHint": "Images, PDF, Word or PowerPoint · up to 3 files, 10 MB each",
+      "addFiles": "Add files",
+      "remove": "Remove",
+      "filesLimit": "Up to 3 files, each under 10 MB.",
+      "uploading": "Uploading files…",
+      "uploadError": "The files couldn't be uploaded. Try again, or send without them and attach them in WhatsApp."
     }
+  },
+  "perf": {
+    "eyebrow": "Performance",
+    "title": "Fast by design",
+    "subtitle": "This site, tested with Google PageSpeed Insights on a mid-range phone over slow 4G.",
+    "scores": {
+      "performance": "Performance",
+      "accessibility": "Accessibility",
+      "bestPractices": "Best practices",
+      "seo": "SEO"
+    },
+    "link": "See the full report"
   }
 }

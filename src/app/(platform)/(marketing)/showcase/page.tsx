@@ -40,8 +40,8 @@ function SiteCard({
       <span className="flex items-start justify-between gap-3 p-4">
         <span>
           <span className="block font-medium">{name}</span>
-          <span className="mt-1 block text-sm text-fg/50">{detail}</span>
-          {note && <span className="mt-1 block text-xs text-fg/50">{note}</span>}
+          <span className="mt-1 block text-sm text-fg/65">{detail}</span>
+          {note && <span className="mt-1 block text-xs text-fg/65">{note}</span>}
         </span>
         <span className="flex shrink-0 items-center gap-1 text-xs text-fg/60 group-hover:text-fg">
           {open}
@@ -88,10 +88,10 @@ export default async function ShowcasePage() {
           </video>
           <figcaption className="bg-vz-bg flex flex-wrap items-baseline justify-between gap-2 border-t border-fg/10 p-5">
             <span className="font-semibold">{t('work.videoTitle')}</span>
-            <span className="text-sm text-fg/50">{t('showcase.videos.caption')}</span>
+            <span className="text-sm text-fg/65">{t('showcase.videos.caption')}</span>
           </figcaption>
         </figure>
-        <p className="mt-6 text-center text-sm text-fg/40">{t('showcase.videos.more')}</p>
+        <p className="mt-6 text-center text-sm text-fg/60">{t('showcase.videos.more')}</p>
       </Wrap>
 
       <DeckSection />

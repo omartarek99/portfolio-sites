@@ -6,6 +6,7 @@ import { FeaturedProjects } from '@/components/marketing/featured'
 import { EnquiryForm, type EnquiryLabels } from '@/components/marketing/EnquiryForm'
 import { IntroTerminal } from '@/components/marketing/IntroTerminal'
 import { OmarBio } from '@/components/marketing/OmarBio'
+import { Performance } from '@/components/marketing/Performance'
 import { btn, EMAIL, localePath, SectionHead, waHref, WHATSAPP, WhatsAppIcon, Wrap } from '@/components/marketing/site'
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -109,6 +110,8 @@ export default async function HomePage() {
         </div>
       </Wrap>
 
+      <Performance />
+
 
       {/* How it works */}
       <Wrap>
@@ -146,7 +149,7 @@ export default async function HomePage() {
                 {item.q}
                 <span
                   aria-hidden="true"
-                  className="text-xl leading-none text-fg/50 transition group-open:rotate-45"
+                  className="text-xl leading-none text-fg/65 transition group-open:rotate-45"
                 >
                   +
                 </span>
@@ -160,7 +163,12 @@ export default async function HomePage() {
       {/* Start a project: a quick brief sent on WhatsApp */}
       <Wrap id="start" className="max-w-3xl">
         <SectionHead eyebrow={t('enquiry.eyebrow')} title={t('enquiry.title')} />
-        <EnquiryForm phone={WHATSAPP} labels={t.raw('enquiry.form') as EnquiryLabels} buttonClass={btn.primary} />
+        <EnquiryForm
+          phone={WHATSAPP}
+          labels={t.raw('enquiry.form') as EnquiryLabels}
+          buttonClass={btn.primary}
+          uploads={Boolean(process.env.BLOB_READ_WRITE_TOKEN)}
+        />
       </Wrap>
     </>
   )

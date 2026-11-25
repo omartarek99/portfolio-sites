@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
+import { Reveal } from './Reveal'
 import { btn } from './site'
 
 /**
@@ -17,9 +18,10 @@ export async function FeaturedProjects() {
   const t = await getTranslations('marketing')
   return (
     <ul className="grid gap-6">
-      {FEATURED.map((project) => (
-        <li
+      {FEATURED.map((project, index) => (
+        <Reveal
           key={project.key}
+          delay={index * 120}
           className="border-fg/10 bg-fg/[0.03] grid overflow-hidden rounded-3xl border md:grid-cols-[3fr_2fr]"
         >
           <a href={project.url} target="_blank" rel="noopener noreferrer" className="group block overflow-hidden">
@@ -41,7 +43,7 @@ export async function FeaturedProjects() {
               <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
             </a>
           </div>
-        </li>
+        </Reveal>
       ))}
     </ul>
   )

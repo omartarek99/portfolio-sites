@@ -159,7 +159,7 @@ export default async function HomePage() {
 
       {/* Start a project: a quick brief sent on WhatsApp */}
       <Wrap id="start" className="max-w-3xl">
-        <SectionHead eyebrow={t('enquiry.eyebrow')} title={t('enquiry.title')} subtitle={t('enquiry.subtitle')} />
+        <SectionHead eyebrow={t('enquiry.eyebrow')} title={t('enquiry.title')} />
         <EnquiryForm phone={WHATSAPP} labels={t.raw('enquiry.form') as EnquiryLabels} buttonClass={btn.primary} />
       </Wrap>
     </>

@@ -160,7 +160,6 @@
   "enquiry": {
     "eyebrow": "Start a project",
     "title": "Tell me what you need",
-    "subtitle": "Pick a few options and send them on WhatsApp. It takes under a minute.",
     "link": "Quick brief",
     "form": {
       "service": "Service",

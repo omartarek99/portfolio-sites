@@ -15,7 +15,6 @@ export type EnquiryLabels = {
   detailsPlaceholder: string
   optional: string
   submit: string
-  note: string
   /** First line of the WhatsApp message. */
   intro: string
 }
@@ -50,7 +49,7 @@ export function EnquiryForm({ phone, labels, buttonClass }: { phone: string; lab
   return (
     <form onSubmit={submit} className="grid gap-6 rounded-3xl border border-fg/10 bg-fg/[0.03] p-6 md:p-8">
       <fieldset>
-        <legend className={label}>{labels.service}</legend>
+        <legend className="mb-3 w-full text-center text-lg font-semibold">{labels.service}</legend>
         <div className="grid gap-2 sm:grid-cols-3">
           {SERVICES.map((key) => (
             <label
@@ -115,12 +114,9 @@ export function EnquiryForm({ phone, labels, buttonClass }: { phone: string; lab
         />
       </div>
 
-      <div className="flex flex-wrap items-center gap-4">
-        <button type="submit" className={buttonClass}>
-          {labels.submit}
-        </button>
-        <p className="text-sm text-fg/50">{labels.note}</p>
-      </div>
+      <button type="submit" className={`${buttonClass} justify-self-start`}>
+        {labels.submit}
+      </button>
     </form>
   )
 }

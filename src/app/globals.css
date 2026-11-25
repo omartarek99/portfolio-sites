@@ -400,6 +400,22 @@
   --vz-fg: #ffffff;
   --vz-accent: #ffcf3f;
 }
+/* Native controls (dropdown menus, scrollbars) follow the Vizo theme, not the OS. */
+.vz {
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .vz {
+    color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] .vz {
+  color-scheme: dark;
+}
+.vz option {
+  background-color: var(--vz-bg);
+  color: var(--vz-fg);
+}
 @layer base {
   .vz {
     font-family: var(--font-vz), var(--font-vz-ar), ui-sans-serif, system-ui, sans-serif;

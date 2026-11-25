@@ -30,7 +30,6 @@ export default async function HomePage() {
   const [t, locale, wa] = await Promise.all([getTranslations('marketing'), getLocale(), waHref()])
   const steps = t.raw('steps.items') as Item[]
   const faq = t.raw('faq.items') as { q: string; a: string }[]
-  const aboutPoints = t.raw('about.points') as string[]
 
   return (
     <>
@@ -133,13 +132,6 @@ export default async function HomePage() {
             <h2 className="mt-2 text-3xl font-semibold tracking-tight">{t('about.title')}</h2>
             <OmarBio text={t('about.body1')} />
             <p className="mt-3 text-pretty text-fg/70">{t('about.body2')}</p>
-            <ul className="mt-6 flex flex-wrap gap-2">
-              {aboutPoints.map((point) => (
-                <li key={point} className="rounded-full border border-fg/10 px-3 py-1 text-xs text-fg/70">
-                  {point}
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </Wrap>

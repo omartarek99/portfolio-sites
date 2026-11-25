@@ -317,13 +317,13 @@
                     "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-hero.jpg",
+                    "url": "/templates/founder/preview-desktop.jpg",
                     "alt": {
                       "en": "ReelLearn feed on a phone screen",
                       "ar": "شريط ReelLearn على شاشة هاتف"
                     },
-                    "width": 546,
-                    "height": 400
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "TypeScript",
@@ -353,13 +353,13 @@
                     "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
                     "alt": {
                       "en": "QuizForge API dashboard",
                       "ar": "لوحة تحكم QuizForge"
                     },
-                    "width": 546,
-                    "height": 298
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "Node.js",
@@ -779,13 +779,13 @@
                 "ar": "تحويل المحاضرات ذات الأربعين دقيقة إلى دروس من ستين ثانية يُكملها الطلاب فعلًا."
               },
               "cover": {
-                "url": "/stock/photo/ui-vr-hero.jpg",
+                "url": "/templates/founder/preview-desktop.jpg",
                 "alt": {
                   "en": "ReelLearn app screens",
                   "ar": "شاشات تطبيق ReelLearn"
                 },
-                "width": 546,
-                "height": 400
+                "width": 1440,
+                "height": 900
               },
               "meta": [
                 {
@@ -867,13 +867,13 @@
                     {
                       "id": "i-1",
                       "image": {
-                        "url": "/stock/photo/ui-vr-cards.jpg",
+                        "url": "/templates/blueprint/preview-desktop.jpg",
                         "alt": {
                           "en": "Teacher clip editor",
                           "ar": "محرر المقاطع للمعلّمين"
                         },
-                        "width": 350,
-                        "height": 310
+                        "width": 1440,
+                        "height": 900
                       },
                       "caption": {
                         "en": "The clip editor teachers use to split a lecture.",
@@ -952,13 +952,13 @@
                   "newTab": true
                 },
                 "image": {
-                  "url": "/stock/photo/ui-vr-lower.jpg",
+                  "url": "/templates/bloom-coach/preview-desktop.jpg",
                   "alt": {
                     "en": "QuizForge dashboard",
                     "ar": "لوحة QuizForge"
                   },
-                  "width": 546,
-                  "height": 298
+                  "width": 1440,
+                  "height": 900
                 }
               }
             },
@@ -995,13 +995,13 @@
                     "ar": "دروس قصيرة في شريط عمودي، مع اختبارات بين المقاطع وتقدّم يتزامن بين الأجهزة. 12 ألف متعلّم في المرحلة التجريبية. ★ 1.2k"
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-hero.jpg",
+                    "url": "/templates/founder/preview-desktop.jpg",
                     "alt": {
                       "en": "ReelLearn feed on a phone screen",
                       "ar": "شريط ReelLearn على شاشة هاتف"
                     },
-                    "width": 546,
-                    "height": 400
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "TypeScript",
@@ -1027,13 +1027,13 @@
                     "ar": "واجهة REST تحوّل المنهج إلى اختبارات متوازنة مع مفاتيح الإجابة ومستويات الصعوبة وملفات PDF جاهزة للطباعة. ★ 840"
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
                     "alt": {
                       "en": "QuizForge API dashboard",
                       "ar": "لوحة تحكم QuizForge"
                     },
-                    "width": 546,
-                    "height": 298
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "Node.js",

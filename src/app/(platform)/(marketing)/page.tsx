@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Deck } from '@/components/marketing/deck'
 import { FeaturedProjects } from '@/components/marketing/featured'
+import { IntroTerminal } from '@/components/marketing/IntroTerminal'
 import { OmarBio } from '@/components/marketing/OmarBio'
 import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
 
@@ -59,6 +60,11 @@ export default async function HomePage() {
             </a>
           </div>
         </div>
+      </Wrap>
+
+      {/* Intro terminal: who Omar is and what Vizo makes */}
+      <Wrap>
+        <IntroTerminal />
       </Wrap>
 
       {/* Recent work */}

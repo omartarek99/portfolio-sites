@@ -434,6 +434,20 @@
   }
 }
 
+/* The Terminal block's colours on Vizo pages: the window inverts the page (light on dark, dark on light). */
+.vz-terminal {
+  --site-text-0: var(--vz-fg);
+  --site-bg-0: var(--vz-bg);
+  --site-inv-surface: color-mix(in oklab, var(--vz-bg) 8%, var(--vz-fg));
+  --site-inv-muted: color-mix(in oklab, var(--vz-bg) 68%, var(--vz-fg));
+  --site-inv-border: color-mix(in oklab, var(--vz-bg) 20%, var(--vz-fg));
+  --site-radius-lg: 1.25rem;
+}
+/* Terminal lines stay monospaced (the site sets a font on every <p>). */
+.vz-terminal p {
+  font-family: inherit;
+}
+
 /* Page titles (home, showcase, legal). Latin only, so Arabic keeps its own font. */
 .vz-title {
   font-family: var(--font-vz-title), var(--font-vz-ar-heading), sans-serif;

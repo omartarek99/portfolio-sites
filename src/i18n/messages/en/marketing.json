@@ -147,5 +147,19 @@
         "{app} may show finished work in its showcase unless you ask us not to. Questions? Message on WhatsApp."
       ]
     }
+  },
+  "terminal": {
+    "title": "Terminal — meet {app}",
+    "input": "Type a command",
+    "hint": "Try:",
+    "available": "Commands: {list}",
+    "notFound": "Command not found: {command}. Type help.",
+    "output": {
+      "whoami": "Omar, a software engineer in Qatar and the person behind {app}.",
+      "services": "websites/  ai-videos/  presentations/",
+      "work": "Anees (learning platform) · Doha Datebook (live events calendar) · an AI explainer video · a research presentation",
+      "contact": "WhatsApp +974 7741 8054 · omartarekesmat@gmail.com",
+      "hire": "Send a message on WhatsApp or by email and you will get ideas and a quote."
+    }
   }
 }

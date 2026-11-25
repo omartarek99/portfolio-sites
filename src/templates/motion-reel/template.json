@@ -328,9 +328,9 @@
                     "ar": "فيلم موشن جرافيك تعريفي مدته 90 ثانية لشركة طاقة ناشئة."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-hero.jpg",
-                    "width": 546,
-                    "height": 400,
+                    "url": "/templates/founder/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Dark interface panels",
                       "ar": "واجهات رقمية داكنة"
@@ -826,9 +826,9 @@
                     "url": "https://vimeo.com/76979871",
                     "provider": "vimeo",
                     "poster": {
-                      "url": "/stock/photo/ui-vr-hero.jpg",
-                      "width": 546,
-                      "height": 400,
+                      "url": "/templates/founder/preview-desktop.jpg",
+                      "width": 1440,
+                      "height": 900,
                       "alt": {
                         "en": "Dark interface panels",
                         "ar": "واجهات رقمية داكنة"
@@ -1097,9 +1097,9 @@
                   "value": "work"
                 },
                 "image": {
-                  "url": "/stock/photo/ui-vr-hero.jpg",
-                  "width": 546,
-                  "height": 400,
+                  "url": "/templates/founder/preview-desktop.jpg",
+                  "width": 1440,
+                  "height": 900,
                   "alt": {
                     "en": "Dark interface panels",
                     "ar": "واجهات رقمية داكنة"

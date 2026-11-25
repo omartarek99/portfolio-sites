@@ -643,9 +643,9 @@
                     "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
-                    "width": 546,
-                    "height": 298,
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Booking dashboard in teal",
                       "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
@@ -673,9 +673,9 @@
                     "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-cards.jpg",
-                    "width": 350,
-                    "height": 310,
+                    "url": "/templates/blueprint/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Clinic website screens",
                       "ar": "شاشات موقع العيادة"
@@ -1313,9 +1313,9 @@
                     "ar": "تدقيق لمعدّل التحويل وجدول حصص جديد اختصر خطوات الحجز إلى النصف."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
-                    "width": 546,
-                    "height": 298,
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Booking dashboard in teal",
                       "ar": "لوحة حجوزات بدرجات الأزرق المخضر"
@@ -1342,9 +1342,9 @@
                     "ar": "موقع هادئ يبعث على الثقة لعيادة، مع ملفات للأطباء وحجز في اليوم نفسه."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-cards.jpg",
-                    "width": 350,
-                    "height": 310,
+                    "url": "/templates/blueprint/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Clinic website screens",
                       "ar": "شاشات موقع العيادة"
@@ -1567,9 +1567,9 @@
                     {
                       "id": "screens",
                       "image": {
-                        "url": "/stock/photo/ui-vr-cards.jpg",
-                        "width": 350,
-                        "height": 310,
+                        "url": "/templates/blueprint/preview-desktop.jpg",
+                        "width": 1440,
+                        "height": 900,
                         "alt": {
                           "en": "Ordering site screens",
                           "ar": "شاشات موقع الطلبات"

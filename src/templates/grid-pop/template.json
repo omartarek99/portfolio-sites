@@ -227,13 +227,13 @@
                 {
                   "id": "c1",
                   "image": {
-                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "url": "/templates/blueprint/preview-desktop.jpg",
                     "alt": {
                       "en": "Dashboard interface design",
                       "ar": "تصميم واجهة لوحة تحكم"
                     },
-                    "width": 350,
-                    "height": 310
+                    "width": 1440,
+                    "height": 900
                   }
                 },
                 {
@@ -263,13 +263,13 @@
                 {
                   "id": "c4",
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
                     "alt": {
                       "en": "Data dashboard screens",
                       "ar": "شاشات لوحة بيانات"
                     },
-                    "width": 546,
-                    "height": 298
+                    "width": 1440,
+                    "height": 900
                   }
                 }
               ],
@@ -334,13 +334,13 @@
                     "ar": "الطلب من بقالة الحيّ في دقيقة واحدة."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
                     "alt": {
                       "en": "Qareeb app screens",
                       "ar": "شاشات تطبيق قريب"
                     },
-                    "width": 546,
-                    "height": 298
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "Mobile",
@@ -364,13 +364,13 @@
                     "ar": "أربعون رسمًا بيانيًا صارت ثلاث إجابات واضحة للبائعين."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-cards.jpg",
+                    "url": "/templates/blueprint/preview-desktop.jpg",
                     "alt": {
                       "en": "Souq seller dashboard",
                       "ar": "لوحة البائع في سوق"
                     },
-                    "width": 350,
-                    "height": 310
+                    "width": 1440,
+                    "height": 900
                   },
                   "tags": [
                     "Web app",
@@ -904,13 +904,13 @@
                 "ar": "إعادة تصميم تطبيق بقالة الحيّ ليستغرق الطلب دقيقة واحدة لا خمس دقائق."
               },
               "cover": {
-                "url": "/stock/photo/ui-vr-lower.jpg",
+                "url": "/templates/bloom-coach/preview-desktop.jpg",
                 "alt": {
                   "en": "Qareeb app screens on a dashboard",
                   "ar": "شاشات تطبيق قريب على لوحة"
                 },
-                "width": 546,
-                "height": 298
+                "width": 1440,
+                "height": 900
               },
               "meta": [
                 {
@@ -992,13 +992,13 @@
                     {
                       "id": "i1",
                       "image": {
-                        "url": "/stock/photo/ui-vr-cards.jpg",
+                        "url": "/templates/blueprint/preview-desktop.jpg",
                         "alt": {
                           "en": "Early wireframes of the basket screen",
                           "ar": "مخططات أولية لشاشة السلّة"
                         },
-                        "width": 350,
-                        "height": 310
+                        "width": 1440,
+                        "height": 900
                       },
                       "caption": {
                         "en": "Round two of the basket prototype",
@@ -1092,13 +1092,13 @@
                   "value": "souq"
                 },
                 "image": {
-                  "url": "/stock/photo/ui-vr-cards.jpg",
+                  "url": "/templates/blueprint/preview-desktop.jpg",
                   "alt": {
                     "en": "Souq seller dashboard",
                     "ar": "لوحة البائع في سوق"
                   },
-                  "width": 350,
-                  "height": 310
+                  "width": 1440,
+                  "height": 900
                 }
               }
             },
@@ -1184,13 +1184,13 @@
                 "ar": "لوحة للبائعين يقرؤها أصحاب المتاجر الصغيرة بنظرة واحدة بين زبون وآخر."
               },
               "cover": {
-                "url": "/stock/photo/ui-vr-cards.jpg",
+                "url": "/templates/blueprint/preview-desktop.jpg",
                 "alt": {
                   "en": "Souq seller dashboard on a laptop",
                   "ar": "لوحة البائع في سوق على حاسوب محمول"
                 },
-                "width": 350,
-                "height": 310
+                "width": 1440,
+                "height": 900
               },
               "meta": [
                 {
@@ -1272,13 +1272,13 @@
                     {
                       "id": "i1",
                       "image": {
-                        "url": "/stock/photo/ui-vr-lower.jpg",
+                        "url": "/templates/bloom-coach/preview-desktop.jpg",
                         "alt": {
                           "en": "The new today view",
                           "ar": "شاشة «اليوم» الجديدة"
                         },
-                        "width": 546,
-                        "height": 298
+                        "width": 1440,
+                        "height": 900
                       },
                       "caption": {
                         "en": "The “today” view",

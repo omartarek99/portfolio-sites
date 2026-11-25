@@ -1045,9 +1045,9 @@
                     "ar": "ملف أعمال وتعريف واضح وخطة لمشاركة عملك."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-cards.jpg",
-                    "width": 350,
-                    "height": 310,
+                    "url": "/templates/blueprint/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "A portfolio page on screen",
                       "ar": "صفحة ملف أعمال على الشاشة"

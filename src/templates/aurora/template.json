@@ -509,9 +509,9 @@
                     "ar": "هوية هادئة وواثقة لتطبيق ادخار، من أيقونة التطبيق حتى رسومات التعريف."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-hero.jpg",
-                    "width": 546,
-                    "height": 400,
+                    "url": "/templates/founder/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Dark app screens on a desk",
                       "ar": "شاشات تطبيق داكنة على مكتب"

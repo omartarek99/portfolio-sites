@@ -332,9 +332,9 @@
                     "ar": "أزرار مترجمة وجموع مكسورة وتذكير المخاطَب وتأنيثه: ما الذي تخطئ فيه فرق المنتجات، وكيف يُصلَح."
                   },
                   "image": {
-                    "url": "/stock/photo/ui-vr-lower.jpg",
-                    "width": 546,
-                    "height": 298,
+                    "url": "/templates/bloom-coach/preview-desktop.jpg",
+                    "width": 1440,
+                    "height": 900,
                     "alt": {
                       "en": "Interface panels in teal",
                       "ar": "لوحات واجهة بلون أخضر مزرق"

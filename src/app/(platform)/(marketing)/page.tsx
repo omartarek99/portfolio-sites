@@ -3,9 +3,10 @@ import type { Metadata } from 'next'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Deck } from '@/components/marketing/deck'
 import { FeaturedProjects } from '@/components/marketing/featured'
+import { EnquiryForm, type EnquiryLabels } from '@/components/marketing/EnquiryForm'
 import { IntroTerminal } from '@/components/marketing/IntroTerminal'
 import { OmarBio } from '@/components/marketing/OmarBio'
-import { btn, EMAIL, localePath, SectionHead, waHref, WhatsAppIcon, Wrap } from '@/components/marketing/site'
+import { btn, EMAIL, localePath, SectionHead, waHref, WHATSAPP, WhatsAppIcon, Wrap } from '@/components/marketing/site'
 
 export async function generateMetadata(): Promise<Metadata> {
   const [locale, t] = await Promise.all([getLocale(), getTranslations('marketing')])
@@ -57,6 +58,9 @@ export default async function HomePage() {
             <a href={`mailto:${EMAIL}`} className={btn.ghost}>
               <Mail className="size-4" aria-hidden="true" />
               {t('cta.email')}
+            </a>
+            <a href="#start" className={btn.ghost}>
+              {t('enquiry.link')}
             </a>
           </div>
         </div>
@@ -159,6 +163,12 @@ export default async function HomePage() {
             </details>
           ))}
         </div>
+      </Wrap>
+
+      {/* Start a project: a quick brief sent on WhatsApp */}
+      <Wrap id="start" className="max-w-3xl">
+        <SectionHead eyebrow={t('enquiry.eyebrow')} title={t('enquiry.title')} subtitle={t('enquiry.subtitle')} />
+        <EnquiryForm phone={WHATSAPP} labels={t.raw('enquiry.form') as EnquiryLabels} buttonClass={btn.primary} />
       </Wrap>
     </>
   )

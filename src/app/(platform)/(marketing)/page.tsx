@@ -13,7 +13,6 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { absolute: t('meta.title') },
     description: t('meta.description'),
     alternates: { canonical: path, languages: { en: '/', ar: '/ar', 'x-default': '/' } },
-    openGraph: { type: 'website', url: path, title: t('meta.title'), description: t('meta.description') },
   }
 }
 
@@ -118,13 +117,7 @@ export default async function HomePage() {
 
       {/* About */}
       <Wrap id="about">
-        <div className="grid items-center gap-10 rounded-3xl border border-fg/10 bg-fg/[0.03] p-8 md:grid-cols-[auto_1fr] md:p-12">
-          <div
-            aria-hidden="true"
-            className="from-vz-blue grid size-28 place-items-center rounded-3xl bg-linear-to-br to-[#1a2f8a] text-5xl font-semibold text-white shadow-[0_0_60px_-10px_rgb(46_91_255/0.7)]"
-          >
-            {t('about.initial')}
-          </div>
+        <div className="rounded-3xl border border-fg/10 bg-fg/[0.03] p-8 md:p-12">
           <div>
             <p className="text-vz-accent text-sm font-medium">{t('about.eyebrow')}</p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight">{t('about.title')}</h2>

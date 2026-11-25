@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "{app} — websites and AI videos",
-    "description": "{app} designs clean, fast websites and creates AI videos for businesses and creators. Message on WhatsApp to start."
+    "title": "{app} — websites, AI videos and presentations",
+    "description": "{app} designs clean, fast websites, AI videos and presentations for businesses and creators. Message on WhatsApp to start."
   },
   "whatsappMessage": "Hi {app}! I'd like to talk about a project.",
   "services": {
@@ -46,7 +46,6 @@
   },
   "about": {
     "eyebrow": "About",
-    "initial": "O",
     "title": "Hi, I'm Omar",
     "body1": "I’m a software engineer based in Qatar and the person behind {app}. I build bilingual websites and web apps, including an education platform and a live events calendar for Doha.",
     "body2": "I focus on making each project easy to use, fast to load, and straightforward to maintain. I also create animated explainers and short videos.",
@@ -90,7 +89,7 @@
   },
   "showcase": {
     "title": "Showcase",
-    "subtitle": "Websites and AI videos made by {app}.",
+    "subtitle": "Websites, AI videos and presentations made by {app}.",
     "videos": {
       "eyebrow": "AI videos",
       "title": "Videos made with AI",

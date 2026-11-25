@@ -35,9 +35,10 @@ const platformArabicFont = Readex_Pro({
 export const metadata: Metadata = {
   metadataBase: new URL(APP_URL),
   title: { default: APP_NAME, template: `%s — ${APP_NAME}` },
-  description:
-    'A website that looks custom-designed, in minutes. Portfolio and personal-website maker with beautiful templates, AI generation and real people to help.',
+  description: `${APP_NAME} designs clean, fast websites, AI videos and presentations for businesses and creators.`,
   applicationName: APP_NAME,
+  // Large share previews; the image is opengraph-image.png / twitter-image.png next to this file.
+  twitter: { card: 'summary_large_image' },
 }
 
 export const viewport: Viewport = {

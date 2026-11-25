@@ -16,8 +16,17 @@ export const ROOT_PROTOCOL: 'http' | 'https' = /^(localhost|127\.0\.0\.1|\[::1\]
   ? 'http'
   : 'https'
 
-/** Absolute origin of the platform, e.g. `http://localhost:3000`. */
-export const APP_URL: string = (process.env.NEXT_PUBLIC_APP_URL || `${ROOT_PROTOCOL}://${ROOT_DOMAIN}`).replace(
+/** Vercel's production domain (set automatically on Vercel), e.g. `vizo.vercel.app`. */
+const VERCEL_DOMAIN = process.env.VERCEL_PROJECT_PRODUCTION_URL
+
+/**
+ * Absolute origin of the site, e.g. `https://vizo.vercel.app`: NEXT_PUBLIC_APP_URL when
+ * set, else Vercel's production domain, else the local root domain.
+ */
+export const APP_URL: string = (
+  process.env.NEXT_PUBLIC_APP_URL ||
+  (VERCEL_DOMAIN ? `https://${VERCEL_DOMAIN}` : `${ROOT_PROTOCOL}://${ROOT_DOMAIN}`)
+).replace(
   /\/$/,
   '',
 )

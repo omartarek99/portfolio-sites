@@ -8,6 +8,7 @@ import { whatsappUrl } from '@/lib/links'
 import { cn } from '@/lib/utils'
 import { HeaderMenu } from './HeaderMenu'
 import { LangLink } from './LangLink'
+import { NavLinks } from './NavLinks'
 import { ThemeToggle } from './ThemeToggle'
 
 /** Vizo's WhatsApp — the one contact channel of the public site. */
@@ -62,10 +63,10 @@ export function Wrap({ id, className, children }: { id?: string; className?: str
 export async function SiteHeader() {
   const [t, locale] = await Promise.all([getTranslations('nav'), getLocale()])
   const links = [
-    { href: localePath(locale, '/#work'), label: t('links.services') },
+    { href: localePath(locale, '/services'), label: t('links.services') },
     { href: localePath(locale, '/showcase'), label: t('links.work') },
-    { href: localePath(locale, '/#about'), label: t('links.about') },
-    { href: localePath(locale, '/#faq'), label: t('links.faq') },
+    { href: localePath(locale, '/about'), label: t('links.about') },
+    { href: localePath(locale, '/faq'), label: t('links.faq') },
   ]
 
   return (
@@ -75,24 +76,12 @@ export async function SiteHeader() {
           <Logo className="text-fg" size={30} />
         </a>
         <ul className="hidden items-center gap-6 text-sm text-fg/70 md:flex">
-          {links.map((link) => (
-            <li key={link.href}>
-              <a href={link.href} className="transition hover:text-fg">
-                {link.label}
-              </a>
-            </li>
-          ))}
+          <NavLinks links={links} variant="bar" />
         </ul>
         <div className="ms-auto flex shrink-0 items-center gap-2">
           <HeaderMenu label={t('options')}>
             <ul className="mb-2 border-b border-fg/10 pb-2 md:hidden">
-              {links.map((link) => (
-                <li key={link.href}>
-                  <a href={link.href} className="block rounded-lg px-3 py-2 text-fg/80 hover:bg-fg/5">
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+              <NavLinks links={links} variant="menu" />
             </ul>
             <div className="space-y-2 p-2">
               <div className="flex min-h-11 items-center justify-between gap-4">

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { APP_URL } from '@/lib/config'
 
-const PAGES = ['', '/showcase', '/legal/privacy', '/legal/terms']
+const PAGES = ['', '/services', '/showcase', '/about', '/faq', '/legal/privacy', '/legal/terms']
 
 /** Every public page in English (no prefix) and Arabic (/ar), linked as alternates. */
 export default function sitemap(): MetadataRoute.Sitemap {

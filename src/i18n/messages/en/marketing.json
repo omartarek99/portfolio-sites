@@ -46,31 +46,6 @@
     "body1": "I’m a software engineer based in Qatar and the person behind {app}. I build bilingual websites and web apps, including an education platform and a live events calendar for Doha.",
     "body2": "I focus on making each project easy to use, fast to load, and straightforward to maintain. I also create animated explainers and short videos."
   },
-  "faq": {
-    "title": "Questions, answered",
-    "items": [
-      {
-        "q": "How do I start?",
-        "a": "Send a message on WhatsApp or an email with a short description of what you need. I'll reply with questions, ideas and a quote."
-      },
-      {
-        "q": "How much does it cost?",
-        "a": "Every project is quoted individually after a quick chat — there are no fixed packages."
-      },
-      {
-        "q": "How long does it take?",
-        "a": "It depends on the size of the project. You'll get a clear timeline before any work starts."
-      },
-      {
-        "q": "Can you work in Arabic?",
-        "a": "Yes. Websites and videos can be made in English, Arabic, or both."
-      },
-      {
-        "q": "Can I ask for changes?",
-        "a": "Of course. We refine the work together until you're happy with it."
-      }
-    ]
-  },
   "cta": {
     "title": "Have a project in mind?",
     "subtitle": "Send a message on WhatsApp or by email — you'll get ideas and a quote.",

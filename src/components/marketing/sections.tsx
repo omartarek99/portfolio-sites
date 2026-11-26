@@ -5,7 +5,7 @@ import { FeaturedProjects } from './featured'
 import { OmarBio } from './OmarBio'
 import { btn, localePath, SectionHead, Wrap } from './site'
 
-/** Sections shared by the Vizo pages (home, services, about, faq). */
+/** Sections shared by the Vizo pages (home, services, about). */
 
 /** A centred service title heading one group of Recent work. */
 function WorkGroup({ title, className }: { title: string; className?: string }) {
@@ -82,30 +82,6 @@ export async function AboutSection() {
         <h2 className="vz-title text-4xl md:text-5xl">{t('about.title')}</h2>
         <OmarBio text={t('about.body1')} />
         <OmarBio text={t('about.body2')} className="mt-3" />
-      </div>
-    </Wrap>
-  )
-}
-
-/** FAQ — native <details>, no JavaScript. */
-export async function FaqSection() {
-  const t = await getTranslations('marketing')
-  const faq = t.raw('faq.items') as { q: string; a: string }[]
-  return (
-    <Wrap id="faq" className="max-w-3xl">
-      <SectionHead title={t('faq.title')} />
-      <div className="divide-y divide-fg/10 border-y border-fg/10">
-        {faq.map((item) => (
-          <details key={item.q} className="group py-5">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-medium [&::-webkit-details-marker]:hidden">
-              {item.q}
-              <span aria-hidden="true" className="text-xl leading-none text-fg/65 transition group-open:rotate-45">
-                +
-              </span>
-            </summary>
-            <p className="mt-3 text-sm text-pretty text-fg/60">{item.a}</p>
-          </details>
-        ))}
       </div>
     </Wrap>
   )

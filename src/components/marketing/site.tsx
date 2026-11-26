@@ -65,7 +65,6 @@ export async function SiteHeader() {
     { href: localePath(locale, '/services'), label: t('links.services') },
     { href: localePath(locale, '/showcase'), label: t('links.work') },
     { href: localePath(locale, '/about'), label: t('links.about') },
-    { href: localePath(locale, '/faq'), label: t('links.faq') },
   ]
 
   return (

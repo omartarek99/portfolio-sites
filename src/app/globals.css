@@ -488,3 +488,19 @@ html[lang='ar'] .vz-hero-title {
   word-spacing: 0.08em;
 }
 
+
+/* Each header tab opens its own page: ease the page content in on arrival. */
+@keyframes vz-page-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.vz #main {
+  animation: vz-page-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .vz #main {
+    animation: none;
+  }
+}

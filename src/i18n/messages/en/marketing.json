@@ -19,14 +19,12 @@
     "title": "Your brand, built beautifully"
   },
   "work": {
-    "eyebrow": "Showcase",
     "title": "Recent work",
     "subtitle": "A taste of what {app} makes. The full collection is on the showcase page.",
     "videoTitle": "Explainer video",
     "cta": "View the showcase"
   },
   "steps": {
-    "eyebrow": "How it works",
     "title": "From a message to finished work",
     "items": [
       {
@@ -44,13 +42,11 @@
     ]
   },
   "about": {
-    "eyebrow": "About",
     "title": "Hi, I'm Omar",
     "body1": "I’m a software engineer based in Qatar and the person behind {app}. I build bilingual websites and web apps, including an education platform and a live events calendar for Doha.",
     "body2": "I focus on making each project easy to use, fast to load, and straightforward to maintain. I also create animated explainers and short videos."
   },
   "faq": {
-    "eyebrow": "FAQ",
     "title": "Questions, answered",
     "items": [
       {
@@ -85,14 +81,12 @@
     "title": "Showcase",
     "subtitle": "Websites, videos and presentations made by {app}.",
     "videos": {
-      "eyebrow": "Videos",
-      "title": "Videos that explain",
+      "title": "Videos",
       "subtitle": "Explainers and short reels, scripted, designed and edited.",
       "caption": "Script, visuals and edit",
       "more": "More videos are on the way."
     },
     "decks": {
-      "eyebrow": "Presentations",
       "title": "Clean, clear presentations",
       "subtitle": "Research turned into slides people can follow: a clear structure, real photos and one idea per slide.",
       "name": "Improving Campus Emergency Response",
@@ -103,13 +97,11 @@
       "goTo": "Go to slide {n}"
     },
     "sites": {
-      "eyebrow": "Websites",
       "title": "Websites designed by {app}",
       "subtitle": "Every one of these is live. Open any of them and look around.",
       "open": "Open"
     },
     "featured": {
-      "eyebrow": "Featured",
       "title": "Featured projects",
       "visit": "Visit the live site",
       "anees": {
@@ -157,7 +149,6 @@
     }
   },
   "enquiry": {
-    "eyebrow": "Start a project",
     "title": "Tell me what you need",
     "link": "Quick brief",
     "form": {
@@ -197,7 +188,6 @@
     }
   },
   "perf": {
-    "eyebrow": "Performance",
     "title": "Fast by design",
     "subtitle": "This site, tested with Google PageSpeed Insights on a mid-range phone over slow 4G.",
     "scores": {

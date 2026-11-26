@@ -65,13 +65,12 @@ export default async function ShowcasePage() {
       </header>
 
       <Wrap id="featured">
-        <SectionHead eyebrow={t('showcase.featured.eyebrow')} title={t('showcase.featured.title')} />
+        <SectionHead title={t('showcase.featured.title')} />
         <FeaturedProjects />
       </Wrap>
 
       <Wrap id="videos">
         <SectionHead
-          eyebrow={t('showcase.videos.eyebrow')}
           title={t('showcase.videos.title')}
           subtitle={t('showcase.videos.subtitle')}
         />
@@ -98,7 +97,6 @@ export default async function ShowcasePage() {
 
       <Wrap id="websites">
         <SectionHead
-          eyebrow={t('showcase.sites.eyebrow')}
           title={t('showcase.sites.title')}
           subtitle={t('showcase.sites.subtitle')}
         />

@@ -34,7 +34,7 @@ export async function DeckSection() {
   const t = await getTranslations('marketing')
   return (
     <Wrap id="presentations">
-      <SectionHead eyebrow={t('showcase.decks.eyebrow')} title={t('showcase.decks.title')} subtitle={t('showcase.decks.subtitle')} />
+      <SectionHead title={t('showcase.decks.title')} subtitle={t('showcase.decks.subtitle')} />
       <Deck />
     </Wrap>
   )

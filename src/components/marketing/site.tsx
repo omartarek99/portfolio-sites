@@ -42,11 +42,10 @@ export function WhatsAppIcon({ className }: { className?: string }) {
   )
 }
 
-export function SectionHead({ eyebrow, title, subtitle }: { eyebrow: string; title: string; subtitle?: string }) {
+export function SectionHead({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
     <div className="mx-auto mb-12 max-w-2xl text-center">
-      <p className="text-vz-accent text-sm font-medium">{eyebrow}</p>
-      <h2 className="mt-3 text-3xl font-semibold tracking-tight text-balance md:text-4xl">{title}</h2>
+      <h2 className="text-3xl font-semibold tracking-tight text-balance md:text-4xl">{title}</h2>
       {subtitle ? <p className="mt-4 text-pretty text-fg/60">{subtitle}</p> : null}
     </div>
   )

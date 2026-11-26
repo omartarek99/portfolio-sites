@@ -17,7 +17,7 @@ export async function WorkSection() {
   const [t, locale] = await Promise.all([getTranslations('marketing'), getLocale()])
   return (
     <Wrap id="work">
-      <SectionHead eyebrow={t('work.eyebrow')} title={t('work.title')} subtitle={t('work.subtitle')} />
+      <SectionHead title={t('work.title')} subtitle={t('work.subtitle')} />
       <WorkGroup title={t('services.websites.title')} />
       <FeaturedProjects />
       <WorkGroup title={t('services.videos.title')} className="mt-14" />
@@ -59,7 +59,7 @@ export async function StepsSection() {
   const steps = t.raw('steps.items') as { title: string; body: string }[]
   return (
     <Wrap>
-      <SectionHead eyebrow={t('steps.eyebrow')} title={t('steps.title')} />
+      <SectionHead title={t('steps.title')} />
       <ol className="grid gap-4 md:grid-cols-3">
         {steps.map((step, i) => (
           <li key={step.title} className="rounded-2xl border border-fg/10 p-6">
@@ -79,8 +79,7 @@ export async function AboutSection() {
   return (
     <Wrap id="about">
       <div className="rounded-3xl border border-fg/10 bg-fg/[0.03] p-8 md:p-12">
-        <p className="text-vz-accent text-sm font-medium">{t('about.eyebrow')}</p>
-        <h2 className="vz-title mt-3 text-4xl md:text-5xl">{t('about.title')}</h2>
+        <h2 className="vz-title text-4xl md:text-5xl">{t('about.title')}</h2>
         <OmarBio text={t('about.body1')} />
         <OmarBio text={t('about.body2')} className="mt-3" />
       </div>
@@ -94,7 +93,7 @@ export async function FaqSection() {
   const faq = t.raw('faq.items') as { q: string; a: string }[]
   return (
     <Wrap id="faq" className="max-w-3xl">
-      <SectionHead eyebrow={t('faq.eyebrow')} title={t('faq.title')} />
+      <SectionHead title={t('faq.title')} />
       <div className="divide-y divide-fg/10 border-y border-fg/10">
         {faq.map((item) => (
           <details key={item.q} className="group py-5">

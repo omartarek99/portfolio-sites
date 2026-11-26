@@ -18,7 +18,7 @@ export async function Performance() {
   const keys = Object.keys(REPORT.scores) as (keyof typeof REPORT.scores)[]
   return (
     <Wrap id="performance">
-      <SectionHead eyebrow={t('perf.eyebrow')} title={t('perf.title')} subtitle={t('perf.subtitle')} />
+      <SectionHead title={t('perf.title')} subtitle={t('perf.subtitle')} />
       <div className="rounded-3xl border border-fg/10 bg-fg/[0.03] p-6 md:p-10">
         <ScoreRings scores={keys.map((key) => ({ label: t(`perf.scores.${key}`), score: REPORT.scores[key] }))} />
         <div className="mt-8 text-center">

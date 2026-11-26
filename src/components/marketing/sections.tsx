@@ -12,7 +12,7 @@ function WorkGroup({ title, className }: { title: string; className?: string }) 
   return <h3 className={`mb-6 text-center text-2xl font-semibold tracking-tight md:text-3xl ${className ?? ''}`}>{title}</h3>
 }
 
-/** Recent work, grouped by service: websites, AI videos, presentations. */
+/** Recent work, grouped by service: websites, videos, presentations. */
 export async function WorkSection() {
   const [t, locale] = await Promise.all([getTranslations('marketing'), getLocale()])
   return (
@@ -82,7 +82,7 @@ export async function AboutSection() {
         <p className="text-vz-accent text-sm font-medium">{t('about.eyebrow')}</p>
         <h2 className="vz-title mt-3 text-4xl md:text-5xl">{t('about.title')}</h2>
         <OmarBio text={t('about.body1')} />
-        <p className="mt-3 text-pretty text-fg/70">{t('about.body2')}</p>
+        <OmarBio text={t('about.body2')} className="mt-3" />
       </div>
     </Wrap>
   )

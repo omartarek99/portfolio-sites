@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "{app} — websites, AI videos and presentations",
-    "description": "{app} designs clean, fast websites, AI videos and presentations for businesses and creators. Message on WhatsApp to start."
+    "title": "{app} — websites, videos and presentations",
+    "description": "{app} designs clean, fast websites, videos and presentations for businesses and creators. Message on WhatsApp to start."
   },
   "whatsappMessage": "Hi {app}! I'd like to talk about a project.",
   "services": {
@@ -9,7 +9,7 @@
       "title": "Websites"
     },
     "videos": {
-      "title": "AI videos"
+      "title": "Videos"
     },
     "presentations": {
       "title": "Presentations"
@@ -83,12 +83,12 @@
   },
   "showcase": {
     "title": "Showcase",
-    "subtitle": "Websites, AI videos and presentations made by {app}.",
+    "subtitle": "Websites, videos and presentations made by {app}.",
     "videos": {
-      "eyebrow": "AI videos",
-      "title": "Videos made with AI",
-      "subtitle": "Explainers and reels, made with AI and finished by hand.",
-      "caption": "Script, visuals and edit made with AI",
+      "eyebrow": "Videos",
+      "title": "Videos that explain",
+      "subtitle": "Explainers and short reels, scripted, designed and edited.",
+      "caption": "Script, visuals and edit",
       "more": "More videos are on the way."
     },
     "decks": {
@@ -150,8 +150,8 @@
     "notFound": "Command not found: {command}. Type help.",
     "output": {
       "whoami": "Omar, a software engineer in Qatar and the person behind {app}.",
-      "services": "websites/  ai-videos/  presentations/",
-      "work": "Anees (learning platform) · Doha Datebook (live events calendar) · an AI explainer video · a research presentation",
+      "services": "websites/  videos/  presentations/",
+      "work": "Anees (learning platform) · Doha Datebook (live events calendar) · an explainer video · a research presentation",
       "contact": "WhatsApp +974 7741 8054 · omartarekesmat@gmail.com",
       "hire": "Send a message on WhatsApp or by email and you will get ideas and a quote."
     }
@@ -164,7 +164,7 @@
       "service": "Service",
       "services": {
         "websites": "Website",
-        "videos": "AI video",
+        "videos": "Video",
         "presentations": "Presentation"
       },
       "budget": "Budget",

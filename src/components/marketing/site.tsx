@@ -75,7 +75,7 @@ export async function SiteHeader() {
         <a href={localePath(locale, '/')} className="rounded-md">
           <Logo className="text-fg" size={30} />
         </a>
-        <ul className="hidden items-center gap-6 text-sm text-fg/70 md:flex">
+        <ul className="hidden items-center gap-8 text-base font-medium text-fg/80 md:flex">
           <NavLinks links={links} variant="bar" />
         </ul>
         <div className="ms-auto flex shrink-0 items-center gap-2">

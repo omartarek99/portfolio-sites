@@ -22,7 +22,7 @@ export function NavLinks({ links, variant }: { links: { href: string; label: str
           className={
             variant === 'bar'
               ? `transition hover:text-fg ${active ? 'text-fg' : ''}`
-              : `block rounded-lg px-3 py-2 hover:bg-fg/5 ${active ? 'bg-fg/5 text-fg' : 'text-fg/80'}`
+              : `block rounded-lg px-3 py-2.5 text-base font-medium hover:bg-fg/5 ${active ? 'bg-fg/5 text-fg' : 'text-fg/80'}`
           }
         >
           {link.label}

@@ -6,7 +6,8 @@ import { useEffect, useRef } from 'react'
 
 gsap.registerPlugin(SplitText)
 
-export function OmarBio({ text }: { text: string }) {
+/** A paragraph whose lines scale and fade in, one after another, when it scrolls into view. */
+export function OmarBio({ text, className = 'mt-4' }: { text: string; className?: string }) {
   const paragraphRef = useRef<HTMLParagraphElement>(null)
 
   useEffect(() => {
@@ -46,5 +47,5 @@ export function OmarBio({ text }: { text: string }) {
     return () => motion.revert()
   }, [text])
 
-  return <p ref={paragraphRef} className="large-animation-0 mt-4 text-pretty text-fg/70">{text}</p>
+  return <p ref={paragraphRef} className={`large-animation-0 text-pretty text-fg/70 ${className}`}>{text}</p>
 }

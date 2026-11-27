@@ -13,7 +13,6 @@ import { ThemeToggle } from './ThemeToggle'
 
 /** Vizo's WhatsApp — the one contact channel of the public site. */
 export const WHATSAPP = '97477418054'
-export const WHATSAPP_DISPLAY = '+974 7741 8054'
 export const EMAIL = 'omartarekesmat@gmail.com'
 
 export async function waHref(): Promise<string> {
@@ -112,10 +111,11 @@ export async function SiteFooter() {
             href={wa}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`${t('whatsapp')}: ${t('footer.name')}`}
             className="inline-flex items-center gap-2 text-fg/80 transition hover:text-fg"
           >
             <WhatsAppIcon className="text-[#25D366]" />
-            {WHATSAPP_DISPLAY}
+            {t('footer.name')}
             <ArrowUpRight className="size-3.5 opacity-60" aria-hidden="true" />
           </a>
           <a href={`mailto:${EMAIL}`} className="inline-flex items-center gap-2 text-fg/80 transition hover:text-fg">

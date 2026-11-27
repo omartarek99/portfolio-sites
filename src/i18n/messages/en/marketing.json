@@ -81,17 +81,14 @@
       "visit": "Visit the live site",
       "anees": {
         "name": "Anees",
-        "tag": "Website · Learning platform",
         "body": "A Qatari-themed learning platform for students: short lesson reels in a swipe feed, quizzes that earn XP, a 50-level adventure map with boss battles, practice worksheets and a studio for teachers. Arabic and English, light and dark."
       },
       "datebook": {
         "name": "Doha Datebook",
-        "tag": "Website · Events calendar",
         "body": "A live calendar of what's on in Doha. Events update automatically from a live feed, on the web and in an Android app."
       },
       "partscout": {
         "name": "PartScout",
-        "tag": "Website · PC parts comparison",
         "body": "Helps first-time builders choose PC parts. Compare processors, graphics cards, RAM, SSDs, cases and laptops side by side with plain-English notes, check that parts fit together, see prices in 8 currencies, and build the PC in 3D."
       }
     }

@@ -44,7 +44,6 @@ export async function FeaturedProjects() {
             />
           </a>
           <div className="flex flex-col justify-center gap-4 p-6 md:p-10">
-            <p className="text-vz-accent text-sm font-medium">{t(`showcase.featured.${project.key}.tag`)}</p>
             <h3 className="text-3xl font-semibold tracking-tight">{t(`showcase.featured.${project.key}.name`)}</h3>
             <p className="text-fg/70 text-pretty">{t(`showcase.featured.${project.key}.body`)}</p>
             <a

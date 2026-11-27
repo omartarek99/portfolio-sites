@@ -11,7 +11,7 @@ import { btn } from './site'
  */
 export const FEATURED: { key: string; url: string; image: string }[] = [
   { key: 'anees', url: 'https://anees-qa.site/', image: '/showcase/anees.jpg' },
-  { key: 'datebook', url: 'https://doha-datebook.hanaabotaleb9.chatgpt.site/', image: '/showcase/datebook.jpg' },
+  { key: 'datebook', url: 'https://doha-datebook.vercel.app/', image: '/showcase/datebook.jpg' },
   { key: 'partscout', url: 'https://partscout-blond.vercel.app/#build', image: '/showcase/partscout.jpg' },
 ]
 

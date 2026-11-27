@@ -88,6 +88,11 @@
         "name": "Doha Datebook",
         "tag": "Website · Events calendar",
         "body": "A live calendar of what's on in Doha. Events update automatically from a live feed, on the web and in an Android app."
+      },
+      "partscout": {
+        "name": "PartScout",
+        "tag": "Website · PC parts comparison",
+        "body": "Helps first-time builders choose PC parts. Compare processors, graphics cards, RAM, SSDs, cases and laptops side by side with plain-English notes, check that parts fit together, see prices in 8 currencies, and build the PC in 3D."
       }
     }
   },

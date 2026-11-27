@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "{app} — websites, videos and presentations",
-    "description": "{app} designs clean, fast websites, videos and presentations for businesses and creators. Message on WhatsApp to start."
+    "description": "{app} creates professional, beautifully designed websites, videos and presentations that load fast and get results. Message on WhatsApp to start."
   },
   "whatsappMessage": "Hi {app}! I'd like to talk about a project.",
   "services": {
@@ -33,7 +33,7 @@
       },
       {
         "title": "I create it",
-        "body": "I design and build a first version for you, quickly."
+        "body": "I design and build a polished first version for you, quickly."
       },
       {
         "title": "Refine and receive",
@@ -43,8 +43,8 @@
   },
   "about": {
     "title": "Hi, I'm Omar",
-    "body1": "I’m a software engineer based in Qatar and the person behind {app}. I build bilingual websites and web apps, including an education platform and a live events calendar for Doha.",
-    "body2": "I focus on making each project easy to use, fast to load, and straightforward to maintain. I also create animated explainers and short videos."
+    "body1": "I’m a software engineer and the person behind {app}. I build professional, bilingual websites and web apps, from an education platform to a live events calendar and a 3D PC builder.",
+    "body2": "Every project is made to look polished, load fast and stay simple to run. I also create animated explainers and short videos."
   },
   "cta": {
     "title": "Have a project in mind?",
@@ -81,11 +81,11 @@
       "visit": "Visit the live site",
       "anees": {
         "name": "Anees",
-        "body": "A Qatari-themed learning platform for students: short lesson reels in a swipe feed, quizzes that earn XP, a 50-level adventure map with boss battles, practice worksheets and a studio for teachers. Arabic and English, light and dark."
+        "body": "A learning platform that feels like a game: short lesson reels in a swipe feed, quizzes that earn XP, a 50-level adventure map with boss battles, practice worksheets and a studio for teachers. Arabic and English, light and dark."
       },
       "datebook": {
         "name": "Doha Datebook",
-        "body": "A live calendar of what's on in Doha. Events update automatically from a live feed, on the web and in an Android app."
+        "body": "A live city events calendar. Events update automatically from a live feed, on the web and in an Android app."
       },
       "partscout": {
         "name": "PartScout",
@@ -118,9 +118,9 @@
     "available": "Commands: {list}",
     "notFound": "Command not found: {command}. Type help.",
     "output": {
-      "whoami": "Omar, a software engineer in Qatar and the person behind {app}.",
+      "whoami": "Omar, a software engineer and the person behind {app}.",
       "services": "websites/  videos/  presentations/",
-      "work": "Anees (learning platform) · Doha Datebook (live events calendar) · an explainer video · a research presentation",
+      "work": "Anees (learning platform) · Doha Datebook (live events calendar) · PartScout (3D PC builder) · an explainer video · a research presentation",
       "contact": "WhatsApp: Omar Tarek · omartarekesmat@gmail.com",
       "hire": "Send a message on WhatsApp or by email and you will get ideas and a quote."
     }

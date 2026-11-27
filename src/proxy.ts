@@ -8,6 +8,7 @@
  * The internal /s/ folder that renders demos is not reachable directly in production.
  */
 import { NextResponse, type NextRequest } from 'next/server'
+import { HIDDEN_DEMOS } from '@/templates/hidden'
 
 const LOCALE_HEADER = 'x-sc-locale'
 
@@ -30,6 +31,7 @@ export function proxy(request: NextRequest): NextResponse {
 
   if (pathname.startsWith('/demo/')) {
     const [, templateId, ...tail] = pathname.split('/').filter(Boolean)
+    if (templateId && HIDDEN_DEMOS.has(templateId)) return new NextResponse(null, { status: 404 })
     if (templateId) {
       const locale = tail[0] === 'en' || tail[0] === 'ar' ? tail.shift()! : 'default'
       return rewriteTo(request, ['/s', `tpl--${templateId}`, locale, ...tail].join('/'))
@@ -51,5 +53,7 @@ export function proxy(request: NextRequest): NextResponse {
 }
 
 export const config = {
-  matcher: ['/((?!_next/static|_next/image|_next/webpack-hmr|fonts/|stock/|templates/|images/|showcase/|favicon\\.ico|icon\\.|.*\\.mp4$).*)'],
+  matcher: [
+    '/((?!_next/static|_next/image|_next/webpack-hmr|fonts/|stock/|templates/|images/|showcase/|favicon\\.ico|icon\\.|.*\\.mp4$).*)',
+  ],
 }

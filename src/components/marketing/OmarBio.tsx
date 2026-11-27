@@ -6,7 +6,7 @@ import { useEffect, useRef } from 'react'
 
 gsap.registerPlugin(SplitText)
 
-/** A paragraph whose lines scale and fade in, one after another, when it scrolls into view. */
+/** A paragraph whose lines slide in from the side, skewed, one after another, when it scrolls into view. */
 export function OmarBio({ text, className = 'mt-4' }: { text: string; className?: string }) {
   const paragraphRef = useRef<HTMLParagraphElement>(null)
 
@@ -23,16 +23,18 @@ export function OmarBio({ text, className = 'mt-4' }: { text: string; className?
         observer.disconnect()
         split = SplitText.create(paragraph, {
           type: 'lines',
+          mask: 'lines',
           tag: 'span',
           autoSplit: true,
           onSplit: ({ lines }) =>
             gsap.from(lines, {
-              stagger: 0.075,
+              stagger: 0.05,
               duration: 0.7,
               ease: 'power2',
-              transformOrigin: 'center center',
-              scale: 0,
+              y: 0,
+              x: '100%',
               opacity: 0,
+              skewX: -45,
             }),
         })
       }, { threshold: 0.2 })
